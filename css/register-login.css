@@ -1,14 +1,17 @@
 .login-register{
-   margin: 0 160px;
+   margin: 0;
 }
 .row{
     display: flex;
 }
 .login-register .row{
     gap: 24px;
+    flex-wrap: nowrap; 
  }
-.img img{
-    width: 100%;
+.img {
+    min-height: 490px;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .login-register .col{
     width: 33.3333%;
@@ -77,7 +80,7 @@
     grid-template-columns: auto auto;
     gap: 16px;
 }
-.connection a{
+.connection .item-connection{
     color: #000;
     border: 1px solid #ccc;
     padding: 18px;
@@ -87,7 +90,7 @@
     text-decoration: none;
     display: flex;
 }
-.item-connection svg{
+.item-connection img{
     width: 20px;
 }
 .register p{
