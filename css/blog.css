@@ -1,10 +1,25 @@
-@media only screen (max-width: 1024) {
-    
+@media(max-width: 1023px){
+    .blog-image img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+    .blog-content {
+        text-align: center;
+    }
 }
+
+*{
+    box-sizing: border-box;
+}
+
 body{
-    height: 1200px;
+    height: 2000px;
     margin: 0;
 }
+
+
 .banner{
     top: 25%;
     background-image: url("../img/blog/bannerall.png");
@@ -36,60 +51,87 @@ body{
     font-weight: 700;
     margin-top: 2em;
 }
-
-#first{
-    padding-top: 24em;
+.a1{
+    width: 100%;
+    text-align: center;
+    padding-top: 23em;
+    padding-bottom: 4em;
+    height: 3.4em;
+    margin-bottom: 1em;
 }
-
-#first #content__center{
-    display: flex;
-    z-index: 99;
-    position: relative;
-    justify-content: center;
-}
-
-#first #content__center p{
-    color: black;
-    margin-right: 2%;
-    font-size: 24px;
+.a1 a{
+    color: #1b2f44;
+    font-size: 1.2em;
     font-weight: 300;
+    line-height: 1.5em;
+    margin-right: 1em;
+    text-decoration: none;
 }
 
-#main__content{
-    margin-left: 15%;
-    width: 70%;
-    height: 20em;
+.blog{
+    border-bottom: 1px solid #adb5bd;
+    margin-bottom: 1em;
 }
 
-#main__content .content__right{
-    width: 70%;
-    margin-left: 5%;
+.blog-content{
+    margin-bottom: 0.5em;
 }
 
-#main__content .content__right h1{
-    font-size: 30px;
-    color: #232425;
+.blog-content h3:hover{
+    color: #17a2b8;
+    transition: ease-in-out 250ms;
 }
 
-#main__content .content__right p{
-    color: #636363;
-    font-size: 16px;
-}
-
-#main__content .content__right h2{
-    color: #b2b2b2;
-    text-transform: uppercase;
+.blog-content h6, .date{
     font-size: 16px;
     font-weight: 500;
+    color: #b2b2b2;
+    text-transform: uppercase;
 }
 
-#main__content #rising, #celeb, #living__space, #favourite, #billi__cotton{
-    display: flex;
-    margin-top: 3em;
-    border-bottom: 1px solid #abd5bd;
+.blog-content a{
+    text-decoration: none;
 }
 
-.content__right ul li{
+.blog-content h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #232425;
+    line-height: 1em;
+}
+
+.blog-content p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #636363;
+    line-height: 1em;
+}
+
+ul li a{
     list-style-type: none;
-    margin-bottom: 2em;
+    margin-right: 1em;
+    border: 1px solid #1b2f44;
+    float: left;
+    display: table table-cell;
+    vertical-align: center;
+    text-align: center; 
+    width: 28px;
+    height: 28px;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li .active a{
+    background-color: #1b2f44;
+}
+
+.blogbottom{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
 }
