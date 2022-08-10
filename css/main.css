@@ -300,6 +300,140 @@ header {
 body {
     background-image: url("https://img.freepik.com/free-photo/female-friends-out-shopping-together_53876-25041.jpg?w=1060&t=st=1660124629~exp=1660125229~hmac=b1aabff00059574f40e2c88524616dd62bdc823f7d2cf1dc7d9b3bf040faa519");
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: top;
     background-attachment: fixed;
+}
+
+#product {
+    background-color: white;
+}
+.cate-item {
+    margin-top: 50px;
+}
+.cate-item h3{
+    color: black;
+    font-size: 22px;
+}
+.cate-item ul {
+    padding-left: 0;
+}
+.cate-item ul li {
+    list-style: none;
+}
+.cate-item ul li a {
+    text-decoration: none;
+    color: #636363;
+    padding-left: 15px;
+    line-height: 39px;
+    position: relative;
+}
+.cate-item ul li a::after {
+    width: 1px;
+    height: 100%;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    transform: scaleY(0);
+    transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.cate-item ul li:hover a::after {
+    transform: scaleY(1.2);
+}
+.price-range {
+    margin-right: 20px;
+}
+.price-range strong{
+    color: #1B2F44;
+}
+.price-range span {
+    font-size: 13px;
+}
+.product-color a {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.product-color > div {
+    width: 260px;
+    margin-left: 10px;
+}
+.product-color > div a:nth-child(1){
+    background-color: #ffcd01;
+}
+.product-color > div a:nth-child(2){
+    background-color: #528d65;
+}
+.product-color > div a:nth-child(3){
+    background-color: #636363;
+}
+.product-color > div a:nth-child(4){
+    background-color: #ece8db;
+}
+.product-color > div a:nth-child(5){
+    background-color: #0e2b4f;
+}
+.product-color > div a:nth-child(6){
+    background-color: #c75498;
+}
+
+#product {
+    padding: 100px 0;
+}
+.product-list {
+    row-gap: 20px;
+}
+.product-list-item img {
+    width: 100%;
+    height: auto;
+}
+.product-list-item a {
+    text-decoration: none;
+    color: black;
+}
+.product-list-item a h4 {
+    overflow: hidden;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+}
+
+.product-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.product-bottom p {
+    font-size: 13px;
+}
+.product-bottom p span {
+    padding-right: 5px;
+}
+
+.product-page {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+.product-page > a {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #1B2F44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1B2F44;
+}
+.product-page > a.active  {
+    background-color: #1B2F44;
+    color: white;
 }
