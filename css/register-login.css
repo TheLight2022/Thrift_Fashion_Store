@@ -1,0 +1,36 @@
+.login-register{
+   margin: 0 160px;
+}
+.row{
+    display: flex;
+}
+.login-register .row{
+    gap: 40px;
+ }
+.img img{
+    width: 100%;
+}
+.login-register .col{
+    width: 33.3333%;
+}
+.login-box #input1 {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.input-text input{
+    outline: none;
+    border: none;
+    width: 100%;
+    background: none;
+    height: 32px;
+    margin: 9px 0;
+    text-align: left;
+}
+.login-box form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

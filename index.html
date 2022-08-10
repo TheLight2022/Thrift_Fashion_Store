@@ -6,8 +6,31 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- AngularJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body ng-app="myStore">
+    <a href="#/home">Home</a>
+    <a href="#/shop">Shop</a>
+    <a href="#/about">About Us</a>
+    <a href="#/blog">Blog</a>
+    <a href="#/contacts">Contact Us</a>
+    <a href="#/cart">Cart</a>
+    <a href="#">Check Out</a>
+    
+    <div ng-view></div>
 
+    <!-- myStore -->
+    <script src="./js/app.js"></script>
+    <!-- Controllers -->
+    <script src="./js/controllers/HomeController.js"></script>
+    <script src="./js/controllers/AboutController.js"></script>
+    <script src="./js/controllers/ContactsController.js"></script>
+    <script src="./js/controllers/ShopController.js"></script>
+    <script src="./js/controllers/BlogController.js"></script>
+    <script src="./js/controllers/CartController.js"></script>
 </body>
 </html>
