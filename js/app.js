@@ -26,6 +26,17 @@ app.config(function($routeProvider) {
         controller: 'BlogController',
         templateUrl: 'views/blog.html'
     })
+    .when('/login', {
+      // controller: 'BlogController',
+      templateUrl: 'views/login.html'
+    })
+    .when('/register', {
+      // controller: 'BlogController',
+      templateUrl: 'views/register.html'
+  })
+    
+
+    
     
 
     .otherwise({
