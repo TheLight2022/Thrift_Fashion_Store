@@ -12,40 +12,128 @@
     <link rel="stylesheet" href="css/set.css">
     <link rel="stylesheet" href="css/grid.css">
 <!--  Font Awesome  -->
-    <link rel="stylesheet" href="css/fontawesome-free-6.1.1-web/css/all.css">
-    <script src="css/fontawesome-free-6.1.1-web/js/all.js"></script>
+    <link rel="stylesheet" href="css/fontawesome-pro-6.1.0-web/css/all.css">
+    <script src="css/fontawesome-pro-6.1.0-web/js/all.js"></script>
 <!--  Swiper  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <header>
-        <section id="header-top">
-            <div class="grid wide">
-                <div class="row">
-                    <div class="row">
+        <section id="header-top" class="flex-center">
+            <div class="grid" id="header-top-container">
+                <div class="flex-center-between">
+                    <div class="flex header-top-left">
                         <p><span><i class="fa-solid fa-envelope"></i></span> contact@thriftfashionstore.com</p>
                         <p><span><i class="fa-solid fa-phone"></i></span> +1 (828) 324 7992</p>
                     </div>
-                    <div class="row">
-                        <div>
+                    <div class="header-top-right flex-center">
+                        <div class="header-top-right-icon">
                             <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                             <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
                             <a href=""><i class="fa-brands fa-instagram"></i></a>
                             <a href=""><i class="fa-brands fa-twitter"></i></a>
                         </div>
-                        <div class="header-language">
-                            <span class="header-language-item">
-                                <img src="" alt="language">
+                        <div class="header-top-right-language">
+                            <span class="header-language-item flex-center" id="language">
+                                <img class="language-flag" src="img/index/usa-flag.png" alt="language">
                                 <span>English</span>
+                                <span><i class="fa-solid fa-angle-down"></i></span>
                             </span>
+                            <div id="list-language">
+                                <span class="header-language-item flex-center">
+                                    <img class="language-flag" src="img/index/usa-flag.png" alt="language">
+                                    <span>English</span>
+                                </span>
+                                <span class="header-language-item flex-center">
+                                    <img class="language-flag" src="img/index/vietnam-flag.png" alt="language">
+                                    <span>Viet Nam</span>
+                                </span>
+                                <span class="header-language-item flex-center">
+                                    <img class="language-flag" src="img/index/germany-flag.png" alt="language">
+                                    <span>German</span>
+                                </span>
+                                <span class="header-language-item flex-center">
+                                    <img class="language-flag" src="img/index/korean-flag.png" alt="language">
+                                    <span>Korean</span>
+                                </span>
+                                <span class="header-language-item flex-center">
+                                    <img class="language-flag" src="img/index/china-flag.png" alt="language">
+                                    <span>Chinese</span>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="header-bottom"></section>
+        <section id="header-bottom">
+            <div class="header-bottom-container">
+                <nav>
+                    <ul class="flex">
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Store</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQS</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="grid wide" id="header-midle">
+                <div class="row" id="header-midle-container">
+                    <div class="col l-2 m-12 c-12 header-midle-1">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col l-7 m-12 c-12" id="header-form-search">
+                        <form action="" class="row" >
+                            <select name="" class="col l-3 m-3 c-3">
+                                <option value="">All Categories</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                            <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-7">
+                            <div class="group-button-search col l-2 m-2 c-2" >
+                                <div class="row">
+                                    <button class="button-reset col l-6 m-6 c-6"><i class="fa-solid fa-xmark"></i></button>
+                                    <button class="button-search col l-6 m-6 c-6"><i class="fa-regular fa-magnifying-glass"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col l-3 m-3 c-0" id="header-shop">
+                        <ul class="col l-12 m-12">
+                            <li> <a href=""><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
+                            <li>
+                                <a href="" class="header-cart">
+                                    <i class="fa-regular fa-bag-shopping"></i>
+                                    <span>0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
+
+    <section class="breakcump">
+        <div class="breakcump-container">
+            <p>Home</p>
+            <span><i class="fa-regular fa-angle-right"></i></span>
+            <p class="breakcump-active">Product</p>
+        </div>
+    </section>
+    <section class="big-title">
+        <h2>Products</h2>
+    </section>
+<div style="height: 10000px;"></div>
 </body>
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!--Js-->
+<script src="js/main.js"></script>
 </html>

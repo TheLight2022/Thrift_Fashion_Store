@@ -1,0 +1,24 @@
+@media only screen and (max-width: 991px){
+    .login-box h3,.register-box h3 {
+        text-align: center;
+    }
+    .login-box{
+        border: none;
+    }
+    .connection .item-connection{
+        padding: 16px;
+    }
+    .register-box h3{
+        margin-top: 60px;
+    }
+    .login-register  .img{
+        display: none;
+    }
+    .agree-box{
+        margin-top: 20px;
+    }
+    .agree-box label{
+        display: inline;
+    }
+}
+

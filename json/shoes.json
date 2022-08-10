@@ -26,14 +26,14 @@
         "comment": "old but gold",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 1
       },
       {
         "id_user": "Upin",
         "comment": "i like it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       }
     ]
   },
@@ -64,14 +64,14 @@
         "comment": "those shoes are fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       },
       {
         "id_user": "jill03",
         "comment": "oh no why i miss it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -102,14 +102,14 @@
         "comment": "it look great but too expensive",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       },
       {
         "id_user": "VaiGam",
         "comment": "i need more details, can you contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -140,14 +140,14 @@
         "comment": "contact me. i have found this for a long time",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "sivir",
         "comment": "i got it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       }
     ]
   },
@@ -178,14 +178,14 @@
         "comment": "i want it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "kingJd",
         "comment": "too cheap br contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":5
       }
     ]
   },
@@ -216,14 +216,14 @@
       "comment": "it ugly",
       "image": ["image1", "image2", "image3"],
       "video": ["video1", "video2", "video3"],
-      "rating_by_star": ""
+      "rating_by_star": 3
     },
     {
       "id_user": "Marit",
       "comment": "like",
       "image": ["image1", "image2", "image3"],
       "video": ["video1", "video2", "video3"],
-      "rating_by_star":""
+      "rating_by_star":3
     }
   ]
 },
@@ -254,14 +254,14 @@
         "comment": "it look fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Maritha",
         "comment": "good",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":4
       }
     ]
   },
@@ -292,14 +292,14 @@
         "comment": "it fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "MrBeast",
         "comment": "i will post this on my insta",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":3
       }
     ]
   },
@@ -330,14 +330,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Mrhai",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 3
       }
     ]
   },
@@ -368,14 +368,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "LgbtKing",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":2
       }
     ]
   },
@@ -406,14 +406,14 @@
         "comment": "old but gold",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 1
       },
       {
         "id_user": "ipin",
         "comment": "i like it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       }
     ]
   },
@@ -444,14 +444,14 @@
         "comment": "those shoes are fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "AnhTuanCui",
         "comment": "oh no why i miss it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       }
     ]
   },
@@ -482,14 +482,14 @@
         "comment": "it look great but too expensive",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "VaiXoai",
         "comment": "i need more details, can you contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -520,14 +520,14 @@
         "comment": "contact me. i have found this for a long time",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       },
       {
         "id_user": "sivirhaha",
         "comment": "i got it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -558,14 +558,14 @@
         "comment": "i want it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       },
       {
         "id_user": "kingOfCurse",
         "comment": "too cheap br contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":3
       }
     ]
   },
@@ -596,14 +596,14 @@
         "comment": "it ugly",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Maritmet",
         "comment": "like",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 2
       }
     ]
   },
@@ -634,14 +634,14 @@
         "comment": "it look fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Marithah",
         "comment": "good",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 2
       }
     ]
   },
@@ -672,14 +672,14 @@
         "comment": "it fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "MrBeen",
         "comment": "i will post this on my insta",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 5
       }
     ]
   },
@@ -710,14 +710,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Mrhai1",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 4
       }
     ]
   },
@@ -748,14 +748,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "LgbtQueen",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 2
       }
     ]
   },
@@ -786,14 +786,14 @@
         "comment": "old but gold",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Apin",
         "comment": "i like it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       }
     ]
   },
@@ -824,14 +824,14 @@
         "comment": "those shoes are fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "AnhkoTuanCui",
         "comment": "oh no why i miss it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       }
     ]
   },
@@ -862,14 +862,14 @@
         "comment": "it look great but too expensive",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       },
       {
         "id_user": "VaiCaXoai",
         "comment": "i need more details, can you contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -900,14 +900,14 @@
         "comment": "contact me. i have found this for a long time",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       },
       {
         "id_user": "sivarhaha",
         "comment": "i got it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       }
     ]
   },
@@ -938,14 +938,14 @@
         "comment": "i want it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "kingOCurse",
         "comment": "too cheap br contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 4
       }
     ]
   },
@@ -976,14 +976,14 @@
         "comment": "it ugly",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Maitmet",
         "comment": "like",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 4
       }
     ]
   },
@@ -1014,14 +1014,14 @@
         "comment": "it look fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       },
       {
         "id_user": "Marethah",
         "comment": "good",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":3
       }
     ]
   },
@@ -1052,14 +1052,14 @@
         "comment": "it fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "MrBan",
         "comment": "i will post this on my insta",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 5
       }
     ]
   },
@@ -1090,14 +1090,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "Mrhi1",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 4
       }
     ]
   },
@@ -1128,14 +1128,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       },
       {
         "id_user": "gbtQueen",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":4
       }
     ]
   },
@@ -1166,14 +1166,14 @@
         "comment": "old but gold",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Cpin",
         "comment": "i like it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       }
     ]
   },
@@ -1204,14 +1204,14 @@
         "comment": "those shoes are fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 2
       },
       {
         "id_user": "TuanCui",
         "comment": "oh no why i miss it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       }
     ]
   },
@@ -1242,14 +1242,14 @@
         "comment": "it look great but too expensive",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 4
       },
       {
         "id_user": "VaiXoaiGam",
         "comment": "i need more details, can you contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -1280,14 +1280,14 @@
         "comment": "contact me. i have found this for a long time",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "sovirhaha",
         "comment": "i got it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       }
     ]
   },
@@ -1318,14 +1318,14 @@
         "comment": "i want it",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "QuenOfCurse",
         "comment": "too cheap br contact me",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 2
       }
     ]
   },
@@ -1356,14 +1356,14 @@
         "comment": "it ugly",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 3
       },
       {
         "id_user": "Mbritmet",
         "comment": "like",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 4
       }
     ]
   },
@@ -1394,14 +1394,14 @@
         "comment": "it look fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "Marialethah",
         "comment": "good",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 5
       }
     ]
   },
@@ -1432,14 +1432,14 @@
         "comment": "it fire",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "MrBeenha",
         "comment": "i will post this on my insta",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":5
       }
     ]
   },
@@ -1470,14 +1470,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "Bahai1",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star": 5
       }
     ]
   },
@@ -1508,14 +1508,14 @@
         "comment": "good quality",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star": ""
+        "rating_by_star": 5
       },
       {
         "id_user": "Gaymen",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
-        "rating_by_star":""
+        "rating_by_star":5
       }
     ]
   }
