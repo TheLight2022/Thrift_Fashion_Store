@@ -1,0 +1,346 @@
+[
+  {
+    "id": "shoes01",
+    "name": "Jordan 1 mid red chicago",
+    "description": "no pain no gain",
+    "size": 43,
+    "degree": "90%",
+    "image": ["../img/shoes/b.01.webp", "../img/shoes/b.02.webp", "../img/shoes/b.03.webp"],
+    "date": [
+      {
+        "sell": "14/10/2022",
+        "update": ""
+      }
+    ],
+    "price": 50, //$
+    "gender": "male",
+    "color": "red, white, black",
+    "category": "Men's shoes" ,
+    "status": "stock", //stock and sold out
+    "quantity": 1,
+    "amount": 1,
+    "tag": "basketballshoes",
+    "rate": [
+      {
+        "id_user": "TrangALua",
+        "comment": "old but gold",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "Upin",
+        "comment": "i like it",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      }
+    ]
+  },
+  {
+    "id": "shoes02",
+    "name": "jordan 4 allstar",
+    "description": "high quality",
+    "size": 44,
+    "degree": 91,
+    "image": ["../img/shoes/a.01.webp", "../img/shoes/a.02.webp", "../img/shoes/a.03.webp"],
+    "date": [
+      {
+        "sell": "28/09/2021",
+        "update": "1/8/2022"
+      }
+    ],
+    "price": 330, //$
+    "gender": "male",
+    "color": "blue",
+    "category":  "Men's shoes",
+    "status": "sold out", //stock and sold out
+    "quantity": 1,
+    "amount": 1,
+    "tag": "casual",
+    "rate": [
+      {
+        "id_user": "jack01",
+        "comment": "those shoes are fire",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "jill03",
+        "comment": "oh no why i miss it",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      }
+    ]
+  },
+  {
+    "id": "shoes03",
+    "name": "jordan 4 collapse with mikenco",
+    "description": "i have 2 pairs of this" ,
+    "size": 42,
+    "degree": 99,
+    "image": ["image1", "image2", "image3"],
+    "date": [
+      {
+        "sell": "14/7/2022",
+        "update": ""
+      }
+    ],
+    "price": 230, //$
+    "gender": "male",
+    "color": "black",
+    "category": "Men's shoes",
+    "status": "stock", //stock and sold out
+    "quantity": 2,
+    "amount": 2,
+    "tag": "casual",
+    "rate": [
+      {
+        "id_user": "TuanHung" ,
+        "comment": "it look great but too expensive",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "VaiGam",
+        "comment": "i need more details, can you contact me",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      }
+    ]
+  },
+  {
+    "id": "shoes04",
+    "name": "Adidas YZY QNTM",
+    "description": "super raze you can't find 2hand of this pairs",
+    "size": "36",
+    "degree": 95,
+    "image": ["../img/shoes/d.01.webp", "../img/shoes/d.02.webp", "../img/shoes/d.03.webp"],
+    "date": [
+      {
+        "sell": "7/10/2022",
+        "update": "8/10/2022"
+      }
+    ],
+    "price": 600, //$
+    "gender": "famale",
+    "color": "light",
+    "category": " Woman's shoes ",
+    "status": "sold out", //stock and sold out
+    "quantity": 1,
+    "amount": 1,
+    "tag": "casual",
+    "rate": [
+      {
+        "id_user": "lili",
+        "comment": "contact me. i have found this for a long time",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "sivir",
+        "comment": "i got it",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      }
+    ]
+  },
+  {
+    "id": "shoes05",
+    "name": "jordan 11 snake",
+    "description": "old but still good for casual or basketball",
+    "size": 41,
+    "degree": 90,
+    "image": ["../img/shoes/e.01.webp", "../img/shoes/e.02.webp", "../img/shoes/e.03.webp"],
+    "date": [
+      {
+        "sell": "8/8/2022",
+        "update": ""
+      }
+    ],
+    "price": 100, //$
+    "gender": "male",
+    "color": "white, black",
+    "category": "Men's shoes",
+    "status": "stock", //stock and sold out
+    "quantity": 1,
+    "amount": 1,
+    "tag": "casual",
+    "rate": [
+      {
+        "id_user": "kobe89",
+        "comment": "i want it",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "kingJd",
+        "comment": "too cheap br contact me",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star":""
+      }
+    ]
+  },
+  {
+  "id": "shoes06",
+  "name": "nike soldier 12",
+  "description": "contact me to get those shoes now",
+  "size": 44,
+  "degree": 93,
+  "image": ["../img/shoes/f.01.webp", "../img/shoes/f.02.webp", "../img/shoes/f.03.webp"],
+  "date": [
+    {
+      "sell": "10/8/2022" ,
+      "update": ""
+    }
+  ],
+  "price": 90, //$
+  "gender":  "male",
+  "color": "black, white",
+  "category":  "Men's shoes",
+  "status": "stock", //stock and sold out
+  "quantity": 1,
+  "amount": 1,
+  "tag": "basketball",
+  "rate": [
+    {
+      "id_user": "HarryMax",
+      "comment": "it ugly",
+      "image": ["image1", "image2", "image3"],
+      "video": ["video1", "video2", "video3"],
+      "rating_by_star": ""
+    },
+    {
+      "id_user": "Marit",
+      "comment": "like",
+      "image": ["image1", "image2", "image3"],
+      "video": ["video1", "video2", "video3"],
+      "rating_by_star":""
+    }
+  ]
+},
+  {
+    "id": "shoes07",
+    "name": "nike joyrun 2",
+    "description": "contact me to get those shoes now",
+    "size": 42,
+    "degree": 93,
+    "image": ["../img/shoes/f.02.webp", "../img/shoes/f.01.webp", "../img/shoes/f.03.webp"],
+    "date": [
+      {
+        "sell": "9/8/2022" ,
+        "update": ""
+      }
+    ],
+    "price": 100, //$
+    "gender":  "male",
+    "color": "red,black, white",
+    "category":  "Men's shoes",
+    "status": "stock", //stock and sold out
+    "quantity": 10,
+    "amount": 12,
+    "tag": "running",
+    "rate": [
+      {
+        "id_user": "HarryMaxhia",
+        "comment": "it look fire",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "Maritha",
+        "comment": "good",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star":""
+      }
+    ]
+  },
+  {
+    "id": "shoes08",
+    "name": "nike soldier 17",
+    "description": "contact me now",
+    "size": 41,
+    "degree": 90,
+    "image": ["./img/shoes/h.01.webp", "../img/shoes/h.02.webp", "../img/shoes/h.03.webp"],
+    "date": [
+      {
+        "sell": "10/8/2022" ,
+        "update": ""
+      }
+    ],
+    "price": 200, //$
+    "gender":  "male",
+    "color": "red, white",
+    "category":  "Men's shoes",
+    "status": "stock", //stock and sold out
+    "quantity": 12,
+    "amount": 12,
+    "tag": "basketball",
+    "rate": [
+      {
+        "id_user": "SonTung",
+        "comment": "it fire",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "MrBeast",
+        "comment": "i will post this on my insta",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star":""
+      }
+    ]
+  },
+  {
+    "id": "shoes09",
+    "name": "adidas rebound",
+    "description": "contact me now",
+    "size": 43,
+    "degree": 94,
+    "image": ["!../img/shoes/t.01.webp", "../img/shoes/t.02.webp", "../img/shoes/t.03.webp"],
+    "date": [
+      {
+        "sell": "10/8/2022" ,
+        "update": ""
+      }
+    ],
+    "price": 150, //$
+    "gender":  "male",
+    "color": "black, white",
+    "category":  "Men's shoes",
+    "status": "stock", //stock and sold out
+    "quantity": 1,
+    "amount": 1,
+    "tag": "basketball",
+    "rate": [
+      {
+        "id_user": "SonTung123",
+        "comment": "good quality",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "Mrhai",
+        "comment": "very great",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star":""
+      }
+    ]
+  }
+
+
+]
