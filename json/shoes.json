@@ -12,11 +12,11 @@
         "update": ""
       }
     ],
-    "price": 50, //$
+    "price": 50,
     "gender": "male",
     "color": "red, white, black",
     "category": "Men's shoes" ,
-    "status": "stock", //stock and sold out
+    "status": "stock",
     "quantity": 1,
     "amount": 1,
     "tag": "basketballshoes",
@@ -50,11 +50,11 @@
         "update": "1/8/2022"
       }
     ],
-    "price": 330, //$
+    "price": 330,
     "gender": "male",
     "color": "blue",
     "category":  "Men's shoes",
-    "status": "sold out", //stock and sold out
+    "status": "sold out",
     "quantity": 1,
     "amount": 1,
     "tag": "casual",
@@ -88,11 +88,11 @@
         "update": ""
       }
     ],
-    "price": 230, //$
+    "price": 230,
     "gender": "male",
     "color": "black",
     "category": "Men's shoes",
-    "status": "stock", //stock and sold out
+    "status": "stock",
     "quantity": 2,
     "amount": 2,
     "tag": "casual",
@@ -126,11 +126,11 @@
         "update": "8/10/2022"
       }
     ],
-    "price": 600, //$
-    "gender": "famale",
+    "price": 600,
+    "gender": "female",
     "color": "light",
     "category": " Woman's shoes ",
-    "status": "sold out", //stock and sold out
+    "status": "sold out",
     "quantity": 1,
     "amount": 1,
     "tag": "casual",
@@ -164,11 +164,11 @@
         "update": ""
       }
     ],
-    "price": 100, //$
+    "price": 100,
     "gender": "male",
     "color": "white, black",
     "category": "Men's shoes",
-    "status": "stock", //stock and sold out
+    "status": "stock",
     "quantity": 1,
     "amount": 1,
     "tag": "casual",
@@ -202,11 +202,11 @@
       "update": ""
     }
   ],
-  "price": 90, //$
+  "price": 90,
   "gender":  "male",
   "color": "black, white",
   "category":  "Men's shoes",
-  "status": "stock", //stock and sold out
+  "status": "stock",
   "quantity": 1,
   "amount": 1,
   "tag": "basketball",
@@ -240,11 +240,11 @@
         "update": ""
       }
     ],
-    "price": 100, //$
+    "price": 100,
     "gender":  "male",
     "color": "red,black, white",
     "category":  "Men's shoes",
-    "status": "stock", //stock and sold out
+    "status": "stock",
     "quantity": 10,
     "amount": 12,
     "tag": "running",
@@ -278,11 +278,11 @@
         "update": ""
       }
     ],
-    "price": 200, //$
+    "price": 200,
     "gender":  "male",
     "color": "red, white",
     "category":  "Men's shoes",
-    "status": "stock", //stock and sold out
+    "status": "stock",
     "quantity": 12,
     "amount": 12,
     "tag": "basketball",
@@ -316,11 +316,11 @@
         "update": ""
       }
     ],
-    "price": 150, //$
+    "price": 150,
     "gender":  "male",
     "color": "black, white",
     "category":  "Men's shoes",
-    "status": "stock", //stock and sold out
+    "status": "stock",
     "quantity": 1,
     "amount": 1,
     "tag": "basketball",
@@ -334,6 +334,44 @@
       },
       {
         "id_user": "Mrhai",
+        "comment": "very great",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star":""
+      }
+    ]
+  },
+  {
+    "id": "shoes10",
+    "name": "nike air max tavas",
+    "description": "contact me now",
+    "size": 37,
+    "degree": 94,
+    "image": ["../img/shoes/1.01.webp", "../img/shoes/1.02.webp", "../img/shoes/1.03.webp"],
+    "date": [
+      {
+        "sell": "11/8/2022" ,
+        "update": ""
+      }
+    ],
+    "price": 120,
+    "gender":  "female",
+    "color": "black, white",
+    "category":  "Woman's shoes",
+    "status": "stock",
+    "quantity": 2,
+    "amount": 2,
+    "tag": "casual",
+    "rate": [
+      {
+        "id_user": "HandsomeGuy",
+        "comment": "good quality",
+        "image": ["image1", "image2", "image3"],
+        "video": ["video1", "video2", "video3"],
+        "rating_by_star": ""
+      },
+      {
+        "id_user": "LgbtKing",
         "comment": "very great",
         "image": ["image1", "image2", "image3"],
         "video": ["video1", "video2", "video3"],
