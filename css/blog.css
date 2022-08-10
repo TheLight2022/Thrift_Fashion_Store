@@ -1,0 +1,95 @@
+@media only screen (max-width: 1024) {
+    
+}
+body{
+    height: 1200px;
+    margin: 0;
+}
+.banner{
+    top: 25%;
+    background-image: url("../img/blog/bannerall.png");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    display: block;
+    z-index: 0;
+    position: absolute;
+    height: 10em;
+}
+
+.banner-text{
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #fff;    
+    width: 100%;
+}
+
+.banner-text h1{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+#first{
+    padding-top: 24em;
+}
+
+#first #content__center{
+    display: flex;
+    z-index: 99;
+    position: relative;
+    justify-content: center;
+}
+
+#first #content__center p{
+    color: black;
+    margin-right: 2%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#main__content{
+    margin-left: 15%;
+    width: 70%;
+    height: 20em;
+}
+
+#main__content .content__right{
+    width: 70%;
+    margin-left: 5%;
+}
+
+#main__content .content__right h1{
+    font-size: 30px;
+    color: #232425;
+}
+
+#main__content .content__right p{
+    color: #636363;
+    font-size: 16px;
+}
+
+#main__content .content__right h2{
+    color: #b2b2b2;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#main__content #rising, #celeb, #living__space, #favourite, #billi__cotton{
+    display: flex;
+    margin-top: 3em;
+    border-bottom: 1px solid #abd5bd;
+}
+
+.content__right ul li{
+    list-style-type: none;
+    margin-bottom: 2em;
+}
