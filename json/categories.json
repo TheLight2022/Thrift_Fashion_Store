@@ -1,0 +1,42 @@
+[
+  {
+    "id": "hat1",
+    "name": "Woman's Hats"
+  },
+  {
+    "id": "hat2",
+    "name": "Men's Hats"
+  },
+  {
+    "id": "fglass1",
+    "name": "Woman's Fashion Glass"
+  },
+  {
+    "id": "fglass2",
+    "name": "Men's Fashion Glass"
+  },
+  {
+    "id": "pant1",
+    "name": "Woman's Pant"
+  },
+  {
+    "id": "pant2",
+    "name": "Men's Pant"
+  },
+  {
+    "id": "shirt1",
+    "name": "Woman's Shirt"
+  },
+  {
+    "id": "shirt2",
+    "name": "Men's Shirt"
+  },
+  {
+    "id": "shoe1",
+    "name": "Woman's Shoe"
+  },
+  {
+    "id": "shoe2",
+    "name": "Men's Shoe"
+  }
+]
