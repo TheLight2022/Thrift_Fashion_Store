@@ -1,38 +1,677 @@
 [
     {
-        "id": ,
-        "name": ,
-        "description": ,
-        "size": ,
-        "degree": ,
-        "image": ["image1", "image2", "image3"],
+        "id": "shirt01",
+        "name": "Fishing Wear",
+        "description": "Design your own fishing shirts custom fishing wear hooded fishing shirt",
+        "size": "XL",
+        "degree": "90",
+        "image": ["shirt1_1.webp", "shirt1_2.webp", "shirt1_3.webp", "shirt1_4.webp", "shirt1_5.webp", "shirt1_6.webp"],
         "date": [
             {
-                "sell": ,
-                "update": ""
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
             }
         ],
-        "price": ,
-        "gender": ,
-        "color": ,
-        "category": ,
-        "status": ,
-        "quantity": ,
-        "amount": ,
+        "price": 10,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": "1",
+        "amount": "1", 
+        "tag": ["shirt", "men's shirt", "white shirt", "fishing shirt"],
         "rate": [
             {
-                "id_user": ,
-                "comment": ,
-                "image": ["image1", "image2", "image3"],
-                "video": ["video1", "video2", "video3"],
-                "rating_by_star": 
+                "id_user": "shirtuser01",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
             },
             {
-                "id_user": ,
-                "comment": ,
-                "image": ["image1", "image2", "image3"],
-                "video": ["video1", "video2", "video3"],
-                "rating_by_star": 
+                "id_user": "shirtuser02",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt02",
+        "name": "T-Shirt TT Global",
+        "description": "High Quality Custom Printing tshirt Blank 100 Combed Cotton Men T shirt Wholesale plain In Bulk shirts for men",
+        "size": ["S", "M", "L", "XL"],
+        "degree": "90",
+        "image": ["shirt2.webp", "shirt3.webp", "shirt4.webp", "shirt5.webp", "shirt6.webp", "shirt7.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 12,
+        "gender": "Male",
+        "color": ["Black", "White"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": "1",
+        "amount": "1", 
+        "tag": ["shirt", "men's shirt", "white shirt","black shirt", "local brand shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser03",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser04",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt03",
+        "name": "Running Polyester Breathable Men Singlets",
+        "description": " No MOQ Custom Wholesale Sublimated Running Polyester Breathable Men Singlets",
+        "size": "XXL",
+        "degree": "90",
+        "image": ["shirt8.webp", "shirt9.webp", "shirt10.webp", "shirt11.webp", "shirt12.webp", "shirt13.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 10,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 13,
+        "amount": 10, 
+        "tag": ["shirt", "men's shirt", "white shirt", "running shirt", "singlets"],
+        "rate": [
+            {
+                "id_user": "shirtuser05",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser06",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt04",
+        "name": "Streetwear T-shirt",
+        "description": "IHJ3682 Summer new printed casual round neck streetwear T-shirt for men",
+        "size": "XXL",
+        "degree": "99",
+        "image": ["shirt18.webp", "shirt19.webp", "shirt20.webp", "shirt21.webp","shirt22.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 6,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 13,
+        "amount": 10, 
+        "tag": ["shirt", "local brand", "t-shirt", "streetwear"],
+        "rate": [
+            {
+                "id_user": "shirtuser07",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser08",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt05",
+        "name": "Long Sleeve Army Shirts",
+        "description": "Tactical Military Shirt Men Long Sleeve Army Shirts Frog Suit Uniform Combat Clothing Men shirts",
+        "size": ["XXL", "XL", "L", "M", "S"],
+        "degree": "99",
+        "image": ["shirt23.webp", "shirt24.webp", "shirt25.webp", "shirt26.webp","shirt27.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 10,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 7,
+        "amount": 6, 
+        "tag": ["shirt", "long sleeve", "army shirt", "combat clothing", "men's shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser09",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser010",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt06",
+        "name": "Long Sleeve Rugby Polo",
+        "description": "Custom Stripe Shirt Rugby 370gsm Long Sleeve Rugby Polo Men Rugby Stripe Polo Jersey",
+        "size": ["XXL", "XL"],
+        "degree": "90",
+        "image": ["shirt28.webp", "shirt29.webp", "shirt30.webp", "shirt31.webp","shirt32.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 20,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 10,
+        "amount": 3, 
+        "tag": ["shirt", "long sleeve", "polo shirt", "polo", "rugby polo", "polo jersey"],
+        "rate": [
+            {
+                "id_user": "shirtuser11",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser12",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt07",
+        "name": "Long Sleeve Fishing Shirt",
+        "description": "Custom design Sublimated printed button up long sleeves fishing shirt upf",
+        "size": ["XXXL", "XXL", "XL"],
+        "degree": "85",
+        "image": ["shirt33.webp", "shirt34.webp", "shirt35.webp", "shirt36.webp","shirt37.webp", "shirt38.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 12,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock",
+        "quantity": 10,
+        "amount": 3, 
+        "tag": ["shirt", "long sleeve", "fishing shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser13",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser14",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt08",
+        "name": "Tee Basic",
+        "description": "Custom 100 cotton T-Shirt stock men's t-shirt custom shirt printing blank t-shirt for men 100 cotton",
+        "size": ["XXXL", "XXL", "XL", "L", "M", "S"],
+        "degree": "100",
+        "image": ["shirt39.webp", "shirt40.webp", "shirt41.webp", "shirt42.webp","shirt43.webp", "shirt44.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 4,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "tee", "tee shirt", "tee basic"],
+        "rate": [
+            {
+                "id_user": "shirtuser15",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["rate1.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser16",
+                "comment": "Good!",
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt09",
+        "name": "Short Sleeve Polo Sports",
+        "description": "Wholesale High Quality Plain Yellow Cotton Button Up Short Sleeve Polo Sports Oversized Plain Women Tshirt",
+        "size": ["L"],
+        "degree": "90",
+        "image": ["shirt45.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 4,
+        "gender": "Male",
+        "color": "White",
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "polo", "polo sport", "polo short sleeve"],
+        "rate": [
+            {
+                "id_user": "shirtuser17",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["shirt46.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser18",
+                "comment": "Good!",
+                "image": ["shirt47"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt10",
+        "name": "Short Sleeve Hip Hop T-Shirt",
+        "description": "Oversized T Shirt For Men Casual Short Sleeve Hip Hop Print Plus Size Tee Shirt Pullover Mens T-shirt Top",
+        "size": ["XL", "L"],
+        "degree": "99",
+        "image": ["shirt48.webp"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 3.8,
+        "gender": "Male",
+        "color": ["White", "Grey"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "t-shirt", "short sleeve", "hip hop t-shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser19",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["fb10_1.webp", "fb10_3.webp"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser20",
+                "comment": "Good!",
+                "image": ["fb10_2.webp"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt11",
+        "name": "Flannel Shirt",
+        "description": "RELAXED STRETCH FIT: The Legendary Stretch Flannel Shirt is designed with the same relaxed fit as our other shirts. In addition, it has a raised back yoke, and premium stretch fabric to give you full range of motion… even at full draw!",
+        "size": ["XL", "L"],
+        "degree": "99",
+        "image": ["shirt52.jpg", "shirt53.jpg", "shirt54.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 24,
+        "gender": "Male",
+        "color": ["White", "Grey", "Purple"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "t-shirt", "short sleeve", "local brand t-shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser21",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["fb11_1.jpg"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser22",
+                "comment": "Good!",
+                "image": ["fb11_2.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt12",
+        "name": "Amazon Essentials Men's Regular-Fit Short-Sleeve Poplin Shirt",
+        "description": "100% cotton, imported, button closure, machine wash and This short-sleeve button-front shirt features an allover plaid print for versatile, everyday style",
+        "size": ["XL", "L"],
+        "degree": "99",
+        "image": ["shirt55.jpg", "shirt56.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 18.5,
+        "gender": "Male",
+        "color": ["Blue"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "flannel shirt", "short sleeve"],
+        "rate": [
+            {
+                "id_user": "shirtuser23",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["fb12_1.jpg"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser24",
+                "comment": "Good!",
+                "image": ["fb12_2.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt13",
+        "name": "Legendary Whitetails Men's Backcountry Insect Repellent Hooded T-Shirt",
+        "description": "60% cotton, 40% polyester, imported, INSECT REPELLENT: If you forgot your bug spray, we've got you covered, our tee includes a protective shield built right in and 100% SATISFACTION GUARANTEE: Designed in the USA, Legendary Whitetails is an American small business, we take pride in all our products, love it or send it back",
+        "size": ["XL", "L"],
+        "degree": "95",
+        "image": ["shirt57.jpg", "shirt58.jpg", "shirt59.jpg", "shirt69.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 30,
+        "gender": "Male",
+        "color": ["Green", "Blue"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 4,
+        "amount": 1, 
+        "tag": ["hooded", "hooded t-shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser25",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["fb12_1.jpg"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser26",
+                "comment": "Good!",
+                "image": ["fb12_2.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt14",
+        "name": "Van Heusen Men's Dress Shirt Regular Fit Oxford Solid Buttondown Collar",
+        "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Easy Care: Machine washable; no dry cleaning required", "Regular Fit: A generous cut through the shoulders, chest and waist for total comfort and a classic fit", "Button-Down Collar: More relaxed & casual collar; appears neat with or without neckwear so you can dress it up or down"],
+        "size": ["L"],
+        "degree": "100",
+        "image": ["shirt61.jpg", "shirt62.jpg", "shirt63.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 25.54,
+        "gender": "Male",
+        "color": ["White"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 4,
+        "amount": 1, 
+        "tag": ["hooded", "hooded t-shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser27",
+                "comment": "Product is so good, i very happy for it!",
+                "image": ["fb14_1.jpg"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser28",
+                "comment": "Good!",
+                "image": ["fb14_2.jpg", "fb14_3.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt15",
+        "name": "Amazon Essentials Men's Regular-Fit Short-Sleeve Print Shirt",
+        "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Easy through chest and tapered through waist", "Soft, durable and cozy tumbled poplin for a lived-in feel right away", "Button-front closure"],
+        "size": ["XL", "L"],
+        "degree": "90",
+        "image": ["shirt64.jpg", "shirt65.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 16.9,
+        "gender": "Male",
+        "color": ["Anchor"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 1, 
+        "tag": ["t-shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser29",
+                "comment": "I bought this shirt as a birthday gift and referenced another Amazon essentials shirt for size and was surprised that it was accurate. The shirt itself is nice and light so perfect for the warm state we live in! If you're looking for a high-quality shirt, this might not be the right purchase but it seems like a great everyday shirt!",
+                "image": ["fb15_1.jpg"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser30",
+                "comment": "We had my husbands aunts surprise 50th luai and my husband absolutely refused to be compliant. Of course he didn’t want to spend a lot of money on a shirt because he didn’t want to participate as is so this lil number served it’s purpose. Colors were amazing and bright. He got a lot of compliments. My husband is 185lbs 5ft 11in and we purchased a xlg",
+                "image": ["fb15_2.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt16",
+        "name": "Legendary Whitetails Men's Buck Camp Flannel Shirt",
+        "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Contrasting corduroy lined collar and cuffs", "Great look and lasting durability", "Left chest pocket with pencil slot and button closure"],
+        "size": ["XXL"],
+        "degree": "95",
+        "image": ["shirt66.jpg", "shirt67.jpg", "shirt68.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 16.9,
+        "gender": "Male",
+        "color": ["Charcoal Heather"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 1, 
+        "tag": ["t-shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser31",
+                "comment": "I bought one of these shirts several months ago in the Shale Plaid style and was satisfied with the overall quality, so recently decided to purchase another in the Cedarwood Plaid style. I noticed on the label that the Cedarwood Plaid shirt was made in India, while the Shale Plaid shirt was made in China. After one wash/dry cycle following the directions on the label, I found that the Cedarwood Plaid's fabric had pilled much more than the Shale Plaid shirt had after multiple washings. Another thing I noticed is that the backside reinforcement stitching for the top corners of the shirt pocket on the Cedarwood Plaid shirt was done using small pieces of scrap fabric that were already unraveling. Just seemed like a very messy and low quality way of doing it. The same backside stitching on the Shale Plaid shirt was done much more neatly and looks strong.",
+                "image": ["fb16_1.jpg", "fb16_2.jpg"],
+                "rating_by_star": "2"
+            },
+            {
+                "id_user": "shirtuser32",
+                "comment": "I have very broad shoulders with a small gut. I'm 5'11 and 215lbs. This shirt was perfect in XL for me.This shirt fits perfectly. A little baggy around the midsection, just a little. Good arm length. Very Soft. It is not what I would call a skinny fit.",
+                "image": ["fb16_4.jpg", "fb16_5.jpg"],
+                "rating_by_star": "4.5"
+            }
+        ]
+    },
+    {
+        "id": "shirt17",
+        "name": "Amazon Essentials Men's Regular-Fit Cotton Pique Polo Shirt",
+        "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "This short-sleeve polo is made with comfortable pique fabric, a double-button placket, and ribbed cuffs for a classic look that never goes out of style", "Regular fit through the chest for a relaxed, unrestricted fit with a printed neck label to maximize comfort"],
+        "size": ["XXL", "XL", "L", "M", "S"],
+        "degree": "95",
+        "image": ["shirt69.jpg", "shirt70.jpg", "shirt71.jpg", "shirt72.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 15.6,
+        "gender": "Male",
+        "color": ["Dark Teal Blue"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 1, 
+        "tag": ["polo", "short-sleeve", "fit polo"],
+        "rate": [
+            {
+                "id_user": "shirtuser33",
+                "comment": "I have purchased 20 plus of these shirts in the past six months. The first batch in spring, figuring if any inconsistencies or quality issues arose upon delivery, no problem. Amazon's return policy has always been hassle free. After trying on the fourth shirt and noticing no outstanding flaws or differences, all were simply opened, laundered and hung on a hanger. The material is 100 percent cotton, but assuming they are removed from the dryer immediately (medium heat) - no ironing necessary. No appreciable shrinking is observed and no outliers in the batch.",
+                "image": ["fb17_1.jpg", "fb17_2.jpg"],
+                "rating_by_star": "4"
+            },
+            {
+                "id_user": "shirtuser34",
+                "comment": "I don't like this very much. The advice was to buy a size down, which I did, and it's still arguably a bit on the large side. The collar hangs unattractively too, somehow. It's like a supermarket garment. Not very stylish or fitted. And the colour is way off what the photo shows. It's much more green in real life. Adequate but disappointing.",
+                "image": [""],
+                "rating_by_star": "3"
+            }
+        ]
+    },
+    {
+        "id": "shirt18",
+        "name": "Gildan Men's Ultra Cotton Long Sleeve T-Shirt, Style G2400, Multipack",
+        "description": ["Solids: 100% Cotton; Ash Grey: 99% Cotton, 1% Polyester; Sport Grey and Antique Heathers: 90% Cotton, 10% Polyester; Safety Colors and Heathers: 50% Cotton, 50% Polyester", "Imported", "No Closure closure", "Machine Wash", "Heavyweight 6 oz. per sq. yd. fabric made from 100% US cotton", "Featuring taped neck and shoulders and double-needle 7/8 collar and bottom hem for long-lasting comfort and durability"],
+        "size": ["XXL", "XL", "L", "M", "S"],
+        "degree": "95",
+        "image": ["shirt73.jpg", "shirt74.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 40,
+        "gender": "Male",
+        "color": ["Navy"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 8,
+        "amount": 2, 
+        "tag": ["Gildan", "long-sleeve", "ultra cotton"],
+        "rate": [
+            {
+                "id_user": "shirtuser35",
+                "comment": "I just brought 2 of these to Alaska and they worked great. The fit is good as I got the small size and I'm 5'8'' and 155 pounds with slender build. They're simple and comfortable. They also launders easily. Overall I would recommend these long sleeve shirts.",
+                "image": ["fb18_1.jpg"],
+                "rating_by_star": "4"
+            },
+            {
+                "id_user": "shirtuser36",
+                "comment": "I don't like this very much. The advice was to buy a size down, which I did, and it's still arguably a bit on the large side. The collar hangs unattractively too, somehow. It's like a supermarket garment. Not very stylish or fitted. And the colour is way off what the photo shows. It's much more green in real life. Adequate but disappointing.",
+                "image": ["fb18_2.jpg", "fb18_3.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt19",
+        "name": "Dickies Men's Short-Sleeve Flex Twill Work Shirt",
+        "description": ["65% Polyester, 35% Cotton", "Imported", "Button closure", "Machine Wash", "CLASSIC WORKWEAR: This relaxed fit button-front work shirt features short sleeves, twin button-flap chest pockets & matching melamine buttons. It's made of a sturdy, machine washable stretch twill blend for lightweight mobility with traditional toughness", "TIMELESS STYLE: Modeled on our men's traditional style work shirt, Dickies Flex features a lighter 4.6 ounce mechanical stretch twill for comfort and ease of movement in a relaxed fit that's roomy for all kinds of work activity, or just for a casual look"],
+        "size": ["XXL", "XL", "L", "M", "S"],
+        "degree": "90",
+        "image": ["shirt75.jpg", "shirt76.jpg", "shirt77.jpg", "shirt78.jpg", "shirt79.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 35.59,
+        "gender": "Male",
+        "color": ["Dark Navy"],
+        "category": "shirt2",
+        "status": "stock", 
+        "quantity": 8,
+        "amount": 2, 
+        "tag": ["Dickies", "short-sleeve", "flex twill", "work shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser37",
+                "comment": "I need several short sleeve work shirts. I bought two of these as I trust the Dickies' brand. I have not been disappointed and have just bought two more of the shirts.",
+                "image": [""],
+                "rating_by_star": "5"
+            },
+            {
+                "id_user": "shirtuser38",
+                "comment": "Was a gift for my son. Bought the XL and it fit perfectly.",
+                "image": ["fb19_1.jpg"],
+                "rating_by_star": "5"
             }
         ]
     }

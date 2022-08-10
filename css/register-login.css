@@ -1,19 +1,22 @@
 .login-register{
-   margin: 0 160px;
+   margin: 0;
 }
 .row{
     display: flex;
 }
 .login-register .row{
-    gap: 40px;
+    gap: 24px;
+    flex-wrap: nowrap; 
  }
-.img img{
-    width: 100%;
+.img {
+    min-height: 490px;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .login-register .col{
     width: 33.3333%;
 }
-.login-box #input1 {
+.login-box .input-box {
     width: 100%;
     height: 50px;
     border: 1px solid #ebebeb;
@@ -21,6 +24,7 @@
     padding-left: 10px;
 }
 .input-text input{
+    font-size: 16px;
     outline: none;
     border: none;
     width: 100%;
@@ -29,8 +33,95 @@
     margin: 9px 0;
     text-align: left;
 }
+.login-box{
+    padding-right: 24px;
+    border-right:1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-box h3,.register-box  h3{
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
 .login-box form{
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
+#agree{
+    transform: translateY(1.2px);
+}
+.btn-login button{
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 50px;
+    color: #FDF9F5;
+    background-color: #1B2F44;
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.more-login{
+    display: flex;
+    align-items: center;
+}
+.more-login p{
+    margin: 20px;
+}
+.more-login span{
+    flex: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+}
+.connection{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+}
+.connection .item-connection{
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 18px;
+    border-radius: 12px;
+    gap: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+}
+.item-connection img{
+    width: 20px;
+}
+.register p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.register-link{
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    background-color: #4c709b;
+    width: 100%;
+}
+.login-box1{
+    justify-content: start;
+}
+.register-link +.register-link{
+    margin-top: 20px;
+}
+.login-link{
+    background-color: #808080;
+}
+.agree-box{
+    margin-bottom: 20px;
+}
+.agree-box label{
+    font-weight: 300;
+    line-height: 28px;
+}
+
