@@ -674,5 +674,474 @@
                 "rating_by_star": "5"
             }
         ]
+    },
+
+    {
+        "id": "shirt20",
+        "name": "Amazon Essentials Women's Classic-Fit Short-Sleeve V-Neck T-Shirt, Pack of 2",
+        "description": ["56% Cotton, 38% Modal, 6% Spandex", "Imported", "Machine Wash", "Close-but-comfortable fit with easy movement", "Lightweight jersey cotton blend with stretch", "V neckline"],
+        "size": ["XL", "L", "M", "S"],
+        "degree": "100",
+        "image": ["shirt80.jpg", "shirt81.jpg", "shirt82.jpg", "shirt82.jpg", "shirt83.jpg", "shirt84.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 20,
+        "gender": "Female",
+        "color": "White",
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "woman's shirt", "white shirt", "basic shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser39",
+                "comment": "I love that you cannot see through this white shirt. It's is a fairly thicker material. I am 5'5” and weigh 185. I purchased a large hoping it would fit. And it surpassed my",
+                "image": ["fb20_1.jpg", "fb20_3.jpg"],
+                "rating_by_star": "4.5"
+            },
+            {
+                "id_user": "shirtuser40",
+                "comment": "Love these basic T-shirt! I will be ordering more colors. The fabric is super soft and no scratchy tag. The V at the neck is the perfect length and the shirt overall has a great length. It has just the right fit so its not like wearing a boxy men's undershirt but not so fitted to make me uncomfortable about my muffin top (fat hanging over top of my pants). The sleeves are nicely fitted giving the shirt class. I am 5'4'' 140lbs and purchased Medium. I might have fit into a small but have broad shoulders (and thick waistline) and prefer a little room.",
+                "image": ["fb20_2.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt21",
+        "name": "Yummie Women's Anette Square Neck Thong Bodysuit",
+        "description": ["87% Cotton, 8% Nylon, 5% Spandex", "Imported", "Snap closure", "Wash cold", "Fabric: Lightweight jersey", "Square neckline , Short sleeves , Thong panty with snap gusset, Medium compression"],
+        "size": ["L"],
+        "degree": "90",
+        "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 34.05,
+        "gender": "Female",
+        "color": "Black",
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 6,
+        "amount": 2, 
+        "tag": ["shirt", "woman's shirt", "white shirt", "basic shirt", "neckline shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser41",
+                "comment": "I love the idea of this and thought it would have shapewear built in but look like a t-shirt nope it looks like you're wearing a t-shirt made from shapewear... Like it honest to goodness looks like shapewear -_-Returned",
+                "image": [""],
+                "rating_by_star": "2"
+            },
+            {
+                "id_user": "shirtuser42",
+                "comment": "Ok, I am no stranger to shapewear and the tightness that it requires, but this was absurd. I ordered per the sizing chart (and the same size I get their shaping shorts in which I like) but this was way too small to be flattering. I think the issue is that the material is too thin - it's just see through and not strong enough to actually shape you at all. I returned.",
+                "image": [""],
+                "rating_by_star": "1"
+            }
+        ]
+    },
+    {
+        "id": "shirt22",
+        "name": "Amazon Essentials Women's Classic-Fit Long-Sleeve Lightweight Plaid Flannel Shirt",
+        "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["XL", "M", "S"],
+        "degree": "95",
+        "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 22.9,
+        "gender": "Female",
+        "color": ["Black", "White", "Gradient", "Plaid"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 4,
+        "amount": 1, 
+        "tag": ["shirt", "woman's shirt", "white shirt", "black shirt", "plaid shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser43",
+                "comment": "This is a nice light flannel. It feels soft like flannel but is light and thinner. It has a female cut and fit so it is not boxy yet is also not too tight. The color was nice can go casual with jeans or layer.",
+                "image": ["fb22_1.jpg", "fb22_2.jpg"],
+                "rating_by_star": "5"
+            },
+            {
+                "id_user": "shirtuser44",
+                "comment": "This shirt was ordered to use in a play set in 1947 because I had read the reviews which said the shirt was not heavy--exactly what I wanted. I bought it for the play but will wear it for everyday as well. It fits well and washes well.",
+                "image": ["fb22_3.jpg"],
+                "rating_by_star": "1"
+            }
+        ]
+    },
+    {
+        "id": "shirt23",
+        "name": "Amazon Essentials Women's Slim-Fit Tank, Pack of 2",
+        "description": ["58% Cotton, 39% Modal, 3% Elastane", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["M", "S"],
+        "degree": "95",
+        "image": ["shirt91.jpg", "shirt92.jpg", "shirt93.jpg", "shirt94.jpg", "shirt95.jpg", "shirt96.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 22.9,
+        "gender": "Female",
+        "color": ["Black", "White","Brown", "Gradient", "Plaid"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["shirt", "woman's shirt", "white shirt", "black shirt", "plaid shirt", "brown shirt", "slimfit shirt", "woman tank top"],
+        "rate": [
+            {
+                "id_user": "shirtuser45",
+                "comment": "I was a little hesitant on buying because of some of the reviews but these tanks are great. I can fit a small or medium if I want my tops loose so with these reviews I went with a medium. The fit is perfect. Not too long but past the rear, the back is a little higher so your bra wont show but still at a flattering length and the straps are wide. I will definately be adding more tank tops from this collection in other colors.",
+                "image": ["fb23_1.jpg", "fb23_2.jpg"],
+                "rating_by_star": "5"
+            },
+            {
+                "id_user": "shirtuser46",
+                "comment": "I pre-washed these and tried them on, and so impressed. I'm 5'10' and they are plenty long and fitted, yet do not roll up like a lot camis I've owned in the past. They are nice and thin, but not overly see-through. For the price and quality, these are much nicer than anything I've found in stores.",
+                "image": ["fb23-3.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt24",
+        "name": "Under Armour Women's New Freedom Banner T-Shirt",
+        "description": ["100% Knit", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["M", "S"],
+        "degree": "95",
+        "image": ["shirt97.jpg", "shirt98.jpg", "shirt99.jpg", "shirt100.jpg", "shirt101.jpg", "shirt102.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 22.9,
+        "gender": "Female",
+        "color": ["Black", "White","Steel Light Heather (035)/Black", "Marine Od Green (390)/Royal Blue", "Cloudless Sky (400)/Pink Sands"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["t-shirt", "basic shirt", "freedom shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser47",
+                "comment": "I really love this shirt. Fits perfectly and is so soft.",
+                "image": [""],
+                "rating_by_star": "5"
+            },
+            {
+                "id_user": "shirtuser48",
+                "comment": "Loved the shirt however, the first wash and dry the hem unraveled in the back. Very disappointing for a brand associated with quality sportswear. I should have returned the tee but did not. That is on me, but I will definitely think twice before ordering under armor again.",
+                "image": [""],
+                "rating_by_star": "3"
+            }
+        ]
+    },
+    {
+        "id": "shirt25",
+        "name": "Berkshire Women's 6900",
+        "description": ["100% Knit", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["M", "S"],
+        "degree": "95",
+        "image": ["shirt103.jpg", "shirt104.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 20,
+        "gender": "Female",
+        "color": ["Black", "White"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["berkshire", "woman's shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser49",
+                "comment": "I was hot with it underneath my clothes . It was comfortable.",
+                "image": ["fb25_1.jpg"],
+                "rating_by_star": "3"
+            },
+            {
+                "id_user": "shirtuser50",
+                "comment": "Very comfortable!",
+                "image": ["fb25_2.jpg"],
+                "rating_by_star": "3"
+            }
+        ]
+    },
+    {
+        "id": "shirt26",
+        "name": "Legendary Whitetails Women's Open Sky Notch Thermal Shirt",
+        "description": ["100% Cotton", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt105.jpg", "shirt106.jpg", "shirt105.jpg", "shirt108.jpg", "shirt109.jpg", "shirt110.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 20,
+        "gender": "Female",
+        "color": ["Pink", "Gradient", "Green"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["Thermal Shirt", "Woman's shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser51",
+                "comment": "This shirt is absolutely gorgeous and well-made. My only recommendation is to order a size up. I am a bigger gal and ordered a 2XL (which is the largest women's size they carry) and it is a bit snug through the tummy area.",
+                "image": [],
+                "rating_by_star": "4"
+            },
+            {
+                "id_user": "shirtuser52",
+                "comment": "I usually wear a size medium but for some reason, with these type shirts, I have to go a size up. The large fits me perfectly (I don't wear shirts skin-tight). I'm 5'6' and 150 lbs. The arms are long enough and it doesn't shrink horribly in the wash. I always hang-dry so I cannot tell you if it shrinks in the dryer.",
+                "image": [""],
+                "rating_by_star": ""
+            }
+        ]
+    },
+    {
+        "id": "shirt27",
+        "name": "Legendary Whitetails Women's Breezy Tunic",
+        "description": ["100% Rayon", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt111.jpg", "shirt112.jpg", "shirt113.jpg", "shirt114.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 19.41,
+        "gender": "Female",
+        "color": ["Blush Wine Plaid", "Barn Rust Plaid"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["Breezy Shirt", "Woman's shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser53",
+                "comment": "This shirt is absolutely gorgeous and well-made. My only recommendation is to order a size up. I am a bigger gal and ordered a 2XL (which is the largest women's size they carry) and it is a bit snug through the tummy area.",
+                "image": [],
+                "rating_by_star": "4"
+            },
+            {
+                "id_user": "shirtuser54",
+                "comment": "I usually wear a size medium but for some reason, with these type shirts, I have to go a size up. The large fits me perfectly (I don't wear shirts skin-tight). I'm 5'6' and 150 lbs. The arms are long enough and it doesn't shrink horribly in the wash. I always hang-dry so I cannot tell you if it shrinks in the dryer.",
+                "image": [""],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt28",
+        "name": "Hanes Women's Flat",
+        "description": ["100% Polyester", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt115.jpg", "shirt116.jpg", "shirt117.jpg", "shirt118.jpg", "shirt119.jpg", "shirt120.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 19.41,
+        "gender": "Female",
+        "color": ["Fresh Berry Heather", "Granite Heather", "Awesome Blue Heather"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["Hanes", "Woman's Flat"],
+        "rate": [
+            {
+                "id_user": "shirtuser55",
+                "comment": "These are perfect for layering on a cool day. 5ft,140lbs and 34b, I normally wear a small in tops, however based on reviews I ordered a medium. Glad I did, arms fit great and it is slightly loose fitting in belly area which is great. Bought the V-Neck and basic round neck, I like both equally. Will buy one more in black! These are a great material that will dry quickly when sweating.",
+                "image": [],
+                "rating_by_star": "5"
+            },
+            {
+                "id_user": "shirtuser56",
+                "comment": "I bought it for the sun protection factor, 50 I understand. I have not tested it yet with that in mind, since Amazon ended up sending me two dark grey (I ordered a light grey as well). The fabric feels very 'slick' i.e., artificial compared to cotton, but who cares, as long as I don't get a sunburn. The other thought I had--since it dries almost instantly--it might be great to take on vacation where you end up washing something in the sink to wear again the next day.",
+                "image": [""],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt29",
+        "name": "Gildan Women's Heavy Cotton T-Shirt, Style G5000L, 2-Pack",
+        "description": ["%100 Cotton", "Made in the USA or Imported"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt122.jpg", "shirt121.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 19.41,
+        "gender": "Female",
+        "color": ["Gildan Woman's", "Woman's shirt"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 12,
+        "amount": 4, 
+        "tag": ["Hanes", "Woman's Flat"],
+        "rate": [
+            {
+                "id_user": "shirtuser57",
+                "comment": "These do not run small *smh* I ordered large thinking they would be baby gap sized based on the reviews. I now have large shirts. I’ll use them to sleep in I guess. They are true to size. Nice fabric. Great color. Yeah. Do it.",
+                "image": [""],
+                "rating_by_star": "1"
+            },
+            {
+                "id_user": "shirtuser58",
+                "comment": "I bought it for the sun protection factor, 50 I understand. I have not tested it yet with that in mind, since Amazon ended up sending me two dark grey (I ordered a light grey as well). The fabric feels very 'slick' i.e., artificial compared to cotton, but who cares, as long as I don't get a sunburn. The other thought I had--since it dries almost instantly--it might be great to take on vacation where you end up washing something in the sink to wear again the next day.",
+                "image": [""],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt30",
+        "name": "Amazon Essentials Women's Tech Stretch Short-Sleeve Crewneck T-Shirt, Pack of 2",
+        "description": ["Solid: 94% Polyester, 6% Spandex; Spacedye: 88% Polyester, 12% Spandex", "Made in the USA or Imported"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt123.jpg", "shirt124.jpg", "shirt125.jpg", "shirt126.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 19.41,
+        "gender": "Female",
+        "color": ["Navy, Orchid Petal", "Navy, Abstract"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 8,
+        "amount": 3, 
+        "tag": ["Essentials", "Woman's Flat"],
+        "rate": [
+            {
+                "id_user": "shirtuser59",
+                "comment": "Seriously can amazon get any better?! These shirts are great! I love the length and fit! I didn't read the description closely obviously but the material is nice; I assumed they were just cotton but it's the same material and feeling as those 32 degree shirts if you're familiar with those. And those are much more expensive. The neck is a little wider then your average cotton t shirt so it looks a bit more stylish. The only reason I knocked a star off is because the seam on the one shoulder where the sleeve attaches is kind of 'bubbled' for lack of a better term. But it's hardly noticeable - in fact I had a hard time capturing it in a picture! I will definitely be buying these again!I bought a Large and it fits just the way I want it too - loosely and long. I'm 5'1 and 160lbs",
+                "image": ["fb30_1.jpg", "fb30_2.jpg"],
+                "rating_by_star": "4"
+            },
+            {
+                "id_user": "shirtuser60",
+                "comment": "I bought these last minute for a trip to Southeast Asia (when Nordstrom's Rack told me my package would be 10 days late it turned into a last minute panic). I absolutely loved them. They were comfortable, looked good in pictures, kept me cool in 90 degree temperatures, and dried quickly when washed.",
+                "image": ["fb30_3.jpg", "fb30_4.jpg"],
+                "rating_by_star": "5"
+            }
+        ]
+    },
+    {
+        "id": "shirt31",
+        "name": "Cutter & Buck Women's Wrinkle Resistant Stretch Long Sleeve Button Down Shirt",
+        "description": ["64% Cotton, 34% Polyester, 2% Spandex", "Imported", "Button closure", "Machine Wash", "Wrinkle resistant finish", "Collar stand, button front"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt127.jpg", "shirt128.jpg", "shirt129.jpg", "shirt130.jpg", "shirt131.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 23.57,
+        "gender": "Female",
+        "color": ["Charcoal Oxford Stripe", "Charcoal Oxford", "Opal Oxford"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 8,
+        "amount": 3, 
+        "tag": ["down shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser61",
+                "comment": "I have an authentic Cutter and Buck shirt that I absolutely love. This one looked to be the same style and I ordered the same size but the fit was totally different and the materials felt totally cheap. I question if this is a true Cutter and Buck - and if it is - the quality has really gone down. I do not recommend purchasing. I returned mine.",
+                "image": [""],
+                "rating_by_star": "1"
+            },
+            {
+                "id_user": "shirtuser62",
+                "comment": "I do like the shirt.. color is exactly like the pic.. bought it to go with a skirt in the same color.. wash it first it’s a little stiff.. but it does wrinkle but not so much that I would return it.. besides linen of any sort will wrinkle!! I bought a larger size than I wear for that “oversized shirt” look.. good thing I did cause it fit me fine as is! Fit thru the bust… fit bigger thru the hips.. I can tie it up in front and like the look! Would buy in different colors!!",
+                "image": [""],
+                "rating_by_star": "4"
+            }
+        ]
+    },
+    {
+        "id": "shirt32",
+        "name": "Cutter & Buck Women's Epic Easy Care Long Sleeve Tattersall Collared Shirt",
+        "description": ["60% Cotton, 40% Polyester", "Imported", "Button closure", "Machine Wash", "Wrinkle resistant", "Collar stand, button front"],
+        "size": ["L", "XL", "XXL"],
+        "degree": "95",
+        "image": ["shirt132.jpg", "shirt133.jpg", "shirt134.jpg", "shirt135.jpg", "shirt136.jpg", , "shirt137.jpg", "shirt138.jpg"],
+        "date": [
+            {
+                "sell": "09/08/2022",
+                "update": "09/09/2022"
+            }
+        ],
+        "price": 10.41,
+        "gender": "Female",
+        "color": ["French Blue", "Red", "Atlas", "Black"],
+        "category": "shirt1",
+        "status": "stock", 
+        "quantity": 8,
+        "amount": 3, 
+        "tag": ["collared shirt"],
+        "rate": [
+            {
+                "id_user": "shirtuser63",
+                "comment": "The size is totally wrong",
+                "image": [""],
+                "rating_by_star": "1"
+            },
+            {
+                "id_user": "shirtuser64",
+                "comment": "Super long torso. If you tuck your shirts, it's for you.",
+                "image": [""],
+                "rating_by_star": "2"
+            }
+        ]
     }
 ]
