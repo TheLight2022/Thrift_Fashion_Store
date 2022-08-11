@@ -53,7 +53,7 @@
           "address": "London"
         }
       ,
-      "brand": "bulk",
+      "brand": "Bulk",
       "image": ["shirt2.webp", "shirt3.webp", "shirt4.webp", "shirt5.webp", "shirt6.webp", "shirt7.webp"],
       "date": [
           {
@@ -648,7 +648,7 @@
           "address": "Washington"
         }
       ,
-      "brand": "buck",
+      "brand": "Bulk",
       "image": ["shirt66.jpg", "shirt67.jpg", "shirt68.jpg"],
       "date": [
           {
@@ -808,7 +808,6 @@
           }
       ]
   },
-
   {
       "id": "shirt20",
       "name": "Amazon Essentials Women's Classic-Fit Short-Sleeve V-Neck T-Shirt, Pack of 2",
@@ -1294,7 +1293,7 @@
           "address": "Washington"
         }
       ,
-      "brand": "buck",
+      "brand": "Bulk",
       "image": ["shirt127.jpg", "shirt128.jpg", "shirt129.jpg", "shirt130.jpg", "shirt131.jpg"],
       "date": [
           {
