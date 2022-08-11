@@ -38,7 +38,7 @@ body{
 
 .container__blog{
     padding-bottom: 1.4em;    
-}
+}   
 
 .breadcrumb-text__blog{
     margin-left: 4em;
@@ -127,7 +127,7 @@ body{
 }
 
 .blog__content{
-    margin-bottom: 2.6em;
+    margin-bottom: 2em;
 }
 
 .blog__content h3:hover{
@@ -151,7 +151,7 @@ body{
     font-weight: 600;
     color: #232425;
     line-height: 1em;
-}
+}   
 
 .blog__content p{
     font-size: 16px;
@@ -160,7 +160,7 @@ body{
     line-height: 1em;
 }
 
-ul li a{
+.container__blog ul li a{
     list-style-type: none;
     margin-right: 1em;
     border: 1px solid #1b2f44;
@@ -175,15 +175,15 @@ ul li a{
     color: black;
 }
 
-ul li{
+.container__blog ul li{
     list-style-type: none;
 }
 
-ul li .active a{
+.container__blog ul li .active a{
     background-color: #1b2f44;
 }
 
-.blogbottom{
+.container__blog .blogbottom{
     display: flex;
     justify-content: center;
     margin: 40px auto;
