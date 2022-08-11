@@ -22,5 +22,9 @@
   {
     "id": "belt",
     "name": "Belt"
+  },
+  {
+    "id": "jacket",
+    "name": "Jacket"
   }
 ]

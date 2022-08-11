@@ -1,0 +1,617 @@
+[
+  {
+    "id": "belt01",
+    "name": "Timberland PRO Men's 38mm Boot Leather Belt",
+    "description": "This durable leather work belt by Timberland PRO is designed with comfort, durability, and performance in mind.",
+    "size": "115cm",
+    "degree": 95,
+    "seller": [
+      {
+        "name": "Quang Anh",
+        "address": "Ha Noi, Viet Nam"
+      }
+    ],
+    "brand": "Lacoste",
+    "image": ["belt1.jpg", "belt2.jpg", "belt3.jpg"],
+    "date": {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      },
+    "price": 25,
+    "gender": "Male",
+    "color": "Brown",
+    "category": "belt",
+    "status": "stock",
+    "quantity": "8",
+    "amount": "10",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "belt1_user_01",
+        "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "belt2_user_02",
+        "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "belt02",
+    "name": "Timberland Men's Casual Leather Belt",
+    "description": "Genuine leather belt featuring a leather wrapped keep and antique finished buckle.",
+    "size": "12cm",
+    "degree": 98,
+    "seller": {
+        "name": "Quang Em",
+        "address": "Noi Ha, Viet Nam"
+      },
+    "brand": "Coslate",
+    "image": ["belt4.jpg", "belt5.jpg", "belt6.jpg"],
+    "date": [
+      {
+        "sell": "11/08/2022",
+        "update": "12/09/2022"
+      }
+    ],
+    "price": 35,
+    "gender": "Male",
+    "color": "Black",
+    "category": "belt",
+    "status": "stock",
+    "quantity": "8",
+    "amount": "10",
+    "tag": ["belt", "men'sbelt", "coslate"],
+    "rate": [
+      {
+        "id_user": "belt2_user_01",
+        "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "belt2_user_02",
+        "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "belt03",
+    "name": "Amazon Essentials Men's Dress Belt",
+    "description": "This classic belt features 7 round belt strap holes and an adjustable buckle closure for all day comfort and perfect fit. Belt width is 1.25\" to easily fit through your belt loops.",
+    "size": "125cm",
+    "degree": 95,
+    "seller": {
+        "name": "Quang Anh",
+        "address": "Ha Noi, Viet Nam"
+      },
+    "brand": "telacos",
+    "image": ["belt7.jpg", "belt8.jpg", "belt9.jpg"],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": 32,
+    "gender": "Male",
+    "color": "Black",
+    "category": "belt",
+    "status": "stock",
+    "quantity": "8",
+    "amount": "10",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "belt3_user_01",
+        "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "belt3_user_02",
+        "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "belt04",
+    "name": "Perry Ellis Men's Portfolio Timothy Leather Belt",
+    "description": "Full grain smooth leather belt with a stitched edge and a silver prong buckle",
+    "size": "30-54 Inches Big & Tall",
+    "degree": 98,
+    "seller": {
+      "name": "Quang Anh",
+      "address": "Ha Nam, Viet Nam"
+    },
+    "brand": "Adidas",
+    "image": ["belt10.jpg", "belt11.jpg", "belt12.jpg"],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": 40,
+    "gender": "Male",
+    "color": "Brown",
+    "category": "belt",
+    "status": "stock",
+    "quantity": "8",
+    "amount": "10",
+    "tag": ["belt", "men'sbelt", "Adidas"],
+    "rate": [
+      {
+        "id_user": "belt4_user_01",
+        "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "belt4_user_02",
+        "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "belt05",
+    "name": "Amazon Essentials Men's Stretch Woven Braid Belt",
+    "description": "This durable leather work belt by Timberland PRO is designed with comfort, durability, and performance in mind.",
+    "size": "125cm",
+    "degree": 95,
+    "seller": {
+        "name": "Quang Anh",
+        "address": "Ninh Binh, Viet Nam"
+      },
+    "brand": "Amazon",
+    "image": ["belt13.jpg", "belt14.jpg", "belt15.jpg"],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": 25,
+    "gender": "Male",
+    "color": "Khaki Brown",
+    "category": "belt",
+    "status": "stock",
+    "quantity": "8",
+    "amount": "10",
+    "tag": ["belt", "men'sbelt", "amazon"],
+    "rate": [
+      {
+        "id_user": "belt5_user_01",
+        "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "belt5_user_02",
+        "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "jacket01",
+    "name": "Champion Men's Stadium Full Zip Jacket",
+    "description": "Think outside the gym! Champion authentic originals are athletic wear classics updated with the latest in fabric and fashion.",
+    "size": "Large",
+    "degree": 96,
+    "seller": {
+        "name": "Quang Anh",
+        "address": "TP Ho Chi Minh, Viet Nam"
+      },
+    "brand": "Champion",
+    "image": ["jacket1.jpg", "jacket2.jpg", "jacket3.jpg"],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": 200,
+    "gender": "Male",
+    "color": "White",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "12",
+    "amount": "6",
+    "tag": ["Jacket"],
+    "rate": [
+      {
+        "id_user": "jacket1_user_1",
+        "comment": "I wear a misses size 8 and the med. fit great! Hits just below butt with room to spare, not sloppy, not sheer. It is not a lined windbreaker, that is what I wanted for spring/summer. Glad I purchased this!",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  },
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "size": "",
+    "degree": "",
+    "seller": {
+      "name": "Quang Anh",
+      "address": "TP Ho Chi Minh, Viet Nam"
+    },
+    "brand": "",
+    "image": [],
+    "date": [
+      {
+        "sell": "09/08/2022",
+        "update": "09/09/2022"
+      }
+    ],
+    "price": ,
+    "gender": "Male",
+    "color": "",
+    "category": "jacket",
+    "status": "stock",
+    "quantity": "",
+    "amount": "",
+    "tag": ["belt", "men'sbelt", "lacoste"],
+    "rate": [
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      },
+      {
+        "id_user": "",
+        "comment": "",
+        "image": "",
+        "rating_by_star": "5"
+      }
+    ]
+  }
+]
