@@ -338,280 +338,62 @@
       "address": "TP Ho Chi Minh, Viet Nam"
     },
     "brand": "ESTL",
-    "image": [],
+    "image": ["jacket10.jpg", "jacket11.jpg", "jacket12.jpg"],
     "date": [
       {
         "sell": "09/08/2022",
         "update": "09/09/2022"
       }
     ],
-    "price": ,
+    "price": 140,
     "gender": "Male",
-    "color": "",
+    "color": "Black",
     "category": "jacket",
     "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
+    "quantity": "11",
+    "amount": "4",
+    "tag": ["jacket"],
     "rate": [
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket4_user_1",
+        "comment": "This jacket checks all my boxes and fits perfectly! I wear a size 6-8 and ordered a medium. Very warm and comfy, good for light rain as well.",
         "image": "",
         "rating_by_star": "5"
       },
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket4_user_2",
+        "comment": "VERY HIGHLY RECOMMEND! You cannot beat the cost. It keeps you warm + safe from rain. It is easy to pack in suitcases. So much love! I might even buy another!",
         "image": "",
         "rating_by_star": "5"
       }
     ]
   },
   {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
+    "id": "jacket05",
+    "name": "Outdoor Research Men's Helium Rain Jacket",
+    "description": "We built a company from a feeling: the urge to get out. It's what drives us. Our tribe is devoted to exploring our outdoor passions and challenging ourselves in the mountains, water, and deserts of the planet we love so much.",
+    "size": "Large",
+    "degree": "95",
     "seller": {
       "name": "Quang Anh",
       "address": "TP Ho Chi Minh, Viet Nam"
     },
-    "brand": "",
-    "image": [],
+    "brand": "FILA",
+    "image": ["jacket13.jpg", "jacket14.jpg", "jacket15.jpg"],
     "date": [
       {
         "sell": "09/08/2022",
         "update": "09/09/2022"
       }
     ],
-    "price": ,
+    "price": 180,
     "gender": "Male",
-    "color": "",
+    "color": "Coyote",
     "category": "jacket",
     "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
-    "rate": [
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      },
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      }
-    ]
-  },
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
-    "seller": {
-      "name": "Quang Anh",
-      "address": "TP Ho Chi Minh, Viet Nam"
-    },
-    "brand": "",
-    "image": [],
-    "date": [
-      {
-        "sell": "09/08/2022",
-        "update": "09/09/2022"
-      }
-    ],
-    "price": ,
-    "gender": "Male",
-    "color": "",
-    "category": "jacket",
-    "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
-    "rate": [
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      },
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      }
-    ]
-  },
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
-    "seller": {
-      "name": "Quang Anh",
-      "address": "TP Ho Chi Minh, Viet Nam"
-    },
-    "brand": "",
-    "image": [],
-    "date": [
-      {
-        "sell": "09/08/2022",
-        "update": "09/09/2022"
-      }
-    ],
-    "price": ,
-    "gender": "Male",
-    "color": "",
-    "category": "jacket",
-    "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
-    "rate": [
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      },
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      }
-    ]
-  },
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
-    "seller": {
-      "name": "Quang Anh",
-      "address": "TP Ho Chi Minh, Viet Nam"
-    },
-    "brand": "",
-    "image": [],
-    "date": [
-      {
-        "sell": "09/08/2022",
-        "update": "09/09/2022"
-      }
-    ],
-    "price": ,
-    "gender": "Male",
-    "color": "",
-    "category": "jacket",
-    "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
-    "rate": [
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      },
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      }
-    ]
-  },
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
-    "seller": {
-      "name": "Quang Anh",
-      "address": "TP Ho Chi Minh, Viet Nam"
-    },
-    "brand": "",
-    "image": [],
-    "date": [
-      {
-        "sell": "09/08/2022",
-        "update": "09/09/2022"
-      }
-    ],
-    "price": ,
-    "gender": "Male",
-    "color": "",
-    "category": "jacket",
-    "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
-    "rate": [
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      },
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      }
-    ]
-  },
-  {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
-    "seller": {
-      "name": "Quang Anh",
-      "address": "TP Ho Chi Minh, Viet Nam"
-    },
-    "brand": "",
-    "image": [],
-    "date": [
-      {
-        "sell": "09/08/2022",
-        "update": "09/09/2022"
-      }
-    ],
-    "price": ,
-    "gender": "Male",
-    "color": "",
-    "category": "jacket",
-    "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
-    "rate": [
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      },
-      {
-        "id_user": "",
-        "comment": "",
-        "image": "",
-        "rating_by_star": "5"
-      }
-    ]
+    "quantity": "14",
+    "amount": "3",
+    "tag": ["jacket"],
+    "rate": []
   }
 ]

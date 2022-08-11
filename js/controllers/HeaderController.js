@@ -22,11 +22,12 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routePara
     
     
     $scope.filterProducts = function(){
-        $scope.search = $scope.search.replace('\  \g',"").trim()
-        key = $scope.search
-        // Lọc từ khóa
-        re = new RegExp(key, "gi")
-        if(key !==""){
+          // Lọc từ khóa
+          key = $scope.search
+           
+        if(key){
+            $scope.search = $scope.search.replace('\  \g',"").trim()
+            re = new RegExp(key, "gi")
             filter = $scope.products.filter(el=>{
                 isTrue = el.name.match(re) ||
                 el.seller.name.match(re) ||
@@ -39,9 +40,9 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routePara
             $scope.dataProducts = $scope.products
         }
 
-        // // Lọc category
+        //Lọc category
         // $scope.dataProducts = $scope.dataProducts.filter(el=>{
-        //     return el.category.match($scope.categorys)
+        //     return $scope.categorys.find(item=>item.name == el.category)
         // })
 
         if($scope.dataProducts.length > 9){
