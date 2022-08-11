@@ -232,7 +232,7 @@ header {
     /*  Header End  */
 }
 /*Tablet: width >= 740px and width < 1024px*/
-@media (min-width: 740px){
+@media (min-width: 740px) and (max-width: 1024px){
     /*  Header  */
     #header-top-container {
         margin: 0 20px;
@@ -254,9 +254,8 @@ header {
     }
     /*  Header End  */
 }
-/* Fix PC low resolution */
-@media (min-width: 1000px) and (max-width: 1199px){
-    #header-top-container {
-        margin: 0 20px;
-    }
+/*Tablet: width >= 740px */
+@media (min-width: 740px) {
+
 }
+
