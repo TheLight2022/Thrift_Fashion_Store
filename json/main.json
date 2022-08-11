@@ -5,12 +5,12 @@
         "description": "Design your own fishing shirts custom fishing wear hooded fishing shirt",
         "size": "XL",
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",
         "image": ["shirt1_1.webp", "shirt1_2.webp", "shirt1_3.webp", "shirt1_4.webp", "shirt1_5.webp", "shirt1_6.webp"],
         "date": [
@@ -47,12 +47,12 @@
         "description": "High Quality Custom Printing t-shirt Blank 100 Combed Cotton Men T shirt Wholesale plain In Bulk shirts for men",
         "size": ["S", "M", "L", "XL"],
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Bulk",
         "image": ["shirt2.webp", "shirt3.webp", "shirt4.webp", "shirt5.webp", "shirt6.webp", "shirt7.webp"],
         "date": [
@@ -89,12 +89,12 @@
         "description": " No MOQ Custom Wholesale Sublimated Running Polyester Breathable Men Singlets",
         "size": "XXL",
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "MOQ",
         "image": ["shirt8.webp", "shirt9.webp", "shirt10.webp", "shirt11.webp", "shirt12.webp", "shirt13.webp"],
         "date": [
@@ -131,12 +131,12 @@
         "description": "IHJ3682 Summer new printed casual round neck streetwear T-shirt for men",
         "size": "XXL",
         "degree": "99",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Street Wear",
         "image": ["shirt18.webp", "shirt19.webp", "shirt20.webp", "shirt21.webp","shirt22.webp"],
         "date": [
@@ -173,12 +173,12 @@
         "description": "Tactical Military Shirt Men Long Sleeve Army Shirts Frog Suit Uniform Combat Clothing Men shirts",
         "size": ["XXL", "XL", "L", "M", "S"],
         "degree": "99",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Frog Suit",
         "image": ["shirt23.webp", "shirt24.webp", "shirt25.webp", "shirt26.webp","shirt27.webp"],
         "date": [
@@ -215,12 +215,12 @@
         "description": "Custom Stripe Shirt Rugby 370gsm Long Sleeve Rugby Polo Men Rugby Stripe Polo Jersey",
         "size": ["XXL", "XL"],
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Rugby Stripe",
         "image": ["shirt28.webp", "shirt29.webp", "shirt30.webp", "shirt31.webp","shirt32.webp"],
         "date": [
@@ -257,12 +257,12 @@
         "description": "Custom design Sublimated printed button up long sleeves fishing shirt upf",
         "size": ["XXXL", "XXL", "XL"],
         "degree": "85",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Sublimated",
         "image": ["shirt33.webp", "shirt34.webp", "shirt35.webp", "shirt36.webp","shirt37.webp", "shirt38.webp"],
         "date": [
@@ -299,12 +299,12 @@
         "description": "Custom 100 cotton T-Shirt stock men's t-shirt custom shirt printing blank t-shirt for men 100 cotton",
         "size": ["XXXL", "XXL", "XL", "L", "M", "S"],
         "degree": "100",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",
         "image": ["shirt39.webp", "shirt40.webp", "shirt41.webp", "shirt42.webp","shirt43.webp", "shirt44.webp"],
         "date": [
@@ -341,12 +341,12 @@
         "description": "Wholesale High Quality Plain Yellow Cotton Button Up Short Sleeve Polo Sports Oversized Plain Women Tshirt",
         "size": ["L"],
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",
         "image": ["shirt45.webp"],
         "date": [
@@ -384,12 +384,12 @@
         "description": "Oversized T Shirt For Men Casual Short Sleeve Hip Hop Print Plus Size Tee Shirt Pullover Mens T-shirt Top",
         "size": ["XL", "L"],
         "degree": "99",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Pullover",
         "image": ["shirt48.webp"],
         "date": [
@@ -427,12 +427,12 @@
         "description": "RELAXED STRETCH FIT: The Legendary Stretch Flannel Shirt is designed with the same relaxed fit as our other shirts. In addition, it has a raised back yoke, and premium stretch fabric to give you full range of motion… even at full draw!",
         "size": ["XL", "L"],
         "degree": "99",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",
         "image": ["shirt52.jpg", "shirt53.jpg", "shirt54.jpg"],
         "date": [
@@ -470,12 +470,12 @@
         "description": "100% cotton, imported, button closure, machine wash and This short-sleeve button-front shirt features an allover plaid print for versatile, everyday style",
         "size": ["XL", "L"],
         "degree": "99",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt55.jpg", "shirt56.jpg"],
         "date": [
@@ -513,12 +513,12 @@
         "description": "60% cotton, 40% polyester, imported, INSECT REPELLENT: If you forgot your bug spray, we've got you covered, our tee includes a protective shield built right in and 100% SATISFACTION GUARANTEE: Designed in the USA, Legendary Whitetails is an American small business, we take pride in all our products, love it or send it back",
         "size": ["XL", "L"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Backcountry",
         "image": ["shirt57.jpg", "shirt58.jpg", "shirt59.jpg", "shirt69.jpg"],
         "date": [
@@ -556,12 +556,12 @@
         "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Easy Care: Machine washable; no dry cleaning required", "Regular Fit: A generous cut through the shoulders, chest and waist for total comfort and a classic fit", "Button-Down Collar: More relaxed & casual collar; appears neat with or without neckwear so you can dress it up or down"],
         "size": ["L"],
         "degree": "100",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Van Heusen",
         "image": ["shirt61.jpg", "shirt62.jpg", "shirt63.jpg"],
         "date": [
@@ -599,12 +599,12 @@
         "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Easy through chest and tapered through waist", "Soft, durable and cozy tumbled poplin for a lived-in feel right away", "Button-front closure"],
         "size": ["XL", "L"],
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt64.jpg", "shirt65.jpg"],
         "date": [
@@ -642,12 +642,12 @@
         "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Contrasting corduroy lined collar and cuffs", "Great look and lasting durability", "Left chest pocket with pencil slot and button closure"],
         "size": ["XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Buck Camp",
         "image": ["shirt66.jpg", "shirt67.jpg", "shirt68.jpg"],
         "date": [
@@ -685,12 +685,12 @@
         "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "This short-sleeve polo is made with comfortable pique fabric, a double-button placket, and ribbed cuffs for a classic look that never goes out of style", "Regular fit through the chest for a relaxed, unrestricted fit with a printed neck label to maximize comfort"],
         "size": ["XXL", "XL", "L", "M", "S"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt69.jpg", "shirt70.jpg", "shirt71.jpg", "shirt72.jpg"],
         "date": [
@@ -728,12 +728,12 @@
         "description": ["Solids: 100% Cotton; Ash Grey: 99% Cotton, 1% Polyester; Sport Grey and Antique Heathers: 90% Cotton, 10% Polyester; Safety Colors and Heathers: 50% Cotton, 50% Polyester", "Imported", "No Closure closure", "Machine Wash", "Heavyweight 6 oz. per sq. yd. fabric made from 100% US cotton", "Featuring taped neck and shoulders and double-needle 7/8 collar and bottom hem for long-lasting comfort and durability"],
         "size": ["XXL", "XL", "L", "M", "S"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Gildan",
         "image": ["shirt73.jpg", "shirt74.jpg"],
         "date": [
@@ -771,12 +771,12 @@
         "description": ["65% Polyester, 35% Cotton", "Imported", "Button closure", "Machine Wash", "CLASSIC WORKWEAR: This relaxed fit button-front work shirt features short sleeves, twin button-flap chest pockets & matching melamine buttons. It's made of a sturdy, machine washable stretch twill blend for lightweight mobility with traditional toughness", "TIMELESS STYLE: Modeled on our men's traditional style work shirt, Dickies Flex features a lighter 4.6 ounce mechanical stretch twill for comfort and ease of movement in a relaxed fit that's roomy for all kinds of work activity, or just for a casual look"],
         "size": ["XXL", "XL", "L", "M", "S"],
         "degree": "90",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Dickies",
         "image": ["shirt75.jpg", "shirt76.jpg", "shirt77.jpg", "shirt78.jpg", "shirt79.jpg"],
         "date": [
@@ -815,12 +815,12 @@
         "description": ["56% Cotton, 38% Modal, 6% Spandex", "Imported", "Machine Wash", "Close-but-comfortable fit with easy movement", "Lightweight jersey cotton blend with stretch", "V neckline"],
         "size": ["XL", "L", "M", "S"],
         "degree": "100",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt80.jpg", "shirt81.jpg", "shirt82.jpg", "shirt82.jpg", "shirt83.jpg", "shirt84.jpg"],
         "date": [
@@ -854,16 +854,16 @@
     },
     {
         "id": "shirt21",
-        "name": "Yummie Women's Anette Square Neck Thong Bodysuit",
+        "name": "Ymmie Women's Anette Square Neck Thong Bodysuit",
         "description": ["87% Cotton, 8% Nylon, 5% Spandex", "Imported", "Snap closure", "Wash cold", "Fabric: Lightweight jersey", "Square neckline , Short sleeves , Thong panty with snap gusset, Medium compression"],
         "size": ["L"],
         "degree": "90",
-        "seller": [
+        "seller":
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Yummie",
         "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
         "date": [
@@ -901,12 +901,12 @@
         "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["XL", "M", "S"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
         "date": [
@@ -944,12 +944,12 @@
         "description": ["58% Cotton, 39% Modal, 3% Elastane", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["M", "S"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt91.jpg", "shirt92.jpg", "shirt93.jpg", "shirt94.jpg", "shirt95.jpg", "shirt96.jpg"],
         "date": [
@@ -987,12 +987,12 @@
         "description": ["100% Knit", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["M", "S"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Under Armour",
         "image": ["shirt97.jpg", "shirt98.jpg", "shirt99.jpg", "shirt100.jpg", "shirt101.jpg", "shirt102.jpg"],
         "date": [
@@ -1030,12 +1030,12 @@
         "description": ["100% Knit", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["M", "S"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Berkshire",
         "image": ["shirt103.jpg", "shirt104.jpg"],
         "date": [
@@ -1073,12 +1073,12 @@
         "description": ["100% Cotton", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",
         "image": ["shirt105.jpg", "shirt106.jpg", "shirt105.jpg", "shirt108.jpg", "shirt109.jpg", "shirt110.jpg"],
         "date": [
@@ -1116,12 +1116,12 @@
         "description": ["100% Rayon", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Breezy Tunic",
         "image": ["shirt111.jpg", "shirt112.jpg", "shirt113.jpg", "shirt114.jpg"],
         "date": [
@@ -1159,12 +1159,12 @@
         "description": ["100% Polyester", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",
         "image": ["shirt115.jpg", "shirt116.jpg", "shirt117.jpg", "shirt118.jpg", "shirt119.jpg", "shirt120.jpg"],
         "date": [
@@ -1202,12 +1202,12 @@
         "description": ["%100 Cotton", "Made in the USA or Imported"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Gildan",
         "image": ["shirt122.jpg", "shirt121.jpg"],
         "date": [
@@ -1245,12 +1245,12 @@
         "description": ["Solid: 94% Polyester, 6% Spandex; Spacedye: 88% Polyester, 12% Spandex", "Made in the USA or Imported"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["shirt123.jpg", "shirt124.jpg", "shirt125.jpg", "shirt126.jpg"],
         "date": [
@@ -1288,12 +1288,12 @@
         "description": ["64% Cotton, 34% Polyester, 2% Spandex", "Imported", "Button closure", "Machine Wash", "Wrinkle resistant finish", "Collar stand, button front"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Buck",
         "image": ["shirt127.jpg", "shirt128.jpg", "shirt129.jpg", "shirt130.jpg", "shirt131.jpg"],
         "date": [
@@ -1331,12 +1331,12 @@
         "description": ["60% Cotton, 40% Polyester", "Imported", "Button closure", "Machine Wash", "Wrinkle resistant", "Collar stand, button front"],
         "size": ["L", "XL", "XXL"],
         "degree": "95",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Buck",
         "image": ["shirt132.jpg", "shirt133.jpg", "shirt134.jpg", "shirt135.jpg", "shirt136.jpg", "shirt137.jpg", "shirt138.jpg"],
         "date": [
@@ -1378,12 +1378,12 @@
         "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men's must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
         "size": "32",
         "degree": 95,
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",
         "image": ["golf_pant01.jpg", "golf_pant02.jpg", "golf_pant03.jpg", "golf_pant04.jpg", "golf_pant05.jpg"],
         "date": [
@@ -1416,12 +1416,12 @@
         "description": "Whether you're bending over to pick up your ball, mid-swing, or at barbecue with friends, these men’s shorts are a great addition to your golf apparel. The classic fit with a 9-inch inseam gives you a little extra room in the thigh, while the stretch fabric moves with you. An active waistband elevates your comfort, while moisture-wicking technology moves sweat away from your body. Play and look your best with the many performance features of these golf shorts.",
         "size": "35",
         "degree": 96,
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "PGA",
         "image": ["pant_02-01.jpg", "pant_02-02.jpg", "pant_02-03.jpg", " pant_02-04.jpg"],
         "date": [
@@ -1462,12 +1462,12 @@
         "size": 32,
         "degree": 92,
  
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "HUDSON",
         "image": ["pant_03-01.jpg", "pant_03-02.jpg", "pant_03-03.jpg", "pant_03-04.jpg"],
         "date": [
@@ -1501,12 +1501,12 @@
         "size": "33",
         "degree": 99, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Amazon",
         "image": ["pant_04-01.jpg", "pant_04-02.jpg", "pant_04-03.jpg", "pant_04-04.jpg"],
         "date": [
@@ -1554,12 +1554,12 @@
         "size": 38,
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Lee Men's",       "image": ["pant_05-01.jpg", "pant_05-01.jpg", "pant_05-01.jpg"],
         "date": [
             {
@@ -1592,12 +1592,12 @@
         "size": "35",
         "degree": 96, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "IZOD",        "image": ["pant_06-01.jpg", "pant_06-02.jpg", "pant_06-03.jpg"],
         "date": [
             {
@@ -1637,12 +1637,12 @@
         "size": 30,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "SPECIALMAGIC",       "image": ["pant_07-01.jpg", "pant_07-02.jpg", "pant_07-03.jpg"],
         "date": [
             {
@@ -1675,12 +1675,12 @@
         "size": 37,
         "degree": 88, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Champion",        "image": ["pant_08-01.jpg", "pant_08-02.jpg", "pant_08-03.jpg"],
         "date": [
             {
@@ -1707,12 +1707,12 @@
         "size": 36,
         "degree": 96, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Champion",        "image": ["pant_09-01.jpg", "pant_09-02.jpg", "pant_09-03.jpg"],
         "date": [
             {
@@ -1752,12 +1752,12 @@
         "size": 36,
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Wangdo",       "image": ["pant_10-01.jpg", "pant_10-02.jpg", "pant_10-03.jpg"],
         "date": [
             {
@@ -1790,12 +1790,12 @@
         "size": 35,
         "degree": 98, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",        "image": ["pant_11-01.jpg", "pant_11-02.jpg", "pant_11-03.jpg", "pant_11-04.jpg"],
         "date": [
             {
@@ -1835,12 +1835,12 @@
         "size": 35,
         "degree": 96, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Goodthreads",        "image": ["pant_12-01.jpg", "pant_12-02.jpg", "pant_12-03.jpg"],
         "date": [
             {
@@ -1880,12 +1880,12 @@
         "size": 34,
         "degree": 89,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Vineyard",       "image": ["pant_13-01.jpg", "pant_13-02.jpg", "pant_13-03.jpg"],
         "date": [
             {
@@ -1925,12 +1925,12 @@
         "size": 36,
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "IZOD",       "image": ["pant_14-01.jpg", "pant_14-02.jpg", "pant_14-03.jpg"],
         "date": [
             {
@@ -1970,12 +1970,12 @@
         "size": 36,
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "IZOD",       "image": ["pant_15-01.jpg", "pant_15-02.jpg", "pant_05-01.jpg"],
         "date": [
             {
@@ -2018,12 +2018,12 @@
         "size": "6 Long",
         "degree": 99,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Lee Women's",       "image": ["pant_16-01.jpg", "pant_16-02.jpg", "pant_16-03.jpg", "pant_16-04.jpg"],
         "date": [
             {
@@ -2063,12 +2063,12 @@
         "size": "12",
         "degree": 89,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Lee Women's",       "image": ["pant_17-01.jpg", "pant_17-02.jpg", "pant_17-03.jpg"],
         "date": [
             {
@@ -2101,12 +2101,12 @@
         "size": 14,
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Lee Women's",       "image": ["pant_18-01.jpg", "pant_18-02.jpg", "pant_18-03.jpg"],
         "date": [
             {
@@ -2132,12 +2132,12 @@
         "size": 12,
         "degree": 96, 
 
-"seller": [
-          {
+"seller": 
+         {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Essentials",        "image": ["pant_19-01.jpg", "pant_19-02.jpg", "pant_19-03.jpg"],
         "date": [
             {
@@ -2170,12 +2170,12 @@
         "size": 13,
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Hanes",       "image": ["pant_20-01.jpg", "pant_20-02.jpg", "pant_20-03.jpg"],
         "date": [
             {
@@ -2202,12 +2202,12 @@
         "size": 13,
         "degree": 97,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Lee Women's",       "image": ["pant_21-01.jpg", "pant_21-02.jpg", "pant_21-03.jpg"],
         "date": [
             {
@@ -2247,12 +2247,12 @@
         "size": 15,
         "degree": 97,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Woven",       "image": ["pant_22-01.jpg", "pant_22-02.jpg", "pant_22-03.jpg"],
         "date": [
             {
@@ -2298,12 +2298,12 @@
         "size": "11 x 4 x 7 inches; 3.2 Ounces",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["hat1.jpg", "hat2.jpg", "hat3.jpg"],
         "date": [
           {
@@ -2364,12 +2364,12 @@
         "size": "medium",
         "degree": 98,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Coronado",       "image": ["hat4.jpg", "hat5.jpg", "hat6.jpg"],
         "date": [
           {
@@ -2423,12 +2423,12 @@
         "size": "12 x 4 x 8 inches; 4 Ounces",
         "degree": 99,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["hat7.jpg", "hat8.jpg", "hat9.jpg", "hat10.jpg"],
         "date": [
           {
@@ -2475,12 +2475,12 @@
         "size": "XL",
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "BOSS",       "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
         "date": [
           {
@@ -2527,12 +2527,12 @@
         "size": "One Size",
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Tommy",       "image": ["hat14.jpg", "hat15.jpg", "hat16.jpg"],
         "date": [
           {
@@ -2579,12 +2579,12 @@
         "size": "Cap Height 4.5 Inches, Hat Brim 2.7 Inches, Cap Circumference 22.4-23.6 Inches",
         "degree": 98,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["hat17.jpg", "hat18.jpg", "hat19.jpg"],
         "date": [
           {
@@ -2631,12 +2631,12 @@
         "size": "Small-Medium",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "EvoShield",       "image": ["hat20.jpg", "hat21.jpg"],
         "date": [
           {
@@ -2683,12 +2683,12 @@
         "size": "One Size",
         "degree": 98,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["hat22.jpg", "hat23.jpg", "hat24.jpg", "hat25.jpg"],
         "date": [
           {
@@ -2735,12 +2735,12 @@
         "size": "One Size",
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Carhartt",       "image": ["hat26.jpg"],
         "date": [
           {
@@ -2787,12 +2787,12 @@
         "size": "Medium-Large",
         "degree": 92,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Oakley",       "image": ["hat27.jpg", "hat28.jpg", "hat29.jpg"],
         "date": [
           {
@@ -2839,12 +2839,12 @@
         "size": "9.84 x 7.87 x 3.94 inches; 0.71 Ounces",
         "degree": 97,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["hat30.jpg", "hat31.jpg", "hat32.jpg"],
         "date": [
           {
@@ -2891,12 +2891,12 @@
         "size": " One Size",
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Adidas",       "image": ["hat33.jpg"],
         "date": [
           {
@@ -2943,12 +2943,12 @@
         "size": "22.6 - 23",
         "degree": 98,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["hat34.jpg", "hat35.jpg", "hat36.jpg"],
         "date": [
           {
@@ -2995,12 +2995,12 @@
         "size": "9 x 5 x 1 inches; 1.8 Ounces",
         "degree": 96,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Roxy",       "image": ["hat37.jpg", "hat38.jpg", "hat39.jpg"],
         "date": [
           {
@@ -3047,12 +3047,12 @@
         "size": "One Size",
         "degree": 89,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["hat40.jpg", "hat41.jpg", "hat42.jpg"],
         "date": [
           {
@@ -3092,12 +3092,12 @@
         "size": "Lens Width: 53mm | Lens Height: 44mm | Temple Length: 150mm | Nose Bridge: 22mm",
         "degree": 85,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Sunnies",       "image": ["glass1.jpg", "glass2.jpg", "glass3.jpg"],
         "date": [
           {
@@ -3137,12 +3137,12 @@
         "size": "Lens width: 56 millimeters; Lens height: 47 millimeters; Bridge: 19 millimeters; Arm: 140 millimeters",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["glass4.jpg", "glass5.jpg", "glass6.jpg"],
         "date": [
           {
@@ -3182,12 +3182,12 @@
         "size": "7 x 3 x 2 inches; 0.5 Ounces",
         "degree": 98,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "No brand",       "image": ["glass7.jpg", "glass8.jpg"],
         "date": [
           {
@@ -3228,12 +3228,12 @@
         "description": "no pain no gain",
         "size": 43,
         "degree": "90%",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Jordan",
         "image": ["b.01.webp", "b.02.webp", "b.03.webp"],
         "date": [
@@ -3274,12 +3274,12 @@
         "size": 44,
         "degree": 91,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Jordan",       "image": ["a.01.webp", "a.02.webp", "a.03.webp"],
         "date": [
           {
@@ -3319,12 +3319,12 @@
         "size": 42,
         "degree": 99,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Jordan",       "image": ["c.01.webp", "c.02.webp", "c.03.webp"],
         "date": [
           {
@@ -3364,12 +3364,12 @@
         "size": "36",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Adidas",       "image": ["d.01.webp", "d.02.webp", "d.03.webp"],
         "date": [
           {
@@ -3409,12 +3409,12 @@
         "size": 41,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Jordan",       "image": ["e.01.webp", "e.02.webp", "e.03.webp"],
         "date": [
           {
@@ -3454,12 +3454,12 @@
       "size": 44,
       "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",     "image": ["f.01.webp", "f.02.webp", "f.03.webp"],
       "date": [
         {
@@ -3499,12 +3499,12 @@
         "size": 42,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["f.02.webp", "f.01.webp", "f.03.webp"],
         "date": [
           {
@@ -3544,12 +3544,12 @@
         "size": 41,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["h.01.webp", "h.02.webp", "h.03.webp"],
         "date": [
           {
@@ -3589,12 +3589,12 @@
         "size": 43,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Adidas",       "image": ["!t.01.webp", "t.02.webp", "t.03.webp"],
         "date": [
           {
@@ -3634,12 +3634,12 @@
         "size": 37,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["1.01.webp", "1.02.webp", "1.03.webp"],
         "date": [
           {
@@ -3678,12 +3678,12 @@
         "description": "contact me to get it",
         "size": 43,
         "degree": "90%",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",
         "image": ["0.01.webp", "0.02.webp", "0.03.webp"],
         "date": [
@@ -3724,12 +3724,12 @@
         "size": 37,
         "degree": 91,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Rebook",       "image": ["2.01.webp", "2.02.webp", "2.03.webp"],
         "date": [
           {
@@ -3769,12 +3769,12 @@
         "size": 36,
         "degree": 99,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Airmax",       "image": ["3.01.webp", "3.02.webp", "3.03.webp"],
         "date": [
           {
@@ -3814,12 +3814,12 @@
         "size": "36",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Adidas",       "image": ["4.01.webp", "4.02.webp", "4.03.webp"],
         "date": [
           {
@@ -3859,12 +3859,12 @@
         "size": 35,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "D rose",       "image": ["5.01.webp", "5.02.webp", "5.03.webp"],
         "date": [
           {
@@ -3904,12 +3904,12 @@
         "size": 43,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Martin",       "image": ["6.01.webp", "6.02.webp", "6.03.webp"],
         "date": [
           {
@@ -3949,12 +3949,12 @@
         "size": 37,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Martin",       "image": ["7.01.webp", "7.01.webp", "7.01.webp"],
         "date": [
           {
@@ -3994,12 +3994,12 @@
         "size": 39,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Martin",       "image": ["8.01.webp", "8.02.webp", "8.03.webp"],
         "date": [
           {
@@ -4039,12 +4039,12 @@
         "size": 43,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["9.01.webp", "9.02.webp", "9.03.webp"],
         "date": [
           {
@@ -4084,12 +4084,12 @@
         "size": 37,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Rebook",       "image": ["10.01.webp", "10.02.webp", "10.03.webp"],
         "date": [
           {
@@ -4128,12 +4128,12 @@
         "description": "contact me to get it",
         "size": 43,
         "degree": "90%",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Dame",
         "image": ["11.01.webp", "11.02.webp", "11.03.webp"],
         "date": [
@@ -4174,12 +4174,12 @@
         "size": 37,
         "degree": 91,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Nike",       "image": ["12.01.webp", "12.02.webp", "12.03.webp"],
         "date": [
           {
@@ -4219,12 +4219,12 @@
         "size": 36,
         "degree": 99,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Adidas",       "image": ["13.01.webp", "13.02.webp", "13.03.webp"],
         "date": [
           {
@@ -4264,12 +4264,12 @@
         "size": "36",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Martin",       "image": ["14.01.webp", "14.02.webp", "14.03.webp"],
         "date": [
           {
@@ -4309,12 +4309,12 @@
         "size": 35,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "D rose",       "image": ["15.01.webp", "15.02.webp", "15.03.webp"],
         "date": [
           {
@@ -4354,12 +4354,12 @@
         "size": 43,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Under Armour",       "image": ["16.01.webp", "16.02.webp", "16.03.webp"],
         "date": [
           {
@@ -4399,12 +4399,12 @@
         "size": 37,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Jordan",       "image": ["17.01.webp", "17.02.webp", "17.03.webp"],
         "date": [
           {
@@ -4444,12 +4444,12 @@
         "size": 39,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Jordan",       "image": ["18.01.webp", "18.02.webp", "18.03.webp"],
         "date": [
           {
@@ -4489,12 +4489,12 @@
         "size": 43,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",       "image": ["19.01.webp", "19.02.webp", "19.03.webp"],
         "date": [
           {
@@ -4534,12 +4534,12 @@
         "size": 37,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",       "image": ["20.01.webp", "20.02.webp", "20.03.webp"],
         "date": [
           {
@@ -4578,12 +4578,12 @@
         "description": "contact me to get it",
         "size": 43,
         "degree": "90%",
-        "seller": [
+        "seller": 
           {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",
         "image": ["21.01.webp", "21.02.webp", "21.03.webp"],
         "date": [
@@ -4624,12 +4624,12 @@
         "size": 37,
         "degree": 91,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "fila",       "image": ["22.01.webp", "22.02.webp", "22.03.webp"],
         "date": [
           {
@@ -4669,12 +4669,12 @@
         "size": 36,
         "degree": 99,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "fila",       "image": ["23.01.webp", "23.02.webp", "23.03.webp"],
         "date": [
           {
@@ -4714,12 +4714,12 @@
         "size": "36",
         "degree": 95,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",       "image": ["24.01.webp", "24.02.webp", "24.03.webp"],
         "date": [
           {
@@ -4759,12 +4759,12 @@
         "size": 35,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",       "image": ["25.01.webp", "25.02.webp", "25.03.webp"],
         "date": [
           {
@@ -4804,12 +4804,12 @@
         "size": 43,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "Newbalance",       "image": ["26.01.webp", "26.02.webp", "26.03.webp"],
         "date": [
           {
@@ -4849,12 +4849,12 @@
         "size": 37,
         "degree": 93,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "fila",       "image": ["27.01.webp", "27.01.webp", "27.01.webp"],
         "date": [
           {
@@ -4894,12 +4894,12 @@
         "size": 39,
         "degree": 90,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "fila",       "image": ["28.01.webp", "28.02.webp", "28.03.webp"],
         "date": [
           {
@@ -4939,12 +4939,12 @@
         "size": 43,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "fila",       "image": ["29.01.webp", "29.02.webp", "29.03.webp"],
         "date": [
           {
@@ -4984,12 +4984,12 @@
         "size": 37,
         "degree": 94,
  
- "seller": [
-          {
+ "seller": 
+        {
             "name": "Jane Smith",
             "address": "63rd, Chuck Road, Washington"
           }
-        ],
+        ,
         "brand": "fila",       "image": ["30.01.webp", "30.02.webp", "30.03.webp"],
         "date": [
           {
