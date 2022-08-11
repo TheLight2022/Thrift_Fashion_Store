@@ -229,6 +229,13 @@ header {
         flex-direction: column;
         justify-content: center;
     }
+    #header-midle {
+        margin: 0 auto;
+    }
+    .header-midle-1 img{
+        display: block;
+        margin: 0 auto;
+    }
     /*  Header End  */
 }
 /*Tablet: width >= 740px and width < 1024px*/
@@ -241,7 +248,11 @@ header {
         margin: 0 20px;
     }
     #header-midle {
-        margin: 0 20px;
+        margin: 0 auto;
+    }
+    .header-midle-1 img{
+        display: block;
+        margin: 0 auto;
     }
     #header-shop ul li {
         padding:  0 10px;

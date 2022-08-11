@@ -1,0 +1,76 @@
+<section class="breakcump">
+    <div class="breakcump-container grid wide">
+        <p>Home</p>
+        <span><i class="fa-regular fa-angle-right"></i></span>
+        <p class="breakcump-active">Product</p>
+    </div>
+</section>
+
+<section class="big-title">
+    <h2>Products</h2>
+</section>
+
+<section id="product">
+    <div class="product-container grid wide">
+        <div class="row">
+            <div class="col l-3 category">
+                <div class="cate-item">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="">Dining Chairs</a></li>
+                        <li><a href="">Sofas & Armchairs</a></li>
+                        <li><a href="">Banquette</a></li>
+                        <li><a href="">Bar Height Stools</a></li>
+                        <li><a href="">Office Chairs</a></li>
+                        <li> <a href="">Kids Chairs</a></li>
+                    </ul>
+                </div>
+                <div class="cate-item">
+                    <h3>Brand</h3>
+                    <ul>
+                        <li><a href="">Bergen</a></li>
+                        <li><a href="">Bel Air</a></li>
+                        <li><a href="">Bartlett</a></li>
+                    </ul>
+                </div>
+                <div class="cate-item">
+                    <h3>Price</h3>
+                    <div class="flex">
+                        <div class="price-range">
+                            <strong>Min</strong>
+                            <span>$30</span>
+                        </div>
+                        <div class="price-range">
+                            <strong>Max</strong>
+                            <span>$3000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cate-item product-color">
+                    <h3>Color</h3>
+                    <div class="row">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-9">
+                <div class="row product-list">
+                    <div ng-repeat="product in dataProducts" class="product-list-item col l-4">
+                        <item-product item="product"></item-product>
+                    </div>
+                </div>
+                <div class="product-page">
+                    <a href="" class="active">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
