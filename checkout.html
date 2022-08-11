@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- AngularJS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script> -->
+    <!-- Jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/checkout.css">
+    <link rel="stylesheet" href="./css/set.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/register-login.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/fontawesome-pro-6.1.0-web/css/all.css">
+</head>
+
+<body style="background: none;">
+    
+    <div id="check-box">
+        <div class="grid wide">
+            <div class="row reverse">
+                <div class="col l-8 m-12 c-12 form-check">
+                    <form action="" method="POST" class="form" id="form-1">
+                        <div class="row">
+                            <h3 class="col l-12 m-12 c-12 heading">1. Personal information</h3>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="first-name" class="form-label"></label>
+                                <input id="first-name" name="first-name" type="text" placeholder="First Name"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="last-name" class="form-label"></label>
+                                <input id="last-name" name="last-name" type="text" placeholder="Last Name"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                             
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="email" class="form-label"></label>
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="phone" class="form-label"></label>
+                                <input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+    
+                            <h3 class="col l-12 m-12 c-12 heading">2. Delivery information</h3>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="city" class="form-label"></label>
+                                <input id="city" name="city" type="text" placeholder="City" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="district" class="form-label"></label>
+                                <input id="district" name="district" type="text" placeholder="District"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                             
+                            <div class="col l-12 m-12 c-12 form-group">
+                                <label for="detail-address" class="form-label"></label>
+                                <input id="detail-address" name="detail-address" type="text" placeholder="Detail address"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+    
+                            <h3 class="col l-12 m-12 c-12 heading">3. Payment method</h3>
+
+                            <div class="col l-12 m-12 c-12  method" id="method1" style="opacity: 0.3; filter: alpha(opacity=30);">
+                                <div class="cod">
+                                    <input type="radio" name="radio" id="cash" value="COD" disabled="">
+                                    <label class="radio-container cashLabel"> Cash on delivery (COD)</label>
+                                </div>
+                                <p>Note: For orders exceeding $500 worth, we could only accept payment by card.</p>
+                            </div>
+                            <div class="col l-12 m-12 c-12  method" id="method1">
+                                <div class="cod cod-mg">
+                                    <input type="radio" checked name="radio" id="card" value="Card">
+                                    <label class="radio-container"> Credit card / Debit card</label>                                </div>
+                            </div>
+                            <div class="col l-12 m-12 c-12 form-group form-pd">
+                                <label for="card-number" class="form-label"></label>
+                                <input id="card-number" name="card-number" type="text" placeholder="Card number" class="form-control">
+                                <i class="fa-solid fa-credit-card"></i>
+                                <span class="form-message"></span>
+                            </div>
+                             
+                            <div class="col l-12 m-12 c-12 form-group  form-pd">
+                                <label for="name-in-card" class="form-label"></label>
+                                <input id="name-in-card" name="name-in-card" type="text" placeholder="Name in card"
+                                    class="form-control">
+                                    <i class="fa-solid fa-user"></i>
+                                <span class="form-message"></span>
+                            </div>
+
+                            <div class="col l-6 m-12 c-12 form-group  form-pd">
+                                <label for="card-number" class="form-label"></label>
+                                <input id="card-number" name="card-number" type="text" placeholder="MM/YY"
+                                    class="form-control">
+                                    <i class="fa-solid fa-calendar"></i>
+                                <span class="form-message"></span>
+                            </div>
+
+                            <div class="col l-6 m-12 c-12 form-group form-pd">
+                                <label for="name-in-card" class="form-label"></label>
+                                <input id="name-in-card" name="name-in-card" type="text" placeholder="CCV"
+                                    class="form-control">
+                                    <i class="fa-solid fa-lock"></i>
+                                <span class="form-message"></span>
+                            </div>
+    
+                            <!-- <button class="col l-12 m-12 c-12 form-submit">PLACE MY ORDER</button> -->
+                        </div>
+                    </form>
+                </div>
+                <div class="col l-4 m-12 c-12 product-check">
+                    <div class="row">
+                        <div class="product-check-item">
+                            <h3>Order Summary</h3>
+                            <div class="product-box box-form">
+                                <div class="row item">
+                                    <div class="col l-3 m-3 c-3 img">
+                                        <img src="img/shirt20.webp" alt="">
+                                    </div>
+                                    <div class="col l-6 m-6 c-6 product-title">
+                                        <h3>Greenwich Coffee</h3>
+                                        <div class="qty">
+                                            <span>Quantity:</span>
+                                            <span class="number-item">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-3 c-3 product-price">
+                                        $<span>159.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box box-form">
+                                <div class="row item">
+                                    <div class="col l-3 m-3 c-3">
+                                        <img src="img/shirt20.webp" alt="">
+                                    </div>
+                                    <div class="col l-6 m-6 c-6 product-title">
+                                        <h3>Greenwich Coffee</h3>
+                                        <div class="qty">
+                                            <span>Quantity:</span>
+                                            <span class="number-item">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-3 c-3 product-price">
+                                        $<span>203.56</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-box box-form">
+                                <div class="row item">
+                                    <div class="col l-3 m-3 c-3">
+                                        <img src="img/shirt20.webp" alt="">
+                                    </div>
+                                    <div class="col l-6 m-6 c-6 product-title">
+                                        <h3>Greenwich Coffee</h3>
+                                        <div class="qty">
+                                            <span>Quantity:</span>
+                                            <span class="number-item">1</span>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3 m-3 c-3 product-price">
+                                        $<span>216.33</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-check-total">
+                                <div class="row box-form item">
+                                    <div class="col l-4 m-4 c-4">
+                                        <h3>Subtotal</h3>
+                                    </div>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total">$<span class="total-number">1020.33</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-check-total">
+                                <div class="row box-form item">
+                                    <div class="col l-4 m-4 c-4">
+                                        <h3>Shipping</h3>
+                                    </div>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total">$<span class="total-number">0.00</span></div>
+                                </div>
+                            </div>
+                            <div class="product-check-total">
+                                <div class="row box-form item">
+                                    <div class="col l-4 m-4 c-4">
+                                        <h3>Total</h3>
+                                    </div>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total">$<span class="total-number">1020.33</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
+        </div>
+
+
+    <script src="js/validate.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+          Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isRequired('#first-name', 'Please enter first name'),
+              Validator.isRequired('#last-name', 'Please enter last name'),
+              Validator.isPhone('#phone'),
+              Validator.isEmail('#email'),
+              Validator.isRequired('#city', 'Please enter city'),
+              Validator.isRequired('#district', 'Please enter district'),
+              Validator.isRequired('#detail-address', 'Please enter details address'),
+              Validator.minLength('#card-number', 10),
+              Validator.isRequired('#name-in-card', 'Please enter name in card'),
+              Validator.isDate('#mm-yy'),
+              Validator.isCcv('#ccv'),
+              Validator.isRequired('#password_confirmation'),
+              Validator.isConfirmed('#password_confirmation', function () {
+                return document.querySelector('#form-1 #password').value;
+              }, '')
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+  
+  
+          Validator({
+            form: '#form-2',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isEmail('#email'),
+              Validator.minLength('#password', 6),
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+        });
+  
+    </script>
+
+
+
+</body>
+</html>
