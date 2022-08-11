@@ -7,6 +7,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -22,7 +24,7 @@
         "price": 10,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": "1",
         "amount": "1", 
@@ -49,6 +51,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -64,7 +68,7 @@
         "price": 12,
         "gender": "Male",
         "color": ["Black", "White"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": "1",
         "amount": "1", 
@@ -91,6 +95,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -106,7 +112,7 @@
         "price": 10,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 13,
         "amount": 10, 
@@ -133,6 +139,8 @@
         "degree": "99",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -148,7 +156,7 @@
         "price": 6,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 13,
         "amount": 10, 
@@ -175,6 +183,8 @@
         "degree": "99",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -190,7 +200,7 @@
         "price": 10,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 7,
         "amount": 6, 
@@ -217,6 +227,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -232,7 +244,7 @@
         "price": 20,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 10,
         "amount": 3, 
@@ -259,6 +271,8 @@
         "degree": "85",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -274,7 +288,7 @@
         "price": 12,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock",
         "quantity": 10,
         "amount": 3, 
@@ -301,6 +315,8 @@
         "degree": "100",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -316,7 +332,7 @@
         "price": 4,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 2, 
@@ -343,6 +359,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -358,7 +376,7 @@
         "price": 4,
         "gender": "Male",
         "color": "White",
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 2, 
@@ -386,6 +404,8 @@
         "degree": "99",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -401,7 +421,7 @@
         "price": 3.8,
         "gender": "Male",
         "color": ["White", "Grey"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 2, 
@@ -429,6 +449,8 @@
         "degree": "99",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -444,7 +466,7 @@
         "price": 24,
         "gender": "Male",
         "color": ["White", "Grey", "Purple"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 2, 
@@ -472,6 +494,8 @@
         "degree": "99",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -487,7 +511,7 @@
         "price": 18.5,
         "gender": "Male",
         "color": ["Blue"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 2, 
@@ -515,6 +539,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -530,7 +556,7 @@
         "price": 30,
         "gender": "Male",
         "color": ["Green", "Blue"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 4,
         "amount": 1, 
@@ -558,6 +584,8 @@
         "degree": "100",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -573,7 +601,7 @@
         "price": 25.54,
         "gender": "Male",
         "color": ["White"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 4,
         "amount": 1, 
@@ -601,6 +629,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -616,7 +646,7 @@
         "price": 16.9,
         "gender": "Male",
         "color": ["Anchor"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 1, 
@@ -644,6 +674,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -659,7 +691,7 @@
         "price": 16.9,
         "gender": "Male",
         "color": ["Charcoal Heather"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 1, 
@@ -687,6 +719,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -702,7 +736,7 @@
         "price": 15.6,
         "gender": "Male",
         "color": ["Dark Teal Blue"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 6,
         "amount": 1, 
@@ -730,6 +764,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -745,7 +781,7 @@
         "price": 40,
         "gender": "Male",
         "color": ["Navy"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 8,
         "amount": 2, 
@@ -773,6 +809,8 @@
         "degree": "90",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -788,7 +826,7 @@
         "price": 35.59,
         "gender": "Male",
         "color": ["Dark Navy"],
-        "category": "shirt2",
+        "category": "shirt1",
         "status": "stock", 
         "quantity": 8,
         "amount": 2, 
@@ -817,6 +855,8 @@
         "degree": "100",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -860,6 +900,8 @@
         "degree": "90",
         "seller":
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -903,6 +945,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -946,6 +990,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -989,6 +1035,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1032,6 +1080,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1075,6 +1125,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1118,6 +1170,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1161,6 +1215,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1204,6 +1260,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1247,6 +1305,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1290,6 +1350,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1333,6 +1395,8 @@
         "degree": "95",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1380,6 +1444,8 @@
         "degree": 95,
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1395,7 +1461,7 @@
         "price": 25.90,
         "gender": "male",
         "color": ["Khaki Brown", "Grey", "Navy"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock", 
         "quantity": 3,
         "amount": 1,
@@ -1418,6 +1484,8 @@
         "degree": 96,
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1433,7 +1501,7 @@
         "price": 30.15,
         "gender": "male",
         "color": ["Caviar", "Black Iris"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 3,
@@ -1464,6 +1532,8 @@
  
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1479,7 +1549,7 @@
         "price": 21.5,
         "gender": "male",
         "color": "Mar Vista",
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 1,
         "amount": 1,
@@ -1500,9 +1570,10 @@
         "description": "An Amazon brand - A flat-front wrinkle-resistant dressy chino pant that offers classic style all week long",
         "size": "33",
         "degree": 99, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1518,7 +1589,7 @@
         "price": 22.09,
         "gender": "male",
         "color": ["Grey", "Navy", "Stone"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 4,
         "amount": 3,
@@ -1554,8 +1625,10 @@
         "size": 38,
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1570,7 +1643,7 @@
         "price": 48,
         "gender": "male",
         "color": ["Bronze", "Black"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 1,
@@ -1591,9 +1664,10 @@
         "description": "Perfect your stroke in comfort. This golf pant is enhanced with a swing flex waistband featuring four-way stretch for ultimate range of motion. Moisture-wicking fabric keeps you dry all day, while a uv-20 finish makes sure you play it safe each round.",
         "size": "35",
         "degree": 96, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1608,7 +1682,7 @@
         "price": 42.00,
         "gender": "male",
         "color": ["Asphault", "Cinder Block"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 2,
@@ -1637,8 +1711,10 @@
         "size": 30,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1653,7 +1729,7 @@
         "price": 36.55,
         "gender": "male",
         "color": ["Navy", "Black"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 5,
         "amount": 1,
@@ -1674,9 +1750,10 @@
         "description": "Since 1919 Champion has inspired athletes on and off the field with its authentic, American athletic apparel. From iconic Champion active wear to the latest in performance workout clothes for men, women and kids, you'll find quality sportswear for every level of play.",
         "size": 37,
         "degree": 88, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1691,7 +1768,7 @@
         "price": 30.45,
         "gender": "male",
         "color": ["Black"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 0,
@@ -1706,9 +1783,10 @@
         "description": "Closed bottom jersey men workout pants are made from 80% Cotton fabric, heavyweight fleece, breathable and quick dry. These mens sweatpants have 4-way stretch sports material to provide more comfortable feeling; when the movement is strong or the temperature is high, the moisture wicking cool dry fabric can take away the sweat of legs quickly. Heavyweight keeps you warm while you exercise. These casual mens jogger pants can be worn anywhere. Active quick-dri mens jersey sweatpants are elastic waist pants for men, breathable and perfect for the gym or anywhere else. Features: Skin-friendly material keeps your skin comfortable and lets your muscles breathe while the movement. Two hand pockets to securely store your essentials and the trendy looks elastic waistband with functional drawstring can be used freely Quick dry sleepwear pants for men, great for indoor and outdoor activities like jogging. If you're looking for a pair of athletic mens pants, joggers for men, mens sweat pants, with pockets, men's sports sweatpants, or just mens sweats, these Champion Big and Tall pants for men have you covered. Specifications: Material: 80% Cotton, 20% Polyester Sizes: Large tall, X-large big tall, 2X, 2x-tall, 3X, 3X- tall, 4X, 4X-tall, 5X & 6X Colors: Black sweatpants for men, Charcoal Heather grey sweatpants, Navy & white men's big & tall pants.",
         "size": 36,
         "degree": 96, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1723,7 +1801,7 @@
         "price": 29.99,
         "gender": "male",
         "color": ["Heather Grey", "Charcoal"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock", 
         "quantity": 2,
         "amount": 2,
@@ -1752,8 +1830,10 @@
         "size": 36,
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1768,7 +1848,7 @@
         "price": 30.96,
         "gender": "male",
         "color": ["Black", "White"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 4,
         "amount": 1,
@@ -1789,9 +1869,10 @@
         "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
         "size": 35,
         "degree": 98, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1806,7 +1887,7 @@
         "price": 25.01,
         "gender": "male",
         "color": ["Black", "Grey"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 3,
@@ -1834,9 +1915,10 @@
         "description": "We've always loved traditional men's chino pants, but we wanted a little more - something that would keep the classic men’s tailored pants style, but add in subtle enhancements that would keep us comfortable no matter what we got into. vineyard vines slim fit Breaker Pants keep all of the tried-and-true style of a pair of classic chinos, with the added stretch and out-of-the-box softness that we (and you) love. They’re the perfect choice for wherever life takes you, as golf pants for men, casual pants for men and so much more. Make sure it’s vineyard vines quality: look for “Ships from and sold by Amazon” at the top of the page, under the product title. At vineyard vines, we think every day should feel this good! We are family owned and operated since 1998. For over 20 years, we’ve been sharing the gift of the Vineyard with everyone we can. Care Instructions: machine wash.",
         "size": 35,
         "degree": 96, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1851,7 +1933,7 @@
         "price": 32,
         "gender": "male",
         "color": ["Black", "Grey", "White"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 4,
         "amount": 2,
@@ -1880,8 +1962,10 @@
         "size": 34,
         "degree": 89,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1896,7 +1980,7 @@
         "price": 78.88,
         "gender": "male",
         "color": ["Black", "White"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 0,
@@ -1925,8 +2009,10 @@
         "size": 36,
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1941,7 +2027,7 @@
         "price": 39.66,
         "gender": "male",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 2,
@@ -1970,8 +2056,10 @@
         "size": 36,
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -1986,7 +2074,7 @@
         "price": 39.66,
         "gender": "male",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 2,
@@ -2018,8 +2106,10 @@
         "size": "6 Long",
         "degree": 99,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2034,7 +2124,7 @@
         "price": 50.55,
         "gender": "female",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 3,
@@ -2063,8 +2153,10 @@
         "size": "12",
         "degree": 89,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2079,7 +2171,7 @@
         "price": 30.69,
         "gender": "female",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 1,
@@ -2101,8 +2193,10 @@
         "size": 14,
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2117,7 +2211,7 @@
         "price": 36.94,
         "gender": "female",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 2,
         "amount": 0,
@@ -2131,9 +2225,10 @@
         "description": "The Fruit of the Loom women's essentials collection features must-have pieces that are essential to every woman's wardrobe. Dressed up for work, or dressed down for comfort, these versatile pieces provide day to night wear ability. The live in open bottom pant is perfect for relaxing with the family or running around town. Made of super soft French terry fabric, you are sure to feel cozy and look stylish. These pants come in a variety of sophisticated colors to elevate your existing wardrobe, and you can find coordinating pieces in the essentials collection to complement this quintessential item.",
         "size": 12,
         "degree": 96, 
-
-"seller": 
+            "seller": 
          {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2148,7 +2243,7 @@
         "price": 23.88,
         "gender": "female",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 3,
         "amount": 2,
@@ -2170,8 +2265,10 @@
         "size": 13,
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2186,7 +2283,7 @@
         "price": 18.66,
         "gender": "female",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 5,
         "amount": 0,
@@ -2202,8 +2299,10 @@
         "size": 13,
         "degree": 97,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2218,7 +2317,7 @@
         "price": 23.51,
         "gender": "female",
         "color": ["Black", "White", "Caviar"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 3,
         "amount": 2,
@@ -2247,8 +2346,10 @@
         "size": 15,
         "degree": 97,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2263,7 +2364,7 @@
         "price": 30.55,
         "gender": "female",
         "color": ["Black", "Grey", "Navy"],
-        "category": "pant2",
+        "category": "pant1",
         "status": "stock",
         "quantity": 5,
         "amount": 3,
@@ -2298,8 +2399,10 @@
         "size": "11 x 4 x 7 inches; 3.2 Ounces",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2358,14 +2461,16 @@
         ]
       },
       {
-        "id": "hat2",
+        "id": "hat1",
         "name": "Sunday Afternoons Women's Coronado Hat",
         "description": "Beach hat or fedora now you don't have to choose. the Coronado is a floppy-brimmed fedora that follows anywhere you go. The fabric blend makes for warm weather comfort and easy packability. Decorative leatherette hatband dresses you up for the links or a late brunch.",
         "size": "medium",
         "degree": 98,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2423,8 +2528,10 @@
         "size": "12 x 4 x 8 inches; 4 Ounces",
         "degree": 99,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2475,8 +2582,10 @@
         "size": "XL",
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2491,7 +2600,7 @@
         "price": 29,
         "gender": "Male",
         "color": "White",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 12,
         "amount": 6,
@@ -2527,8 +2636,10 @@
         "size": "One Size",
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2543,7 +2654,7 @@
         "price": 45,
         "gender": "Male",
         "color": "White",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 9,
         "amount": 11,
@@ -2579,8 +2690,10 @@
         "size": "Cap Height 4.5 Inches, Hat Brim 2.7 Inches, Cap Circumference 22.4-23.6 Inches",
         "degree": 98,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2595,7 +2708,7 @@
         "price": 45,
         "gender": "Male",
         "color": "Black",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 11,
         "amount": 6,
@@ -2631,8 +2744,10 @@
         "size": "Small-Medium",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2647,7 +2762,7 @@
         "price": 45,
         "gender": "Male",
         "color": "Black",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 20,
         "amount": 12,
@@ -2683,8 +2798,10 @@
         "size": "One Size",
         "degree": 98,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2735,8 +2852,10 @@
         "size": "One Size",
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2751,7 +2870,7 @@
         "price": 42,
         "gender": "Male",
         "color": "Jasper",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 28,
         "amount": 13,
@@ -2787,8 +2906,10 @@
         "size": "Medium-Large",
         "degree": 92,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2803,7 +2924,7 @@
         "price": 48,
         "gender": "Male",
         "color": "Black",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 21,
         "amount": 18,
@@ -2839,8 +2960,10 @@
         "size": "9.84 x 7.87 x 3.94 inches; 0.71 Ounces",
         "degree": 97,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2855,7 +2978,7 @@
         "price": 35,
         "gender": "Male",
         "color": "Grey/Black Herringbone",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 22,
         "amount": 18,
@@ -2891,8 +3014,10 @@
         "size": " One Size",
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2907,7 +3032,7 @@
         "price": 60,
         "gender": "Male",
         "color": "Black",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 21,
         "amount": 28,
@@ -2943,8 +3068,10 @@
         "size": "22.6 - 23",
         "degree": 98,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -2959,7 +3086,7 @@
         "price": 18,
         "gender": "Male",
         "color": "Black",
-        "category": "hat2",
+        "category": "hat1",
         "status": "Stock",
         "quantity": 18,
         "amount": 12,
@@ -2995,8 +3122,10 @@
         "size": "9 x 5 x 1 inches; 1.8 Ounces",
         "degree": 96,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3047,8 +3176,10 @@
         "size": "One Size",
         "degree": 89,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3092,8 +3223,10 @@
         "size": "Lens Width: 53mm | Lens Height: 44mm | Temple Length: 150mm | Nose Bridge: 22mm",
         "degree": 85,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3137,8 +3270,10 @@
         "size": "Lens width: 56 millimeters; Lens height: 47 millimeters; Bridge: 19 millimeters; Arm: 140 millimeters",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3182,8 +3317,10 @@
         "size": "7 x 3 x 2 inches; 0.5 Ounces",
         "degree": 98,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3230,6 +3367,8 @@
         "degree": "90%",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3274,8 +3413,10 @@
         "size": 44,
         "degree": 91,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3319,8 +3460,10 @@
         "size": 42,
         "degree": 99,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3364,8 +3507,10 @@
         "size": "36",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3409,8 +3554,10 @@
         "size": 41,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3454,8 +3601,10 @@
       "size": 44,
       "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3499,8 +3648,10 @@
         "size": 42,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3544,8 +3695,10 @@
         "size": 41,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3589,8 +3742,10 @@
         "size": 43,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3634,8 +3789,10 @@
         "size": 37,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3680,6 +3837,8 @@
         "degree": "90%",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3724,8 +3883,10 @@
         "size": 37,
         "degree": 91,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3769,8 +3930,10 @@
         "size": 36,
         "degree": 99,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3814,8 +3977,10 @@
         "size": "36",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3859,8 +4024,10 @@
         "size": 35,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3904,8 +4071,10 @@
         "size": 43,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3949,8 +4118,10 @@
         "size": 37,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -3994,8 +4165,10 @@
         "size": 39,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4039,8 +4212,10 @@
         "size": 43,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4084,8 +4259,10 @@
         "size": 37,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4130,6 +4307,8 @@
         "degree": "90%",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4174,8 +4353,10 @@
         "size": 37,
         "degree": 91,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4219,8 +4400,10 @@
         "size": 36,
         "degree": 99,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4264,8 +4447,10 @@
         "size": "36",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4309,8 +4494,10 @@
         "size": 35,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4354,8 +4541,10 @@
         "size": 43,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4399,8 +4588,10 @@
         "size": 37,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4444,8 +4635,10 @@
         "size": 39,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4489,8 +4682,10 @@
         "size": 43,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4534,8 +4729,10 @@
         "size": 37,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4580,6 +4777,8 @@
         "degree": "90%",
         "seller": 
           {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4624,8 +4823,10 @@
         "size": 37,
         "degree": 91,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4669,8 +4870,10 @@
         "size": 36,
         "degree": 99,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4714,8 +4917,10 @@
         "size": "36",
         "degree": 95,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4759,8 +4964,10 @@
         "size": 35,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4804,8 +5011,10 @@
         "size": 43,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4849,8 +5058,10 @@
         "size": 37,
         "degree": 93,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4894,8 +5105,10 @@
         "size": 39,
         "degree": 90,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4939,8 +5152,10 @@
         "size": 43,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
@@ -4984,8 +5199,10 @@
         "size": 37,
         "degree": 94,
  
- "seller": 
+        "seller": 
         {
+            "name": "",
+            "address": "63rd, Chuck Road, Washington",
             "name": "Jane Smith",
             "address": "Washington"
           }
