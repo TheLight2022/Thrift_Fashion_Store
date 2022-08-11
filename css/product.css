@@ -44,7 +44,7 @@ body {
 #product {
     background-color: white;
 }
-.cate-item {
+.cate-item + .cate-item{
     margin-top: 50px;
 }
 .cate-item h3{
@@ -234,4 +234,9 @@ body {
     bottom: 0;
     visibility: visible;
     opacity: 1;
+}
+.button-reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

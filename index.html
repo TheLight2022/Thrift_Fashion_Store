@@ -91,19 +91,16 @@
                         <img src="img/logo.png" alt="logo">
                     </div>
                     <div class="col l-7 m-12 c-12" id="header-form-search">
-                        <form ng-submit="filterProducts()" class="row" method="get">
-                            <select name="" class="col l-3 m-3 c-3">
+                        <form ng-submit="filterProducts()" class="row" method="get" action="">
+                            <select name="categories" class="col l-3 m-3 c-3" ng-model="categories">
                                 <option value="">All Categories</option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
+                                <option value="{{category.name}}" ng-repeat="category in categorys">{{category.name}}</option>
                             </select>
                             <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-7" ng-model="search">
                             <div class="group-button-search col l-2 m-2 c-2" >
                                 <div class="row">
-                                    <button class="button-reset col l-6 m-6 c-6"><i class="fa-solid fa-xmark"></i></button>
-                                    <button class="button-search col l-6 m-6 c-6"><i class="fa-regular fa-magnifying-glass"></i></button>
+                                    <button ng-click="resetValue()" class="button-reset col l-6 m-6 c-6"><i class="fa-solid fa-xmark"></i></button>
+                                    <button type="submit" class="button-search col l-6 m-6 c-6"><i class="fa-regular fa-magnifying-glass"></i></button>
                                 </div>
                             </div>
                         </form>
@@ -194,6 +191,7 @@
     <script src="./js/controllers/HeaderController.js"></script>
     <!-- Services -->
     <script src="./js/services/products.js"></script>
+    <script src="./js/services/categories.js"></script>
     <!-- Directives -->
     <script src="./js/directives/item-product.js"></script>
 </body>

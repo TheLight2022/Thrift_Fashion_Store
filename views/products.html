@@ -17,12 +17,7 @@
                 <div class="cate-item">
                     <h3>Categories</h3>
                     <ul>
-                        <li><a href="">Dining Chairs</a></li>
-                        <li><a href="">Sofas & Armchairs</a></li>
-                        <li><a href="">Banquette</a></li>
-                        <li><a href="">Bar Height Stools</a></li>
-                        <li><a href="">Office Chairs</a></li>
-                        <li> <a href="">Kids Chairs</a></li>
+                        <li ng-repeat="category in categorys"><a href="">{{category.name}}</a></li>
                     </ul>
                 </div>
                 <div class="cate-item">
@@ -60,11 +55,12 @@
             </div>
             <div class="col l-9">
                 <div class="row product-list">
+                    <p ng-show="noProduct">Search product not found!</p>
                     <div ng-repeat="product in dataProducts" class="product-list-item col l-4">
                         <item-product item="product"></item-product>
                     </div>
                 </div>
-                <div class="product-page">
+                <div class="product-page" ng-show="dataPage">
                     <a href="" class="active">1</a>
                     <a href="">2</a>
                     <a href="">3</a>
