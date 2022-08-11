@@ -7,3 +7,4 @@ const listLanguage = $('#list-language');
 languages.onclick = function (){
     listLanguage.style.visibility = 'visible';
 }
+

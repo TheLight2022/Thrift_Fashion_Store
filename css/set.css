@@ -191,6 +191,10 @@ header {
     cursor: pointer;
 }
 .button-reset {
+    display: flex !important;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 .group-button-search .button-reset::after {
@@ -491,3 +495,5 @@ footer {
         display: none;
     }
 }
+
+

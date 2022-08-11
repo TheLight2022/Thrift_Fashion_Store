@@ -280,3 +280,6 @@ div.faq-right div.active {
 div.faq-right-item {
     display: none;
 }
+summary svg{
+    transform: translateY(-4px);
+}
