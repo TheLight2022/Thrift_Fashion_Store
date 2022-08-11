@@ -4541,11 +4541,11 @@
         "price": 25,
         "gender": "Male",
         "color": "Brown",
-        "category": "belt",
+        "category": "Blet",
         "status": "stock",
         "quantity": "8",
         "amount": "10",
-        "tag": ["belt", "men'sbelt", "lacoste"],
+        "tag": ["Blet", "men'sbelt", "lacoste"],
         "rate": [
             {
                 "id_user": "belt1_user_01",
@@ -4582,11 +4582,11 @@
         "price": 35,
         "gender": "Male",
         "color": "Black",
-        "category": "belt",
+        "category": "Blet",
         "status": "stock",
         "quantity": "8",
         "amount": "10",
-        "tag": ["belt", "men'sbelt", "coslate"],
+        "tag": ["Blet", "men'sbelt", "coslate"],
         "rate": [
             {
                 "id_user": "belt2_user_01",
@@ -4623,11 +4623,11 @@
         "price": 32,
         "gender": "Male",
         "color": "Black",
-        "category": "belt",
+        "category": "Blet",
         "status": "stock",
         "quantity": "8",
         "amount": "10",
-        "tag": ["belt", "men'sbelt", "lacoste"],
+        "tag": ["Blet", "men'sbelt", "lacoste"],
         "rate": [
             {
                 "id_user": "belt3_user_01",
@@ -4664,11 +4664,11 @@
         "price": 40,
         "gender": "Male",
         "color": "Brown",
-        "category": "belt",
+        "category": "Blet",
         "status": "stock",
         "quantity": "8",
         "amount": "10",
-        "tag": ["belt", "men'sbelt", "Adidas"],
+        "tag": ["Blet", "men'sbelt", "Adidas"],
         "rate": [
             {
                 "id_user": "belt4_user_01",
@@ -4705,11 +4705,11 @@
         "price": 25,
         "gender": "Male",
         "color": "Khaki Brown",
-        "category": "belt",
+        "category": "Blet",
         "status": "stock",
         "quantity": "8",
         "amount": "10",
-        "tag": ["belt", "men'sbelt", "amazon"],
+        "tag": ["Blet", "men'sbelt", "amazon"],
         "rate": [
             {
                 "id_user": "belt5_user_01",
@@ -4746,7 +4746,7 @@
         "price": 200,
         "gender": "Male",
         "color": "White",
-        "category": "jacket",
+        "category": "Jacket",
         "status": "stock",
         "quantity": "12",
         "amount": "6",
@@ -4787,11 +4787,11 @@
         "price": 150,
         "gender": "Male",
         "color": "Blue Heather",
-        "category": "jacket",
+        "category": "Jacket",
         "status": "stock",
         "quantity": "23",
         "amount": "12",
-        "tag": ["Blue Heather", "jacket"],
+        "tag": ["Blue Heather", "Jacket"],
         "rate": [
             {
                 "id_user": "jacket2_user_1",
@@ -4828,11 +4828,11 @@
         "price": 120,
         "gender": "Male",
         "color": "Blue",
-        "category": "jacket",
+        "category": "Jacket",
         "status": "stock",
         "quantity": "12",
         "amount": "6",
-        "tag": ["jacket"],
+        "tag": ["Jacket"],
         "rate": [
             {
                 "id_user": "jacket3_user_1",
@@ -4869,11 +4869,11 @@
         "price": 140,
         "gender": "Male",
         "color": "Black",
-        "category": "jacket",
+        "category": "Jacket",
         "status": "stock",
         "quantity": "11",
         "amount": "4",
-        "tag": ["jacket"],
+        "tag": ["Jacket"],
         "rate": [
             {
                 "id_user": "jacket4_user_1",
@@ -4910,11 +4910,11 @@
         "price": 180,
         "gender": "Male",
         "color": "Coyote",
-        "category": "jacket",
+        "category": "Jacket",
         "status": "stock",
         "quantity": "14",
         "amount": "3",
-        "tag": ["jacket"],
+        "tag": ["Jacket"],
         "rate": []
         },
     {
