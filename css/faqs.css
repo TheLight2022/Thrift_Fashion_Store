@@ -95,8 +95,6 @@ div.faq-right-item p {
 
 #policy {
     color: #333333;
-    display: flex;
-    flex-wrap: wrap;
     counter-reset: my-counter;
     list-style: none;
     margin: 0;
