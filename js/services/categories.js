@@ -1,5 +1,5 @@
-app.factory('dataProducts', ['$http', function($http) {
-    return $http.get('../../json/main.json')
+app.factory('dataCategories', ['$http', function($http) {
+    return $http.get('../../json/categories.json')
       .success(function(data) {
         console.log(data);
         return data;

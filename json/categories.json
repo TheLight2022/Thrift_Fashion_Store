@@ -5,7 +5,7 @@
   },
   {
     "id": "fglass1",
-    "name": "Fashion Glass"
+    "name": "Glass"
   },
   {
     "id": "pant1",
@@ -21,10 +21,10 @@
   },
   {
     "id": "belt",
-    "name": "Belt"
+    "name": "belt"
   },
   {
     "id": "jacket",
-    "name": "Jacket"
+    "name": "jacket"
   }
 ]
