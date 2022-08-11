@@ -16,11 +16,15 @@
     "name": "Shirt"
   },
   {
-    "id": "shoe1",
-    "name": "Shoe"
+    "id": "shoes1",
+    "name": "Shoes"
   },
   {
     "id": "belt",
     "name": "Belt"
+  },
+  {
+    "id": "jacket",
+    "name": "Jacket"
   }
 ]
