@@ -33,7 +33,10 @@ app.config(function($routeProvider) {
     .when('/register', {
       // controller: 'BlogController',
       templateUrl: 'views/register.html'
-  })
+    })
+    .when('/products',{
+        templateUrl: 'views/products.html'
+    })
     
 
     
