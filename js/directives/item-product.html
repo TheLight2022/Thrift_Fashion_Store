@@ -1,0 +1,16 @@
+<div class="product-hover">
+    <a class="product-heart" href=""><i class="fa-regular fa-heart"></i></a>
+    <img ng-src="img/{{item.image[0]}}" alt="products">
+    <a class="product-cart" href="">
+        <span><i class="fa-regular fa-bag-shopping"></i></span>
+        <p>+ Quick View</p>
+    </a>
+</div>
+<a class="product-text" href="">
+    <h4>{{item.name}}</h4>
+    <strong>{{item.price | currency}}</strong>
+    <div class="product-bottom">
+        <p><span><i class="fa-solid fa-location-dot"></i></span>{{item.seller[0].address}}</p>
+        <p><span><i class="fa-solid fa-circle-user"></i></span>{{item.seller[0].name}}</p>
+    </div>
+</a>
