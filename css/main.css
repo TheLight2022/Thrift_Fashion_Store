@@ -225,9 +225,9 @@ header {
         display: none;
     }
     #header-midle-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
     }
     #header-midle {
         margin: 0 auto;
@@ -239,7 +239,7 @@ header {
     /*  Header End  */
 }
 /*Tablet: width >= 740px and width < 1024px*/
-@media (min-width: 740px) and (max-width: 1024px){
+@media (min-width: 740px){
     /*  Header  */
     #header-top-container {
         margin: 0 20px;

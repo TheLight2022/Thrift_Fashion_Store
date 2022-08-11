@@ -9,6 +9,10 @@
     .blog-content {
         text-align: center;
     }
+    .breadcrumb{
+        text-align: center;
+        margin-left: -4em;
+    }
 }
 
 @media(max-width: 992px){
@@ -32,7 +36,12 @@ body{
     padding-bottom: 1.4em;    
 }
 
-/* .breadcrumb-text a {
+.breadcrumb-text{
+    margin-left: 4em;
+    padding: 2em 0;
+}
+
+.breadcrumb-text a {
     display: inline-block;
     font-size: 16px;
     color: #b2b2b2;
@@ -40,15 +49,21 @@ body{
     position: relative;
 }
 
+.breadcrumb-text span{
+    display: inline-block;
+    color: #1B2F44;
+    font-weight: 500;
+}
+
 .breadcrumb-text a:after {
     position: absolute;
     right: -18px;
     top: 0px;
-    content: ">";
+    content: "›";
     font-family: "FontAwesome";
     font-size: 16px;
     color: #b2b2b2;
-} */
+}
 
 .banner{
     background-image: url("../img/blog/bannerall.png");
