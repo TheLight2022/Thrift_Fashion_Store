@@ -11,7 +11,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "No brand",
+        "brand": "No Brand",
         "image": ["shirt1_1.webp", "shirt1_2.webp", "shirt1_3.webp", "shirt1_4.webp", "shirt1_5.webp", "shirt1_6.webp"],
         "date": [
             {
@@ -53,7 +53,7 @@
             "address": "London"
           }
         ,
-        "brand": "Bulk",
+        "brand": "bulk",
         "image": ["shirt2.webp", "shirt3.webp", "shirt4.webp", "shirt5.webp", "shirt6.webp", "shirt7.webp"],
         "date": [
             {
@@ -137,7 +137,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "Street Wear",
+        "brand": "StrWear",
         "image": ["shirt18.webp", "shirt19.webp", "shirt20.webp", "shirt21.webp","shirt22.webp"],
         "date": [
             {
@@ -179,7 +179,7 @@
             "address": "London"
           }
         ,
-        "brand": "Frog Suit",
+        "brand": "FrgSuit",
         "image": ["shirt23.webp", "shirt24.webp", "shirt25.webp", "shirt26.webp","shirt27.webp"],
         "date": [
             {
@@ -221,7 +221,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Rugby Stripe",
+        "brand": "RGBStripe",
         "image": ["shirt28.webp", "shirt29.webp", "shirt30.webp", "shirt31.webp","shirt32.webp"],
         "date": [
             {
@@ -263,7 +263,7 @@
             "address": "London"
           }
         ,
-        "brand": "Sublimated",
+        "brand": "SBLT",
         "image": ["shirt33.webp", "shirt34.webp", "shirt35.webp", "shirt36.webp","shirt37.webp", "shirt38.webp"],
         "date": [
             {
@@ -305,7 +305,7 @@
             "address": "London"
           }
         ,
-        "brand": "No brand",
+        "brand": "No Brand",
         "image": ["shirt39.webp", "shirt40.webp", "shirt41.webp", "shirt42.webp","shirt43.webp", "shirt44.webp"],
         "date": [
             {
@@ -347,7 +347,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "No brand",
+        "brand": "No Brand",
         "image": ["shirt45.webp"],
         "date": [
             {
@@ -390,7 +390,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Pullover",
+        "brand": "POVR",
         "image": ["shirt48.webp"],
         "date": [
             {
@@ -433,7 +433,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "No brand",
+        "brand": "No Brand",
         "image": ["shirt52.jpg", "shirt53.jpg", "shirt54.jpg"],
         "date": [
             {
@@ -476,7 +476,7 @@
             "address": "London"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt55.jpg", "shirt56.jpg"],
         "date": [
             {
@@ -519,7 +519,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Backcountry",
+        "brand": "BCTR",
         "image": ["shirt57.jpg", "shirt58.jpg", "shirt59.jpg", "shirt69.jpg"],
         "date": [
             {
@@ -562,7 +562,7 @@
             "address": "London"
           }
         ,
-        "brand": "Van Heusen",
+        "brand": "VHS",
         "image": ["shirt61.jpg", "shirt62.jpg", "shirt63.jpg"],
         "date": [
             {
@@ -605,7 +605,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt64.jpg", "shirt65.jpg"],
         "date": [
             {
@@ -648,7 +648,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Buck Camp",
+        "brand": "buck",
         "image": ["shirt66.jpg", "shirt67.jpg", "shirt68.jpg"],
         "date": [
             {
@@ -691,7 +691,7 @@
             "address": "Germany"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt69.jpg", "shirt70.jpg", "shirt71.jpg", "shirt72.jpg"],
         "date": [
             {
@@ -734,7 +734,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Gildan",
+        "brand": "GLD",
         "image": ["shirt73.jpg", "shirt74.jpg"],
         "date": [
             {
@@ -777,7 +777,7 @@
             "address": "London"
           }
         ,
-        "brand": "Dickies",
+        "brand": "DCK",
         "image": ["shirt75.jpg", "shirt76.jpg", "shirt77.jpg", "shirt78.jpg", "shirt79.jpg"],
         "date": [
             {
@@ -821,7 +821,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt80.jpg", "shirt81.jpg", "shirt82.jpg", "shirt82.jpg", "shirt83.jpg", "shirt84.jpg"],
         "date": [
             {
@@ -864,7 +864,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "Yummie",
+        "brand": "YMM",
         "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
         "date": [
             {
@@ -907,7 +907,7 @@
             "address": "London"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
         "date": [
             {
@@ -950,7 +950,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt91.jpg", "shirt92.jpg", "shirt93.jpg", "shirt94.jpg", "shirt95.jpg", "shirt96.jpg"],
         "date": [
             {
@@ -993,7 +993,7 @@
             "address": "London"
           }
         ,
-        "brand": "Under Armour",
+        "brand": "UDAM",
         "image": ["shirt97.jpg", "shirt98.jpg", "shirt99.jpg", "shirt100.jpg", "shirt101.jpg", "shirt102.jpg"],
         "date": [
             {
@@ -1036,7 +1036,7 @@
             "address": "Boston"
           }
         ,
-        "brand": "Berkshire",
+        "brand": "BKSR",
         "image": ["shirt103.jpg", "shirt104.jpg"],
         "date": [
             {
@@ -1122,7 +1122,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "Breezy Tunic",
+        "brand": "BZTN",
         "image": ["shirt111.jpg", "shirt112.jpg", "shirt113.jpg", "shirt114.jpg"],
         "date": [
             {
@@ -1208,7 +1208,7 @@
             "address": "London"
           }
         ,
-        "brand": "Gildan",
+        "brand": "GLD",
         "image": ["shirt122.jpg", "shirt121.jpg"],
         "date": [
             {
@@ -1251,7 +1251,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["shirt123.jpg", "shirt124.jpg", "shirt125.jpg", "shirt126.jpg"],
         "date": [
             {
@@ -1294,7 +1294,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Buck",
+        "brand": "buck",
         "image": ["shirt127.jpg", "shirt128.jpg", "shirt129.jpg", "shirt130.jpg", "shirt131.jpg"],
         "date": [
             {
@@ -1337,7 +1337,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "Buck",
+        "brand": "buck",
         "image": ["shirt132.jpg", "shirt133.jpg", "shirt134.jpg", "shirt135.jpg", "shirt136.jpg", "shirt137.jpg", "shirt138.jpg"],
         "date": [
             {
@@ -1384,7 +1384,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Essentials",
+        "brand": "ESTL",
         "image": ["golf_pant01.jpg", "golf_pant02.jpg", "golf_pant03.jpg", "golf_pant04.jpg", "golf_pant05.jpg"],
         "date": [
             {
@@ -1422,7 +1422,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "PGA",
+        "brand": "pga",
         "image": ["pant_02-01.jpg", "pant_02-02.jpg", "pant_02-03.jpg", " pant_02-04.jpg"],
         "date": [
             {
@@ -1468,7 +1468,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "HUDSON",
+        "brand": "hudson",
         "image": ["pant_03-01.jpg", "pant_03-02.jpg", "pant_03-03.jpg", "pant_03-04.jpg"],
         "date": [
             {
@@ -1506,7 +1506,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Amazon",
+        "brand": "AMZ",
         "image": ["pant_04-01.jpg", "pant_04-02.jpg", "pant_04-03.jpg", "pant_04-04.jpg"],
         "date": [
             {
@@ -1559,7 +1559,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Lee Men's",       "image": ["pant_05-01.jpg", "pant_05-01.jpg", "pant_05-01.jpg"],
+        "brand": "LMS",       "image": ["pant_05-01.jpg", "pant_05-01.jpg", "pant_05-01.jpg"],
         "date": [
             {
                 "sell": "20/07/2022",
@@ -1596,7 +1596,7 @@
             "address": "London"
           }
         ,
-        "brand": "IZOD",        "image": ["pant_06-01.jpg", "pant_06-02.jpg", "pant_06-03.jpg"],
+        "brand": "izod",        "image": ["pant_06-01.jpg", "pant_06-02.jpg", "pant_06-03.jpg"],
         "date": [
             {
                 "sell": "21/07/2022",
@@ -1641,7 +1641,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "SPECIALMAGIC",       "image": ["pant_07-01.jpg", "pant_07-02.jpg", "pant_07-03.jpg"],
+        "brand": "SCMG",       "image": ["pant_07-01.jpg", "pant_07-02.jpg", "pant_07-03.jpg"],
         "date": [
             {
                 "sell": "14/07/2022",
@@ -1678,7 +1678,7 @@
             "address": "London"
           }
         ,
-        "brand": "Champion",        "image": ["pant_08-01.jpg", "pant_08-02.jpg", "pant_08-03.jpg"],
+        "brand": "CPN",        "image": ["pant_08-01.jpg", "pant_08-02.jpg", "pant_08-03.jpg"],
         "date": [
             {
                 "sell": "20/06/2022",
@@ -1709,7 +1709,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Champion",        "image": ["pant_09-01.jpg", "pant_09-02.jpg", "pant_09-03.jpg"],
+        "brand": "CPN",        "image": ["pant_09-01.jpg", "pant_09-02.jpg", "pant_09-03.jpg"],
         "date": [
             {
                 "sell": "30/06/2022",
@@ -1754,7 +1754,7 @@
             "address": "London"
           }
         ,
-        "brand": "Wangdo",       "image": ["pant_10-01.jpg", "pant_10-02.jpg", "pant_10-03.jpg"],
+        "brand": "WGD",       "image": ["pant_10-01.jpg", "pant_10-02.jpg", "pant_10-03.jpg"],
         "date": [
             {
                 "sell": "14/07/2022",
@@ -1791,7 +1791,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Essentials",        "image": ["pant_11-01.jpg", "pant_11-02.jpg", "pant_11-03.jpg", "pant_11-04.jpg"],
+        "brand": "ESTL",        "image": ["pant_11-01.jpg", "pant_11-02.jpg", "pant_11-03.jpg", "pant_11-04.jpg"],
         "date": [
             {
                 "sell": "20/07/2022",
@@ -1835,7 +1835,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "Goodthreads",        "image": ["pant_12-01.jpg", "pant_12-02.jpg", "pant_12-03.jpg"],
+        "brand": "GDTD",        "image": ["pant_12-01.jpg", "pant_12-02.jpg", "pant_12-03.jpg"],
         "date": [
             {
                 "sell": "18/07/2022",
@@ -1880,7 +1880,7 @@
             "address": "India"
           }
         ,
-        "brand": "Vineyard",       "image": ["pant_13-01.jpg", "pant_13-02.jpg", "pant_13-03.jpg"],
+        "brand": "VNY",       "image": ["pant_13-01.jpg", "pant_13-02.jpg", "pant_13-03.jpg"],
         "date": [
             {
                 "sell": "07/08/2022",
@@ -1925,7 +1925,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "IZOD",       "image": ["pant_14-01.jpg", "pant_14-02.jpg", "pant_14-03.jpg"],
+        "brand": "izod",       "image": ["pant_14-01.jpg", "pant_14-02.jpg", "pant_14-03.jpg"],
         "date": [
             {
                 "sell": "28/07/2022",
@@ -1970,7 +1970,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "IZOD",       "image": ["pant_15-01.jpg", "pant_15-02.jpg", "pant_05-01.jpg"],
+        "brand": "izod",       "image": ["pant_15-01.jpg", "pant_15-02.jpg", "pant_05-01.jpg"],
         "date": [
             {
                 "sell": "28/07/2022",
@@ -2018,7 +2018,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "Lee Women's",       "image": ["pant_16-01.jpg", "pant_16-02.jpg", "pant_16-03.jpg", "pant_16-04.jpg"],
+        "brand": "LWS",       "image": ["pant_16-01.jpg", "pant_16-02.jpg", "pant_16-03.jpg", "pant_16-04.jpg"],
         "date": [
             {
                 "sell": "28/07/2022",
@@ -2063,7 +2063,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Lee Women's",       "image": ["pant_17-01.jpg", "pant_17-02.jpg", "pant_17-03.jpg"],
+        "brand": "LWS",       "image": ["pant_17-01.jpg", "pant_17-02.jpg", "pant_17-03.jpg"],
         "date": [
             {
                 "sell": "28/07/2022",
@@ -2101,7 +2101,7 @@
             "address": "London"
           }
         ,
-        "brand": "Lee Women's",       "image": ["pant_18-01.jpg", "pant_18-02.jpg", "pant_18-03.jpg"],
+        "brand": "LWS",       "image": ["pant_18-01.jpg", "pant_18-02.jpg", "pant_18-03.jpg"],
         "date": [
             {
                 "sell": "28/07/2022",
@@ -2131,7 +2131,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Essentials",        "image": ["pant_19-01.jpg", "pant_19-02.jpg", "pant_19-03.jpg"],
+        "brand": "ESTL",        "image": ["pant_19-01.jpg", "pant_19-02.jpg", "pant_19-03.jpg"],
         "date": [
             {
                 "sell": "28/07/2022",
@@ -2169,7 +2169,7 @@
             "address": "Boston"
           }
         ,
-        "brand": "Hanes",       "image": ["pant_20-01.jpg", "pant_20-02.jpg", "pant_20-03.jpg"],
+        "brand": "HNS",       "image": ["pant_20-01.jpg", "pant_20-02.jpg", "pant_20-03.jpg"],
         "date": [
             {
                 "sell": "10/08/2022",
@@ -2201,7 +2201,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "Lee Women's",       "image": ["pant_21-01.jpg", "pant_21-02.jpg", "pant_21-03.jpg"],
+        "brand": "LWS",       "image": ["pant_21-01.jpg", "pant_21-02.jpg", "pant_21-03.jpg"],
         "date": [
             {
                 "sell": "18/07/2022",
@@ -2246,7 +2246,7 @@
             "address": "London"
           }
         ,
-        "brand": "Woven",       "image": ["pant_22-01.jpg", "pant_22-02.jpg", "pant_22-03.jpg"],
+        "brand": "HNS",       "image": ["pant_22-01.jpg", "pant_22-02.jpg", "pant_22-03.jpg"],
         "date": [
             {
                 "sell": "01/07/2022",
@@ -2297,7 +2297,7 @@
             "address": "London"
           }
         ,
-        "brand": "Nike",       "image": ["hat1.jpg", "hat2.jpg", "hat3.jpg"],
+        "brand": "NK",       "image": ["hat1.jpg", "hat2.jpg", "hat3.jpg"],
         "date": [
           {
             "sell": "05/06/2022",
@@ -2363,7 +2363,7 @@
             "address": "London"
           }
         ,
-        "brand": "Coronado",       "image": ["hat4.jpg", "hat5.jpg", "hat6.jpg"],
+        "brand": "CRND",       "image": ["hat4.jpg", "hat5.jpg", "hat6.jpg"],
         "date": [
           {
             "sell": "07/01/2022",
@@ -2422,7 +2422,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Nike",       "image": ["hat7.jpg", "hat8.jpg", "hat9.jpg", "hat10.jpg"],
+        "brand": "NK",       "image": ["hat7.jpg", "hat8.jpg", "hat9.jpg", "hat10.jpg"],
         "date": [
           {
             "sell": "30/04/2022",
@@ -2474,7 +2474,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "BOSS",       "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
+        "brand": "boss",       "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
         "date": [
           {
             "sell": "30/04/2022",
@@ -2526,7 +2526,7 @@
             "address": "London"
           }
         ,
-        "brand": "Tommy",       "image": ["hat14.jpg", "hat15.jpg", "hat16.jpg"],
+        "brand": "TM",       "image": ["hat14.jpg", "hat15.jpg", "hat16.jpg"],
         "date": [
           {
             "sell": "02/09/2022",
@@ -2630,7 +2630,7 @@
             "address": "Ha Noi"
           }
         ,
-        "brand": "EvoShield",       "image": ["hat20.jpg", "hat21.jpg"],
+        "brand": "EVSD",       "image": ["hat20.jpg", "hat21.jpg"],
         "date": [
           {
             "sell": "10/08/2022",
@@ -2734,7 +2734,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Carhartt",       "image": ["hat26.jpg"],
+        "brand": "CRH",       "image": ["hat26.jpg"],
         "date": [
           {
             "sell": "01/01/2022",
@@ -2786,7 +2786,7 @@
             "address": "London"
           }
         ,
-        "brand": "Oakley",       "image": ["hat27.jpg", "hat28.jpg", "hat29.jpg"],
+        "brand": "OKL",       "image": ["hat27.jpg", "hat28.jpg", "hat29.jpg"],
         "date": [
           {
             "sell": "20/12/2022",
@@ -3091,7 +3091,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "Sunnies",       "image": ["glass1.jpg", "glass2.jpg", "glass3.jpg"],
+        "brand": "SN",       "image": ["glass1.jpg", "glass2.jpg", "glass3.jpg"],
         "date": [
           {
             "sell": "11/07/2022",
@@ -3227,7 +3227,7 @@
             "address": "London"
           }
         ,
-        "brand": "Jordan",
+        "brand": "JRD",
         "image": ["b.01.webp", "b.02.webp", "b.03.webp"],
         "date": [
           {
@@ -3273,7 +3273,7 @@
             "address": "London"
           }
         ,
-        "brand": "Jordan",       "image": ["a.01.webp", "a.02.webp", "a.03.webp"],
+        "brand": "JRD",       "image": ["a.01.webp", "a.02.webp", "a.03.webp"],
         "date": [
           {
             "sell": "28/09/2021",
@@ -3318,7 +3318,7 @@
             "address": "London"
           }
         ,
-        "brand": "Jordan",       "image": ["c.01.webp", "c.02.webp", "c.03.webp"],
+        "brand": "JRD",       "image": ["c.01.webp", "c.02.webp", "c.03.webp"],
         "date": [
           {
             "sell": "14/7/2022",
@@ -3408,7 +3408,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Jordan",       "image": ["e.01.webp", "e.02.webp", "e.03.webp"],
+        "brand": "JRD",       "image": ["e.01.webp", "e.02.webp", "e.03.webp"],
         "date": [
           {
             "sell": "8/8/2022",
@@ -3453,7 +3453,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Nike",     "image": ["f.01.webp", "f.02.webp", "f.03.webp"],
+        "brand": "Nk",     "image": ["f.01.webp", "f.02.webp", "f.03.webp"],
       "date": [
         {
           "sell": "10/8/2022" ,
@@ -3498,7 +3498,7 @@
             "address": "London"
           }
         ,
-        "brand": "Nike",       "image": ["f.02.webp", "f.01.webp", "f.03.webp"],
+        "brand": "Nk",       "image": ["f.02.webp", "f.01.webp", "f.03.webp"],
         "date": [
           {
             "sell": "9/8/2022" ,
@@ -3543,7 +3543,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Nike",       "image": ["h.01.webp", "h.02.webp", "h.03.webp"],
+        "brand": "Nk",       "image": ["h.01.webp", "h.02.webp", "h.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -3633,7 +3633,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Nike",       "image": ["1.01.webp", "1.02.webp", "1.03.webp"],
+        "brand": "Nk",       "image": ["1.01.webp", "1.02.webp", "1.03.webp"],
         "date": [
           {
             "sell": "11/8/2022" ,
@@ -3677,7 +3677,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Newbalance",
+        "brand": "NWBL",
         "image": ["0.01.webp", "0.02.webp", "0.03.webp"],
         "date": [
           {
@@ -3723,7 +3723,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Rebook",       "image": ["2.01.webp", "2.02.webp", "2.03.webp"],
+        "brand": "RB",       "image": ["2.01.webp", "2.02.webp", "2.03.webp"],
         "date": [
           {
             "sell": "28/09/2021",
@@ -3858,7 +3858,7 @@
             "address": "London"
           }
         ,
-        "brand": "D rose",       "image": ["5.01.webp", "5.02.webp", "5.03.webp"],
+        "brand": "DR",       "image": ["5.01.webp", "5.02.webp", "5.03.webp"],
         "date": [
           {
             "sell": "8/8/2022",
@@ -4038,7 +4038,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "Nike",       "image": ["9.01.webp", "9.02.webp", "9.03.webp"],
+        "brand": "NK",       "image": ["9.01.webp", "9.02.webp", "9.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4083,7 +4083,7 @@
             "address": "London"
           }
         ,
-        "brand": "Rebook",       "image": ["10.01.webp", "10.02.webp", "10.03.webp"],
+        "brand": "RB",       "image": ["10.01.webp", "10.02.webp", "10.03.webp"],
         "date": [
           {
             "sell": "11/8/2022" ,
@@ -4173,7 +4173,7 @@
             "address": "London"
           }
         ,
-        "brand": "Nike",       "image": ["12.01.webp", "12.02.webp", "12.03.webp"],
+        "brand": "NK",       "image": ["12.01.webp", "12.02.webp", "12.03.webp"],
         "date": [
           {
             "sell": "28/09/2021",
@@ -4308,7 +4308,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "D rose",       "image": ["15.01.webp", "15.02.webp", "15.03.webp"],
+        "brand": "DR",       "image": ["15.01.webp", "15.02.webp", "15.03.webp"],
         "date": [
           {
             "sell": "8/8/2022",
@@ -4353,7 +4353,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Under Armour",       "image": ["16.01.webp", "16.02.webp", "16.03.webp"],
+        "brand": "UDAR",       "image": ["16.01.webp", "16.02.webp", "16.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4398,7 +4398,7 @@
             "address": "Paris"
           }
         ,
-        "brand": "Jordan",       "image": ["17.01.webp", "17.02.webp", "17.03.webp"],
+        "brand": "JRD",       "image": ["17.01.webp", "17.02.webp", "17.03.webp"],
         "date": [
           {
             "sell": "9/8/2022" ,
@@ -4443,7 +4443,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Jordan",       "image": ["18.01.webp", "18.02.webp", "18.03.webp"],
+        "brand": "JRD",       "image": ["18.01.webp", "18.02.webp", "18.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4488,7 +4488,7 @@
             "address": "London"
           }
         ,
-        "brand": "Newbalance",       "image": ["19.01.webp", "19.02.webp", "19.03.webp"],
+        "brand": "NWBL",       "image": ["19.01.webp", "19.02.webp", "19.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4533,7 +4533,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "Newbalance",       "image": ["20.01.webp", "20.02.webp", "20.03.webp"],
+        "brand": "NWBL",       "image": ["20.01.webp", "20.02.webp", "20.03.webp"],
         "date": [
           {
             "sell": "11/8/2022" ,
@@ -4577,7 +4577,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Newbalance",
+        "brand": "NWBL",
         "image": ["21.01.webp", "21.02.webp", "21.03.webp"],
         "date": [
           {
@@ -4623,7 +4623,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "fila",       "image": ["22.01.webp", "22.02.webp", "22.03.webp"],
+        "brand": "FILA",       "image": ["22.01.webp", "22.02.webp", "22.03.webp"],
         "date": [
           {
             "sell": "28/09/2021",
@@ -4668,7 +4668,7 @@
             "address": "London"
           }
         ,
-        "brand": "fila",       "image": ["23.01.webp", "23.02.webp", "23.03.webp"],
+        "brand": "FILA",       "image": ["23.01.webp", "23.02.webp", "23.03.webp"],
         "date": [
           {
             "sell": "14/7/2022",
@@ -4713,7 +4713,7 @@
             "address": "London"
           }
         ,
-        "brand": "Newbalance",       "image": ["24.01.webp", "24.02.webp", "24.03.webp"],
+        "brand": "NWBL",       "image": ["24.01.webp", "24.02.webp", "24.03.webp"],
         "date": [
           {
             "sell": "7/10/2022",
@@ -4758,7 +4758,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Newbalance",       "image": ["25.01.webp", "25.02.webp", "25.03.webp"],
+        "brand": "NWBL",       "image": ["25.01.webp", "25.02.webp", "25.03.webp"],
         "date": [
           {
             "sell": "8/8/2022",
@@ -4803,7 +4803,7 @@
             "address": "Washington"
           }
         ,
-        "brand": "Newbalance",       "image": ["26.01.webp", "26.02.webp", "26.03.webp"],
+        "brand": "NWBL",       "image": ["26.01.webp", "26.02.webp", "26.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4848,7 +4848,7 @@
             "address": "London"
           }
         ,
-        "brand": "fila",       "image": ["27.01.webp", "27.01.webp", "27.01.webp"],
+        "brand": "FILA",       "image": ["27.01.webp", "27.01.webp", "27.01.webp"],
         "date": [
           {
             "sell": "9/8/2022" ,
@@ -4893,7 +4893,7 @@
             "address": "London"
           }
         ,
-        "brand": "fila",       "image": ["28.01.webp", "28.02.webp", "28.03.webp"],
+        "brand": "FILA",       "image": ["28.01.webp", "28.02.webp", "28.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4938,7 +4938,7 @@
             "address": "Berlin"
           }
         ,
-        "brand": "fila",       "image": ["29.01.webp", "29.02.webp", "29.03.webp"],
+        "brand": "FILA",       "image": ["29.01.webp", "29.02.webp", "29.03.webp"],
         "date": [
           {
             "sell": "10/8/2022" ,
@@ -4983,7 +4983,7 @@
             "address": "London"
           }
         ,
-        "brand": "fila",       "image": ["30.01.webp", "30.02.webp", "30.03.webp"],
+        "brand": "FILA",       "image": ["30.01.webp", "30.02.webp", "30.03.webp"],
         "date": [
           {
             "sell": "11/8/2022" ,
