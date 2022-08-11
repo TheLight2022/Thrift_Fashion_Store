@@ -214,7 +214,7 @@
         "name": "Quang Anh",
         "address": "TP Ho Chi Minh, Viet Nam"
       },
-    "brand": "Champion",
+    "brand": "CPN",
     "image": ["jacket1.jpg", "jacket2.jpg", "jacket3.jpg"],
     "date": [
       {
@@ -238,106 +238,106 @@
         "rating_by_star": "5"
       },
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket1_user_2",
+        "comment": "I have got more compliments about this jacket and is just the weight that I wanted, just like the weight of a garbage sack BUT the logos make it very fancy",
         "image": "",
         "rating_by_star": "5"
       }
     ]
   },
   {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
+    "id": "jacket02",
+    "name": "Amazon Essentials Men's Full-Zip Polar Fleece Jacket",
+    "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "size": "Medium",
+    "degree": "98",
     "seller": {
       "name": "Quang Anh",
       "address": "TP Ho Chi Minh, Viet Nam"
     },
-    "brand": "",
-    "image": [],
+    "brand": "AMZ",
+    "image": ["jacket4.jpg", "jacket5.jpg", "jacket6.jpg"],
     "date": [
       {
         "sell": "09/08/2022",
         "update": "09/09/2022"
       }
     ],
-    "price": ,
+    "price": 150,
     "gender": "Male",
-    "color": "",
+    "color": "Blue Heather",
     "category": "jacket",
     "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
+    "quantity": "23",
+    "amount": "12",
+    "tag": ["Blue Heather", "jacket"],
     "rate": [
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket2_user_1",
+        "comment": "After two or three wash cycles now, the fuzz ball shedding issue seems to be going away.\nUpdate: a couple of months later, as I feared, visible signs of wear. Elbows are shiny. I have to conclude the product is not a good value even at its well-below-average price.",
         "image": "",
-        "rating_by_star": "5"
+        "rating_by_star": "2"
       },
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket2_user_2",
+        "comment": "I've been wearing Polar fleece since the Army place this into their inventory in 2005. Not only does this keep you warm but is so snugly and comfortable when you sleep. I've worn fleece clothing on the coldest and snowy mountain tops of Afghanistan and it has always kept me warm. If you've ever been stationed in Germany during the winter then you know how cold it gets there but with Fleece sweater I didn't even need a Jacket, its perfect for any condition. I prefer Fleece over cotton cause it wont wont absorb the sweat and soak the material and it wont shrink on you. Love me some Fleece!!",
         "image": "",
         "rating_by_star": "5"
       }
     ]
   },
   {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
+    "id": "jacket03",
+    "name": "Marmot Men’s PreCip Jacket",
+    "description": "The PreCip Jacket is reliable, value-oriented, full-function rainwear for backcountry and urban travelers alike. The PreCip Men's Rain Jacket features Marmot's comfortable and breathable NanoPro waterproofing technology. NanoPro coating is comprised of densely packed pores small enough to keep water droplets from getting in, but big enough to let water vapor out—providing cool, dry comfort even as your activity level increases.",
+    "size": "Large",
+    "degree": "98",
     "seller": {
       "name": "Quang Anh",
       "address": "TP Ho Chi Minh, Viet Nam"
     },
-    "brand": "",
-    "image": [],
+    "brand": "No Brand",
+    "image": ["jacket7", "jacket8.jpg", "jacket9.jpg"],
     "date": [
       {
         "sell": "09/08/2022",
         "update": "09/09/2022"
       }
     ],
-    "price": ,
+    "price": 120,
     "gender": "Male",
-    "color": "",
+    "color": "Blue",
     "category": "jacket",
     "status": "stock",
-    "quantity": "",
-    "amount": "",
-    "tag": ["belt", "men'sbelt", "lacoste"],
+    "quantity": "12",
+    "amount": "6",
+    "tag": ["jacket"],
     "rate": [
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket3_user_1",
+        "comment": "Great value for the price. Light weight, packable, hood stashes in collar, breathable, pit zips nice for extra breathability. Feels sticky on bare arms, when wearing short sleeve shirt.",
         "image": "",
         "rating_by_star": "5"
       },
       {
-        "id_user": "",
-        "comment": "",
+        "id_user": "jacket3_user_2",
+        "comment": "A little background: I work as a bicycle messenger in Minneapolis year-round so I was looking for the lightest, most breathable rain jacket out there. This definitely fits the bill, and while you're still gonna sweat while being active in this jacket, it does better than most at breathing out vapor, so I stayed comfortable.",
         "image": "",
-        "rating_by_star": "5"
+        "rating_by_star": "3"
       }
     ]
   },
   {
-    "id": "",
-    "name": "",
-    "description": "",
-    "size": "",
-    "degree": "",
+    "id": "jacket04",
+    "name": "Amazon Essentials Women's Lightweight",
+    "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of women's apparel includes cashmere sweaters, fleece and down jackets, and more, including plus-size options. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
+    "size": "Medium",
+    "degree": "97",
     "seller": {
       "name": "Quang Anh",
       "address": "TP Ho Chi Minh, Viet Nam"
     },
-    "brand": "",
+    "brand": "ESTL",
     "image": [],
     "date": [
       {

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "buck",
+    "name": "BUCK"
+  },
+  {
+    "id": "moq",
+    "name": "MOQ"
+  },
+  {
+    "id": "StrWear",
+    "name": "Street Wear"
+  },
+  {
+    "id": "FrgSuit",
+    "name": "Frog Suit"
+  },
+  {
+    "id": "RGBStripe",
+    "name": "Rugby Stripe"
+  },
+  {
+    "id": "SBLT",
+    "name": "Sublimated"
+  },
+  {
+    "id": "POVR",
+    "name": "Pullover"
+  },
+  {
+    "id": "ESTL",
+    "name": "Essentials"
+  },
+  {
+    "id": "BCTR",
+    "name": "Backcountry"
+  },
+  {
+    "id": "VHS",
+    "name": "Van Heusen"
+  },
+  {
+    "id": "GLD",
+    "name": "Gildan"
+  },
+  {
+    "id": "DCK",
+    "name": "Dickies"
+  },
+  {
+    "id": "YMM",
+    "name": "Yummie"
+  },
+  {
+    "id": "UDAM",
+    "name": "Under Armour"
+  },
+  {
+    "id": "BKSR",
+    "name": "Berkshire"
+  },
+  {
+    "id": "BZTN",
+    "name": "Breezy Tunic"
+  },
+  {
+    "id": "pga",
+    "name": "PGA"
+  },
+  {
+    "id": "hudson",
+    "name": "HUDSON"
+  },
+  {
+    "id": "AMZ",
+    "name": "Amazon"
+  },
+  {
+    "id": "LMS",
+    "name": "Lee Men's"
+  },
+  {
+    "id": "izod",
+    "name": "IZOD"
+  },
+  {
+    "id": "SCMG",
+    "name": "SPECIALMAGIC"
+  },
+  {
+    "id": "CPN",
+    "name": "Champion"
+  },
+  {
+    "id": "WGD",
+    "name": "Wangdo"
+  },
+  {
+    "id": "GDTD",
+    "name": "Goodthreads"
+  },
+  {
+    "id": "VNY",
+    "name": "Vineyard"
+  },
+  {
+    "id": "LWS",
+    "name": "Lee Women's"
+  },
+  {
+    "id": "HNS",
+    "name": "Hanes"
+  },
+  {
+    "id": "NK",
+    "name": "Nike"
+  },
+  {
+    "id": "CRND",
+    "name": "Coronado"
+  },
+  {
+    "id": "boss",
+    "name": "BOSS"
+  },
+  {
+    "id": "TM",
+    "name": "Tommy"
+  },
+  {
+    "id": "EVSD",
+    "name": "EvoShield"
+  },
+  {
+    "id": "CRH",
+    "name": "Carhartt"
+  },
+  {
+    "id": "OKL",
+    "name": "Oakley"
+  },
+  {
+    "id": "Adidas",
+    "name": "Adidas"
+  },
+  {
+    "id": "Roxy",
+    "name": "Roxy"
+  },
+  {
+    "id": "SN",
+    "name": "Sunnies"
+  },
+  {
+    "id": "JRD",
+    "name": "Jordan"
+  },
+  {
+    "id": "NWBL",
+    "name": "Newbalance"
+  },
+  {
+    "id": "RB",
+    "name": "Rebook"
+  },
+  {
+    "id": "Airmax",
+    "name": "Airmax"
+  },
+  {
+    "id": "DR",
+    "name": "D Rose"
+  },
+  {
+    "id": "Martin",
+    "name": "Martin"
+  },
+  {
+    "id": "Dame",
+    "name": "Dame"
+  },
+  {
+    "id": "UDAR",
+    "name": "Under Armour"
+  },
+  {
+    "id": "FILA",
+    "name": "FILA"
+  }
+]
