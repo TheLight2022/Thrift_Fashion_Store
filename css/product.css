@@ -235,3 +235,8 @@ body {
     visibility: visible;
     opacity: 1;
 }
+.button-reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
