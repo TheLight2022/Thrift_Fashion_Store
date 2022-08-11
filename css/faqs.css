@@ -9,19 +9,21 @@ body {
     position: relative;
     min-height:  230px;
     background-attachment: fixed;
-    background-position: center; margin: 10px 0;
-    background-repeat: no-repeat; width: 100%;
+    background-position: center;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    width: 100%;
     background-size: cover;
 }
 #banner:after {
     content:'';
     position:absolute;
     left:0; top:0;
-    width:100%; height:100%;
+    width:100%;
+    height:100%;
     display:inline-block;
     background-color: #1b1e21;
     opacity: 0.7;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 );
 }
 
 #banner-text {
@@ -39,6 +41,11 @@ body {
 h3{
     padding-left: 10%;
     font-size: 36px !important;
+    line-height: 1em !important;
+}
+#policy h3 {
+    padding-left: unset !important;
+    margin-left: 4% !important;
 }
 .help-list ul li a {
     text-decoration: none;
@@ -53,18 +60,16 @@ ul li {
 
 .help-list ul li a:hover {
     color: lightskyblue;
-    font-size: 26px;
 }
-div.faq-right h3, div.faq-left h3 {
-    font-size: 30px;
-}
+
 div.faq-right h6 {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 8px;
 }
-div.faq-right p, .terms p {
-    font-size: 12px;
-    font-weight: 100;
+div.faq-right-item p {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .faq .faq-left .contact-info {
@@ -88,8 +93,7 @@ div.faq-right p, .terms p {
     transform: scaleY(1);
 }
 
-.faq .bd-right .bd-content .policy {
-    line-height: 20px;
+#policy {
     color: #333333;
     display: flex;
     flex-wrap: wrap;
@@ -98,15 +102,14 @@ div.faq-right p, .terms p {
     margin: 0;
     padding: 0;
 }
-.faq .bd-right .bd-content .policy li {
+#policy li {
     counter-increment: my-counter;
     display: flex;
     width: 100%;
-    font-size: 0.9rem;
     margin-bottom: 0.5rem;
 }
 
-.faq .bd-right .bd-content .policy li::before {
+#policy li::before {
     content: "0" counter(my-counter);
     font-weight: 200;
     line-height: 1;
@@ -115,7 +118,7 @@ div.faq-right p, .terms p {
     width: 10px;
     color: #adb5bd;
 }
-.faq .bd-right .bd-content .policy li.overten::before {
+#policy li.overten::before {
     content: counter(my-counter);
     font-weight: 200;
     line-height: 1;
@@ -143,7 +146,7 @@ div.faq-right p, .terms p {
     font-size: 14px;
 }
 .qna {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     border-bottom: #adb5bd 1px solid;
     margin-left: 10%;
 }
