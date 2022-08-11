@@ -8,3 +8,36 @@ body{
     margin: 0;
     width: 100%;
 }
+
+
+
+/*Footer*/
+footer {
+    background-color: #fcfcfc;
+    padding: 30px 0;
+}
+.footer-item h4{
+    color: #1B2F44;
+    font-size: 18px;
+}
+.footer-item p {
+    color: #1B2F44;
+}
+.form-footer input {
+    padding: 15px 30px;
+    border: 2px solid #1B2F44;
+}
+.form-footer button {
+    padding: 15px 30px;
+    background-color: #1B2F44;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    left: -5px;
+}
+.subFooter {
+    background-color: #1B2F44;
+    color: white;
+}
+/*Footer end*/
