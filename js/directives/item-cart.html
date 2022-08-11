@@ -2,13 +2,13 @@
     <div class="col l-5 m-5 c-3 pd-t-b-20">
         <div class="row">
             <div class="col l-3 m-4 c-12 cart-img">
-                <img src="img/shirt20.webp" alt="">
+                <img ng-src="img/{{item.image[0]}}" alt="">
             </div>
             <div class="col l-9 m-8 c-12 cart-content">
-                <h4>Greenwich Coffee</h4>
+                <h4>{{item.name}}</h4>
                 <span>Estimated delivery within 7 working days</span>
                 <div class="remove">
-                    <button>Remove</button>
+                    <button ng-click="item.removeItem()">Remove</button>
                 </div>
             </div>
         </div>
@@ -16,13 +16,13 @@
     <div class="col l-2 m-2 c-2">
         <div class="cart-qty center">
             <div class="cart-qty-content">
-                <input class="cart-input" min="1" type="number" onblur="cartTotal(this)" onclick="cartTotal(this)" value="1">
+                <input ng-model="item.qty" class="cart-input" min="1" type="number" ng-change="item.changeQty(item.id)">
             </div>
         </div>
     </div>
     <div class="col l-1 m-1 c-3">
         <div class="cart-unit_price center">
-            <span>$2199.00</span>
+            <span>{{item.price | currency}}</span>
         </div>
     </div>
     <div class="col l-2 m-2 c-1">
@@ -32,7 +32,7 @@
     </div>
     <div class="col l-2 m-2 c-3">
         <div class="cart-total center">
-            <span>$59373.00</span>
+            <span>{{item.qty*item.price | currency}}</span>
         </div>
     </div>
 </div>

@@ -17,15 +17,22 @@ function barClick() {
     overlay.classList.toggle('active');
     barList.classList.toggle('active');
 }
-barButton.onclick = function () {
-    barClick()
+if(barButton){
+    barButton.onclick = function () {
+        barClick()
+    }
 }
-buttonCloseBar.onclick = function () {
-    barClick()
+if(buttonCloseBar){
+    buttonCloseBar.onclick = function () {
+        barClick()
+    }
 }
-overlay.onclick = function () {
-    barClick()
+if(overlay){
+    overlay.onclick = function () {
+        barClick()
+    }
 }
+
 
 
 // Banner

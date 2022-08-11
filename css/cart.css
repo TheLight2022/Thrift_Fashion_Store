@@ -105,13 +105,16 @@ body {
 
  
 #cart  .btn {
+    text-decoration: none;
     width: 80%;
     height: 55px;
     background-color: #4C709B;
     border: none;
     color: #fff;
     font-size: 15px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin:  0 auto;
 }
 

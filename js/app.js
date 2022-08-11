@@ -37,12 +37,13 @@ app.config(function($routeProvider) {
     .when('/products',{
         templateUrl: 'views/products.html',
     })
-    .when('/products/:id', {
-      templateUrl: 'views/products.html',
-    })
     .when('/FAQs',{
       templateUrl: 'views/FAQs.html',
     })
+    .when('/checkout',{
+      templateUrl: 'views/checkout.html',
+    })
+
     
 
     
