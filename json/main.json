@@ -2059,51 +2059,6 @@
       ]
     },
     {
-      "id": "hat3",
-      "name": "Nike Metal Swoosh H86",
-      "description": "The Nike Metal Swoosh H86 Adjustable Hat Is Made From 100% Recycled Polyester. It Has An Adjustable Closure For Maximum Comfort And A Truly Personalised Fit. The Embroidered Eyelets Provide Optimal Airflow And Ventilation And Thus Let You Keep A Cool Head During A Match Or During The Day.",
-      "size": "12 x 4 x 8 inches; 4 Ounces",
-      "degree": 99,
-      "brand": "NK",       "image": ["hat7.jpg", "hat8.jpg", "hat9.jpg", "hat10.jpg"],
-      "date": [
-        {
-          "sell": "30/04/2022",
-          "update": "01/06/2022"
-        }
-      ],
-      "price": 35,
-      "gender": "Female",
-      "color": "White",
-      "category": "Hats",
-      "status": "Stock",
-      "quantity": 7,
-      "amount": 11,
-      "tag": ["Nike Cap", "Men's cap"],
-      "rate": [
-        {
-          "id_user": "hat3_user_01",
-          "comment": "I love it! It fits perfect and also readjustable.",
-          "image": ["hatComment5.jpg", "hatComment6.jpg"],
-          "video": [],
-          "rating_by_star": 5
-        },
-        {
-          "id_user": "hat3_user_02",
-          "comment": "I bought this hat in blue and black, and they are my absolute favorite to workout in. I have a rather large head for a female, so its hard to find hats that fit. These are super lightweight, dry very quickly, and are easily adjustable. The bill is nice and long and wide so I don't have to worry about the sun on my face outside as well. My only hope is that they add more colors, I will buy them all!! A+++",
-          "image": [],
-          "video": [],
-          "rating_by_star": 5
-        },
-        {
-          "id_user": "hat3_user_03",
-          "comment": "This is the second time I purchased this cap. It's perfect for strenuous exercise in the gym as it will not cause your head to overheat. I love that it's lightweight, fits my head well and looks pretty. I think it's perfect for the ladies, but I am not sure how it would fit a guy.",
-          "image": [],
-          "video": [],
-          "rating_by_star": 5
-        }
-      ]
-    },
-    {
       "id": "hat4",
       "name": "BOSS Men's Logo Twill Cap",
       "description": "Boss Green basic base cap with embroidered logo on front in contrast color.",
@@ -3924,43 +3879,6 @@
             },
             {
                 "id_user": "belt2_user_02",
-                "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
-                "image": "",
-                "rating_by_star": "5"
-            }
-        ]
-    },
-    {
-        "id": "belt03",
-        "name": "Amazon Essentials Men's Dress Belt",
-        "description": "This classic belt features 7 round belt strap holes and an adjustable buckle closure for all day comfort and perfect fit. Belt width is 1.25\" to easily fit through your belt loops.",
-        "size": "125cm",
-        "degree": 95,
-        "brand": "telacos",
-        "image": ["belt7.jpg", "belt8.jpg", "belt9.jpg"],
-        "date": [
-            {
-                "sell": "09/08/2022",
-                "update": "09/09/2022"
-            }
-        ],
-        "price": 32,
-        "gender": "Male",
-        "color": "Black",
-        "category": "Blet",
-        "status": "stock",
-        "quantity": "8",
-        "amount": "10",
-        "tag": ["Blet", "men'sbelt", "lacoste"],
-        "rate": [
-            {
-                "id_user": "belt3_user_01",
-                "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
-                "image": "",
-                "rating_by_star": "5"
-            },
-            {
-                "id_user": "belt3_user_02",
                 "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
                 "image": "",
                 "rating_by_star": "5"
