@@ -125,6 +125,10 @@ div.faq-right-item .terms p{
     line-height: 1.6em;
 }
 
+div.faq-right-item .product h3{
+    margin-left: 0;
+}
+
 div.faq-right-item h3{
     margin-left: -2.4em;
 }
