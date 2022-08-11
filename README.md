@@ -5,6 +5,10 @@ Our project aims to create a website for a secondhand store where they can sell 
 
 author: The light team
 
+member: 
+
+nguyenkhanh08112003
+
 -------------------------------------------------------
 Prerequisites
 
