@@ -1,1 +1,105 @@
-{{message}}
+<div id="cart">
+    <div class="grid wide">
+        <div class="row border-bottom">
+            <div class="col l-5 m-5 c-3 pd-t-b-20">
+                <h6>Product</h6>
+            </div>
+            <div class="col l-2 m-2 c-2 pd-t-b-20 center">
+                <h6>Quantity</h6>
+            </div>
+            <div class="col l-1 m-1 c-3 pd-t-b-20 center">
+                <h6>Unit Price</h6>
+            </div>
+            <div class="col l-2 m-2 c-1 pd-t-b-20 center">
+                <h6>Unit discount</h6>
+            </div>
+            <div class="col l-2 m-2 c-3 pd-t-b-20 center">
+                <h6>Total</h6>
+            </div>
+        </div>
+        <div class="row border-bottom">
+            <div class="col l-5 m-5 c-3 pd-t-b-20">
+                <div class="row">
+                    <div class="col l-3 m-4 c-12 cart-img">
+                        <img src="img/shirt20.webp" alt="">
+                    </div>
+                    <div class="col l-9 m-8 c-12 cart-content">
+                        <h4>Greenwich Coffee</h4>
+                        <span>Estimated delivery within 7 working days</span>
+                        <div class="remove">
+                            <button>Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2 m-2 c-2">
+                <div class="cart-qty center">
+                    <div class="cart-qty-content">
+                        <input class="cart-input" min="1" type="number" onblur="cartTotal(this)"
+                            onclick="cartTotal(this)" value="1">
+                    </div>
+                </div>
+            </div>
+            <div class="col l-1 m-1 c-3">
+                <div class="cart-unit_price center">
+                    <span>$2199.00</span>
+                </div>
+            </div>
+            <div class="col l-2 m-2 c-1">
+                <div class="cart-unit_discount center">
+                    <span>$0.00</span>
+                </div>
+            </div>
+            <div class="col l-2 m-2 c-3">
+                <div class="cart-total center">
+                    <span>$59373.00</span>
+                </div>
+            </div>
+        </div>
+
+        <item-card item=""></item-card>
+
+        <div class="row">
+            <div class="col l-5 m-5 c-5">
+                <div class="sub-mg">
+                    <div class="subtotal">
+                        <div class="row">
+                            <div class="col l-9 m-9 c-9">
+                                <h6>Shipping fee</h6>
+                                <span>Free shipping for orders above $750.00</span>
+                            </div>
+                            <div class="col l-3 m-3 c-3">
+                                <h6>$0.00</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">BACK TO SHOPPING</button>
+                </div>
+            </div>
+            <div class="col l-2 m-2 c-2">
+                <div class="wall"><span>|</span></div>
+            </div>
+            <div class="col l-5 m-5 c-5">
+                <div class="sub-mg">
+                    <div class="subtotal">
+                        <div class="row">
+                            <div class="col l-9 m-9 c-7">
+                                <h6>Number of items</h6>
+                                <h6>Discount</h6>
+                                <h6>Subtotal</h6>
+                            </div>
+                            <div class="col l-3 m-3 c-5">
+                                <h6>50</h6>
+                                <h6>$3405.30</h6>
+                                <h6>$71895.70</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">CHECK OUT</button>
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
+</div>
