@@ -170,6 +170,8 @@ body {
     padding-top: 10px;
     /* margin-bottom: 5px; */
     margin: 0 25px 20px 0px;
+    outline: none;
+
 }
 
 #contact-us .contact-content-form .contact-btn {
