@@ -17,7 +17,7 @@ Chu Tien Dat
 
 Vu Viet Quy
 
-Nguy Danh Hung
+Nguyen Danh Hung
 
 -------------------------------------------------------
 Prerequisites
