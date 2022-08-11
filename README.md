@@ -1,4 +1,4 @@
-                               Welcome to readme-md-generator 👋
+                                                 Welcome to readme-md-generator 👋
 -------------------------------------------------------
 
 Our project aims to create a website for a secondhand store where they can sell their wares.
@@ -25,5 +25,9 @@ Directory Structure
  - Thrift_Fashion_Store/json  In the fifth subfolder name views all html filde saved in it
  
 ---------------------------------------------------------
-Code Contributors
+🤝 Code Contributors
 This project exists thanks to all the people who contribute. [[Contribute](https://github.com/TheLight2022/Thrift_Fashion_Store/graphs/contributors)].
+
+---------------------------------------------------------
+Show your support
+Please ⭐️ this repository if this project helped you!
