@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: unset !important;
+}
+#banner {
+    position: relative;
+    min-height:  230px;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 10px 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+#banner:after {
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%;
+    height:100%;
+    display:inline-block;
+    background-color: #1b1e21;
+    opacity: 0.7;
+}
+
+#banner-text {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-50%);
+    z-index: 1;
+    text-align: center;
+}
+#banner-text h2 {
+    color: #FDF9F5;
+}
+
+h3{
+    padding-left: 10%;
+    font-size: 36px !important;
+    line-height: 1em !important;
+}
+#policy h3 {
+    padding-left: unset !important;
+    margin-left: 4% !important;
+}
+.help-list ul li a {
+    text-decoration: none;
+    color: #1b1e21;
+    font-size: 24px;
+}
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    line-height: 2em;
+}
+
+.help-list ul li a:hover {
+    color: lightskyblue;
+}
+
+div.faq-right h6 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+div.faq-right-item p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.faq .faq-left .contact-info {
+    padding: 10px;
+}
+.faq .faq-left .contact-info a:hover {
+    color: #b2b2b2;
+}
+.container .faq-left>ul>li::after {
+    position: absolute;
+    content: "";
+    left: 15px;
+    height: 25px;
+    transform: scaleY(0);
+    width: 1px;
+    background: #1b2f44;
+    transition: 0.2s cubic-bezier(1, 0.84, 0.75, 1);
+}
+
+.faq-left>ul>li:hover::after, .faq-left>ul>.active::after {
+    transform: scaleY(1);
+}
+
+#policy {
+    color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    counter-reset: my-counter;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#policy li {
+    counter-increment: my-counter;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+#policy li::before {
+    content: "0" counter(my-counter);
+    font-weight: 200;
+    line-height: 1;
+    font-size: 2rem;
+    margin-right: 5rem;
+    width: 10px;
+    color: #adb5bd;
+}
+#policy li.overten::before {
+    content: counter(my-counter);
+    font-weight: 200;
+    line-height: 1;
+    font-size: 2rem;
+    margin-right: 5rem;
+    width: 10px;
+    color: #adb5bd;
+}
+.faq-right:first-child {
+    margin-top: 0;
+}
+.faq-right:last-child {
+    margin-bottom: 50px;
+}
+.faq-right:last-child button {
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    background-color: #1B2F44;
+}
+.faq-right:last-child button a {
+    color: #FDF9F5;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.qna {
+    margin-bottom: 35px;
+    border-bottom: #adb5bd 1px solid;
+    margin-left: 10%;
+}
+.qna img {
+    max-width: 100%;
+}
+details > summary {
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 2.5em;
+}
+details p {
+    margin-left: 28px;
+}
+details .hide {
+    display: none
+}
+details[open] .hide {
+    display: block;
+}
+details[open] .show {
+    display: none;
+}
+details summary > * {
+    display: inline;
+}
+details > summary {
+    list-style-type: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+details > summary svg {
+    width: 18px; height: 18px; color: #adb5bd; opacity: 0.6;
+    margin-right: 10px;
+}
+details[open] summary ~ * {
+    animation: sweep .6s ease-in-out;
+}
+
+@keyframes sweep {
+    0%    {opacity: 0; transform: translateY(-10px)}
+    100%  {opacity: 1; transform: translateY(0)}
+}
+div.faq-left li.active a{
+    color: lightskyblue;
+    border-bottom: 1px solid lightskyblue;
+}
+div.faq-right div.active {
+    display: grid;
+}
+div.faq-right-item {
+    display: none;
+}
