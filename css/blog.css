@@ -28,9 +28,11 @@ body{
     margin: 0;
 }
 
+.container{
+    padding-bottom: 3em;
+}
 
 .banner{
-    top: 15%;
     background-image: url("../img/blog/bannerall.png");
     background-size: cover;
     background-attachment: fixed;
@@ -66,9 +68,9 @@ body{
     margin-top: 2.2em;
 }
 .a1{
+    padding-top: 1.8em;
     width: 100%;
     text-align: center;
-    padding-top: 23em;
     padding-bottom: 4em;
     height: 3.4em;
     margin-bottom: 1em;
