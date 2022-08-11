@@ -7,7 +7,12 @@ author: The light team
 
 member: 
 
-nguyenkhanh08112003
+Nguyen Ba Khanh
+Dinh Quang Anh
+Luong Viet Hoang
+Chu Tien Dat
+Vu Viet Quy
+Nguy Danh Hung
 
 -------------------------------------------------------
 Prerequisites
