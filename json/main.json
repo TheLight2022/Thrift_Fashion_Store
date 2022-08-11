@@ -5,12 +5,6 @@
       "description": "Design your own fishing shirts custom fishing wear hooded fishing shirt",
       "size": "XL",
       "degree": "90",
-      "seller": 
-        {
-          "name": "Jane Smith",
-          "address": "Washington"
-        }
-      ,
       "brand": "No Brand",
       "image": ["shirt1_1.webp", "shirt1_2.webp", "shirt1_3.webp", "shirt1_4.webp", "shirt1_5.webp", "shirt1_6.webp"],
       "date": [
@@ -47,12 +41,6 @@
       "description": "High Quality Custom Printing t-shirt Blank 100 Combed Cotton Men T shirt Wholesale plain In Bulk shirts for men",
       "size": ["S", "M", "L", "XL"],
       "degree": "90",
-      "seller": 
-        {
-          "name": "Jacky Chun",
-          "address": "London"
-        }
-      ,
       "brand": "Bulk",
       "image": ["shirt2.webp", "shirt3.webp", "shirt4.webp", "shirt5.webp", "shirt6.webp", "shirt7.webp"],
       "date": [
@@ -89,12 +77,6 @@
       "description": " No MOQ Custom Wholesale Sublimated Running Polyester Breathable Men Singlets",
       "size": "XXL",
       "degree": "90",
-      "seller": 
-        {
-          "name": "Nguyen Khanh",
-          "address": "Ha Noi"
-        }
-      ,
       "brand": "MOQ",
       "image": ["shirt8.webp", "shirt9.webp", "shirt10.webp", "shirt11.webp", "shirt12.webp", "shirt13.webp"],
       "date": [
@@ -131,12 +113,6 @@
       "description": "IHJ3682 Summer new printed casual round neck streetwear T-shirt for men",
       "size": "XXL",
       "degree": "99",
-      "seller": 
-        {
-          "name": "Jimmy Michael",
-          "address": "Paris"
-        }
-      ,
       "brand": "StrWear",
       "image": ["shirt18.webp", "shirt19.webp", "shirt20.webp", "shirt21.webp","shirt22.webp"],
       "date": [
@@ -173,12 +149,6 @@
       "description": "Tactical Military Shirt Men Long Sleeve Army Shirts Frog Suit Uniform Combat Clothing Men shirts",
       "size": ["XXL", "XL", "L", "M", "S"],
       "degree": "99",
-      "seller": 
-        {
-          "name": "Mark",
-          "address": "London"
-        }
-      ,
       "brand": "FrgSuit",
       "image": ["shirt23.webp", "shirt24.webp", "shirt25.webp", "shirt26.webp","shirt27.webp"],
       "date": [
@@ -215,12 +185,6 @@
       "description": "Custom Stripe Shirt Rugby 370gsm Long Sleeve Rugby Polo Men Rugby Stripe Polo Jersey",
       "size": ["XXL", "XL"],
       "degree": "90",
-      "seller": 
-        {
-          "name": "Michael Jack",
-          "address": "Washington"
-        }
-      ,
       "brand": "RGBStripe",
       "image": ["shirt28.webp", "shirt29.webp", "shirt30.webp", "shirt31.webp","shirt32.webp"],
       "date": [
@@ -257,12 +221,6 @@
       "description": "Custom design Sublimated printed button up long sleeves fishing shirt upf",
       "size": ["XXXL", "XXL", "XL"],
       "degree": "85",
-      "seller": 
-        {
-          "name": "Jimmy Button",
-          "address": "London"
-        }
-      ,
       "brand": "SBLT",
       "image": ["shirt33.webp", "shirt34.webp", "shirt35.webp", "shirt36.webp","shirt37.webp", "shirt38.webp"],
       "date": [
@@ -299,12 +257,6 @@
       "description": "Custom 100 cotton T-Shirt stock men's t-shirt custom shirt printing blank t-shirt for men 100 cotton",
       "size": ["XXXL", "XXL", "XL", "L", "M", "S"],
       "degree": "100",
-      "seller": 
-        {
-          "name": "Layla Jane",
-          "address": "London"
-        }
-      ,
       "brand": "No Brand",
       "image": ["shirt39.webp", "shirt40.webp", "shirt41.webp", "shirt42.webp","shirt43.webp", "shirt44.webp"],
       "date": [
@@ -341,12 +293,6 @@
       "description": "Wholesale High Quality Plain Yellow Cotton Button Up Short Sleeve Polo Sports Oversized Plain Women Tshirt",
       "size": ["L"],
       "degree": "90",
-      "seller": 
-        {
-          "name": "Gatsby",
-          "address": "Washington"
-        }
-      ,
       "brand": "No Brand",
       "image": ["shirt45.webp"],
       "date": [
@@ -384,12 +330,6 @@
       "description": "Oversized T Shirt For Men Casual Short Sleeve Hip Hop Print Plus Size Tee Shirt Pullover Mens T-shirt Top",
       "size": ["XL", "L"],
       "degree": "99",
-      "seller": 
-        {
-          "name": "Drake Bon",
-          "address": "Washington"
-        }
-      ,
       "brand": "POVR",
       "image": ["shirt48.webp"],
       "date": [
@@ -427,12 +367,6 @@
       "description": "RELAXED STRETCH FIT: The Legendary Stretch Flannel Shirt is designed with the same relaxed fit as our other shirts. In addition, it has a raised back yoke, and premium stretch fabric to give you full range of motion… even at full draw!",
       "size": ["XL", "L"],
       "degree": "99",
-      "seller": 
-        {
-          "name": "Buttler Jane",
-          "address": "Washington"
-        }
-      ,
       "brand": "No Brand",
       "image": ["shirt52.jpg", "shirt53.jpg", "shirt54.jpg"],
       "date": [
@@ -470,12 +404,6 @@
       "description": "100% cotton, imported, button closure, machine wash and This short-sleeve button-front shirt features an allover plaid print for versatile, everyday style",
       "size": ["XL", "L"],
       "degree": "99",
-      "seller": 
-        {
-          "name": "John Wick",
-          "address": "London"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt55.jpg", "shirt56.jpg"],
       "date": [
@@ -513,12 +441,6 @@
       "description": "60% cotton, 40% polyester, imported, INSECT REPELLENT: If you forgot your bug spray, we've got you covered, our tee includes a protective shield built right in and 100% SATISFACTION GUARANTEE: Designed in the USA, Legendary Whitetails is an American small business, we take pride in all our products, love it or send it back",
       "size": ["XL", "L"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Manna Jin",
-          "address": "Washington"
-        }
-      ,
       "brand": "BCTR",
       "image": ["shirt57.jpg", "shirt58.jpg", "shirt59.jpg", "shirt69.jpg"],
       "date": [
@@ -556,12 +478,6 @@
       "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Easy Care: Machine washable; no dry cleaning required", "Regular Fit: A generous cut through the shoulders, chest and waist for total comfort and a classic fit", "Button-Down Collar: More relaxed & casual collar; appears neat with or without neckwear so you can dress it up or down"],
       "size": ["L"],
       "degree": "100",
-      "seller": 
-        {
-          "name": "Linda Jane",
-          "address": "London"
-        }
-      ,
       "brand": "VHS",
       "image": ["shirt61.jpg", "shirt62.jpg", "shirt63.jpg"],
       "date": [
@@ -599,12 +515,6 @@
       "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Easy through chest and tapered through waist", "Soft, durable and cozy tumbled poplin for a lived-in feel right away", "Button-front closure"],
       "size": ["XL", "L"],
       "degree": "90",
-      "seller": 
-        {
-          "name": "Maria Vermillion",
-          "address": "Washington"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt64.jpg", "shirt65.jpg"],
       "date": [
@@ -642,12 +552,6 @@
       "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Contrasting corduroy lined collar and cuffs", "Great look and lasting durability", "Left chest pocket with pencil slot and button closure"],
       "size": ["XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Stephen Jim",
-          "address": "Washington"
-        }
-      ,
       "brand": "Bulk",
       "image": ["shirt66.jpg", "shirt67.jpg", "shirt68.jpg"],
       "date": [
@@ -685,12 +589,6 @@
       "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "This short-sleeve polo is made with comfortable pique fabric, a double-button placket, and ribbed cuffs for a classic look that never goes out of style", "Regular fit through the chest for a relaxed, unrestricted fit with a printed neck label to maximize comfort"],
       "size": ["XXL", "XL", "L", "M", "S"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Jame Gomez",
-          "address": "Germany"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt69.jpg", "shirt70.jpg", "shirt71.jpg", "shirt72.jpg"],
       "date": [
@@ -728,12 +626,6 @@
       "description": ["Solids: 100% Cotton; Ash Grey: 99% Cotton, 1% Polyester; Sport Grey and Antique Heathers: 90% Cotton, 10% Polyester; Safety Colors and Heathers: 50% Cotton, 50% Polyester", "Imported", "No Closure closure", "Machine Wash", "Heavyweight 6 oz. per sq. yd. fabric made from 100% US cotton", "Featuring taped neck and shoulders and double-needle 7/8 collar and bottom hem for long-lasting comfort and durability"],
       "size": ["XXL", "XL", "L", "M", "S"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Jimmy James",
-          "address": "Washington"
-        }
-      ,
       "brand": "GLD",
       "image": ["shirt73.jpg", "shirt74.jpg"],
       "date": [
@@ -771,12 +663,7 @@
       "description": ["65% Polyester, 35% Cotton", "Imported", "Button closure", "Machine Wash", "CLASSIC WORKWEAR: This relaxed fit button-front work shirt features short sleeves, twin button-flap chest pockets & matching melamine buttons. It's made of a sturdy, machine washable stretch twill blend for lightweight mobility with traditional toughness", "TIMELESS STYLE: Modeled on our men's traditional style work shirt, Dickies Flex features a lighter 4.6 ounce mechanical stretch twill for comfort and ease of movement in a relaxed fit that's roomy for all kinds of work activity, or just for a casual look"],
       "size": ["XXL", "XL", "L", "M", "S"],
       "degree": "90",
-      "seller": 
-        {
-          "name": "Lady Gaga",
-          "address": "London"
-        }
-      ,
+
       "brand": "DCK",
       "image": ["shirt75.jpg", "shirt76.jpg", "shirt77.jpg", "shirt78.jpg", "shirt79.jpg"],
       "date": [
@@ -814,12 +701,6 @@
       "description": ["56% Cotton, 38% Modal, 6% Spandex", "Imported", "Machine Wash", "Close-but-comfortable fit with easy movement", "Lightweight jersey cotton blend with stretch", "V neckline"],
       "size": ["XL", "L", "M", "S"],
       "degree": "100",
-      "seller": 
-        {
-          "name": "Wilson Maria",
-          "address": "Washington"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt80.jpg", "shirt81.jpg", "shirt82.jpg", "shirt82.jpg", "shirt83.jpg", "shirt84.jpg"],
       "date": [
@@ -857,12 +738,6 @@
       "description": ["87% Cotton, 8% Nylon, 5% Spandex", "Imported", "Snap closure", "Wash cold", "Fabric: Lightweight jersey", "Square neckline , Short sleeves , Thong panty with snap gusset, Medium compression"],
       "size": ["L"],
       "degree": "90",
-      "seller":
-        {
-          "name": "Marry Gonna",
-          "address": "Paris"
-        }
-      ,
       "brand": "YMM",
       "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
       "date": [
@@ -900,12 +775,6 @@
       "description": ["100% Cotton", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["XL", "M", "S"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "James Smith",
-          "address": "London"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt85.jpg", "shirt86.jpg", "shirt87.jpg", "shirt88.jpg", "shirt89.jpg", "shirt90.jpg"],
       "date": [
@@ -943,12 +812,6 @@
       "description": ["58% Cotton, 39% Modal, 3% Elastane", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["M", "S"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Jessica",
-          "address": "Washington"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt91.jpg", "shirt92.jpg", "shirt93.jpg", "shirt94.jpg", "shirt95.jpg", "shirt96.jpg"],
       "date": [
@@ -986,12 +849,6 @@
       "description": ["100% Knit", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["M", "S"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Grace",
-          "address": "London"
-        }
-      ,
       "brand": "UDAM",
       "image": ["shirt97.jpg", "shirt98.jpg", "shirt99.jpg", "shirt100.jpg", "shirt101.jpg", "shirt102.jpg"],
       "date": [
@@ -1029,12 +886,6 @@
       "description": ["100% Knit", "Imported", "Button closure", "Machine Wash", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["M", "S"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Emily",
-          "address": "Boston"
-        }
-      ,
       "brand": "BKSR",
       "image": ["shirt103.jpg", "shirt104.jpg"],
       "date": [
@@ -1072,12 +923,6 @@
       "description": ["100% Cotton", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Oliver Garden",
-          "address": "London"
-        }
-      ,
       "brand": "No brand",
       "image": ["shirt105.jpg", "shirt106.jpg", "shirt105.jpg", "shirt108.jpg", "shirt109.jpg", "shirt110.jpg"],
       "date": [
@@ -1115,12 +960,6 @@
       "description": ["100% Rayon", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Lily Gomez",
-          "address": "Berlin"
-        }
-      ,
       "brand": "BZTN",
       "image": ["shirt111.jpg", "shirt112.jpg", "shirt113.jpg", "shirt114.jpg"],
       "date": [
@@ -1158,12 +997,6 @@
       "description": ["100% Polyester", "Imported", "GREAT FOR LAYERING: Mini waffle fabric construction.", "LEGENDARY STYLING: Cute keyhole notch neck with custom thread colors that match to our flannels", "Close-but-comfortable fit with easy movement", "Soft-yet-sturdy midweight classic flannel, with an instantly comforting, cozy feel", "Button-front closure"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Samuel Alan",
-          "address": "Paris"
-        }
-      ,
       "brand": "No brand",
       "image": ["shirt115.jpg", "shirt116.jpg", "shirt117.jpg", "shirt118.jpg", "shirt119.jpg", "shirt120.jpg"],
       "date": [
@@ -1201,12 +1034,6 @@
       "description": ["%100 Cotton", "Made in the USA or Imported"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Sophie Marie",
-          "address": "London"
-        }
-      ,
       "brand": "GLD",
       "image": ["shirt122.jpg", "shirt121.jpg"],
       "date": [
@@ -1244,12 +1071,6 @@
       "description": ["Solid: 94% Polyester, 6% Spandex; Spacedye: 88% Polyester, 12% Spandex", "Made in the USA or Imported"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Lucy Asseble",
-          "address": "Paris"
-        }
-      ,
       "brand": "ESTL",
       "image": ["shirt123.jpg", "shirt124.jpg", "shirt125.jpg", "shirt126.jpg"],
       "date": [
@@ -1287,12 +1108,6 @@
       "description": ["64% Cotton, 34% Polyester, 2% Spandex", "Imported", "Button closure", "Machine Wash", "Wrinkle resistant finish", "Collar stand, button front"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Marie Layla",
-          "address": "Washington"
-        }
-      ,
       "brand": "Bulk",
       "image": ["shirt127.jpg", "shirt128.jpg", "shirt129.jpg", "shirt130.jpg", "shirt131.jpg"],
       "date": [
@@ -1330,12 +1145,6 @@
       "description": ["60% Cotton, 40% Polyester", "Imported", "Button closure", "Machine Wash", "Wrinkle resistant", "Collar stand, button front"],
       "size": ["L", "XL", "XXL"],
       "degree": "95",
-      "seller": 
-        {
-          "name": "Josua Kimmich",
-          "address": "Berlin"
-        }
-      ,
       "brand": "buck",
       "image": ["shirt132.jpg", "shirt133.jpg", "shirt134.jpg", "shirt135.jpg", "shirt136.jpg", "shirt137.jpg", "shirt138.jpg"],
       "date": [
@@ -1377,12 +1186,6 @@
       "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men's must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
       "size": "32",
       "degree": 95,
-      "seller": 
-        {
-          "name": "Lily Jayden",
-          "address": "Washington"
-        }
-      ,
       "brand": "ESTL",
       "image": ["golf_pant01.jpg", "golf_pant02.jpg", "golf_pant03.jpg", "golf_pant04.jpg", "golf_pant05.jpg"],
       "date": [
@@ -1415,12 +1218,6 @@
       "description": "Whether you're bending over to pick up your ball, mid-swing, or at barbecue with friends, these men’s shorts are a great addition to your golf apparel. The classic fit with a 9-inch inseam gives you a little extra room in the thigh, while the stretch fabric moves with you. An active waistband elevates your comfort, while moisture-wicking technology moves sweat away from your body. Play and look your best with the many performance features of these golf shorts.",
       "size": "35",
       "degree": 96,
-      "seller": 
-        {
-          "name": "Harrison",
-          "address": "Washington"
-        }
-      ,
       "brand": "pga",
       "image": ["pant_02-01.jpg", "pant_02-02.jpg", "pant_02-03.jpg", " pant_02-04.jpg"],
       "date": [
@@ -1460,13 +1257,6 @@
       "description": "These blue jeans have a close, comfortable feel and feature a zipper fly, a button closure, and a belt-loop waistband. The 5-pocket construction leaves ample room for your phone and keys as you head out for a day with friends, and the mid-rise waist pairs with the straight-legged, slim-fit style for a modern, tapered profile. Available in multiple colors and sizes, this pant offers an attractive design with a relaxed, worn-in appearance. Made from 92% cotton, 6% elastomultiester, and 2% elastane for optimum stretch and comfort, it is machine washable on a gentle cycle.",
       "size": 32,
       "degree": 92,
-
-      "seller": 
-        {
-          "name": "Alexander Gomez",
-          "address": "Berlin"
-        }
-      ,
       "brand": "hudson",
       "image": ["pant_03-01.jpg", "pant_03-02.jpg", "pant_03-03.jpg", "pant_03-04.jpg"],
       "date": [
@@ -1498,13 +1288,7 @@
       "name": "Men's Classic-Fit Wrinkle-Resistant Flat-Front Chino Pant",
       "description": "An Amazon brand - A flat-front wrinkle-resistant dressy chino pant that offers classic style all week long",
       "size": "33",
-      "degree": 99, 
-          "seller": 
-       {
-          "name": "Jane Lady",
-          "address": "Washington"
-        }
-      ,
+      "degree": 99,
       "brand": "AMZ",
       "image": ["pant_04-01.jpg", "pant_04-02.jpg", "pant_04-03.jpg", "pant_04-04.jpg"],
       "date": [
@@ -1551,13 +1335,6 @@
       "description": "Just like our founder, H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely. We help you chase the things that bring you joy and laughter. The things that make you fearless and hopefully because your passion is what makes you unique. And what moves you, moves us. Move your Lee.",
       "size": 38,
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Joshua James",
-          "address": "Washington"
-        }
-      ,
       "brand": "LMS",       "image": ["pant_05-01.jpg", "pant_05-01.jpg", "pant_05-01.jpg"],
       "date": [
           {
@@ -1588,13 +1365,7 @@
       "name": "IZOD Men's Golf Swingflex Straight Fit Pant",
       "description": "Perfect your stroke in comfort. This golf pant is enhanced with a swing flex waistband featuring four-way stretch for ultimate range of motion. Moisture-wicking fabric keeps you dry all day, while a uv-20 finish makes sure you play it safe each round.",
       "size": "35",
-      "degree": 96, 
-          "seller": 
-       {
-          "name": "Maria Layla",
-          "address": "London"
-        }
-      ,
+      "degree": 96,
       "brand": "izod",        "image": ["pant_06-01.jpg", "pant_06-02.jpg", "pant_06-03.jpg"],
       "date": [
           {
@@ -1633,13 +1404,6 @@
       "description": "Feel great on the course with this performance-packed golf pant from PGA TOUR. Featuring moisture-wicking properties, enhanced stretch fabric for unrestricted movement, UPF grade sun protection, and an expandable waistband - you'll be prepared for anything the course throws at you.",
       "size": 30,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Lillia Janes",
-          "address": "Washington"
-        }
-      ,
       "brand": "SCMG",       "image": ["pant_07-01.jpg", "pant_07-02.jpg", "pant_07-03.jpg"],
       "date": [
           {
@@ -1670,13 +1434,7 @@
       "name": "Champion Men's Powerblend Fleece Joggers, Left Hip C",
       "description": "Since 1919 Champion has inspired athletes on and off the field with its authentic, American athletic apparel. From iconic Champion active wear to the latest in performance workout clothes for men, women and kids, you'll find quality sportswear for every level of play.",
       "size": 37,
-      "degree": 88, 
-          "seller": 
-       {
-          "name": "Lauren Gate",
-          "address": "London"
-        }
-      ,
+      "degree": 88,
       "brand": "CPN",        "image": ["pant_08-01.jpg", "pant_08-02.jpg", "pant_08-03.jpg"],
       "date": [
           {
@@ -1701,13 +1459,7 @@
       "name": "Champion Sweatpants Men's Big and Tall Heavyweight Fleece Joggers",
       "description": "Closed bottom jersey men workout pants are made from 80% Cotton fabric, heavyweight fleece, breathable and quick dry. These mens sweatpants have 4-way stretch sports material to provide more comfortable feeling; when the movement is strong or the temperature is high, the moisture wicking cool dry fabric can take away the sweat of legs quickly. Heavyweight keeps you warm while you exercise. These casual mens jogger pants can be worn anywhere. Active quick-dri mens jersey sweatpants are elastic waist pants for men, breathable and perfect for the gym or anywhere else. Features: Skin-friendly material keeps your skin comfortable and lets your muscles breathe while the movement. Two hand pockets to securely store your essentials and the trendy looks elastic waistband with functional drawstring can be used freely Quick dry sleepwear pants for men, great for indoor and outdoor activities like jogging. If you're looking for a pair of athletic mens pants, joggers for men, mens sweat pants, with pockets, men's sports sweatpants, or just mens sweats, these Champion Big and Tall pants for men have you covered. Specifications: Material: 80% Cotton, 20% Polyester Sizes: Large tall, X-large big tall, 2X, 2x-tall, 3X, 3X- tall, 4X, 4X-tall, 5X & 6X Colors: Black sweatpants for men, Charcoal Heather grey sweatpants, Navy & white men's big & tall pants.",
       "size": 36,
-      "degree": 96, 
-          "seller": 
-       {
-          "name": "Kevin Ronaldo",
-          "address": "Washington"
-        }
-      ,
+      "degree": 96,
       "brand": "CPN",        "image": ["pant_09-01.jpg", "pant_09-02.jpg", "pant_09-03.jpg"],
       "date": [
           {
@@ -1746,13 +1498,6 @@
       "description": "【BREATHABLE MESH FABRIC WITH LINING】The men's running shorts is lightweight quick-dry fabric and designed to keep you comfortable for workouts and practice.Increased lining to prevent SEE-THRU,you can rest assured to buy light colors without worrying.【LARGER ZIPPER POCKETS AFTER UPGRADE】Our Gym shorts have been proposed and improved by customers, we made bigger zipper pockets on both sides than before,so you can keep your phone or other valuables safe and secure during your workout.【ELASTIC WAISTBAND & INNER DRAWCORD】Featured elastic can perfect suit your waist. Inner drawstring ensures shorts don’t sliding down when running, which makes you can do the exercises without sorrow and anxiety.",
       "size": 36,
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Freya Harden",
-          "address": "London"
-        }
-      ,
       "brand": "WGD",       "image": ["pant_10-01.jpg", "pant_10-02.jpg", "pant_10-03.jpg"],
       "date": [
           {
@@ -1783,13 +1528,7 @@
       "name": "Men's Slim-Fit Casual Stretch Khaki Pant",
       "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
       "size": 35,
-      "degree": 98, 
-          "seller": 
-       {
-          "name": "Gate Gomez",
-          "address": "Washington"
-        }
-      ,
+      "degree": 98,
       "brand": "ESTL",        "image": ["pant_11-01.jpg", "pant_11-02.jpg", "pant_11-03.jpg", "pant_11-04.jpg"],
       "date": [
           {
@@ -1827,13 +1566,7 @@
       "name": "Goodthreads Men's Skinny-Fit Washed Comfort Stretch Chino Pant",
       "description": "We've always loved traditional men's chino pants, but we wanted a little more - something that would keep the classic men’s tailored pants style, but add in subtle enhancements that would keep us comfortable no matter what we got into. vineyard vines slim fit Breaker Pants keep all of the tried-and-true style of a pair of classic chinos, with the added stretch and out-of-the-box softness that we (and you) love. They’re the perfect choice for wherever life takes you, as golf pants for men, casual pants for men and so much more. Make sure it’s vineyard vines quality: look for “Ships from and sold by Amazon” at the top of the page, under the product title. At vineyard vines, we think every day should feel this good! We are family owned and operated since 1998. For over 20 years, we’ve been sharing the gift of the Vineyard with everyone we can. Care Instructions: machine wash.",
       "size": 35,
-      "degree": 96, 
-          "seller": 
-       {
-          "name": "Lucas Assemble",
-          "address": "Berlin"
-        }
-      ,
+      "degree": 96,
       "brand": "GDTD",        "image": ["pant_12-01.jpg", "pant_12-02.jpg", "pant_12-03.jpg"],
       "date": [
           {
@@ -1872,13 +1605,6 @@
       "description": "They're the perfect choice for wherever life takes you, as golf pants for men, casual pants for men and so much more. Make sure it’s vineyard vines quality: look for “Ships from and sold by Amazon” at the top of the page, under the product title. At vineyard vines, we think every day should feel this good! We are family owned and operated since 1998. For over 20 years, we’ve been sharing the gift of the Vineyard with everyone we can. Care Instructions: machine wash.",
       "size": 34,
       "degree": 89,
-
-      "seller": 
-      {
-          "name": "Mohamed James",
-          "address": "India"
-        }
-      ,
       "brand": "VNY",       "image": ["pant_13-01.jpg", "pant_13-02.jpg", "pant_13-03.jpg"],
       "date": [
           {
@@ -1917,13 +1643,6 @@
       "description": "Crafted from a stretch cotton blend, this flat-front chino combines form and function, making it the perfect complement to your active lifestyle.",
       "size": 36,
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Grey Fullbuster",
-          "address": "Washington"
-        }
-      ,
       "brand": "izod",       "image": ["pant_14-01.jpg", "pant_14-02.jpg", "pant_14-03.jpg"],
       "date": [
           {
@@ -1962,13 +1681,6 @@
       "description": "Crafted from a stretch cotton blend, this flat-front chino combines form and function, making it the perfect complement to your active lifestyle.",
       "size": 36,
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Garry Gone",
-          "address": "Washington"
-        }
-      ,
       "brand": "izod",       "image": ["pant_15-01.jpg", "pant_15-02.jpg", "pant_05-01.jpg"],
       "date": [
           {
@@ -2010,13 +1722,6 @@
       "description": "Just like our founder,  H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely. We help you chase the things that bring you joy and laughter. The things that make you fearless and hopefully because your passion is what makes you unique. And what moves you, moves us. Move your Lee.",
       "size": "6 Long",
       "degree": 99,
-
-      "seller": 
-      {
-          "name": "Mc Gonna",
-          "address": "Berlin"
-        }
-      ,
       "brand": "LWS",       "image": ["pant_16-01.jpg", "pant_16-02.jpg", "pant_16-03.jpg", "pant_16-04.jpg"],
       "date": [
           {
@@ -2055,13 +1760,6 @@
       "description": "LEE Women's Relaxed Fit All Day Straight Leg Pant. Previously known as the All Day Pant, these pants are made for all day wear with silky-soft fabric and a slight drape. Overall Fit: Relaxed fit pant. Rise: Mid rise, sits at the natural waist. Closure: Zip-Fly with button closure. Leg: Straight fit through the seat, leg, and thigh. Pockets: Four pockets: (2) welt back pockets, (2) front pockets. Inseam: Short 29-inches, Medium 31-inches, Long 33-inches. BRAND HERITAGE: Just like our founder, H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely. We help you chase the things that bring you joy and laughter. The things that make you fearless and hopefully because your passion is what makes you unique. And what moves you, moves us. Move your Lee.",
       "size": "12",
       "degree": 89,
-
-      "seller": 
-      {
-          "name": "Garry Smith",
-          "address": "Washington"
-        }
-      ,
       "brand": "LWS",       "image": ["pant_17-01.jpg", "pant_17-02.jpg", "pant_17-03.jpg"],
       "date": [
           {
@@ -2093,13 +1791,6 @@
       "description": "Just like our founder,  H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely. We help you chase the things that bring you joy and laughter. The things that make you fearless and hopefully because your passion is what makes you unique. And what moves you, moves us. Move your Lee. Closure Type: Zip-Fly with button closure",
       "size": 14,
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Silver",
-          "address": "London"
-        }
-      ,
       "brand": "LWS",       "image": ["pant_18-01.jpg", "pant_18-02.jpg", "pant_18-03.jpg"],
       "date": [
           {
@@ -2123,13 +1814,7 @@
       "name": "Fruit of the Loom Women's Essentials French Terry Pants and Tri-Blend Tees",
       "description": "The Fruit of the Loom women's essentials collection features must-have pieces that are essential to every woman's wardrobe. Dressed up for work, or dressed down for comfort, these versatile pieces provide day to night wear ability. The live in open bottom pant is perfect for relaxing with the family or running around town. Made of super soft French terry fabric, you are sure to feel cozy and look stylish. These pants come in a variety of sophisticated colors to elevate your existing wardrobe, and you can find coordinating pieces in the essentials collection to complement this quintessential item.",
       "size": 12,
-      "degree": 96, 
-          "seller": 
-       {
-          "name": "Drew",
-          "address": "Washington"
-        }
-      ,
+      "degree": 96,
       "brand": "ESTL",        "image": ["pant_19-01.jpg", "pant_19-02.jpg", "pant_19-03.jpg"],
       "date": [
           {
@@ -2161,13 +1846,6 @@
       "description": "Hanes women's French terry pocket pant is cotton rich for extra softness. The French terry fabric is smooth outside and brushed inside for extra comfort. Side pockets and adjustable draw cord waist",
       "size": 13,
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Maria",
-          "address": "Boston"
-        }
-      ,
       "brand": "HNS",       "image": ["pant_20-01.jpg", "pant_20-02.jpg", "pant_20-03.jpg"],
       "date": [
           {
@@ -2193,13 +1871,6 @@
       "description": "Just like our founder,  H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely. We help you chase the things that bring you joy and laughter. The things that make you fearless and hopefully because your passion is what makes you unique. And what moves you, moves us. Move your Lee. Fit Type: Relaxed; Closure Type: Zip-Fly with button closure",
       "size": 13,
       "degree": 97,
-
-      "seller": 
-      {
-          "name": "James",
-          "address": "Berlin"
-        }
-      ,
       "brand": "LWS",       "image": ["pant_21-01.jpg", "pant_21-02.jpg", "pant_21-03.jpg"],
       "date": [
           {
@@ -2238,13 +1909,6 @@
       "description": "",
       "size": 15,
       "degree": 97,
-
-      "seller": 
-      {
-          "name": "Levi",
-          "address": "London"
-        }
-      ,
       "brand": "HNS",       "image": ["pant_22-01.jpg", "pant_22-02.jpg", "pant_22-03.jpg"],
       "date": [
           {
@@ -2289,13 +1953,6 @@
       "description": "Item model number : BV1076",
       "size": "11 x 4 x 7 inches; 3.2 Ounces",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "Marie",
-          "address": "London"
-        }
-      ,
       "brand": "NK",       "image": ["hat1.jpg", "hat2.jpg", "hat3.jpg"],
       "date": [
         {
@@ -2355,13 +2012,6 @@
       "description": "Beach hat or fedora now you don't have to choose. the Coronado is a floppy-brimmed fedora that follows anywhere you go. The fabric blend makes for warm weather comfort and easy packability. Decorative leatherette hatband dresses you up for the links or a late brunch.",
       "size": "medium",
       "degree": 98,
-
-      "seller": 
-      {
-          "name": "French",
-          "address": "London"
-        }
-      ,
       "brand": "CRND",       "image": ["hat4.jpg", "hat5.jpg", "hat6.jpg"],
       "date": [
         {
@@ -2414,13 +2064,6 @@
       "description": "The Nike Metal Swoosh H86 Adjustable Hat Is Made From 100% Recycled Polyester. It Has An Adjustable Closure For Maximum Comfort And A Truly Personalised Fit. The Embroidered Eyelets Provide Optimal Airflow And Ventilation And Thus Let You Keep A Cool Head During A Match Or During The Day.",
       "size": "12 x 4 x 8 inches; 4 Ounces",
       "degree": 99,
-
-      "seller": 
-      {
-          "name": "Daily Imogen",
-          "address": "Washington"
-        }
-      ,
       "brand": "NK",       "image": ["hat7.jpg", "hat8.jpg", "hat9.jpg", "hat10.jpg"],
       "date": [
         {
@@ -2466,13 +2109,6 @@
       "description": "Boss Green basic base cap with embroidered logo on front in contrast color.",
       "size": "XL",
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Ron Wheasly",
-          "address": "Washington"
-        }
-      ,
       "brand": "boss",       "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
       "date": [
         {
@@ -2518,13 +2154,6 @@
       "description": "Tommy Hilfiger hat featuring our iconic flag logo. Chain stitch embroidered logo flag. Adjustable metal buckle closure. Six-panel construction with ventilating grommets. Comfort and style make this Tommy Hilfiger cap perfect for everyday wear. This tommy cap is an essential that's hard to beat.",
       "size": "One Size",
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Olivia",
-          "address": "London"
-        }
-      ,
       "brand": "TM",       "image": ["hat14.jpg", "hat15.jpg", "hat16.jpg"],
       "date": [
         {
@@ -2570,13 +2199,6 @@
       "description": "There Are More Designs And Styles Of Men'S And Women'S Baseball Caps To Choose From In The Store.",
       "size": "Cap Height 4.5 Inches, Hat Brim 2.7 Inches, Cap Circumference 22.4-23.6 Inches",
       "degree": 98,
-
-      "seller": 
-      {
-          "name": "Oliver",
-          "address": "London"
-        }
-      ,
       "brand": "No brand",       "image": ["hat17.jpg", "hat18.jpg", "hat19.jpg"],
       "date": [
         {
@@ -2622,13 +2244,6 @@
       "description": "Pledge your allegiance to America and the EvoArmy with the EvoShield Black USA Flex-Fit hat. The hat features the American flag backdrop on the front logo. With a breathable mesh back for a cool feel, the hat also has a Flex-Fit band for a comfortable fit.",
       "size": "Small-Medium",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "Viet Hoang",
-          "address": "Ha Noi"
-        }
-      ,
       "brand": "EVSD",       "image": ["hat20.jpg", "hat21.jpg"],
       "date": [
         {
@@ -2674,13 +2289,6 @@
       "description": "The cap every athlete needs in her closet. Simple and classic, the saturday cap is the perfect accessory to throw on for a long run or coffee run. Designed with a lightweight, washed cotton twill, embroidered centerfront adidas logo, and adjustable matte silver slider. Bad hair days never looked so good.",
       "size": "One Size",
       "degree": 98,
-
-      "seller": 
-      {
-          "name": "Janes",
-          "address": "Washington"
-        }
-      ,
       "brand": "No brand",       "image": ["hat22.jpg", "hat23.jpg", "hat24.jpg", "hat25.jpg"],
       "date": [
         {
@@ -2726,13 +2334,6 @@
       "description": "Fights odors. Wicks away sweat. Previously known as the Odessa Cap",
       "size": "One Size",
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Layla McGonna",
-          "address": "Washington"
-        }
-      ,
       "brand": "CRH",       "image": ["hat26.jpg"],
       "date": [
         {
@@ -2778,13 +2379,6 @@
       "description": "Fitted baseball cap with curved brim, padded sweatband, and front metal logo icon",
       "size": "Medium-Large",
       "degree": 92,
-
-      "seller": 
-      {
-          "name": "Jessica",
-          "address": "London"
-        }
-      ,
       "brand": "OKL",       "image": ["hat27.jpg", "hat28.jpg", "hat29.jpg"],
       "date": [
         {
@@ -2830,13 +2424,6 @@
       "description": "The brood is an eight-panel cut-and-sew snap cap with custom lining and a metal Brixton ribbed shield.",
       "size": "9.84 x 7.87 x 3.94 inches; 0.71 Ounces",
       "degree": 97,
-
-      "seller": 
-      {
-          "name": "Kevin Jackson",
-          "address": "Washington"
-        }
-      ,
       "brand": "No brand",       "image": ["hat30.jpg", "hat31.jpg", "hat32.jpg"],
       "date": [
         {
@@ -2882,13 +2469,6 @@
       "description": "The adidas Superlite 2 Relaxed Adjustable Performance Cap is ready for a new adventure any day",
       "size": " One Size",
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Jame Vermillion",
-          "address": "London"
-        }
-      ,
       "brand": "Adidas",       "image": ["hat33.jpg"],
       "date": [
         {
@@ -2934,13 +2514,6 @@
       "description": "THE HAT:Vintage Distressed Washed Style.100% Cotton Made.Lightweight / Durable / Smooth.Adjustable Metal Buckle Back Closure, Great Fit for Most Head Sizes.Dad Hat, Low Profile Unconstructed.Various Colors To Choose From.",
       "size": "22.6 - 23",
       "degree": 98,
-
-      "seller": 
-      {
-          "name": "Lucy Marie",
-          "address": "Washington"
-        }
-      ,
       "brand": "No brand",       "image": ["hat34.jpg", "hat35.jpg", "hat36.jpg"],
       "date": [
         {
@@ -2986,13 +2559,6 @@
       "description": "Trucker cap with mesh back in various graphics, adjustable back closure.",
       "size": "9 x 5 x 1 inches; 1.8 Ounces",
       "degree": 96,
-
-      "seller": 
-      {
-          "name": "Jessica Layla",
-          "address": "Washington"
-        }
-      ,
       "brand": "Roxy",       "image": ["hat37.jpg", "hat38.jpg", "hat39.jpg"],
       "date": [
         {
@@ -3038,13 +2604,6 @@
       "description": "POLYESTER WOMEN’S HAT – Made from 100 percent polyester, this hat is crafted to look its best each time you wear it, making it ideal for dressy occasions.",
       "size": "One Size",
       "degree": 89,
-
-      "seller": 
-      {
-          "name": "Jackson Martin",
-          "address": "Paris"
-        }
-      ,
       "brand": "No brand",       "image": ["hat40.jpg", "hat41.jpg", "hat42.jpg"],
       "date": [
         {
@@ -3083,13 +2642,6 @@
       "description": "These classic fashion sunglasses will bring you a timeless look and will be great choices for daily fashion accessories all year round. They are suitable for both men and women and suitable for any occasion and weather conditions.",
       "size": "Lens Width: 53mm | Lens Height: 44mm | Temple Length: 150mm | Nose Bridge: 22mm",
       "degree": 85,
-
-      "seller": 
-      {
-          "name": "Kevin Bacon",
-          "address": "Paris"
-        }
-      ,
       "brand": "SN",       
       "image": ["glass1.jpg", "glass2.jpg", "glass3.jpg"],
       "date": [
@@ -3129,13 +2681,6 @@
       "description": "A pair of fashion sunglasses budding with lovely color, Orchid is inspired by the vibrant flower that often blooms beautiful and fragrant. Orchid's multi-colored frame options radiate personality, and are best for square or oblong face shapes.",
       "size": "Lens width: 56 millimeters; Lens height: 47 millimeters; Bridge: 19 millimeters; Arm: 140 millimeters",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "James Morrison",
-          "address": "Washington"
-        }
-      ,
       "brand": "No brand",       "image": ["glass4.jpg", "glass5.jpg", "glass6.jpg"],
       "date": [
         {
@@ -3174,13 +2719,6 @@
       "description": "erfect for the thrill seeker in all of us, the Makaha features a Clear shell scratch coating, a proprietary, silicon-based hard coat that protects both sides of the lens against scratching. Polycarbonate Lens: For intense sports activities and active lifestyles, Maui Jim Polycarbonate lenses are optically correct to ensure crisp optics. They're lightweight, comfortable, extremely impact resistant, and feature our Clear shell scratch-resistant coating. PolarizedPlus2 Technology: All Maui Jim Sunglasses block glare and UV from all angles, manage blue light, and then boost colors for unmatched color, clarity, and contrast. Neutral Grey Lens offers contrast and the highest available light reduction. Suitable for all light conditions, especially bright, direct sunlight. 12% light transmission. ",
       "size": "7 x 3 x 2 inches; 0.5 Ounces",
       "degree": 98,
-
-      "seller": 
-      {
-          "name": "Grace Juice",
-          "address": "Washington"
-        }
-      ,
       "brand": "No brand",       "image": ["glass7.jpg", "glass8.jpg"],
       "date": [
         {
@@ -3221,12 +2759,6 @@
       "description": "no pain no gain",
       "size": 43,
       "degree": "90%",
-      "seller": 
-        {
-          "name": "Matthew Michael",
-          "address": "London"
-        }
-      ,
       "brand": "JRD",
       "image": ["b.01.webp", "b.02.webp", "b.03.webp"],
       "date": [
@@ -3266,13 +2798,6 @@
       "description": "high quality",
       "size": 44,
       "degree": 91,
-
-      "seller": 
-      {
-          "name": "Green Wich",
-          "address": "London"
-        }
-      ,
       "brand": "JRD",       "image": ["a.01.webp", "a.02.webp", "a.03.webp"],
       "date": [
         {
@@ -3311,13 +2836,6 @@
       "description": "i have 2 pairs of this" ,
       "size": 42,
       "degree": 99,
-
-      "seller": 
-      {
-          "name": "Alfie Greed",
-          "address": "London"
-        }
-      ,
       "brand": "JRD",       "image": ["c.01.webp", "c.02.webp", "c.03.webp"],
       "date": [
         {
@@ -3356,13 +2874,6 @@
       "description": "super raze you can't find 2hand of this pairs",
       "size": "36",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "Alfred",
-          "address": "Paris"
-        }
-      ,
       "brand": "Adidas",       "image": ["d.01.webp", "d.02.webp", "d.03.webp"],
       "date": [
         {
@@ -3401,13 +2912,6 @@
       "description": "old but still good for casual or basketball",
       "size": 41,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Joseph Stand",
-          "address": "Washington"
-        }
-      ,
       "brand": "JRD",       "image": ["e.01.webp", "e.02.webp", "e.03.webp"],
       "date": [
         {
@@ -3446,13 +2950,6 @@
     "description": "contact me to get those shoes now",
     "size": 44,
     "degree": 93,
-
-      "seller": 
-      {
-          "name": "Marie Gate",
-          "address": "Washington"
-        }
-      ,
       "brand": "Nk",     "image": ["f.01.webp", "f.02.webp", "f.03.webp"],
     "date": [
       {
@@ -3491,13 +2988,6 @@
       "description": "contact me to get those shoes now",
       "size": 42,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Freya Vermillion",
-          "address": "London"
-        }
-      ,
       "brand": "Nk",       "image": ["f.02.webp", "f.01.webp", "f.03.webp"],
       "date": [
         {
@@ -3536,13 +3026,6 @@
       "description": "contact me now",
       "size": 41,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Morent Grace",
-          "address": "Washington"
-        }
-      ,
       "brand": "Nk",       "image": ["h.01.webp", "h.02.webp", "h.03.webp"],
       "date": [
         {
@@ -3581,13 +3064,6 @@
       "description": "contact me now",
       "size": 43,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "James Morrison",
-          "address": "Paris"
-        }
-      ,
       "brand": "Adidas",       "image": ["!t.01.webp", "t.02.webp", "t.03.webp"],
       "date": [
         {
@@ -3626,13 +3102,6 @@
       "description": "contact me now",
       "size": 37,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Malone",
-          "address": "Washington"
-        }
-      ,
       "brand": "Nk",       "image": ["1.01.webp", "1.02.webp", "1.03.webp"],
       "date": [
         {
@@ -3671,12 +3140,6 @@
       "description": "contact me to get it",
       "size": 43,
       "degree": "90%",
-      "seller": 
-        {
-          "name": "Bronny James",
-          "address": "Washington"
-        }
-      ,
       "brand": "NWBL",
       "image": ["0.01.webp", "0.02.webp", "0.03.webp"],
       "date": [
@@ -3716,13 +3179,6 @@
       "description": "contact me to get it",
       "size": 37,
       "degree": 91,
-
-      "seller": 
-      {
-          "name": "Harry Jake",
-          "address": "Washington"
-        }
-      ,
       "brand": "RB",       "image": ["2.01.webp", "2.02.webp", "2.03.webp"],
       "date": [
         {
@@ -3761,13 +3217,6 @@
       "description": "contact me to get it" ,
       "size": 36,
       "degree": 99,
-
-      "seller": 
-      {
-          "name": "Daniel Connor",
-          "address": "Washington"
-        }
-      ,
       "brand": "Airmax",       "image": ["3.01.webp", "3.02.webp", "3.03.webp"],
       "date": [
         {
@@ -3806,13 +3255,6 @@
       "description": "contact me to get it",
       "size": "36",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "Finley Gordon",
-          "address": "London"
-        }
-      ,
       "brand": "Adidas",       "image": ["4.01.webp", "4.02.webp", "4.03.webp"],
       "date": [
         {
@@ -3851,13 +3293,6 @@
       "description": "contact me to get it",
       "size": 35,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Finrey Chimney",
-          "address": "London"
-        }
-      ,
       "brand": "DR",       "image": ["5.01.webp", "5.02.webp", "5.03.webp"],
       "date": [
         {
@@ -3896,14 +3331,7 @@
       "description": "contact me to get those shoes now",
       "size": 43,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Stela Cast",
-          "address": "Paris"
-        }
-      ,
-      "brand": "Martin",       "image": ["6.01.webp", "6.02.webp", "6.03.webp"],
+      "brand": "Martin", "image": ["6.01.webp", "6.02.webp", "6.03.webp"],
       "date": [
         {
           "sell": "10/8/2022" ,
@@ -3941,13 +3369,6 @@
       "description": "contact me to get those shoes now",
       "size": 37,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Liam Janes",
-          "address": "Paris"
-        }
-      ,
       "brand": "Martin",       "image": ["7.01.webp", "7.01.webp", "7.01.webp"],
       "date": [
         {
@@ -3986,13 +3407,6 @@
       "description": "contact me now",
       "size": 39,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Edward Grey",
-          "address": "London"
-        }
-      ,
       "brand": "Martin",       "image": ["8.01.webp", "8.02.webp", "8.03.webp"],
       "date": [
         {
@@ -4031,13 +3445,6 @@
       "description": "contact me now",
       "size": 43,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Grey Alfred",
-          "address": "Paris"
-        }
-      ,
       "brand": "NK",       "image": ["9.01.webp", "9.02.webp", "9.03.webp"],
       "date": [
         {
@@ -4076,13 +3483,6 @@
       "description": "contact me now",
       "size": 37,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Luciano Wood",
-          "address": "London"
-        }
-      ,
       "brand": "RB",       "image": ["10.01.webp", "10.02.webp", "10.03.webp"],
       "date": [
         {
@@ -4121,12 +3521,6 @@
       "description": "contact me to get it",
       "size": 43,
       "degree": "90%",
-      "seller": 
-        {
-          "name": "Finley Ron",
-          "address": "London"
-        }
-      ,
       "brand": "Dame",
       "image": ["11.01.webp", "11.02.webp", "11.03.webp"],
       "date": [
@@ -4166,13 +3560,6 @@
       "description": "contact me to get it",
       "size": 37,
       "degree": 91,
-
-      "seller": 
-      {
-          "name": "Adam Lalala",
-          "address": "London"
-        }
-      ,
       "brand": "NK",       "image": ["12.01.webp", "12.02.webp", "12.03.webp"],
       "date": [
         {
@@ -4211,13 +3598,6 @@
       "description": "contact me to get it" ,
       "size": 36,
       "degree": 99,
-
-      "seller": 
-      {
-          "name": "Glice Marie",
-          "address": "Washington"
-        }
-      ,
       "brand": "Adidas",       "image": ["13.01.webp", "13.02.webp", "13.03.webp"],
       "date": [
         {
@@ -4256,13 +3636,6 @@
       "description": "contact me to get it",
       "size": "36",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "Jayce Jayden",
-          "address": "Paris"
-        }
-      ,
       "brand": "Martin",       "image": ["14.01.webp", "14.02.webp", "14.03.webp"],
       "date": [
         {
@@ -4301,13 +3674,6 @@
       "description": "contact me to get it",
       "size": 35,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Lebron Jayce",
-          "address": "Paris"
-        }
-      ,
       "brand": "DR",       "image": ["15.01.webp", "15.02.webp", "15.03.webp"],
       "date": [
         {
@@ -4346,13 +3712,6 @@
       "description": "contact me to get those shoes now",
       "size": 43,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Geogre Adam",
-          "address": "Washington"
-        }
-      ,
       "brand": "UDAR",       "image": ["16.01.webp", "16.02.webp", "16.03.webp"],
       "date": [
         {
@@ -4391,13 +3750,6 @@
       "description": "contact me to get those shoes now",
       "size": 37,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Poppy Geogre",
-          "address": "Paris"
-        }
-      ,
       "brand": "JRD",       "image": ["17.01.webp", "17.02.webp", "17.03.webp"],
       "date": [
         {
@@ -4436,13 +3788,6 @@
       "description": "contact me now",
       "size": 39,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Lewis Abraham",
-          "address": "Washington"
-        }
-      ,
       "brand": "JRD",       "image": ["18.01.webp", "18.02.webp", "18.03.webp"],
       "date": [
         {
@@ -4481,13 +3826,6 @@
       "description": "contact me now",
       "size": 43,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Ruby Golden",
-          "address": "London"
-        }
-      ,
       "brand": "NWBL",       "image": ["19.01.webp", "19.02.webp", "19.03.webp"],
       "date": [
         {
@@ -4526,12 +3864,6 @@
         "description": "This durable leather work belt by Timberland PRO is designed with comfort, durability, and performance in mind.",
         "size": "115cm",
         "degree": 95,
-        "seller": [
-            {
-                "name": "Quang Anh",
-                "address": "Ha Noi, Viet Nam"
-            }
-        ],
         "brand": "Lacoste",
         "image": ["belt1.jpg", "belt2.jpg", "belt3.jpg"],
         "date": {
@@ -4567,10 +3899,6 @@
         "description": "Genuine leather belt featuring a leather wrapped keep and antique finished buckle.",
         "size": "12cm",
         "degree": 98,
-        "seller": {
-            "name": "Quang Em",
-            "address": "Noi Ha, Viet Nam"
-        },
         "brand": "Coslate",
         "image": ["belt4.jpg", "belt5.jpg", "belt6.jpg"],
         "date": [
@@ -4608,10 +3936,6 @@
         "description": "This classic belt features 7 round belt strap holes and an adjustable buckle closure for all day comfort and perfect fit. Belt width is 1.25\" to easily fit through your belt loops.",
         "size": "125cm",
         "degree": 95,
-        "seller": {
-            "name": "Quang Anh",
-            "address": "Ha Noi, Viet Nam"
-        },
         "brand": "telacos",
         "image": ["belt7.jpg", "belt8.jpg", "belt9.jpg"],
         "date": [
@@ -4649,10 +3973,6 @@
         "description": "Full grain smooth leather belt with a stitched edge and a silver prong buckle",
         "size": "30-54 Inches Big & Tall",
         "degree": 98,
-        "seller": {
-            "name": "Quang Anh",
-            "address": "Ha Nam, Viet Nam"
-        },
         "brand": "Adidas",
         "image": ["belt10.jpg", "belt11.jpg", "belt12.jpg"],
         "date": [
@@ -4690,10 +4010,6 @@
         "description": "This durable leather work belt by Timberland PRO is designed with comfort, durability, and performance in mind.",
         "size": "125cm",
         "degree": 95,
-        "seller": {
-            "name": "Quang Anh",
-            "address": "Ninh Binh, Viet Nam"
-        },
         "brand": "Amazon",
         "image": ["belt13.jpg", "belt14.jpg", "belt15.jpg"],
         "date": [
@@ -4731,10 +4047,6 @@
         "description": "Think outside the gym! Champion authentic originals are athletic wear classics updated with the latest in fabric and fashion.",
         "size": "Large",
         "degree": 96,
-        "seller": {
-            "name": "Quang Anh",
-            "address": "TP Ho Chi Minh, Viet Nam"
-        },
         "brand": "CPN",
         "image": ["jacket1.jpg", "jacket2.jpg", "jacket3.jpg"],
         "date": [
@@ -4772,10 +4084,6 @@
         "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of men’s must-haves includes polo shirts, chino pants, classic-fit shorts, casual button-downs, and crew-neck tees. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
         "size": "Medium",
         "degree": "98",
-        "seller": {
-            "name": "Quang Anh",
-            "address": "TP Ho Chi Minh, Viet Nam"
-        },
         "brand": "AMZ",
         "image": ["jacket4.jpg", "jacket5.jpg", "jacket6.jpg"],
         "date": [
@@ -4813,10 +4121,6 @@
         "description": "The PreCip Jacket is reliable, value-oriented, full-function rainwear for backcountry and urban travelers alike. The PreCip Men's Rain Jacket features Marmot's comfortable and breathable NanoPro waterproofing technology. NanoPro coating is comprised of densely packed pores small enough to keep water droplets from getting in, but big enough to let water vapor out—providing cool, dry comfort even as your activity level increases.",
         "size": "Large",
         "degree": "98",
-        "seller": {
-            "name": "Quang Anh",
-            "address": "TP Ho Chi Minh, Viet Nam"
-        },
         "brand": "No Brand",
         "image": ["jacket7", "jacket8.jpg", "jacket9.jpg"],
         "date": [
@@ -4854,10 +4158,6 @@
         "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of women's apparel includes cashmere sweaters, fleece and down jackets, and more, including plus-size options. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
         "size": "Medium",
         "degree": "97",
-        "seller": {
-            "name": "Quang Anh",
-            "address": "TP Ho Chi Minh, Viet Nam"
-        },
         "brand": "ESTL",
         "image": ["jacket10.jpg", "jacket11.jpg", "jacket12.jpg"],
         "date": [
@@ -4895,10 +4195,6 @@
         "description": "We built a company from a feeling: the urge to get out. It's what drives us. Our tribe is devoted to exploring our outdoor passions and challenging ourselves in the mountains, water, and deserts of the planet we love so much.",
         "size": "Large",
         "degree": "95",
-        "seller": {
-            "name": "Quang Anh",
-            "address": "TP Ho Chi Minh, Viet Nam"
-        },
         "brand": "FILA",
         "image": ["jacket13.jpg", "jacket14.jpg", "jacket15.jpg"],
         "date": [
@@ -4961,13 +4257,6 @@
       "description": "contact me now",
       "size": 37,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Lola Smith",
-          "address": "Berlin"
-        }
-      ,
       "brand": "NWBL",       "image": ["20.01.webp", "20.02.webp", "20.03.webp"],
       "date": [
         {
@@ -5006,12 +4295,6 @@
       "description": "contact me to get it",
       "size": 43,
       "degree": "90%",
-      "seller": 
-        {
-          "name": "Locan Jimmy",
-          "address": "Washington"
-        }
-      ,
       "brand": "NWBL",
       "image": ["21.01.webp", "21.02.webp", "21.03.webp"],
       "date": [
@@ -5051,13 +4334,6 @@
       "description": "contact me to get it",
       "size": 37,
       "degree": 91,
-
-      "seller": 
-      {
-          "name": "Megan Claude",
-          "address": "Washington"
-        }
-      ,
       "brand": "Fila",       "image": ["22.01.webp", "22.02.webp", "22.03.webp"],
       "date": [
         {
@@ -5096,13 +4372,6 @@
       "description": "contact me to get it" ,
       "size": 36,
       "degree": 99,
-
-      "seller": 
-      {
-          "name": "Green Smith",
-          "address": "London"
-        }
-      ,
       "brand": "Fila",       "image": ["23.01.webp", "23.02.webp", "23.03.webp"],
       "date": [
         {
@@ -5141,13 +4410,6 @@
       "description": "contact me to get it",
       "size": "36",
       "degree": 95,
-
-      "seller": 
-      {
-          "name": "Mason Mout",
-          "address": "London"
-        }
-      ,
       "brand": "NWBL",       "image": ["24.01.webp", "24.02.webp", "24.03.webp"],
       "date": [
         {
@@ -5186,13 +4448,6 @@
       "description": "contact me to get it",
       "size": 35,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Harrison Greenwood",
-          "address": "Washington"
-        }
-      ,
       "brand": "NWBL",       "image": ["25.01.webp", "25.02.webp", "25.03.webp"],
       "date": [
         {
@@ -5231,13 +4486,6 @@
       "description": "contact me to get those shoes now",
       "size": 43,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Matheo Glace",
-          "address": "Washington"
-        }
-      ,
       "brand": "NWBL",       "image": ["26.01.webp", "26.02.webp", "26.03.webp"],
       "date": [
         {
@@ -5276,13 +4524,6 @@
       "description": "contact me to get those shoes now",
       "size": 37,
       "degree": 93,
-
-      "seller": 
-      {
-          "name": "Joshua James",
-          "address": "London"
-        }
-      ,
       "brand": "Fila",       "image": ["27.01.webp", "27.01.webp", "27.01.webp"],
       "date": [
         {
@@ -5321,13 +4562,6 @@
       "description": "contact me now",
       "size": 39,
       "degree": 90,
-
-      "seller": 
-      {
-          "name": "Ella",
-          "address": "London"
-        }
-      ,
       "brand": "Fila",       "image": ["28.01.webp", "28.02.webp", "28.03.webp"],
       "date": [
         {
@@ -5366,13 +4600,6 @@
       "description": "contact me now",
       "size": 43,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Marie Gate",
-          "address": "Berlin"
-        }
-      ,
       "brand": "Fila",       "image": ["29.01.webp", "29.02.webp", "29.03.webp"],
       "date": [
         {
@@ -5411,13 +4638,6 @@
       "description": "contact me now",
       "size": 37,
       "degree": 94,
-
-      "seller": 
-      {
-          "name": "Katie Moore",
-          "address": "London"
-        }
-      ,
       "brand": "Fila",       "image": ["30.01.webp", "30.02.webp", "30.03.webp"],
       "date": [
         {
