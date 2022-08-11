@@ -1,4 +1,4 @@
-                                         Welcome to Thrift_Fashion_Store 👋
+                                        Welcome to Thrift_Fashion_Store 👋
 -------------------------------------------------------
 
 Our project aims to create a website for a secondhand store where they can sell their wares.
