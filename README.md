@@ -1,4 +1,4 @@
-                                                 Welcome to readme-md-generator 👋
+                                   Welcome to readme-md-generator 👋
 -------------------------------------------------------
 
 Our project aims to create a website for a secondhand store where they can sell their wares.
