@@ -9,7 +9,7 @@
                             <h2>Last test rock</h2>
                             <p> Slip Margot into your office for instant vintage appeal – it makes every day a little extra.</p>
                             <div>
-                                <a href="">Shop now</a>
+                                <a href="#/products">Shop now</a>
                             </div>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                 <div class="grid wide">
                     <div class="blog-index-box-wrap">
                         <div class="blog-index-item col l-4 m-6 c-12" ng-repeat="blog in blogs">
-                            <a href="" >
+                            <a ng-href="#/blog/{{blog.id}}" >
                                 <img ng-src="img/{{blog.thumbnail}}" alt="blog-index">
                                 <span>{{blog.author}}</span>
                                 <h3>{{blog.title}}</h3>
@@ -231,35 +231,4 @@
     </section>
 <!--Blog end-->
 
-<!--Protec-index-->
-    <section id="protec">
-        <div class="grid wide">
-            <div class="protect-title">
-                <h2>All Thrills, Zero Guilt</h2>
-            </div>
-            <div class="row">
-                <div class="protec-item col l-4 m-4">
-                    <div class="flex-center-jus">
-                        <img src="img/index/returns.png" alt="protec">
-                    </div>
-                    <h3>Easy Returns</h3>
-                    <p>Thrift without the risk. Enjoy hassle-free returns with your order.</p>
-                </div>
-                <div class="protec-item col l-4 m-4">
-                    <div class="flex-center-jus">
-                        <img src="img/index/dress.png" alt="protec">
-                    </div>
-                    <h3>Quality Finds</h3>
-                    <p>Each item undergoes a 12-point inspection to meet our high quality standards.</p>
-                </div>
-                <div class="protec-item col l-4 m-4">
-                    <div class="flex-center-jus">
-                        <img src="img/index/sustainability.png" alt="protec">
-                    </div>
-                    <h3>Shop Sustainably</h3>
-                    <p>Choosing a used item over new reduces your carbon footprint by 82%!</p>
-                </div>
-            </div>
-        </div>
-    </section>
-<!--Protec-index end-->
+
