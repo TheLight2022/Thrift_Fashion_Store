@@ -1,4 +1,4 @@
-app.controller('HomeController', ['$scope', 'dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
+app.controller('HomeController', ['$scope', 'dataProducts','dataCategories','blog',function($scope,dataProducts,dataCategories,blog) {
     dataProducts.success(function(data) {
         $scope.products = data.filter(function(el,index){
             return index>=0 && index<7
@@ -6,6 +6,12 @@ app.controller('HomeController', ['$scope', 'dataProducts','dataCategories',func
     })
     dataCategories.success(function(data){
         $scope.dataCategories = data;
+    })
+
+    blog.success(function(data){
+        $scope.blogs = data.filter(function(el,index){
+            return index>=0 && index<3
+        })
     })
 
 

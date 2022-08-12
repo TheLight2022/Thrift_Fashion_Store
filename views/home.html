@@ -54,7 +54,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide" ng-repeat="swiper in dataCategories">
                     <a href="#/products" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
+                        <img src="img/{{swiper.img}}" alt="slide-cate">
                         <div class="slide-cate-p">
                             <p>{{swiper.name}}</p>
                         </div>
@@ -215,33 +215,15 @@
             <div class="blog-index-box">
                 <div class="grid wide">
                     <div class="blog-index-box-wrap">
-                        <div class="blog-index-item col l-4 m-6 c-12">
+                        <div class="blog-index-item col l-4 m-6 c-12" ng-repeat="blog in blogs">
                             <a href="" >
-                                <img src="img/index/blog-demo.png" alt="blog-index">
-                                <span>LIFESTYLE</span>
-                                <h3>Transforms a Georgian-Era Home</h3>
-                                <p>Just a few strides from the bustle of Brick Lane in London’s
-                                    East End—where the sweet, spicy scent of the street’s...</p>
+                                <img ng-src="img/{{blog.thumbnail}}" alt="blog-index">
+                                <span>{{blog.author}}</span>
+                                <h3>{{blog.title}}</h3>
+                                <p>{{blog.description}}</p>
                             </a>
                         </div>
-                        <div class="blog-index-item col l-4 m-6 c-12">
-                            <a href="" >
-                                <img src="img/index/blog-demo.png" alt="blog-index">
-                                <span>LIFESTYLE</span>
-                                <h3>Transforms a Georgian-Era Home</h3>
-                                <p>Just a few strides from the bustle of Brick Lane in London’s
-                                    East End—where the sweet, spicy scent of the street’s...</p>
-                            </a>
-                        </div>
-                        <div class="blog-index-item col l-4 m-6 c-12">
-                            <a href="" >
-                                <img src="img/index/blog-demo.png" alt="blog-index">
-                                <span>LIFESTYLE</span>
-                                <h3>Transforms a Georgian-Era Home</h3>
-                                <p>Just a few strides from the bustle of Brick Lane in London’s
-                                    East End—where the sweet, spicy scent of the street’s...</p>
-                            </a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

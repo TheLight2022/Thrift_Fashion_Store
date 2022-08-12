@@ -4813,7 +4813,7 @@
         "date": [
             {
                 "sell": "21/2/2022",
-                "update":
+                "update": ""
             }
         ],
         "price": 45,
@@ -4821,7 +4821,7 @@
         "color": "multi color",
         "category": "Backpack",
         "status": "Stock",
-        "quantity": ,23
+        "quantity": 1,
         "amount": 34,
         "tag": ["backpack"],
         "rate":[]
