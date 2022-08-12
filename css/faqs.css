@@ -305,13 +305,19 @@ summary svg{
     background-color: white;
     transition: ease-in-out 250ms;
 }
-.contact-link a:hover, .faq-right a:hover {
+.contact-link a:hover {
     color: black;
     transition: ease-in-out 250ms;
 }
-.contact-link a, .faq-right a {
+.contact-link a {
     color: white;
     text-decoration: none;
+}
+.faq-right a {
+    color: unset;
+}
+.faq-right a:hover {
+    color: lightpink;
 }
 @media screen and (max-width: 1200px){
     details > summary > svg {
