@@ -190,5 +190,13 @@
   {
     "id": "prd",
     "name": "Prada"
+  },
+  {
+    "id": "polo",
+    "name": "Polo"
+  },
+  {
+    "id": "lcr",
+    "name": "Lacrosse"
   }
 ]

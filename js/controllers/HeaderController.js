@@ -92,7 +92,4 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
         window.location.href=`/#/products`
 
     }
-
-   
-
 }]);
