@@ -1,3 +1,5 @@
-app.controller('BlogController', ['$scope', function($scope) {
-    $scope.message = "BlogController"
+app.controller('BlogController', ['$scope','blog', function($scope,blog) {
+    blog.success(function(data) {
+        $scope.dataBlog = data;
+    })
 }]);
