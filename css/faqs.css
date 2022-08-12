@@ -7,6 +7,30 @@ body {
     margin: 0;
     background-image: unset !important;
 }
+
+.breakcump {
+    width: 100%;
+    background-color: white;
+}
+.breakcump-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.breakcump-container p {
+    color: #b2b2b2;
+    font-weight: 600;
+}
+.breakcump-container span {
+    padding: 0 10px;
+    color: #b2b2b2;
+}
+.breakcump-container .breakcump-active {
+    color: #1B2F44;
+}
+
 #banner {
     position: relative;
     min-height:  230px;
