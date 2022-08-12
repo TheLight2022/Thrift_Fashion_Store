@@ -8,13 +8,17 @@ body {
 
 #banner {
     position: relative;
-    min-height: 230px;
     background-attachment: fixed;
     background-position: center;
     margin: 10px 0;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+}
+
+#banner.contacts {
+    min-height: 230px;
+    height:unset !important;
 }
 
 #banner .banner-text {
@@ -48,7 +52,6 @@ body {
 
 #contact-us .contact-widget {
     margin: 0px 20px;
-    background-color: #fcfcfc;
 }
 
 #contact-us .cw-item {
@@ -87,6 +90,7 @@ body {
     display: flex;
     list-style: none;
     padding: 0;
+    background-color: #fcfcfc;
 }
 
 #contact-us li {
