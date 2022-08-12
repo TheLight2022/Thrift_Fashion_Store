@@ -284,3 +284,26 @@ div.faq-right-item {
 summary svg{
     transform: translateY(-4px);
 }
+.contact-link {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contact-link button {
+    max-width: 20%;
+    height: 50%;
+    border: none;
+    background-color: black;
+    margin-left: 1em;
+}
+.contact-link a:hover, .faq-right a:hover {
+    color: #17a2b8;
+    transition: ease-in-out 250ms;
+}
+.contact-link a, .faq-right a {
+    color: white;
+    text-decoration: none;
+}
