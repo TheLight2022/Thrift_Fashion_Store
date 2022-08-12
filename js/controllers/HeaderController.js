@@ -88,7 +88,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
         }else{
             $scope.noProduct = false
         }
-        
+
         window.location.href=`/#/products`
 
     }
