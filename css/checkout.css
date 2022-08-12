@@ -9,22 +9,9 @@ body {
 
 
 #check-box {
-    /* width: 1200px; */
-    /* margin-bottom: 30px; */
     margin-top: 20px;
-    /* padding: 0 20px; */
-    /* display: block; */
+    margin-bottom: 30px;
 }
-
-/* #check-box .check-box {
-    display: flex;
-} */
-
-/* #check-box .form-check {
-    width: 60%;
-    margin-right: 0px;
-    border-right: 1px solid #bbb;
-} */
 
 #check-box  .product-check-total {
     border-bottom: 1px solid #ebebeb;
@@ -174,12 +161,78 @@ body {
     /* margin: 0 20px 10px 224px; */
 }
 
+#check-box .card-img {
+    display: grid;
+}
+
+#check-box .card-img img{
+    max-width: 50%;
+    margin: 10px auto;
+}
+
+#check-box .form-check {
+    display: block;
+    font-size: 16px;
+    opacity: 0.9;
+    position: relative;
+    align-items: center;
+}
+
+#check-box .form-check a{
+    color: #000;
+}
+
+#check-box .check-input {
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    padding: 0 10px 15px 15px;
+    top: 0;
+}
+
+
+#check-box .check-text {
+    padding-left: 30px;
+}
+
+#check-box .btn {
+    display: flex;
+}
+
+#check-box .form-btn {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background-color: #0e315b;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    /* margin: 0 18px; */
+}
+
+#check-box .form-btn:hover {
+    background-color: #4C709B;
+}
+
+#check-box  .form-btn:nth-last-child(1) {
+    margin-left: 20px;
+}
+
+#check-box  .form-btn:nth-child(1) {
+    margin-right: 20px;
+}
+
 .form-message {
     display: block;
     font-size: 14px;
     padding-top: 5px;
     color: rgb(233, 60, 60);
 }
+
 
 @media (max-width: 739px) {
     #check-box {
@@ -188,11 +241,18 @@ body {
     #check-box .reverse {
         flex-direction: column-reverse;
     }
+    
+    #thank h2 {
+        font-size: 32px !important;
+    }
 }
 
 @media (max-width: 1024px)  {
     #check-box .reverse {
         flex-direction: column-reverse;
+    }
+    #thank {
+        margin: 30px 30px;
     }
 }
 
@@ -200,6 +260,9 @@ body {
     /* #check-box .form{
         padding: unset;
     } */
+    #thank {
+        margin: 30px 0px;
+    }
     
     #check-box .form-group{
         padding-right: 25px;
@@ -211,9 +274,98 @@ body {
     
 }
 
+
 .form-label{
     position: absolute;
     top: 50%;
     left: 24px;
     transform: translateY(-50%);
 }
+ 
+/* Thankiu */
+#thank {
+    /* text-align: center; */
+    align-items: center;
+}
+
+#thank  .thank {
+    max-width: 700px;
+    margin:  0 auto;
+    border: #b2b2b2 1px solid;
+    padding: 0 40px;
+}
+
+#thank .img {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#thank .img  img{
+    width: 200px;
+    height: 150px;
+}
+
+#thank h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+#thank span {
+    font-size: 16px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    text-align: justify;
+}
+
+#thank .thank-text{
+    border-bottom: #d8d9da 1px solid;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+#thank .thank-title {
+    text-align: center;
+    margin-top: unset;
+}
+#thank h4 {
+    margin: 12px 0 0px;
+    font-size: 20px;
+}
+
+#thank .btn-product {
+    margin: 0 auto;
+    width: 200px;
+    background-color: #b9b9b9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#thank .btn-product a{
+    display: block;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0e315b;
+    padding: 5px 0;
+}
+
+#thank .btn-product a:hover{
+    /* display: block; */
+    color: #FDF9F5;
+    background-color: #1B2F44;
+}
+
+/* #thank .logo{
+    width: 100%;
+} */
+
+#thank .logo {
+    width: 150px;
+    margin: 0 auto;
+}
+
