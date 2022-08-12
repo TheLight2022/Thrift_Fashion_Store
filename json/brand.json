@@ -206,5 +206,17 @@
   {
     "id": "CK",
     "name": "Calvin Klein"
+  },
+  {
+    "id": "bbr",
+    "name": "Burberry"
+  },
+  {
+    "id": "lr",
+    "name": "Laurent"
+  },
+  {
+    "id": "versace",
+    "name": "Versace"
   }
 ]
