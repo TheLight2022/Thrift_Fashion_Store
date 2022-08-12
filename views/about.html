@@ -1,1 +1,247 @@
-{{message}}
+<header id="header">
+    <section id="bar-button">
+        <button><i class="fa-solid fa-bars"></i></button>
+    </section>
+    <section id="overlay"></section>
+    <section id="bar-list">
+        <div id="button-close-bar"><i class="fa-solid fa-xmark"></i></div>
+        <div class="bar-list-container">
+            <ul>
+                <li><a href="#/home">Home</a></li>
+                <li><a href="#/products">Products</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="#/about">About us</a></li>
+                <li><a href="#/FAQs">FAQs</a></li>
+                <li><a href="#/blog">Blogs</a></li>
+            </ul>
+            <ul>
+                <li>My account</li>
+                <li>
+                    <span><i class="fa-solid fa-user"></i></span>
+                    <span><i class="fa-regular fa-heart"></i></span>
+                    <span><i class="fa-regular fa-bag-shopping"></i></span>
+                </li>
+                <li>Follow us</li>
+                <li>
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-pinterest-p"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="header-top" class="flex-center">
+        <div class="grid wide" id="header-top-container">
+            <div class="flex-center-between">
+                <div class="flex header-top-left">
+                    <p><span><i class="fa-solid fa-envelope"></i></span> contact@thriftfashionstore.com</p>
+                    <p><span><i class="fa-solid fa-phone"></i></span> +1 (828) 324 7992</p>
+                </div>
+                <div class="header-top-right flex-center">
+                    <div class="header-top-right-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="header-top-right-language">
+                        <span class="header-language-item flex-center" id="language">
+                            <img class="language-flag" src="img/index/usa-flag.png" alt="language">
+                            <span>English</span>
+                            <span><i class="fa-solid fa-angle-down"></i></span>
+                        </span>
+                        <div id="list-language">
+                            <span class="header-language-item flex-center">
+                                <img class="language-flag" src="img/index/usa-flag.png" alt="language">
+                                <span>English</span>
+                            </span>
+                            <span class="header-language-item flex-center">
+                                <img class="language-flag" src="img/index/vietnam-flag.png" alt="language">
+                                <span>Viet Nam</span>
+                            </span>
+                            <span class="header-language-item flex-center">
+                                <img class="language-flag" src="img/index/germany-flag.png" alt="language">
+                                <span>German</span>
+                            </span>
+                            <span class="header-language-item flex-center">
+                                <img class="language-flag" src="img/index/korean-flag.png" alt="language">
+                                <span>Korean</span>
+                            </span>
+                            <span class="header-language-item flex-center">
+                                <img class="language-flag" src="img/index/china-flag.png" alt="language">
+                                <span>Chinese</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="header-bottom">
+        <div class="header-bottom-container">
+            <nav class="navigation">
+                <ul class="flex">
+                    <li class="active"><a href="#/home">Home</a></li>
+                    <li><a href="#/products">Products</a></li>
+                    <li><a href="">Store</a></li>
+                    <li><a href="#/about">About us</a></li>
+                    <li><a href="#/FAQs">FAQS</a></li>
+                    <li><a href="#/blog">Blogs</a></li>
+                    <li><a href="#/contacts">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="grid wide" id="header-midle">
+            <div class="row" id="header-midle-container">
+                <div class="col l-2 m-12 c-12 header-midle-1">
+                    <a href="#/home"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="col l-7 m-12 c-12" id="header-form-search">
+                    <form  class="flex-center" ng-submit="filterProducts()" >
+                        <select ng-model="categories" name="" class="col l-3 m-3 c-4">
+                            <option value="">All Categories</option>
+                            <option value="{{category.name}}" ng-repeat="category in categorys">{{category.name}}</option>
+                        </select>
+                        <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-5" ng-model="search">
+                        <div class="group-button-search col l-2 m-2 c-3" >
+                            <div class="flex">
+                                <div class="button-reset col l-6 m-6 c-6" ng-click="resetValue()"><i class="fa-solid fa-xmark"></i></div>
+                                <button class="button-search col l-6 m-6 c-6"><i class="fa-regular fa-magnifying-glass"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col l-3 m-3 c-0" id="header-shop">
+                    <ul class="col l-12 m-12">
+                        <li> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
+                        <li><a href="#/wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                        <li>
+                            <a href="#/cart" class="header-cart">
+                                <i class="fa-regular fa-bag-shopping"></i>
+                                <span>{{countCart}}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<section id="header-sticky">
+<div class="header-sticky-container grid">
+    <div class="row header-sticky-flex">
+        <div class="col l-2 m-2 header-sticky-container-img">
+            <a href=""><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="col l-8 m-8 header-sticky-container-nav">
+            <nav>
+                <ul>
+                    <li class="active"><a href="#/home">Home</a></li>
+                    <li><a href="#/products">Products</a></li>
+                    <li><a href="">Store</a></li>
+                    <li><a href="#/about">About us</a></li>
+                    <li><a href="#/FAQs">FAQS</a></li>
+                    <li><a href="#/blog">Blogs</a></li>
+                    <li><a href="#/contacts">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col l-2 m-2 header-sticky-container-icon">
+            <ul>
+                <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="col l-3 m-3"> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
+                <li class="col l-3 m-3"><a href="#/wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                <li class="col l-3 m-3">
+                    <a href="#/cart" class="header-cart">
+                        <i class="fa-regular fa-bag-shopping"></i>
+                        <span>{{countCart}}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<div id="banner" class="about-us" style="background-image: url(img/banner-contact.jpg)">
+    <div class="banner-text">
+        <h2>About Us</h2>
+    </div>
+</div>
+
+<div id="about-us" class="mg-b-t-80">
+    <div class="grid wide">
+        <div class="row  pd-l-r-30">
+            <div class="col l-6 m-6 c-12">
+                <h2>Our History</h2>
+                <span class="underline"></span>
+                <div class="about-text">
+                    <p>Our story started with a problem (the best ideas usually do). Some ten years ago, our founder, Jenny Johnson, was furnishing her flat, while she realized the lack of affordable and quality furniture pieces available in the market. So she set out to collaborate with independent designers and makers to create pieces you’ll love, minus the mark-up.</p>
+                    <p>In 2010, Jenny got a chance to visit renowned chair manufacturers, Bergen and Bel Air. Surprised by the top-notch quality of their designs, along with the approach they took to protect the environment, she set out to team with them.</p>
+                    <p>Yet, they all knew that they lacked something: an organization that suits every taste and need of customers. That was when Bartlett came in with the versatility of a new brand in the industry, the last piece of the puzzle that they all needed. And so Thrift Fashion Store was born. The destination for creating your dream home.</p>
+                </div>
+            </div>
+            <div class="col l-6 m-6 c-12">
+                <div class="about-pd-l">
+                    <img src="img/shirt15.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-center mg-b-t-80 pd-l-r-30">
+        <div class="grid wide">
+            <div class="row  pd-l-r-30">
+                <div class="col l-12 m-12 c-12">
+                    <h2>Our Vision</h2>
+                    <span class="underline"></span>
+                    <div class="about-text">
+                        <p>We continue to grow and add to the unique diversity of styles we offer in order to satisfy the most discriminating of shoppers. We’re all about the details start to finish. By selecting only the finest wood and quality hardware, our woodcrafters utilize the best-proven construction techniques to create furniture that is as durable as it is beautiful. Each piece is individually crafted, not mass-produced. Our desire is to provide you with the highest quality furniture at the best value.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="row  pd-l-r-30">
+            <div class="col l-12 m-12 c-12 ">
+                <h2 class="quote">"When it comes to your home, we believe you can have it all: great design and quality, at an affordable price"</h2>
+            </div>
+        </div>
+    </div> 
+    <div class="grid wide">
+        <div class="row mg-b-t-80 pd-l-r-30  f-d">
+            <div class="col l-6 m-6 c-12">
+                <div class="about-pd-r">
+                    <img src="img/hatComment3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col l-6 m-6 c-12">
+                <h2>Our Approach</h2>
+                <span class="underline"></span>
+                <div class="about-text">
+                    <p>We’re taking positive steps to reduce our impact on the planet. For us, that means retailing responsibly. We’ve set a number of goals to get us there.</p>
+                    <p>Our commitment to great design has extended into making better business choices that minimise our impact on people and the planet. For 2021, we’re focusing on four key areas where we can really make a difference. This is just the start of our journey, so keep checking back for updates.</p>
+                    <p>The way we see it, sustainability begins with responsible sourcing. From making sure our key materials create less environmental impact, through to selecting suppliers aligned with our core values. It’s not simply our business strategy, but our moral obligation.</p>
+                    <p>Things like: eliminating all unnecessary plastic from our product packaging, and ensuring that the most environmentally impactful materials we use are 100% sustainably sourced.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid wide">
+        <div class="row mg-b-t-80 pd-l-r-30">
+            <div class="col l-6 m-6 c-12">
+                <h2>Our Community</h2>
+                <span class="underline"></span>
+                <div class="about-text">
+                    <p>People are at the heart of what we do, and we’re proud to have created a community as passionate about design as we are. From reviews on our product pages to our 1.2 million Instagram fans, nothing makes us happier than seeing real people sharing our products in their homes.</p>
+                </div>
+            </div>
+            <div class="col l-6 m-6 c-12">
+                <div class="about-pd-l">
+                    <img src="img/community.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
