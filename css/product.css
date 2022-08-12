@@ -300,3 +300,6 @@ body {
 .cate-item h3{
     cursor: pointer;
 }
+.product-cart-index a{
+    color: #000;
+}

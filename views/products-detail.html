@@ -1,0 +1,132 @@
+
+<section id="product" class="detail">
+    <div class="product-container grid wide">
+        <div class="row">
+            <div class="col l-3 c-12 category">
+                <div class="cate-item">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li ng-repeat="category in categorys" ng-click="category.filter()"><a>{{category.name}}</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col l-9 c-12">
+                <div class="row">
+                    <div class="slide-img-detail col l-6 m-12 c-12">
+                        <div class="img-detail-hover col l-12 m-12">
+                            <img ng-src="img/{{details.image[0]}}" alt="product-detail">
+                        </div>
+                        <div class="slide-detail col l-12 m-12">
+                            <div class="swiper mySwiper5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img ng-src="img/{{details.image[0]}}" alt="product-detail"></div>
+                                    <div class="swiper-slide"><img ng-src="img/{{details.image[1]}}" alt="product-detail"></div>
+                                    <div class="swiper-slide"><img ng-src="img/{{details.image[2]}}" alt="product-detail"></div>
+                                    <div class="swiper-slide"><img ng-src="img/{{details.image[3]}}" alt="product-detail"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-detail-text col l-6 m-12 c-12">
+                        <div class="product-detail-text-container">
+                            <div class="flex-center-between">
+                                <div class="product-detail-tilte">
+                                    <span>{{details.category}}</span>
+                                    <h3>{{details.name}}</h3>
+                                </div>
+                                <div class="product-detail-heart"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <p class="dest-pro-detail">
+                                {{details.description}}
+                            </p>
+                            <strong class="product-detail-price">{{details.price | currency}}</strong>
+                            <div class="detail-qty">
+                                <p>Quantity<span>{{details.quantity}}</span}}</span></p>
+                                <p>Amount<span>{{details.amount}}</span></p>
+                            </div>
+                            <div class="box-value-detail">
+                                <div class="box-input-detail">
+                                    <span id="detail-minus"><i class="fa-regular fa-minus"></i></span>
+                                    <input id="detail-input" type="text" placeholder="0" ng-model="qty">
+                                    <span id="detail-plus"><i class="fa-regular fa-plus"></i></span>
+                                </div>
+                                <button ng-click="addCart()">Add to cart</button>
+                            </div>
+                            <p class="detail-bottom">CATEGORIES: <span>{{details.category}}</span></p>
+                            <p class="detail-bottom">DELIVERY: <span>All week</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row detail-tag-change">
+                    <a class="detail-tag-change-item active col l-6 m-6 c-6" href="">DESCRIPTION</a>
+                    <a class="detail-tag-change-item col l-6 m-6 c-6" href="">SPECIFICATION</a>
+                </div>
+                <div class="row des-detail-box">
+                    <div class="des-detail-box-text col l-6">
+                        <h4>Introduction</h4>
+                        <p>The Elmira Right Hand Facing Corner Sofa is a stylish contemporary
+                            sofa designed for lounging. Featuring super-deep seats that allow you
+                            to lie almost all the way back (throw cushions optional), this modern
+                            sofa also comes with a low profile that will enhance the sense of space
+                            in your living room.</p>
+                        <h4>Features</h4>
+                        <p>This is a sectional sofa consisting of individual units arranged together.
+                            Sofa units can be re-configured to suit individual needs and preferences.
+                            This chaise sofa can be used in the living, study or bedroom to provide extra
+                            seating spaces. However, 2 pieces of this sofa can be creatively combined to create
+                            an L Shaped sofa or a spacious 4 seater sofa that is great for large living rooms.
+                            Available in Granite and Stone and separately as a chaise lounge or together as a
+                            4 seater sofa.</p>
+                    </div>
+                    <div class="des-detail-box-img col l-6">
+                        <img ng-src="img/{{details.image[0]}}" alt="details">
+                    </div>
+                </div>
+<!--                <div class="row spe-detail-box">-->
+<!--                    <div class="spe-detail-box-title col l-6">-->
+<!--                        <h5>DIMENSIONS</h5>-->
+<!--                        <h5>SEAT DIMENSIONS</h5>-->
+<!--                        <h5>LEG HEIGHT</h5>-->
+<!--                        <h5>WEIGHT</h5>-->
+<!--                        <h5>AVAILABILITY</h5>-->
+<!--                        <h5>MATERIAL(S)</h5>-->
+<!--                    </div>-->
+<!--                    <div class="spe-detail-box-de col l-6">-->
+<!--                        <p>85cm x 274cm x 204cm</p>-->
+<!--                        <p>47cm x 218cm x 59/170cm</p>-->
+<!--                        <p>12cm</p>-->
+<!--                        <p>102kg</p>-->
+<!--                        <p>32</p>-->
+<!--                        <p>Polyester</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="re-product">
+    <div class="re-product-title"><h2>Recommended product</h2></div>
+    <div class="grid wide">
+        <div class="row product-list">
+            <div class="product-list-item col l-3 m-6" ng-repeat="product in suggest">
+                <div class="product-hover">
+                    <img ng-src="img/{{product.image[0]}}" alt="products">
+                    <div class="product-cart" href="">
+                        <span><i class="fa-regular fa-bag-shopping"></i></span>
+                        <p><a ng-href="$/products/{{product.id}}"></a>+ Quick View</p>
+                    </div>
+                </div>
+                <a class="product-text" href="">
+                    <h4>{{product.name}}</h4>
+                    <strong>{{ product.price | currency}}</strong>
+                    <div class="product-bottom">
+                        <div>{{product.category}}</div>
+                        <div>New {{product.degree}}%</div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
