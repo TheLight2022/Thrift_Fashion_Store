@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
-    <!-- AngularJS -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script> -->
-    <!-- Jquery -->
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> -->
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/checkout.css">
-    <link rel="stylesheet" href="./css/set.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/register-login.css">
-    <link rel="stylesheet" href="./css/grid.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="./css/fontawesome-pro-6.1.0-web/css/all.css">
-</head>
-
-<body style="background: none;">
-    <div id="check-box">
+<div id="check-box">
         <div class="grid wide">
             <div class="row reverse">
                 <div class="col l-8 m-12 c-12 form-check">
@@ -127,8 +104,8 @@
                             <!-- <button class="form-submit ">PLACE MY ORDER</button> -->
 
                             <div class="col l-12 m-12 c-12 btn">
-                                <button class="form-btn ">BACK TO CART</button>
-                                <button class="form-btn ">PLACE MY ORDER</button>
+                                <a href="#/thanks" class="form-btn ">BACK TO CART</a>
+                                <a href="#/thanks" class="form-btn ">PLACE MY ORDER</a>
                             </div>
                         </div>
                     </form>
@@ -137,63 +114,16 @@
                     <div class="row">
                         <div class="product-check-item">
                             <h3>Order Summary</h3>
-                            <div class="product-box box-form">
-                                <div class="row item">
-                                    <div class="col l-3 m-3 c-3 img">
-                                        <img src="img/shirt20.webp" alt="">
-                                    </div>
-                                    <div class="col l-6 m-6 c-6 product-title">
-                                        <h3>Greenwich Coffee</h3>
-                                        <div class="qty">
-                                            <span>Quantity:</span>
-                                            <span class="number-item">1</span>
-                                        </div>
-                                    </div>
-                                    <div class="col l-3 m-3 c-3 product-price">
-                                        $<span>159.00</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-box box-form">
-                                <div class="row item">
-                                    <div class="col l-3 m-3 c-3">
-                                        <img src="img/shirt20.webp" alt="">
-                                    </div>
-                                    <div class="col l-6 m-6 c-6 product-title">
-                                        <h3>Greenwich Coffee</h3>
-                                        <div class="qty">
-                                            <span>Quantity:</span>
-                                            <span class="number-item">1</span>
-                                        </div>
-                                    </div>
-                                    <div class="col l-3 m-3 c-3 product-price">
-                                        $<span>203.56</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-box box-form">
-                                <div class="row item">
-                                    <div class="col l-3 m-3 c-3">
-                                        <img src="img/shirt20.webp" alt="">
-                                    </div>
-                                    <div class="col l-6 m-6 c-6 product-title">
-                                        <h3>Greenwich Coffee</h3>
-                                        <div class="qty">
-                                            <span>Quantity:</span>
-                                            <span class="number-item">1</span>
-                                        </div>
-                                    </div>
-                                    <div class="col l-3 m-3 c-3 product-price">
-                                        $<span>216.33</span>
-                                    </div>
-                                </div>
-                            </div>
+
+                            <item-checkout item="data" ng-repeat="data in dataMyCart"></item-checkout>
+
+
                             <div class="product-check-total">
                                 <div class="row box-form item">
                                     <div class="col l-4 m-4 c-4">
                                         <h3>Subtotal</h3>
                                     </div>
-                                    <div class="col l-o-5 m-o-5 c-o-5 total">$<span class="total-number">1020.33</span>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total"><span class="total-number">{{total | currency}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -210,19 +140,18 @@
                                     <div class="col l-4 m-4 c-4">
                                         <h3>Total</h3>
                                     </div>
-                                    <div class="col l-o-5 m-o-5 c-o-5 total">$<span class="total-number">1020.33</span>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total"><span class="total-number">{{total | currency}}</span>
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
+    </div>
     
-    
-        </div>
-
+       
 
     <script src="../js/validate.js"></script>
     <script>
@@ -272,8 +201,3 @@
         });
   
     </script>
-
-
-
-</body>
-</html>

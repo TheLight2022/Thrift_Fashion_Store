@@ -368,4 +368,10 @@ body {
     width: 150px;
     margin: 0 auto;
 }
-
+.form-btn{
+    color :#fff !important;
+    text-decoration: none;
+    display:flex !important;
+    align-items: center;
+    justify-content: center;
+}
