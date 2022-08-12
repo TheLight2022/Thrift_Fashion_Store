@@ -2064,7 +2064,8 @@
       "description": "Boss Green basic base cap with embroidered logo on front in contrast color.",
       "size": "XL",
       "degree": 94,
-      "brand": "boss",       "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
+      "brand": "boss",
+        "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
       "date": [
         {
           "sell": "30/04/2022",
@@ -2593,12 +2594,12 @@
     },
     {
       "id": "glass1",
-      "name": "Sun glasses Womens Mens Shades UV400 Sunnies SJ2050",
-      "description": "These classic fashion sunglasses will bring you a timeless look and will be great choices for daily fashion accessories all year round. They are suitable for both men and women and suitable for any occasion and weather conditions.",
+      "name": "Christian Dior Monsieur",
+      "description": "Vintage Christian Dior gold glasses logo CD oval rounded",
       "size": "Lens Width: 53mm | Lens Height: 44mm | Temple Length: 150mm | Nose Bridge: 22mm",
       "degree": 85,
-      "brand": "SN",       
-      "image": ["glass1.jpg", "glass2.jpg", "glass3.jpg"],
+      "brand": "dior",
+      "image": ["glass1.webp", "glass2.jpg", "glass3.jpg"],
       "date": [
         {
           "sell": "11/07/2022",
@@ -2617,14 +2618,14 @@
         {
           "id_user": "glass1_user_01",
           "comment": "Love these! The frame color is perfect. just a nice warm goldish rose color. Also has nice gold earpieces which makes them look more expensive. The polarized brown lens is really nice on your eyes. I live in Hawaii so I have to have polarized lenses. They stay nice and tight on your head and are really comfortable too. They are a little bit bigger than a Ray Ban Wayfarer so a little more style e. But not too oversized of a frame.",
-          "image": ["glassComment1.jpg"],
+          "image": [],
           "video": [],
           "rating_by_star": 5
         },
         {
           "id_user": "glass1_user_02",
           "comment": "I absolutely love these glasses!!! They aren't too big where they are overpowering and they flatter every head shape. I love them because they never get stuck in my hair and the metal earpieces fit perfectly and comfortably around my ears. Also, they actually to a great job blocking out the sun, compared to most stylish sunglasses. These are the perfect glasses to make every outfit look amazing, keep in the car, or wear everyday! Definitely my favorite sunglasses!!",
-          "image": ["glassComment2.jpg"],
+          "image": [],
           "video": [],
           "rating_by_star": 5
         }
@@ -2632,11 +2633,12 @@
     },
     {
       "id": "glass2",
-      "name": "Maui Jim Women's Orchid Cat-Eye Sun glasses",
-      "description": "A pair of fashion sunglasses budding with lovely color, Orchid is inspired by the vibrant flower that often blooms beautiful and fragrant. Orchid's multi-colored frame options radiate personality, and are best for square or oblong face shapes.",
+      "name": "Vintage python glasses",
+      "description": "Vintage python glasses. Nonprescription glasses.",
       "size": "Lens width: 56 millimeters; Lens height: 47 millimeters; Bridge: 19 millimeters; Arm: 140 millimeters",
       "degree": 95,
-      "brand": "No brand",       "image": ["glass4.jpg", "glass5.jpg", "glass6.jpg"],
+      "brand": "No brand",
+        "image": ["glass4.jpg", "glass5.jpg", "glass6.jpg"],
       "date": [
         {
           "sell": "20/9/2022",
