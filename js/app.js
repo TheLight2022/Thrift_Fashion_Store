@@ -35,7 +35,7 @@ app.config(function($routeProvider) {
       templateUrl: 'views/register.html'
     })
     .when('/products',{
-        templateUrl: 'views/products.html',
+        templateUrl: 'views/products.html'
     })
     .when('/FAQs',{
       templateUrl: 'views/FAQs.html',
