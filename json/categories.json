@@ -26,5 +26,9 @@
   {
     "id": "jacket",
     "name": "Jacket"
+  },
+  {
+    "id": "hoodie",
+    "name": "Hoodie"
   }
 ]

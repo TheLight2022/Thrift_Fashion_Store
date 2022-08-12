@@ -126,8 +126,8 @@ body {
     row-gap: 20px;
 }
 .product-list-item img {
-    width: 100%;
     height: auto;
+    width: 100%;
     display: block;
 }
 .product-list-item a {
@@ -188,6 +188,8 @@ body {
 }
 
 .product-hover {
+    height: 65%;
+    width: 100%;
     position: relative;
 }
 .product-heart {
