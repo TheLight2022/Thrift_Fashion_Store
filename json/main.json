@@ -4897,5 +4897,293 @@
         "amount": 5,
         "tag": ["backpack"],
         "rate":[]
+    },
+    {
+        "id": "wallet1",
+        "name": "Prada Document Wallet",
+        "description": "No description",
+        "size": "XL",
+        "degree": 90,
+        "brand": "Prada",
+        "image": ["wallet1.jpg", "wallet2.jfif", "wallet3.jfif"],
+        "date": [
+            {
+                "sell": "23/12/2022",
+                "update": ""
+            }
+        ],
+        "price": 40,
+        "gender": "Male",
+        "color": "Black",
+        "category": "Wallet",
+        "status": "Stock",
+        "quantity": 30,
+        "amount": 20,
+        "tag": ["wallet"],
+        "rate":[]
+    },
+    {
+        "id": "wallet2",
+        "name": "Kate Spade Hollie Spade Clover Geo Small Slim Wallet",
+        "description": "No description",
+        "size": "Big size",
+        "degree": 99,
+        "brand": "No brand",
+        "image": ["wallet4.jfif", "wallet5.jfif", "wallet6.jfif"],
+        "date": [
+            {
+                "sell": "12/08/2022",
+                "update": ""
+            }
+        ],
+        "price": 58,
+        "gender": "Female",
+        "color": "Pink",
+        "category": "Wallet",
+        "status": "Stock",
+        "quantity": 38,
+        "amount": 23,
+        "tag": ["wallet"],
+        "rate":[]
+    },
+    {
+        "id": "wallet3",
+        "name": "Burberry Clutch Edin London Pouch",
+        "description": "Comes from a smoke-free/pet-free home\n100% Authentic Guaranteed Always",
+        "size": "ONE SIZE",
+        "degree": 99,
+        "brand": "Burberry",
+        "image": ["wallet7.jfif", "wallet8.jfif", "wallet9.jfif"],
+        "date":[
+            {
+                "sell": "21/2/2022",
+                "update": ""
+            }
+        ],
+        "price": 20,
+        "gender": "Female",
+        "color": "Pink",
+        "category": "Wallet",
+        "status": "Stock",
+        "quantity": 30,
+        "amount": 20,
+        "tag": ["wallet"],
+        "rate":[]
+    },
+    {
+        "id": "wallet4",
+        "name": "Saint Laurent Paris",
+        "description": "100% Authentic - Money-Back Guarantee",
+        "size": "One size",
+        "degree": 99,
+        "brand": "Laurent",
+        "image": ["wallet10.jpeg", "wallet11.jfif", "wallet12.jfif"],
+        "date": [
+            {
+                "sell": "4/8/2022",
+                "update": ""
+            }
+        ],
+        "price": 50,
+        "gender": "Female",
+        "color": "Red",
+        "category": "Wallet",
+        "status": "Stock",
+        "quantity": 20,
+        "amount": 9,
+        "tag": ["wallet"],
+        "rate":[]
+    },
+    {
+        "id": "boots1",
+        "name": "Vintage Roots Soft Brown Leather Tall Tribe Boots High",
+        "description": "Really nice piece - I believe these are a pair of the Tribe leather boots but it make be a slightly different type.",
+        "size": "XL",
+        "degree": 99,
+        "brand": "Martin",
+        "image": ["boots1.jpg", "boots2.jfif", "boot3.jfif"],
+        "date": [
+            {
+                "sell": "30/04/2022",
+                "update": ""
+            }
+        ],
+        "price": 100,
+        "gender": "Female",
+        "color": "Brown",
+        "category": "Boots",
+        "status": "Stock",
+        "quantity": 10,
+        "amount": 5,
+        "tag": ["boots"],
+        "rate":[]
+    },
+    {
+        "id": "boots2",
+        "name": "Roots boots",
+        "description": "No description",
+        "size": "XL",
+        "degree": 99,
+        "brand": "Adidas",
+        "image": ["boots4.jpg", "boots5.jfif", "boots6,jfif"],
+        "date": [
+            {
+                "sell": "21/12/2021",
+                "update": ""
+            }
+        ],
+        "price": 90,
+        "gender": "Male",
+        "color": "Black",
+        "category": "Boots",
+        "status": "Stock",
+        "quantity": 20,
+        "amount": 12,
+        "tag": ["boots"],
+        "rate":[]
+    },
+    {
+        "id": "boots3",
+        "name": "Vintage Fine Leather Hanover Chelsea Boots",
+        "description": "Excellent condition (no rips, holes, or stains)",
+        "size": "Large",
+        "degree": 99,
+        "brand": "Dior",
+        "image": ["boots7.webp", "boots8.jfif", "boots9.jfif"],
+        "date": [
+            {
+                "sell": "30/2/2022",
+                "update": ""
+            }
+        ],
+        "price": 40,
+        "gender": "Female",
+        "color": "Black",
+        "category": "Boots",
+        "status": "Stock",
+        "quantity": 18,
+        "amount": 3,
+        "tag": ["boots"],
+        "rate":[]
+    },
+    {
+        "id": "boots4",
+        "name": "Leather Boots",
+        "description": "No description",
+        "size": "Large",
+        "degree": 99,
+        "brand": "No brand",
+        "image": ["boots10.jfif", "boots11.jfif", "boots12.jfif"],
+        "date": [
+            {
+                "sell": "25/2/2022",
+                "update": ""
+            }
+        ],
+        "price": 70,
+        "gender": "Male",
+        "color": "Black",
+        "category": "Boots",
+        "status": "Stock",
+        "quantity": 30,
+        "amount": 20,
+        "tag": ["boots"],
+        "rate":[]
+    },
+    {
+        "id": "dress1",
+        "name": "Shirt Dress Women’s S",
+        "description": "Shirt Dress Women’s Small. Good condition. Has some marks as shown throughout. They might come off it hasn’t been washed. Has a talon zipper on one side and the other side is just knitted it has no zip compartment. ",
+        "size": "US S / EU 44-46 / 1",
+        "degree": 99,
+        "brand": "Dior",
+        "image": ["dress1.jfif", "dress2.jfif", "dress3.jfif"],
+        "date": [
+            {
+                "sell": "18/12/2022",
+                "update": ""
+            }
+        ],
+        "price": 120,
+        "gender": "Female",
+        "color": "Yellow",
+        "category": "Dress",
+        "status": "Stock",
+        "quantity": 35,
+        "amount": 50,
+        "tag": ["dress"],
+        "rate":[]
+    },
+    {
+        "id": "dress2",
+        "name": "Norma Kamali FW11 Open Back Long sleeve Maxi Dress",
+        "description": "No description",
+        "size": "Medium-Large",
+        "degree": 99,
+        "brand": "Versace",
+        "image": ["dress4.jpg", "dress5.jfif", "dress6.jfif"],
+        "date": [
+            {
+                "sell": "18/9/2022",
+                "update": ""
+            }
+        ],
+        "price": 120,
+        "gender": "Female",
+        "color": "Black",
+        "category": "Dress",
+        "status": "Stock",
+        "quantity": 140,
+        "amount": 120,
+        "tag": ["dress"],
+        "rate":[]
+    },
+    {
+        "id": "dress3",
+        "name": "Elie Saab Dress",
+        "description": "No description",
+        "size": "Medium",
+        "degree": 99,
+        "brand": "Versace",
+        "image": ["dress7.jfif", "dress8.jfif", "dress9.jfif"],
+        "date": [
+            {
+                "sell": "12/8/2022",
+                "update": ""
+            }
+        ],
+        "price": 80,
+        "gender": "Female",
+        "color": "Red",
+        "category": "Dress",
+        "status": "Stock",
+        "quantity": 23,
+        "amount": 9,
+        "tag": ["dress"],
+        "rate":[]
+    },
+    {
+        "id": "dress4",
+        "name": "Von Dutch Velvet Dress",
+        "description": "No description",
+        "size": "medium $ large",
+        "degree": 99,
+        "brand": "Dior",
+        "image": ["dress10.jpg", "dress11.jfif", "dress12.jfif"],
+        "date": [
+            {
+                "sell": "22/7/2022",
+                "update": ""
+            }
+        ],
+        "price": 99,
+        "gender": "Female",
+        "color": "Red",
+        "category": "Dress",
+        "status": "Stock",
+        "quantity": 33,
+        "amount": 10,
+        "tag": ["dress"],
+        "rate":[]
     }
 ]
