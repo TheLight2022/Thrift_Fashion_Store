@@ -72,7 +72,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
 
             $scope.dataProducts = $scope.products.filter(el=>{
                 isTrue = el.name.match(re)||
-                el.category.match(re) 
+                el.category.match(re)
                 return isTrue
             })
         }

@@ -52,78 +52,15 @@
     <section id="slide-category">
         <div class="swiper mySwiper2 swiper2">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
+                <div class="swiper-slide" ng-repeat="swiper in dataCategories">
+                    <a href="#/products" class="slide-cate">
                         <img src="img/index/shoes-demo.png" alt="slide-cate">
                         <div class="slide-cate-p">
-                            <p>Shoes</p>
+                            <p>{{swiper.name}}</p>
                         </div>
                     </a>
                 </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="" class="slide-cate">
-                        <img src="img/index/shoes-demo.png" alt="slide-cate">
-                        <div class="slide-cate-p">
-                            <p>Shoes</p>
-                        </div>
-                    </a>
-                </div>
+                
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -196,132 +133,25 @@
         <section id="second-best">
             <div class="swiper mySwiper3">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" ng-repeat="product in products">
                         <div class="second-best-item">
                             <div class="second-best-item-hover">
-                                <div class="product-new-tag">New 99%</div>
-                                <a class="product-heart-index" href=""><i class="fa-regular fa-heart"></i></a>
-                                <img src="img/chardd.jpg" alt="products">
+                                <img ng-src="img/{{product.image[0]}}" alt="products">
                                 <a class="product-cart-index" href="">
-                                    <span><i class="fa-regular fa-bag-shopping"></i></span>
                                     <p>+ Quick View</p>
                                 </a>
                             </div>
                             <a class="second-best-item-text" href="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic!</h4>
+                                <h4>{{product.name}}</h4>
                                 <strong>$150.00</strong>
                                 <div class="second-best-item-bottom">
-                                    <div>Brand</div>
-                                    <div>New 99%</div>
+                                    <div>{{product.brand}}</div>
+                                    <div>New {{product.degree}}%</div>
                                 </div>
                             </a>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="second-best-item">
-                            <div class="second-best-item-hover">
-                                <div class="product-new-tag">New 99%</div>
-                                <a class="product-heart-index" href=""><i class="fa-regular fa-heart"></i></a>
-                                <img src="img/chardd.jpg" alt="products">
-                                <a class="product-cart-index" href="">
-                                    <span><i class="fa-regular fa-bag-shopping"></i></span>
-                                    <p>+ Quick View</p>
-                                </a>
-                            </div>
-                            <a class="second-best-item-text" href="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic!</h4>
-                                <strong>$150.00</strong>
-                                <div class="second-best-item-bottom">
-                                    <div>Brand</div>
-                                    <div>New 99%</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="second-best-item">
-                            <div class="second-best-item-hover">
-                                <div class="product-new-tag">New 99%</div>
-                                <a class="product-heart-index" href=""><i class="fa-regular fa-heart"></i></a>
-                                <img src="img/chardd.jpg" alt="products">
-                                <a class="product-cart-index" href="">
-                                    <span><i class="fa-regular fa-bag-shopping"></i></span>
-                                    <p>+ Quick View</p>
-                                </a>
-                            </div>
-                            <a class="second-best-item-text" href="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic!</h4>
-                                <strong>$150.00</strong>
-                                <div class="second-best-item-bottom">
-                                    <div>Brand</div>
-                                    <div>New 99%</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="second-best-item">
-                            <div class="second-best-item-hover">
-                                <div class="product-new-tag">New 99%</div>
-                                <a class="product-heart-index" href=""><i class="fa-regular fa-heart"></i></a>
-                                <img src="img/chardd.jpg" alt="products">
-                                <a class="product-cart-index" href="">
-                                    <span><i class="fa-regular fa-bag-shopping"></i></span>
-                                    <p>+ Quick View</p>
-                                </a>
-                            </div>
-                            <a class="second-best-item-text" href="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic!</h4>
-                                <strong>$150.00</strong>
-                                <div class="second-best-item-bottom">
-                                    <div>Brand</div>
-                                    <div>New 99%</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="second-best-item">
-                            <div class="second-best-item-hover">
-                                <div class="product-new-tag">New 99%</div>
-                                <a class="product-heart-index" href=""><i class="fa-regular fa-heart"></i></a>
-                                <img src="img/chardd.jpg" alt="products">
-                                <a class="product-cart-index" href="">
-                                    <span><i class="fa-regular fa-bag-shopping"></i></span>
-                                    <p>+ Quick View</p>
-                                </a>
-                            </div>
-                            <a class="second-best-item-text" href="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic!</h4>
-                                <strong>$150.00</strong>
-                                <div class="second-best-item-bottom">
-                                    <div>Brand</div>
-                                    <div>New 99%</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="second-best-item">
-                            <div class="second-best-item-hover">
-                                <div class="product-new-tag">New 99%</div>
-                                <a class="product-heart-index" href=""><i class="fa-regular fa-heart"></i></a>
-                                <img src="img/chardd.jpg" alt="products">
-                                <a class="product-cart-index" href="">
-                                    <span><i class="fa-regular fa-bag-shopping"></i></span>
-                                    <p>+ Quick View</p>
-                                </a>
-                            </div>
-                            <a class="second-best-item-text" href="">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, hic!</h4>
-                                <strong>$150.00</strong>
-                                <div class="second-best-item-bottom">
-                                    <div>Brand</div>
-                                    <div>New 99%</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="buttonNextSecond"><span><i class="fa-solid fa-chevron-right"></i></span></div>
@@ -451,4 +281,3 @@
         </div>
     </section>
 <!--Protec-index end-->
-{{dataProducts}}
