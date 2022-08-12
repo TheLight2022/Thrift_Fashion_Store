@@ -30,6 +30,7 @@ app.controller('CartController',['$scope','dataProducts', function($scope,dataPr
                     localStorage.setItem('myCart',JSON.stringify(localCart));
                     $scope.countItem = $scope.getCountItems()
                     $scope.total = $scope.getTotal()
+                    $scope.countCart = $scope.dataMyCart.length 
                 }
             }
         })

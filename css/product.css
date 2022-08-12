@@ -123,7 +123,11 @@ body {
     transform: scaleY(1.2);
 }
 .price-range {
-    margin-right: 20px;
+   width: 50%;
+}
+.price-range input{
+    width: 80%;
+    outline: none;
 }
 .price-range strong{
     color: #1B2F44;
