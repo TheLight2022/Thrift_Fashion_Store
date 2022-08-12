@@ -1,6 +1,8 @@
 app.controller('HomeController', ['$scope', 'dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
     dataProducts.success(function(data) {
-        $scope.dataProducts = data;
+        $scope.products = data.filter(function(el,index){
+            return index>=0 && index<7
+        })
     })
     dataCategories.success(function(data){
         $scope.dataCategories = data;

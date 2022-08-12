@@ -1,54 +1,67 @@
 [
   {
     "id": "hat1",
+    "img": "hat-category.jpg",
     "name": "Hats"
   },
   {
     "id": "fglass1",
+    "img": "glass-category.jpg",
     "name": "Glass"
   },
   {
     "id": "pant1",
+    "img": "pant-category.jpg",
     "name": "Pant"
   },
   {
     "id": "shirt1",
+    "img": "shirt-category.jpg",
     "name": "Shirt"
   },
   {
     "id": "shoes1",
+    "img": "shoes-category.jpg",
     "name": "Shoes"
   },
   {
     "id": "belt",
+    "img": "belt-category.jpg",
     "name": "Belt"
   },
   {
     "id": "jacket",
+    "img": "jacket-category.jpg",
     "name": "Jacket"
   },
   {
     "id": "hoodie",
+    "img": "hoodie-category.jpg",
     "name": "Hoodie"
   },
   {
     "id": "dress",
+    "img": "dress-category.jpg",
     "name": "Dress"
   },
   {
     "id": "boots",
+    "img": "boots-category.jpg",
     "name": "Boots"
   },
   {
     "id": "wallet",
+    "img": "wallet-category.jpg",
     "name": "Wallet"
   },
   {
     "id": "backpack",
+    "img": "backpack-category",
     "name": "Backpack"
   },
   {
     "id": "handle_bag",
+    "img": "bag-category.jpg",
     "name": "Handle Bag"
   }
 ]
