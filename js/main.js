@@ -109,3 +109,15 @@ var swiper4 = new Swiper(".mySwiper4", {
     },
     autoplay: true,
 });
+
+// product-detail
+var swiper5 = new Swiper(".mySwiper5", {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: true,
+});
+

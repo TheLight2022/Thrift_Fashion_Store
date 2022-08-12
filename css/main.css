@@ -480,6 +480,15 @@
     .banner-slide h2 {
         font-size: 50px;
     }
+    #re-product {
+        padding: 0 30px;
+    }
+    .slide-img-detail {
+        padding-top: 50px;
+    }
+    .product-detail-text {
+        padding-top: 30px;
+    }
 
 }
 /*Tablet: width >= 740px and width < 1024px*/

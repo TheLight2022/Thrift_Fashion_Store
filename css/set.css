@@ -414,8 +414,9 @@ footer {
     color: #1B2F44;
     font-size: 18px;
 }
-.footer-item p {
+.footer-item p a{
     color: #1B2F44;
+    text-decoration: none;
 }
 .form-footer input {
     padding: 15px 30px;
