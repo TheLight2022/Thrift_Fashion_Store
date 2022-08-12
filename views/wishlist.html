@@ -1,0 +1,35 @@
+<div id="cart">
+    <div class="grid wide">
+        <div class="row border-bottom">
+            <div class="col l-5 m-5 c-3 pd-t-b-20">
+                <h6>Product</h6>
+            </div>
+            <div class="col l-2 m-2 c-2 pd-t-b-20 center">
+                <h6>Quantity</h6>
+            </div>
+            <div class="col l-1 m-1 c-3 pd-t-b-20 center">
+                <h6>Unit Price</h6>
+            </div>
+            <div class="col l-2 m-2 c-1 pd-t-b-20 center">
+                <h6>Unit discount</h6>
+            </div>
+            <div class="col l-2 m-2 c-3 pd-t-b-20 center">
+                <h6>Action</h6>
+            </div>
+        </div>
+        <item-cart item="data" ng-repeat="data in dataMyCart"></item-cart>
+
+        <div class="row">
+            <div class="col l-5 m-5 c-5">
+                <div class="sub-mg">
+                    <button class="btn">BACK TO SHOPPING</button>
+                </div>
+            </div>
+            <div class="col l-5 m-5 c-5">
+                <div class="sub-mg">
+                    <a href="#/checkout" class="btn">COMPARE PRODUCT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

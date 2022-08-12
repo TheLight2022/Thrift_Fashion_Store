@@ -90,7 +90,9 @@ var swiper3 = new Swiper(".mySwiper3", {
 // Button back top
 window.addEventListener('scroll',function (){
     let buttonBackTop = $('#button-back-top');
-    buttonBackTop.classList.toggle('active',window.scrollY > 500);
+    if(buttonBackTop){
+        buttonBackTop.classList.toggle('active',window.scrollY > 500);
+    }
 })
 
 // Brand

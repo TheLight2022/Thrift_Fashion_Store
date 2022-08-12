@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <!-- Swiperjs -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+     <!-- Jquery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- AngularJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
@@ -25,8 +25,7 @@
     <link rel="stylesheet" href="./css/contactUs.css">
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/blog-details.css">
-    <!--  Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/fontawesome-pro-6.1.0-web/css/all.css">
     <script src="css/fontawesome-pro-6.1.0-web/js/all.js"></script>
@@ -41,12 +40,12 @@
             <div id="button-close-bar"><i class="fa-solid fa-xmark"></i></div>
             <div class="bar-list-container">
                 <ul>
-                    <li><a href="#/home">Home</a></li>
-                    <li><a href="#/products">Products</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
                     <li><a href="">Store</a></li>
-                    <li><a href="#/about">About us</a></li>
-                    <li><a href="#/FAQs">FAQs</a></li>
-                    <li><a href="#/blog">Blogs</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Blogs</a></li>
                 </ul>
                 <ul>
                     <li>My account</li>
@@ -116,31 +115,31 @@
             <div class="header-bottom-container">
                 <nav class="navigation">
                     <ul class="flex">
-                        <li class="active"><a href="#/home">Home</a></li>
-                        <li><a href="#/products">Products</a></li>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
                         <li><a href="">Store</a></li>
-                        <li><a href="#/about">About us</a></li>
-                        <li><a href="#/FAQs">FAQS</a></li>
-                        <li><a href="#/blog">Blogs</a></li>
-                        <li><a href="#/contacts">Contact us</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQS</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="grid wide" id="header-midle">
                 <div class="row" id="header-midle-container">
                     <div class="col l-2 m-12 c-12 header-midle-1">
-                        <a href="#/home"><img src="img/logo.png" alt="logo"></a>
+                        <a href=""><img src="img/logo.png" alt="logo"></a>
                     </div>
                     <div class="col l-7 m-12 c-12" id="header-form-search">
-                        <form  class="flex-center" ng-submit="filterProducts()" >
-                            <select ng-model="categories" name="" class="col l-3 m-3 c-4">
+                        <form action="" class="flex-center" >
+                            <select name="" class="col l-3 m-3 c-4">
                                 <option value="">All Categories</option>
                                 <option value="{{category.name}}" ng-repeat="category in categorys">{{category.name}}</option>
                             </select>
-                            <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-5" ng-model="search">
+                            <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-5">
                             <div class="group-button-search col l-2 m-2 c-3" >
                                 <div class="flex">
-                                    <div class="button-reset col l-6 m-6 c-6" ng-click="resetValue()"><i class="fa-solid fa-xmark"></i></div>
+                                    <div class="button-reset col l-6 m-6 c-6"><i class="fa-solid fa-xmark"></i></div>
                                     <button class="button-search col l-6 m-6 c-6"><i class="fa-regular fa-magnifying-glass"></i></button>
                                 </div>
                             </div>
@@ -148,12 +147,12 @@
                     </div>
                     <div class="col l-3 m-3 c-0" id="header-shop">
                         <ul class="col l-12 m-12">
-                            <li> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="#/wishlish"><i class="fa-regular fa-heart"></i></a></li>
+                            <li> <a href=""><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
                             <li>
-                                <a href="#/cart" class="header-cart">
+                                <a href="" class="header-cart">
                                     <i class="fa-regular fa-bag-shopping"></i>
-                                    <span>{{countCart}}</span>
+                                    <span>0</span>
                                 </a>
                             </li>
                         </ul>
@@ -171,25 +170,25 @@
             <div class="col l-8 m-8 header-sticky-container-nav">
                 <nav>
                     <ul>
-                        <li class="active"><a href="#/home">Home</a></li>
-                        <li><a href="#/products">Products</a></li>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
                         <li><a href="">Store</a></li>
-                        <li><a href="#/about">About us</a></li>
-                        <li><a href="#/FAQs">FAQS</a></li>
-                        <li><a href="#/blog">Blogs</a></li>
-                        <li><a href="#/contacts">Contact us</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQS</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="col l-2 m-2 header-sticky-container-icon">
                 <ul>
                     <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    <li class="col l-3 m-3"> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
-                    <li class="col l-3 m-3"><a href="#/wishlist"><i class="fa-regular fa-heart"></i></a></li>
+                    <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-user"></i></a></li>
+                    <li class="col l-3 m-3"><a href=""><i class="fa-regular fa-heart"></i></a></li>
                     <li class="col l-3 m-3">
-                        <a href="#/cart" class="header-cart">
+                        <a href="" class="header-cart">
                             <i class="fa-regular fa-bag-shopping"></i>
-                            <span>{{countCart}}</span>
+                            <span>0</span>
                         </a>
                     </li>
                 </ul>
@@ -210,34 +209,31 @@
 
 
 
-<!--Footer-->
-<footer>
-    <section class="grid wide">
-        <div class="row">
-            <div class="col l-4 m-6 c-12 footer-item">
-                <div class="footer-logo">
-                    <a href=""><img src="img/logo.png" alt="logo" ></a>
+
+    <footer>
+        <section class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-6 footer-item">
+                    <img src="img/logo.png" alt="logo">
+                    <p>12 23rd Street SE, Hickory, NC</p>
+                    <p>Phone: +1 (828) 324-7992</p>
+                    <p>Email: contact@thriftfashionstore.com</p>
                 </div>
-                <p>12 23rd Street SE, Hickory, NC</p>
-                <p>Phone: +1 (828) 324-7992</p>
-                <p>Email: contact@thriftfashionstore.com</p>
-            </div>
-            <div class="col l-2 m-3 c-6 footer-item">
-                <h4>Information</h4>
-                <p>About us</p>
-                <p>Brands</p>
-                <p>Contact</p>
-                <p>Help & FAQs</p>
-            </div>
-            <div class="col l-2 m-3 c-6 footer-item">
-                <h4>My Account</h4>
-                <p>Log in</p>
-                <p>Register</p>
-                <p>Shopping Cart</p>
-                <p>Shop</p>
-            </div>
-            <div class="col l-4 m-12 c-12 footer-item">
-                <div class="footer-item-form">
+                <div class="col l-2 m-3 footer-item">
+                    <h4>Information</h4>
+                    <p>About us</p>
+                    <p>Brands</p>
+                    <p>Contact</p>
+                    <p>Help & FAQs</p>
+                </div>
+                <div class="col l-2 m-3 footer-item">
+                    <h4>My Account</h4>
+                    <p>Log in</p>
+                    <p>Register</p>
+                    <p>Shopping Cart</p>
+                    <p>Shop</p>
+                </div>
+                <div class="col l-4 m-12 footer-item">
                     <h4>Join Our Newsletter for $50 off</h4>
                     <p>Get E-mail updates about our latest shop and special offers</p>
                     <form action="" class="form-footer">
@@ -246,9 +242,8 @@
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
-</footer>
+        </section>
+    </footer>
     <section class="subFooter">
         <div class="grid wide ">
             <div class="flex-center-between">
@@ -256,11 +251,9 @@
                 <img src="img/payment-method.png" alt="footer">
             </div>
         </div>
-</section>
-    <section id="button-back-top">
-        <a href="#header"><i class="fa-solid fa-arrow-up-to-line"></i></a>
     </section>
-<!--Footer end-->
+    <!-- ENV -->
+    <script src="./env.js"></script>
     <!-- myStore -->
     <script src="./js/app.js"></script>
     <!-- Controllers -->
@@ -271,7 +264,6 @@
     <script src="./js/controllers/BlogController.js"></script>
     <script src="./js/controllers/CartController.js"></script>
     <script src="./js/controllers/HeaderController.js"></script>
-    <script src="./js/controllers/WishlistController.js"></script>
     <!-- Services -->
     <script src="./js/services/products.js"></script>
     <script src="./js/services/categories.js"></script>
@@ -281,13 +273,8 @@
     <script src="./js/directives/item-cart.js"></script>
     <script src="./js/directives/item-checkout.js"></script>
     <script src="./js/directives/item-blog.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!-- Swiper JS -->
+    
     <script src="./js/main.js"></script>
-    <script src="./js/page.js"></script>
-    <script>
-
-    </script>
 
 </body>
 </html>

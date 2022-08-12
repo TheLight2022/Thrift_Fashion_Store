@@ -32,6 +32,8 @@ body {
 
 #banner h2 {
     color: #fff;
+    font-size: 36px;
+    margin: 0;
 }
 
 #banner:after {
