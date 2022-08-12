@@ -1,4 +1,4 @@
-app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
+app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routeParams',function($scope,dataProducts,dataCategories,$routeParams) {
     $scope.currentPage = 0
     $scope.noProduct = false
     if(JSON.parse(localStorage.getItem('myCart'))){
@@ -92,4 +92,6 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
         window.location.href=`/#/products`
 
     }
+
+    console.log(window.location.href);
 }]);
