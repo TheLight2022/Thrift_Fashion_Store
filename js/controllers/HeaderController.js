@@ -52,6 +52,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
     })
 
     $scope.filterProducts = function(){
+        
         if(!$scope.search){
             $scope.dataProducts = $scope.products
         }else{
