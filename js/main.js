@@ -28,6 +28,7 @@ overlay.onclick = function () {
 }
 
 
+
 // Banner
 var swiper = new Swiper(".mySwiper", {
     navigation: {
@@ -38,8 +39,15 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 // slide category
+const body = $('body');
+let slideCateNumber = 0;
+if (body.offsetWidth < 740){
+    slideCateNumber = 2
+}else {
+    slideCateNumber = 3
+}
 var swiper2 = new Swiper(".mySwiper2", {
-    slidesPerView: 3,
+    slidesPerView: slideCateNumber,
     grid: {
         rows: 2,
     },
@@ -48,5 +56,48 @@ var swiper2 = new Swiper(".mySwiper2", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    autoplay: true,
+});
 
+// second best
+let numberSecond = 0
+if (body.offsetWidth >=740 && body.offsetWidth < 1024) {
+    numberSecond = 3
+}else if(body.offsetWidth < 740){
+    numberSecond = 1
+}else {
+    numberSecond = 4
+}
+var swiper3 = new Swiper(".mySwiper3", {
+    navigation: {
+        nextEl: ".buttonNextSecond",
+        prevEl: ".buttonPrevSecond",
+    },
+    slidesPerView: numberSecond,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+// Button back top
+window.addEventListener('scroll',function (){
+    let buttonBackTop = $('#button-back-top');
+    buttonBackTop.classList.toggle('active',window.scrollY > 500);
+})
+
+// Brand
+let numberBrand = 6;
+if (body.offsetWidth < 740) {
+    numberBrand = 4
+}
+var swiper4 = new Swiper(".mySwiper4", {
+    slidesPerView: numberBrand,
+    spaceBetween: 30,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    autoplay: true,
 });
