@@ -1,4 +1,40 @@
-app.controller('HomeController', ['$scope', function($scope) {
+app.controller('HomeController', ['$scope', 'dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
+    dataProducts.success(function(data) {
+        $scope.dataProducts = data;
+    })
+    dataCategories.success(function(data){
+        $scope.dataCategories = data;
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     const $ = document.querySelector.bind(document);
     const $$ = document.querySelectorAll.bind(document);
 

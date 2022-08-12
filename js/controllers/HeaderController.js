@@ -1,4 +1,4 @@
-app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routeParams',function($scope,dataProducts,dataCategories,$routeParams) {
+app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
     $scope.currentPage = 0
     $scope.noProduct = false
     if(JSON.parse(localStorage.getItem('myCart'))){
@@ -11,7 +11,6 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routePara
     }
     dataProducts.success(function(data) {
         $scope.products = data;
-       
         $scope.products = $scope.products.map(el=>{
             return {
                 ...el,
@@ -61,6 +60,8 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routePara
         
     })
 
+    
+
     $scope.filterProducts = function(){
         
         if(!$scope.search){
@@ -93,5 +94,5 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories','$routePara
 
     }
 
-    console.log(window.location.href);
+
 }]);

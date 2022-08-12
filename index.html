@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- Swiperjs -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- AngularJS -->
@@ -138,7 +140,7 @@
                                 <option value="">All Categories</option>
                                 <option value="{{category.name}}" ng-repeat="category in categorys">{{category.name}}</option>
                             </select>
-                            <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-5" ng-model="search">
+                            <input type="text" placeholder="Search for products, brand, categories..." class="col l-7 m-7 c-5" ng-model="search">
                             <div class="group-button-search col l-2 m-2 c-3" >
                                 <div class="flex">
                                     <div class="button-reset col l-6 m-6 c-6" ng-click="resetValue()"><i class="fa-solid fa-xmark"></i></div>
