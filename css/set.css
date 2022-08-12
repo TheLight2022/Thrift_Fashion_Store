@@ -456,6 +456,9 @@ footer {
     #header-form-search {
         padding: 0 30px;
     }
+    .login-register {
+        padding: 0 30px;
+    }
     #header-midle-container .header-midle-1{
         display: flex;
         justify-content: center;
