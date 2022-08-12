@@ -44,6 +44,9 @@ app.config(function($routeProvider) {
       templateUrl: 'views/checkout.html',
       controller: 'CartController'
     })
+    .when('/thanks',{
+      templateUrl: 'views/thanks.html'
+    })
 
     
 
