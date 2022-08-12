@@ -1,1 +1,134 @@
-{{message}}
+<div id="banner" style="background-image: url(img/banner-contact.jpg)">
+    <div class="banner-text">
+        <h2>Contact</h2>
+    </div>
+</div>
+
+<div id="contact-us">
+    <div class="main">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-4 m-12 c-12">
+                    <div class="contact-widget">
+                        <div class="cw-item p24">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>12 23rd Street SE, Hickory, NC</p>
+                        </div>
+                        <div class="cw-item p24">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>contact@richfieldchairs.com</p>
+                        </div>
+                        <div class="cw-item p24">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+1 (828) 324-7992</p>
+                        </div>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-8 m-12 c-12">
+                    <div class="contact-content-form">
+                        <form action=""  method="POST" class="form" id="form-1">
+                            <div class="row">
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="form-group contact-form-input">
+                                        <input id="first-name" name="first-name" type="text" placeholder="First Name" class="form-control">
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="form-group contact-form-input">
+                                        <input id="last-name" name="last-name" type="text" placeholder="Last Name" class="form-control">
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="form-group contact-form-input">
+                                        <input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control">
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="col l-6 m-12 c-12">
+                                    <div class="form-group contact-form-input">
+                                        <input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control">
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <div class="form-group contact-form-input">
+                                        <input id="title" name="title" type="tel" placeholder="Title" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col l-12 m-12 c-12">
+                                    <textarea name="text" id="" cols="98" rows="6" placeholder="Message"></textarea>
+                                    <button class="contact-btn form-submit" type="submit">Submit</button>
+                                </div>                                    
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col l-12 m-12 c-12">
+                    <div class="contactUs-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.0243399153137!2d105.78179244454334!3d21.02879005623361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab86cece9ac1%3A0xa9bc04e04602dd85!2zRlBUIEFwdGVjaCBIw6AgTuG7mWkgLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1643013928624!5m2!1svi!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/validate.js"></script>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Mong muốn của chúng ta
+        Validator({
+        form: '#form-1',
+        formGroupSelector: '.form-group',
+        errorSelector: '.form-message',
+        rules: [
+            Validator.isRequired('#first-name', 'Please enter first name'),
+            Validator.isRequired('#last-name', 'Please enter last name'),
+            Validator.isPhone('#phone'),
+            Validator.isEmail('#email'),
+            Validator.isRequired('#city', 'Please enter city'),
+            Validator.isRequired('#district', 'Please enter district'),
+            Validator.isRequired('#detail-address', 'Please enter details address'),
+            Validator.minLength('#card-number', 10),
+            Validator.isRequired('#name-in-card', 'Please enter name in card'),
+            Validator.isDate('#mm-yy'),
+            Validator.isCcv('#ccv'),
+            Validator.isRequired('#password_confirmation'),
+            Validator.isConfirmed('#password_confirmation', function () {
+            return document.querySelector('#form-1 #password').value;
+            }, '')
+        ],
+        onSubmit: function (data) {
+            // Call API
+            console.log(data);
+        }
+        });
+
+
+        Validator({
+        form: '#form-2',
+        formGroupSelector: '.form-group',
+        errorSelector: '.form-message',
+        rules: [
+            Validator.isEmail('#email'),
+            Validator.minLength('#password', 6),
+        ],
+        onSubmit: function (data) {
+            // Call API
+            console.log(data);
+        }
+        });
+    });
+
+</script>

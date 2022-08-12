@@ -1,0 +1,17 @@
+<div class="product-box box-form">
+    <div class="row item">
+        <div class="col l-3 m-3 c-3 img">
+            <img ng-src="img/{{item.image[0]}}" alt="">
+        </div>
+        <div class="col l-6 m-6 c-6 product-title">
+            <h3>{{item.name}}</h3>
+            <div class="qty">
+                <span>Quantity:</span>
+                <span class="number-item">{{item.qty}}</span>
+            </div>
+        </div>
+        <div class="col l-3 m-3 c-3 product-price">
+            <span>{{item.price*item.qty | currency}}</span>
+        </div>
+    </div>
+</div>

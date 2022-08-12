@@ -1,0 +1,405 @@
+<div id="check-box">
+        <div class="grid wide">
+            <div class="row reverse">
+                <div class="col l-8 m-12 c-12 form-check">
+                    <form action="" method="POST" class="form" id="form-1">
+                        <div class="row">
+                            <h3 class="col l-12 m-12 c-12 heading">1. Personal information</h3>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="first-name" class="form-label"></label>
+                                <input id="first-name" name="first-name" type="text" placeholder="First Name"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="last-name" class="form-label"></label>
+                                <input id="last-name" name="last-name" type="text" placeholder="Last Name"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                             
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="email" class="form-label"></label>
+                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="phone" class="form-label"></label>
+                                <input id="phone" name="phone" type="tel" placeholder="Phone number" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+    
+                            <h3 class="col l-12 m-12 c-12 heading">2. Delivery information</h3>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="city" class="form-label"></label>
+                                <input id="city" name="city" type="text" placeholder="City" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                            <div class="col l-6 m-12 c-12 form-group">
+                                <label for="district" class="form-label"></label>
+                                <input id="district" name="district" type="text" placeholder="District"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                             
+                            <div class="col l-12 m-12 c-12 form-group">
+                                <label for="detail-address" class="form-label"></label>
+                                <input id="detail-address" name="detail-address" type="text" placeholder="Detail address"
+                                    class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+    
+                            <h3 class="col l-12 m-12 c-12 heading">3. Payment method</h3>
+
+                            <div class="col l-12 m-12 c-12  method" id="method1" style="opacity: 0.3; filter: alpha(opacity=30);">
+                                <div class="cod">
+                                    <input type="radio" name="radio" id="cash" value="COD" disabled="">
+                                    <label class="radio-container cashLabel"> Cash on delivery (COD)</label>
+                                </div>
+                                <p>Note: For orders exceeding $500 worth, we could only accept payment by card.</p>
+                            </div>
+                            <div class="col l-12 m-12 c-12  method" id="method1">
+                                <div class="cod cod-mg">
+                                    <input type="radio" checked name="radio" id="card" value="Card">
+                                    <label class="radio-container"> Credit card / Debit card</label>                                </div>
+                            </div>
+                            <div class="col l-12 m-12 c-12 form-group form-pd">
+                                <label for="card-number" class="form-label"><i class="fa-solid fa-credit-card"></i></label>
+                                <input id="card-number" name="card-number" type="text" placeholder="Card number" class="form-control">
+                                <span class="form-message"></span>
+                            </div>
+                             
+                            <div class="col l-12 m-12 c-12 form-group  form-pd">
+                                <label for="name-in-card" class="form-label"><i class="fa-solid fa-user"></i></label>
+                                <input id="name-in-card" name="name-in-card" type="text" placeholder="Name in card"
+                                    class="form-control">
+                                    
+                                <span class="form-message"></span>
+                            </div>
+
+                            <div class="col l-6 m-12 c-12 form-group  form-pd">
+                                <label for="card-number" class="form-label"><i class="fa-solid fa-calendar"></i></label>
+                                <input id="card-number" name="card-number" type="text" placeholder="MM/YY"
+                                    class="form-control">
+                                    
+                                <span class="form-message"></span>
+                            </div>
+
+                            <div class="col l-6 m-12 c-12 form-group form-pd">
+                                <label for="name-in-card" class="form-label"><i class="fa-solid fa-lock"></i></label>
+                                <input id="name-in-card" name="name-in-card" type="text" placeholder="CCV"
+                                    class="form-control">
+                                    
+                                <span class="form-message"></span>
+                            </div>
+
+                            <div class="col l-12 m-12 c-12 card-img form-group">
+                                <img src="img/verified.png" alt="">
+                            </div>
+
+                            <div class="col l-12 m-12 c-12 form-check form-group">
+                                <input type="checkbox" name="check" class="check-input">
+                                <div class="check-text">I agree to <a href="">Terms and Conditions</a>. See <a href="">Privacy and Cookie Policy</a> for information on how we use the information you provide to us.</div>
+                            </div>
+                            <!-- <button class="form-submit ">PLACE MY ORDER</button> -->
+
+                            <div class="col l-12 m-12 c-12 btn">
+                                <a href="#/thanks" class="form-btn ">BACK TO CART</a>
+                                <a href="#/thanks" class="form-btn ">PLACE MY ORDER</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col l-4 m-12 c-12 product-check">
+                    <div class="row">
+                        <div class="product-check-item">
+                            <h3>Order Summary</h3>
+
+                            <item-checkout item="data" ng-repeat="data in dataMyCart"></item-checkout>
+
+
+                            <div class="product-check-total">
+                                <div class="row box-form item">
+                                    <div class="col l-4 m-4 c-4">
+                                        <h3>Subtotal</h3>
+                                    </div>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total"><span class="total-number">{{total | currency}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-check-total">
+                                <div class="row box-form item">
+                                    <div class="col l-4 m-4 c-4">
+                                        <h3>Shipping</h3>
+                                    </div>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total">$<span class="total-number">0.00</span></div>
+                                </div>
+                            </div>
+                            <div class="product-check-total">
+                                <div class="row box-form item">
+                                    <div class="col l-4 m-4 c-4">
+                                        <h3>Total</h3>
+                                    </div>
+                                    <div class="col l-o-5 m-o-5 c-o-5 total"><span class="total-number">{{total | currency}}</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+       
+
+    <!-- <script src="./js/validate.js"></script> -->
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+          Validator({
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+              Validator.isRequired('#first-name', 'Please enter first name'),
+              Validator.isRequired('#last-name', 'Please enter last name'),
+              Validator.isPhone('#phone'),
+              Validator.isEmail('#email'),
+              Validator.isRequired('#city', 'Please enter city'),
+              Validator.isRequired('#district', 'Please enter district'),
+              Validator.isRequired('#detail-address', 'Please enter details address'),
+              Validator.minLength('#card-number', 10),
+              Validator.isRequired('#name-in-card', 'Please enter name in card'),
+              Validator.isDate('#mm-yy'),
+              Validator.isCcv('#ccv'),
+              Validator.isRequired('#password_confirmation'),
+              Validator.isConfirmed('#password_confirmation', function () {
+                return document.querySelector('#form-1 #password').value;
+              }, '')
+            ],
+            onSubmit: function (data) {
+              // Call API
+              console.log(data);
+            }
+          });
+  
+  
+        //   Validator({
+        //     form: '#form-2',
+        //     formGroupSelector: '.form-group',
+        //     errorSelector: '.form-message',
+        //     rules: [
+        //       Validator.isEmail('#email'),
+        //       Validator.minLength('#password', 6),
+        //     ],
+        //     onSubmit: function (data) {
+        //       // Call API
+        //       console.log(data);
+        //     }
+        //   });
+        });
+
+
+
+        /* */
+        /*----------------*/
+            function Validator(options) {
+                function getParent(element, selector) {
+                    while (element.parentElement) {
+                        if (element.parentElement.matches(selector)) {
+                            return element.parentElement;
+                        }
+                        element = element.parentElement;
+                    }
+                }
+
+                var selectorRules = {};
+
+                function validate(inputElement, rule) {
+                    var errorElement = getParent(inputElement, options.formGroupSelector).querySelector(options.errorSelector);
+                    var errorMessage;
+
+                    var rules = selectorRules[rule.selector];
+
+                    for (var i = 0; i < rules.length; ++i) {
+                        switch (inputElement.type) {
+                            case 'radio':
+                            case 'checkbox':
+                                errorMessage = rules[i](
+                                    formElement.querySelector(rule.selector + ':checked')
+                                );
+                                break;
+                            default:
+                                errorMessage = rules[i](inputElement.value);
+                        }
+                        if (errorMessage) break;
+                    }
+
+                    if (errorMessage) {
+                        errorElement.innerText = errorMessage;
+                        getParent(inputElement, options.formGroupSelector).classList.add('invalid');
+                    } else {
+                        errorElement.innerText = '';
+                        getParent(inputElement, options.formGroupSelector).classList.remove('invalid');
+                    }
+
+                    return !errorMessage;
+                }
+
+
+                var formElement = document.querySelector(options.form);
+                if (formElement) {
+
+                    formElement.onsubmit = function (e) {
+                        e.preventDefault();
+
+                        var isFormValid = true;
+
+                        options.rules.forEach(function (rule) {
+                            var inputElement = formElement.querySelector(rule.selector);
+                            var isValid = validate(inputElement, rule);
+                            if (!isValid) {
+                                isFormValid = false;
+                            }
+                        });
+
+                        if (isFormValid) {
+
+                            if (typeof options.onSubmit === 'function') {
+                                var enableInputs = formElement.querySelectorAll('[name]');
+                                var formValues = Array.from(enableInputs).reduce(function (values, input) {
+
+                                    switch (input.type) {
+                                        case 'radio':
+                                            values[input.name] = formElement.querySelector('input[name="' + input.name + '"]:checked').value;
+                                            break;
+                                        case 'checkbox':
+                                            if (!input.matches(':checked')) {
+                                                values[input.name] = '';
+                                                return values;
+                                            }
+                                            if (!Array.isArray(values[input.name])) {
+                                                values[input.name] = [];
+                                            }
+                                            values[input.name].push(input.value);
+                                            break;
+                                        case 'file':
+                                            values[input.name] = input.files;
+                                            break;
+                                        default:
+                                            values[input.name] = input.value;
+                                    }
+
+                                    return values;
+                                }, {});
+                                options.onSubmit(formValues);
+                            }
+
+                            else {
+                                formElement.submit();
+                            }
+                        }
+                    }
+
+                    options.rules.forEach(function (rule) {
+
+                        if (Array.isArray(selectorRules[rule.selector])) {
+                            selectorRules[rule.selector].push(rule.test);
+                        } else {
+                            selectorRules[rule.selector] = [rule.test];
+                        }
+
+                        var inputElements = formElement.querySelectorAll(rule.selector);
+
+                        Array.from(inputElements).forEach(function (inputElement) {
+
+                            inputElement.onblur = function () {
+                                validate(inputElement, rule);
+                            }
+
+
+                            inputElement.oninput = function () {
+                                var errorElement = getParent(inputElement, options.formGroupSelector).querySelector(options.errorSelector);
+                                errorElement.innerText = '';
+                                getParent(inputElement, options.formGroupSelector).classList.remove('invalid');
+                            }
+                        });
+                    });
+                }
+
+            }
+
+
+
+            Validator.isRequired = function (selector, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        return value ? undefined : message || 'please enter this field'
+                    }
+                };
+            }
+
+            Validator.isEmail = function (selector, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        var regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                        return regex.test(value) ? undefined : message || 'This field must be email';
+                    }
+                };
+            }
+
+            Validator.isPhone = function (selector, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        var regex = /^(\+{0,})(\d{0,})([(]{1}\d{1,3}[)]{0,}){0,}(\s?\d+|\+\d{2,3}\s{1}\d+|\d+){1}[\s|-]?\d+([\s|-]?\d+){1,2}(\s){0,}$/;
+                        return regex.test(value) ? undefined : message || 'This field must be phone number';
+                    }
+                };
+            }
+
+            Validator.isDate = function (selector, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        var regex = / ^(0[1-9]|1[0-2])\/?([0-9]{2})$/;
+                        return regex.test(value) ? undefined : message || 'Please re-enter';
+                    }
+                };
+            }
+
+            Validator.isCcv = function (selector, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        var regex = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/;
+                        return regex.test(value) ? undefined : message || 'Please re-enter';
+                    }
+                };
+            }
+
+
+            Validator.minLength = function (selector, min, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        return value.length >= min ? undefined : message || `Please enter at least ${min} characters`;
+                    }
+                };
+            }
+
+            Validator.isConfirmed = function (selector, getConfirmValue, message) {
+                return {
+                    selector: selector,
+                    test: function (value) {
+                        return value === getConfirmValue() ? undefined : message || 'Input value is incorrect';
+                    }
+                }
+            }
+        
+
+  
+    </script>

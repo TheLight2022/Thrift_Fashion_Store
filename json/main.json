@@ -73,8 +73,8 @@
   },
   {
       "id": "shirt03",
-      "name": "Running Polyester Breathable Men Singlets",
-      "description": " No MOQ Custom Wholesale Sublimated Running Polyester Breathable Men Singlets",
+      "name": "Prada",
+      "description": "Spring 2016 Cyclist inspired knit top",
       "size": "XXL",
       "degree": "90",
       "brand": "MOQ",
@@ -87,12 +87,12 @@
       ],
       "price": 10,
       "gender": "Male",
-      "color": "White",
+      "color": "Red",
       "category": "Shirt",
       "status": "stock", 
       "quantity": 13,
       "amount": 10, 
-      "tag": ["shirt", "men's shirt", "white shirt", "running shirt", "singlets"],
+      "tag": ["shirt", "men's shirt", "red shirt"],
       "rate": [
           {
               "id_user": "shirtuser05",
@@ -1258,7 +1258,7 @@
       "size": 32,
       "degree": 92,
       "brand": "hudson",
-      "image": ["pant_03-01.jpg", "pant_03-02.jpg", "pant_03-03.jpg", "pant_03-04.jpg"],
+      "image": ["pan_03_01.jpg", "pant_03-02.jpg", "pant_03-03.jpg", "pant_03-04.jpg"],
       "date": [
           {
               "sell": "07/08/2022",
@@ -1941,14 +1941,8 @@
           }
       ]
   },
-
-
-
-
-
-
   {
-      "id": "Hats",
+      "id": "hats2",
       "name": "Nike Women's Unisex Legacy91 Tech Hat",
       "description": "Item model number : BV1076",
       "size": "11 x 4 x 7 inches; 3.2 Ounces",
@@ -2007,7 +2001,7 @@
       ]
     },
     {
-      "id": "Hats",
+      "id": "hats1",
       "name": "Sunday Afternoons Women's Coronado Hat",
       "description": "Beach hat or fedora now you don't have to choose. the Coronado is a floppy-brimmed fedora that follows anywhere you go. The fabric blend makes for warm weather comfort and easy packability. Decorative leatherette hatband dresses you up for the links or a late brunch.",
       "size": "medium",
@@ -2059,57 +2053,13 @@
       ]
     },
     {
-      "id": "hat3",
-      "name": "Nike Metal Swoosh H86",
-      "description": "The Nike Metal Swoosh H86 Adjustable Hat Is Made From 100% Recycled Polyester. It Has An Adjustable Closure For Maximum Comfort And A Truly Personalised Fit. The Embroidered Eyelets Provide Optimal Airflow And Ventilation And Thus Let You Keep A Cool Head During A Match Or During The Day.",
-      "size": "12 x 4 x 8 inches; 4 Ounces",
-      "degree": 99,
-      "brand": "NK",       "image": ["hat7.jpg", "hat8.jpg", "hat9.jpg", "hat10.jpg"],
-      "date": [
-        {
-          "sell": "30/04/2022",
-          "update": "01/06/2022"
-        }
-      ],
-      "price": 35,
-      "gender": "Female",
-      "color": "White",
-      "category": "Hats",
-      "status": "Stock",
-      "quantity": 7,
-      "amount": 11,
-      "tag": ["Nike Cap", "Men's cap"],
-      "rate": [
-        {
-          "id_user": "hat3_user_01",
-          "comment": "I love it! It fits perfect and also readjustable.",
-          "image": ["hatComment5.jpg", "hatComment6.jpg"],
-          "video": [],
-          "rating_by_star": 5
-        },
-        {
-          "id_user": "hat3_user_02",
-          "comment": "I bought this hat in blue and black, and they are my absolute favorite to workout in. I have a rather large head for a female, so its hard to find hats that fit. These are super lightweight, dry very quickly, and are easily adjustable. The bill is nice and long and wide so I don't have to worry about the sun on my face outside as well. My only hope is that they add more colors, I will buy them all!! A+++",
-          "image": [],
-          "video": [],
-          "rating_by_star": 5
-        },
-        {
-          "id_user": "hat3_user_03",
-          "comment": "This is the second time I purchased this cap. It's perfect for strenuous exercise in the gym as it will not cause your head to overheat. I love that it's lightweight, fits my head well and looks pretty. I think it's perfect for the ladies, but I am not sure how it would fit a guy.",
-          "image": [],
-          "video": [],
-          "rating_by_star": 5
-        }
-      ]
-    },
-    {
       "id": "hat4",
       "name": "BOSS Men's Logo Twill Cap",
       "description": "Boss Green basic base cap with embroidered logo on front in contrast color.",
       "size": "XL",
       "degree": 94,
-      "brand": "boss",       "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
+      "brand": "boss",
+        "image": ["hat11.jpg", "hat12.jpg", "hat13.jpg"],
       "date": [
         {
           "sell": "30/04/2022",
@@ -2638,12 +2588,12 @@
     },
     {
       "id": "glass1",
-      "name": "Sun glasses Womens Mens Shades UV400 Sunnies SJ2050",
-      "description": "These classic fashion sunglasses will bring you a timeless look and will be great choices for daily fashion accessories all year round. They are suitable for both men and women and suitable for any occasion and weather conditions.",
+      "name": "Christian Dior Monsieur",
+      "description": "Vintage Christian Dior gold glasses logo CD oval rounded",
       "size": "Lens Width: 53mm | Lens Height: 44mm | Temple Length: 150mm | Nose Bridge: 22mm",
       "degree": 85,
-      "brand": "SN",       
-      "image": ["glass1.jpg", "glass2.jpg", "glass3.jpg"],
+      "brand": "dior",
+      "image": ["glass1.webp", "glass2.jpg", "glass3.jpg"],
       "date": [
         {
           "sell": "11/07/2022",
@@ -2662,14 +2612,14 @@
         {
           "id_user": "glass1_user_01",
           "comment": "Love these! The frame color is perfect. just a nice warm goldish rose color. Also has nice gold earpieces which makes them look more expensive. The polarized brown lens is really nice on your eyes. I live in Hawaii so I have to have polarized lenses. They stay nice and tight on your head and are really comfortable too. They are a little bit bigger than a Ray Ban Wayfarer so a little more style e. But not too oversized of a frame.",
-          "image": ["glassComment1.jpg"],
+          "image": [],
           "video": [],
           "rating_by_star": 5
         },
         {
           "id_user": "glass1_user_02",
           "comment": "I absolutely love these glasses!!! They aren't too big where they are overpowering and they flatter every head shape. I love them because they never get stuck in my hair and the metal earpieces fit perfectly and comfortably around my ears. Also, they actually to a great job blocking out the sun, compared to most stylish sunglasses. These are the perfect glasses to make every outfit look amazing, keep in the car, or wear everyday! Definitely my favorite sunglasses!!",
-          "image": ["glassComment2.jpg"],
+          "image": [],
           "video": [],
           "rating_by_star": 5
         }
@@ -2677,11 +2627,12 @@
     },
     {
       "id": "glass2",
-      "name": "Maui Jim Women's Orchid Cat-Eye Sun glasses",
-      "description": "A pair of fashion sunglasses budding with lovely color, Orchid is inspired by the vibrant flower that often blooms beautiful and fragrant. Orchid's multi-colored frame options radiate personality, and are best for square or oblong face shapes.",
+      "name": "Vintage python glasses",
+      "description": "Vintage python glasses. Nonprescription glasses.",
       "size": "Lens width: 56 millimeters; Lens height: 47 millimeters; Bridge: 19 millimeters; Arm: 140 millimeters",
       "degree": 95,
-      "brand": "No brand",       "image": ["glass4.jpg", "glass5.jpg", "glass6.jpg"],
+      "brand": "No brand",
+        "image": ["glass4.jpg", "glass5.jpg", "glass6.jpg"],
       "date": [
         {
           "sell": "20/9/2022",
@@ -2715,11 +2666,49 @@
     },
     {
       "id": "glass3",
+      "name": "Prada Vintage Glasses",
+      "description": "HELLO BRO, FOLLOW MY SHOP ✋\uD83C\uDFFB\nREGULAR PRICE DROP AND NEW ITEM'S",
+      "size": "7 x 3 x 2 inches; 0.5 Ounces",
+      "degree": 98,
+      "brand": "No brand",       "image": ["glass7.webp", "glass8.jpg"],
+      "date": [
+        {
+          "sell": "10/03/2022",
+          "update":""
+        }
+      ],
+      "price": 100,
+      "gender": "Female",
+      "color": "Tortoise/Bronze",
+      "category": "Glass",
+      "status": "Stock",
+      "quantity": 12,
+      "amount": 4,
+      "tag": ["glasses", "Mahaka"],
+      "rate": [
+        {
+          "id_user": "glass3_user_01",
+          "comment": "Great glasses. This is my 2nd pair. My 1st pair laster 4 years then the lens broke at the screw area. I will get the old pair repaired through maui for $75. They work great for a slimmer face. I definitely recomend these glasses. Take care of them & they will take care of you. Great for fishing or water life. Enjoy",
+          "image": [],
+          "video": [],
+          "rating_by_star": 5
+        },
+        {
+          "id_user": "glass3_user_02",
+          "comment": "I really like Maui Jim sunglasses. My last pair lasted about 3 to 4 years before they started delaminating at the edges. These were a great deal and arrived spotless.",
+          "image": [],
+          "video": [],
+          "rating_by_star": 4
+        }
+      ]
+    },
+    {
+      "id": "glass4",
       "name": "Maui Jim Makaha Rimless Sun glasses",
       "description": "erfect for the thrill seeker in all of us, the Makaha features a Clear shell scratch coating, a proprietary, silicon-based hard coat that protects both sides of the lens against scratching. Polycarbonate Lens: For intense sports activities and active lifestyles, Maui Jim Polycarbonate lenses are optically correct to ensure crisp optics. They're lightweight, comfortable, extremely impact resistant, and feature our Clear shell scratch-resistant coating. PolarizedPlus2 Technology: All Maui Jim Sunglasses block glare and UV from all angles, manage blue light, and then boost colors for unmatched color, clarity, and contrast. Neutral Grey Lens offers contrast and the highest available light reduction. Suitable for all light conditions, especially bright, direct sunlight. 12% light transmission. ",
       "size": "7 x 3 x 2 inches; 0.5 Ounces",
       "degree": 98,
-      "brand": "No brand",       "image": ["glass7.jpg", "glass8.jpg"],
+      "brand": "No brand",       "image": ["glass9.webp", "glass10.webp", "glass11.webp"],
       "date": [
         {
           "sell": "10/03/2022",
@@ -2753,45 +2742,6 @@
     },
 
 
-    {
-      "id": "shoes01",
-      "name": "Jordan 1 mid red chicago",
-      "description": "no pain no gain",
-      "size": 43,
-      "degree": "90%",
-      "brand": "JRD",
-      "image": ["b.01.webp", "b.02.webp", "b.03.webp"],
-      "date": [
-        {
-          "sell": "14/10/2022",
-          "update": ""
-        }
-      ],
-      "price": 50,
-      "gender": "male",
-      "color": "red, white, black",
-      "category": "Shoes" ,
-      "status": "stock",
-      "quantity": 1,
-      "amount": 1,
-      "tag": "basketballshoes",
-      "rate": [
-        {
-          "id_user": "TrangALua",
-          "comment": "old but gold",
-          "image": ["image1", "image2", "image3"],
-          "video": ["video1", "video2", "video3"],
-          "rating_by_star": 1
-        },
-        {
-          "id_user": "Upin",
-          "comment": "i like it",
-          "image": ["image1", "image2", "image3"],
-          "video": ["video1", "video2", "video3"],
-          "rating_by_star": 2
-        }
-      ]
-    },
     {
       "id": "shoes02",
       "name": "jordan 4 allstar",
@@ -3931,43 +3881,6 @@
         ]
     },
     {
-        "id": "belt03",
-        "name": "Amazon Essentials Men's Dress Belt",
-        "description": "This classic belt features 7 round belt strap holes and an adjustable buckle closure for all day comfort and perfect fit. Belt width is 1.25\" to easily fit through your belt loops.",
-        "size": "125cm",
-        "degree": 95,
-        "brand": "telacos",
-        "image": ["belt7.jpg", "belt8.jpg", "belt9.jpg"],
-        "date": [
-            {
-                "sell": "09/08/2022",
-                "update": "09/09/2022"
-            }
-        ],
-        "price": 32,
-        "gender": "Male",
-        "color": "Black",
-        "category": "Blet",
-        "status": "stock",
-        "quantity": "8",
-        "amount": "10",
-        "tag": ["Blet", "men'sbelt", "lacoste"],
-        "rate": [
-            {
-                "id_user": "belt3_user_01",
-                "comment": "This belt is very eye catching. It was thinner than I expected and my first thought was \"This won't last very long\". I don't usually write reviews until I have had the time to test the item against time. This belt has exceeded my expectations. It was far stronger than expected, there is no fraying, stripping weak points that I can see and after months of use, still looks new. I got it on sale during prime week for less than $20, Money well spent.",
-                "image": "",
-                "rating_by_star": "5"
-            },
-            {
-                "id_user": "belt3_user_02",
-                "comment": "This belt is a very substantial piece of leather and has a nice solid brass buckle! I have worn it for a few months and it's just now starting to soften up a bit - as you would expect from a real leather belt. I will agree with the other reviewers who said it is sized small - definitely order 1 or 2 sizes above your normal waist size. Leather does stretch over its lifetime, so just make sure it's not *too* big on you to start! Highly recommend this belt for those who want something strong and durable.",
-                "image": "",
-                "rating_by_star": "5"
-            }
-        ]
-    },
-    {
         "id": "belt04",
         "name": "Perry Ellis Men's Portfolio Timothy Leather Belt",
         "description": "Full grain smooth leather belt with a stitched edge and a silver prong buckle",
@@ -4112,43 +4025,6 @@
                 "comment": "I've been wearing Polar fleece since the Army place this into their inventory in 2005. Not only does this keep you warm but is so snugly and comfortable when you sleep. I've worn fleece clothing on the coldest and snowy mountain tops of Afghanistan and it has always kept me warm. If you've ever been stationed in Germany during the winter then you know how cold it gets there but with Fleece sweater I didn't even need a Jacket, its perfect for any condition. I prefer Fleece over cotton cause it wont wont absorb the sweat and soak the material and it wont shrink on you. Love me some Fleece!!",
                 "image": "",
                 "rating_by_star": "5"
-            }
-        ]
-    },
-    {
-        "id": "jacket03",
-        "name": "Marmot Men’s PreCip Jacket",
-        "description": "The PreCip Jacket is reliable, value-oriented, full-function rainwear for backcountry and urban travelers alike. The PreCip Men's Rain Jacket features Marmot's comfortable and breathable NanoPro waterproofing technology. NanoPro coating is comprised of densely packed pores small enough to keep water droplets from getting in, but big enough to let water vapor out—providing cool, dry comfort even as your activity level increases.",
-        "size": "Large",
-        "degree": "98",
-        "brand": "No Brand",
-        "image": ["jacket7", "jacket8.jpg", "jacket9.jpg"],
-        "date": [
-            {
-                "sell": "09/08/2022",
-                "update": "09/09/2022"
-            }
-        ],
-        "price": 120,
-        "gender": "Male",
-        "color": "Blue",
-        "category": "Jacket",
-        "status": "stock",
-        "quantity": "12",
-        "amount": "6",
-        "tag": ["Jacket"],
-        "rate": [
-            {
-                "id_user": "jacket3_user_1",
-                "comment": "Great value for the price. Light weight, packable, hood stashes in collar, breathable, pit zips nice for extra breathability. Feels sticky on bare arms, when wearing short sleeve shirt.",
-                "image": "",
-                "rating_by_star": "5"
-            },
-            {
-                "id_user": "jacket3_user_2",
-                "comment": "A little background: I work as a bicycle messenger in Minneapolis year-round so I was looking for the lightest, most breathable rain jacket out there. This definitely fits the bill, and while you're still gonna sweat while being active in this jacket, it does better than most at breathing out vapor, so I stayed comfortable.",
-                "image": "",
-                "rating_by_star": "3"
             }
         ]
     },

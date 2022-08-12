@@ -1,0 +1,378 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+#check-box {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#check-box  .product-check-total {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#check-box  .product-check-total:nth-last-child(1) {
+    border-bottom: none;
+}
+
+#check-box .form-group {
+    /* margin: 10px 20px 10px 0px; */
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+#check-box h4 {
+    font-size: 2.0rem;
+}
+
+#check-box .form{
+    padding: 0 20px;
+}
+
+#check-box  input{
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    transition: all .3s ease-in;
+    padding: 0 2rem 0 1.5rem;
+    height: 3.125rem;
+    line-height: normal;
+    /* border-radius: 0; */
+    /* width: 320px; */
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+#check-box .cod{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+#check-box input[type="radio"]:checked {
+    background-image: radial-gradient( hsl(210, 2%, 84%) 40%, transparent calc(40% + 1px) );
+}
+
+#check-box .cod input{
+    /* position: relative; */
+    width: 18px;
+    height: 18px;
+    margin: 0 10px 0 0;
+    left: 0;
+}
+
+#check-box .cod-mg {
+    margin-bottom: 20px;
+}
+
+
+#check-box .cod p {
+    font-size: 14px;
+}
+
+#check-box .form-pd {
+    position: relative;
+}
+
+#check-box .form-pd input{
+    padding-left: 45px; 
+    /* position: relative; */
+}
+
+#check-box .form-pd i {
+    position:absolute;
+    padding: 20px;
+    left: 0;
+    /* align-items: center; */
+    padding: 17px 30px;
+    color: #ccc;
+}
+
+#check-box .product-check-item {
+    margin: 0 20px;
+    border:1px solid #ebebeb;
+}
+
+#check-box .item {
+    padding: 0 22px;
+}
+
+#check-box .product-check .product-check-item > h3 {
+    display: block;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    padding: 10px 0 10px;
+    margin: 0px ;
+}
+
+#check-box .product-check img {
+    width: 100%;
+    /* height: calc(width); */
+}
+
+#check-box .qty{
+    opacity: 0.6;
+}
+
+#check-box .product-box {
+    margin-top: 15px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 10px;
+}
+
+#check-box .product-title{
+    margin-left: 0;
+}
+
+#check-box .product-title h3{
+    margin: 0; 
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#check-box .product-price{
+    font-size: 17px;
+    /* padding-top: 30px; */
+    font-weight: 500;
+}
+
+#check-box .product-check-total h3{
+    margin: 0 ;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#check-box .total {
+    /* margin: 0; */
+    padding: 0;
+    font-size: 17px;
+    /* text-align: right; */
+    font-weight: 500;
+    /* margin: 0 20px 10px 224px; */
+}
+
+#check-box .card-img {
+    display: grid;
+}
+
+#check-box .card-img img{
+    max-width: 50%;
+    margin: 10px auto;
+}
+
+#check-box .form-check {
+    display: block;
+    font-size: 16px;
+    opacity: 0.9;
+    position: relative;
+    align-items: center;
+}
+
+#check-box .form-check a{
+    color: #000;
+}
+
+#check-box .check-input {
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    padding: 0 10px 15px 15px;
+    top: 0;
+}
+
+
+#check-box .check-text {
+    padding-left: 30px;
+}
+
+#check-box .btn {
+    display: flex;
+}
+
+#check-box .form-btn {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background-color: #0e315b;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    /* margin: 0 18px; */
+}
+
+#check-box .form-btn:hover {
+    background-color: #4C709B;
+}
+
+#check-box  .form-btn:nth-last-child(1) {
+    margin-left: 20px;
+}
+
+#check-box  .form-btn:nth-child(1) {
+    margin-right: 20px;
+}
+
+.form-message {
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(233, 60, 60);
+}
+
+
+@media (max-width: 739px) {
+    #check-box {
+        padding:0 50px;
+    }
+    #check-box .reverse {
+        flex-direction: column-reverse;
+    }
+    
+    #thank h2 {
+        font-size: 32px !important;
+    }
+}
+
+@media (max-width: 1024px)  {
+    #check-box .reverse {
+        flex-direction: column-reverse;
+    }
+    #thank {
+        margin: 30px 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* #check-box .form{
+        padding: unset;
+    } */
+    #thank {
+        margin: 30px 0px;
+    }
+    
+    #check-box .form-group{
+        padding-right: 25px;
+    }
+    #check-box .form {
+        border-right: 1px solid #ebebeb;
+    
+    }
+    
+}
+
+
+.form-label{
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+    color: #bcbcbc;
+}
+ 
+/* Thankiu */
+#thank {
+    /* text-align: center; */
+    align-items: center;
+}
+
+#thank  .thank {
+    max-width: 700px;
+    margin:  0 auto;
+    border: #b2b2b2 1px solid;
+    padding: 0 40px;
+}
+
+#thank .img {
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#thank .img  img{
+    width: 200px;
+    height: 150px;
+}
+
+#thank h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+#thank span {
+    font-size: 16px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    text-align: justify;
+}
+
+#thank .thank-text{
+    border-bottom: #d8d9da 1px solid;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+#thank .thank-title {
+    text-align: center;
+    margin-top: unset;
+}
+#thank h4 {
+    margin: 12px 0 0px;
+    font-size: 20px;
+}
+
+#thank .btn-product {
+    margin: 0 auto;
+    width: 200px;
+    background-color: #b9b9b9;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#thank .btn-product a{
+    display: block;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0e315b;
+    padding: 5px 0;
+}
+
+#thank .btn-product a:hover{
+    /* display: block; */
+    color: #FDF9F5;
+    background-color: #1B2F44;
+}
+
+/* #thank .logo{
+    width: 100%;
+} */
+
+#thank .logo {
+    width: 150px;
+    margin: 0 auto;
+}
+.form-btn{
+    color :#fff !important;
+    text-decoration: none;
+    display:flex !important;
+    align-items: center;
+    justify-content: center;
+}

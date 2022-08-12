@@ -1,127 +1,22 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- AngularJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/blog.css">
-    <link rel="stylesheet" href="../css/grid.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/set.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="./css/fontawesome-free-6.1.1-web/css/all.css">
-</head>
-
-<body>
-    <!-- Header -->
-    <header></header>
-    <!-- End Header -->
-    <div class="container">
-        <div class="breadcrumb">
-            <div class="breadcrumb-text">
+<div class="container__blog">
+        <div class="breadcrumb__blog">
+            <div class="breadcrumb-text__blog">
                 <a href="../index.html">Home</a>
                 <span>Blog</span>
             </div>
         </div>
-        <div class="banner">
-            <div class="banner-text">
+        <div class="banner__blog">
+            <div class="banner-text__blog">
                 <h1>Out Blog</h1>
             </div>
         </div>
-        <div class="a1">
+        <div class="a1__blog">
             <a href="#">Get inspired</a>
             <a href="#">Lifestyle</a>
         </div>
-        <div class = "container">
+        <div class = "container__blog">
             <div class="grid wide">
-                <div class="row blog">
-                    <div class="col l-5 m-12 c-12 blog-image">
-                        <img src="../img/blog-8.jpg.webp">
-                    </div>
-                    <div class="col l-7 m-12 c-12 blog-content">
-                        <h6>STYLING TIPS</h6>
-                        <a href="#">
-                            <h3>Lasik Eye Surgery Are You Ready</h3>
-                        </a>
-                        <p>Break into the timeless design trend statement pieces from Kardiel.</p>
-                        <h6 class="date">FEBRUARY 21, 2022</h6>
-                    </div>
-                </div>
-                <div class="row blog">
-                    <div class="col l-5 m-12 c-12 blog-image">
-                        <img src="../img/blog-9.jpg.webp">
-                    </div>
-                    <div class="col l-7 m-12 c-12 blog-content">
-                        <h6>STYLING TIPS</h6>
-                        <a href="#">
-                            <h3>What Curling Irons Are The Best Ones</h3>
-                        </a>
-                        <p>Break into the timeless design trend statement pieces from Kardiel.</p>
-                        <h6 class="date">FEBRUARY 28, 2022</h6>
-                    </div>
-                </div>
-                <div class="row blog">
-                    <div class="col l-5 m-12 c-12 blog-image">
-                        <img src="../img/blog-3.jpg.webp">
-                    </div>
-                    <div class="col l-7 m-12 c-12 blog-content">
-                        <h6>HEALTH TIPS</h6>
-                        <a href="#">
-                            <h3>The Health Benefits Of Sunglasses</h3>
-                        </a>
-                        <p>Sitting on a $10,000 cloud is as a great as it sound, if you can afford it</p>
-                        <h6 class="date">JANUARY 04, 2022</h6>
-                    </div>
-                </div>
-                <div class="row blog">
-                    <div class="col l-5 m-12 c-12 blog-image">
-                        <img src="../img/blog-4.jpg.webp">
-                    </div>
-                    <div class="col l-7 m-12 c-12 blog-content">
-                        <h6>MIXING TIPS</h6>
-                        <a href="#">
-                            <h3>Aiming For Higher The Mastopexy</h3>
-                        </a>
-                        <p>Break into the timeless design trend statement pieces from Kardiel.</p>
-                        <h6 class="date">FEBRUARY 16, 2022</h6>
-                    </div>
-                </div>
-                <div class="row blog">
-                    <div class="col l-5 m-12 c-12 blog-image">
-                        <img src="../img/blog-6.jpg.webp">
-                    </div>
-                    <div class="col l-7 m-12 c-12 blog-content">
-                        <h6>HAIR TIPS</h6>
-                        <a href="#">
-                            <h3>The Different Methods Of Hair Removal</h3>
-                        </a>
-                        <p>Break into the timeless design trend statement pieces from Kardiel.</p>
-                        <h6 class="date">28 February 2020</h6>
-                    </div>
-                </div>
-                <div class="row blog">
-                    <div class="col l-5 m-12 c-12 blog-image">
-                        <img src="../img/blog-2.jpg.webp">
-                    </div>
-                    <div class="col l-7 m-12 c-12 blog-content">
-                        <h6>ETERNITY BANDS</h6>
-                        <a href="#">
-                            <h3>Eternity Bands Do Last Forever</h3>
-                        </a>
-                        <p>Break into the timeless design trend statement pieces from Kardiel.</p>
-                        <h6 class="date">FEBRUARY 21, 2022</h6>
-                    </div>
-                </div>
+                <item-blog item="blog" ng-repeat="blog in dataBlog"></item-blog>
                 <ul class="pagebottom blogbottom">
                     <li class="active">
                         <a href="#">1</a>
@@ -133,9 +28,5 @@
             </div>
         </div>
     </div>
-    <!-- Footer -->
-        <footer></footer>
-        <!-- End Footer -->
-</body>
 
-</html>
+    {{dataBlog}}

@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 @media(max-width: 1023px){
-    .blog-image img{
+    .blog__image img{
         display: block;
         margin: 0 auto;
         width: 100%;
         padding: 0;
     }
-    .blog-content {
+    .blog__content {
         text-align: center;
     }
-    .breadcrumb{
+    .breadcrumb__blog{
         text-align: center;
         margin-left: -4em;
     }
-    .banner-text h1{
+    .banner-text__blog h1{
         background-color: #fff;
         color: black;
     }
@@ -28,24 +28,23 @@
 
 *{
     box-sizing: border-box;
-    font-family: 'Be VietNam Pro', sans-serif;
+    font-family: 'Mukta', sans-serif;
 }
 
 body{
-    height: 2000px;
     margin: 0;
 }
 
-.container{
+.container__blog{
     padding-bottom: 1.4em;    
-}
+}   
 
-.breadcrumb-text{
+.breadcrumb-text__blog{
     margin-left: 4em;
     padding: 2em 0;
 }
 
-.breadcrumb-text a {
+.breadcrumb-text__blog a {
     display: inline-block;
     font-size: 16px;
     color: #b2b2b2;
@@ -53,13 +52,13 @@ body{
     position: relative;
 }
 
-.breadcrumb-text span{
+.breadcrumb-text__blog span{
     display: inline-block;
     color: #1B2F44;
     font-weight: 500;
 }
 
-.breadcrumb-text a:after {
+.breadcrumb-text__blog a:after {
     position: absolute;
     right: -18px;
     top: 0px;
@@ -69,7 +68,7 @@ body{
     color: #b2b2b2;
 }
 
-.banner{
+.banner__blog{
     background-image: url("../img/blog/bannerall.png");
     background-size: cover;
     background-attachment: fixed;
@@ -79,7 +78,7 @@ body{
     height: 14em;
 }
 
-.banner::after{
+.banner__blog::after{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -91,7 +90,7 @@ body{
     opacity: 0.6;
 }
 
-.banner-text{
+.banner-text__blog{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -99,12 +98,12 @@ body{
     color: #fff;    
 }
 
-.banner-text h1{
+.banner-text__blog h1{
     font-size: 2.4em;
     font-weight: 700;
     margin-top: 2.2em;
 }
-.a1{
+.a1__blog{
     padding-top: 1.8em;
     width: 100%;
     text-align: center;
@@ -112,7 +111,7 @@ body{
     height: 3.4em;
     margin-bottom: 1em;
 }
-.a1 a{
+.a1__blog a{
     color: #1b2f44;
     font-size: 1.4em;
     font-weight: 300;
@@ -121,46 +120,46 @@ body{
     text-decoration: none;
 }
 
-.blog{
+.blog__row{
     border-bottom: 1px solid #adb5bd;
     margin-bottom: 1em;
 }
 
-.blog-content{
-    margin-bottom: 2.6em;
+.blog__content{
+    margin-bottom: 2em;
 }
 
-.blog-content h3:hover{
+.blog__content h3:hover{
     color: #17a2b8;
     transition: ease-in-out 250ms;
 }
 
-.blog-content h6, .date{
+.blog__content h6, .date{
     font-size: 16px;
     font-weight: 500;
     color: #b2b2b2;
     text-transform: uppercase;
 }
 
-.blog-content a{
+.blog__content a{
     text-decoration: none;
 }
 
-.blog-content h3{
+.blog__content h3{
     font-size: 30px;
     font-weight: 600;
     color: #232425;
     line-height: 1em;
-}
+}   
 
-.blog-content p{
+.blog__content p{
     font-size: 16px;
     font-weight: 300;
     color: #636363;
     line-height: 1em;
 }
 
-ul li a{
+.container__blog ul li a{
     list-style-type: none;
     margin-right: 1em;
     border: 1px solid #1b2f44;
@@ -175,15 +174,15 @@ ul li a{
     color: black;
 }
 
-ul li{
+.container__blog ul li{
     list-style-type: none;
 }
 
-ul li .active a{
+.container__blog ul li .active a{
     background-color: #1b2f44;
 }
 
-.blogbottom{
+.container__blog .blogbottom{
     display: flex;
     justify-content: center;
     margin: 40px auto;

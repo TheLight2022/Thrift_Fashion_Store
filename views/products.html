@@ -17,7 +17,7 @@
                 <div class="cate-item">
                     <h3>Categories</h3>
                     <ul>
-                        <li ng-repeat="category in categorys"><a href="">{{category.name}}</a></li>
+                        <li ng-repeat="category in categorys" ng-click="category.filter()"><a>{{category.name}}</a></li>
                     </ul>
                 </div>
                 <div class="cate-item">
@@ -61,12 +61,12 @@
                     </div>
                 </div>
                 <div class="product-page" ng-show="dataPage">
-                    <a href="" class="active">1</a>
-                    <a href="">2</a>
-                    <a href="">3</a>
-                    <a href="">4</a>
+                    <a href="" ng-repeat="page in pages" page="{{page.num}}">{{page.num+1}}</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
+

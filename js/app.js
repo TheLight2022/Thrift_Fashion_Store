@@ -35,11 +35,19 @@ app.config(function($routeProvider) {
       templateUrl: 'views/register.html'
     })
     .when('/products',{
-        templateUrl: 'views/products.html',
+        templateUrl: 'views/products.html'
     })
-    .when('/products/:id', {
-      templateUrl: 'views/products.html',
+    .when('/FAQs',{
+      templateUrl: 'views/FAQs.html',
     })
+    .when('/checkout',{
+      templateUrl: 'views/checkout.html',
+      controller: 'CartController'
+    })
+    .when('/thanks',{
+      templateUrl: 'views/thanks.html'
+    })
+
     
 
     
