@@ -282,7 +282,7 @@
         <div class="grid wide ">
             <div class="flex-center-between">
                 <p>Copyright © 2022. All rights reserved by Thrift Fashion</p>
-                <img src="img/payment-method.png" alt="footer">
+                <div class="geolocation"></div>
             </div>
         </div>
 </section>
@@ -313,7 +313,32 @@
     <!-- Swiper JS -->
     <script src="./js/main.js"></script>
     <script src="./js/page.js"></script>
+
+
     <script>
+        let geolocation = document.querySelector('.geolocation')
+        let p = document.createElement('p')
+        let getTime = function(){
+            let time = new Date()
+            console.log(time)
+            return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+        }
+        setInterval(getLocation,1000)
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                p.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            p.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude+"<br>" + "Time : "+getTime();
+       
+            geolocation.append(p)
+
+        }
 
     </script>
 
