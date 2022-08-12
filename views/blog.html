@@ -1,28 +1,19 @@
 <div class="container__blog">
-        <div class="breadcrumb__blog">
-            <div class="breadcrumb-text__blog">
-                <a href="../index.html">Home</a>
-                <span>Blog</span>
-            </div>
+    <section class="breakcump">
+        <div class="breakcump-container grid wide">
+            <p>Home</p>
+            <span><i class="fa-regular fa-angle-right"></i></span>
+            <p class="breakcump-active">Blog</p>
         </div>
+    </section>
         <div class="banner__blog">
             <div class="banner-text__blog">
                 <h1>Out Blog</h1>
             </div>
         </div>
-        <div class = "container__blog">
+        <div class = "container__blog" style="margin-top:60px">
             <div class="grid wide">
                 <item-blog item="blog" ng-repeat="blog in dataBlog"></item-blog>
-                <ul class="pagebottom blogbottom">
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>
-
-    {{dataBlog}}

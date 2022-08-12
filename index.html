@@ -5,7 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Thrifts Fashion Store</title>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- Swiperjs -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- AngularJS -->
@@ -25,6 +27,7 @@
     <link rel="stylesheet" href="./css/contactUs.css">
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/blog-details.css">
+    <link rel="stylesheet" href="./css/about-us.css">
     <!--  Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <!-- Font Awesome -->
@@ -52,7 +55,6 @@
                     <li>My account</li>
                     <li>
                         <span><i class="fa-solid fa-user"></i></span>
-                        <span><i class="fa-regular fa-heart"></i></span>
                         <span><i class="fa-regular fa-bag-shopping"></i></span>
                     </li>
                     <li>Follow us</li>
@@ -116,7 +118,7 @@
             <div class="header-bottom-container">
                 <nav class="navigation">
                     <ul class="flex">
-                        <li class="active"><a href="#/home">Home</a></li>
+                        <li><a href="#/home">Home</a></li>
                         <li><a href="#/products">Products</a></li>
                         <li><a href="">Store</a></li>
                         <li><a href="#/about">About us</a></li>
@@ -137,7 +139,7 @@
                                 <option value="">All Categories</option>
                                 <option value="{{category.name}}" ng-repeat="category in categorys">{{category.name}}</option>
                             </select>
-                            <input type="text" placeholder="Search for products..." class="col l-7 m-7 c-5" ng-model="search">
+                            <input type="text" placeholder="Search for products, brand, categories..." class="col l-7 m-7 c-5" ng-model="search">
                             <div class="group-button-search col l-2 m-2 c-3" >
                                 <div class="flex">
                                     <div class="button-reset col l-6 m-6 c-6" ng-click="resetValue()"><i class="fa-solid fa-xmark"></i></div>
@@ -149,7 +151,6 @@
                     <div class="col l-3 m-3 c-0" id="header-shop">
                         <ul class="col l-12 m-12">
                             <li> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="#/wishlish"><i class="fa-regular fa-heart"></i></a></li>
                             <li>
                                 <a href="#/cart" class="header-cart">
                                     <i class="fa-regular fa-bag-shopping"></i>
@@ -171,7 +172,7 @@
             <div class="col l-8 m-8 header-sticky-container-nav">
                 <nav>
                     <ul>
-                        <li class="active"><a href="#/home">Home</a></li>
+                        <li><a href="#/home">Home</a></li>
                         <li><a href="#/products">Products</a></li>
                         <li><a href="">Store</a></li>
                         <li><a href="#/about">About us</a></li>
@@ -185,7 +186,6 @@
                 <ul>
                     <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li class="col l-3 m-3"> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
-                    <li class="col l-3 m-3"><a href="#/wishlist"><i class="fa-regular fa-heart"></i></a></li>
                     <li class="col l-3 m-3">
                         <a href="#/cart" class="header-cart">
                             <i class="fa-regular fa-bag-shopping"></i>
@@ -209,7 +209,36 @@
 
 
 
-
+    <section id="protec" class="ng-scope">
+        <div class="grid wide">
+            <div class="protect-title">
+                <h2>All Thrills, Zero Guilt</h2>
+            </div>
+            <div class="row">
+                <div class="protec-item col l-4 m-4">
+                    <div class="flex-center-jus">
+                        <img src="img/index/returns.png" alt="protec">
+                    </div>
+                    <h3>Easy Returns</h3>
+                    <p>Thrift without the risk. Enjoy hassle-free returns with your order.</p>
+                </div>
+                <div class="protec-item col l-4 m-4">
+                    <div class="flex-center-jus">
+                        <img src="img/index/dress.png" alt="protec">
+                    </div>
+                    <h3>Quality Finds</h3>
+                    <p>Each item undergoes a 12-point inspection to meet our high quality standards.</p>
+                </div>
+                <div class="protec-item col l-4 m-4">
+                    <div class="flex-center-jus">
+                        <img src="img/index/sustainability.png" alt="protec">
+                    </div>
+                    <h3>Shop Sustainably</h3>
+                    <p>Choosing a used item over new reduces your carbon footprint by 82%!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 <!--Footer-->
 <footer>
     <section class="grid wide">
@@ -218,7 +247,7 @@
                 <div class="footer-logo">
                     <a href=""><img src="img/logo.png" alt="logo" ></a>
                 </div>
-                <p>12 23rd Street SE, Hickory, NC</p>
+                <p>8th Ton That Thuyet, HaNoi, VietNam</p>
                 <p>Phone: +1 (828) 324-7992</p>
                 <p>Email: contact@thriftfashionstore.com</p>
             </div>
@@ -253,7 +282,7 @@
         <div class="grid wide ">
             <div class="flex-center-between">
                 <p>Copyright © 2022. All rights reserved by Thrift Fashion</p>
-                <img src="img/payment-method.png" alt="footer">
+                <div class="geolocation"></div>
             </div>
         </div>
 </section>
@@ -271,7 +300,6 @@
     <script src="./js/controllers/BlogController.js"></script>
     <script src="./js/controllers/CartController.js"></script>
     <script src="./js/controllers/HeaderController.js"></script>
-    <script src="./js/controllers/WishlistController.js"></script>
     <!-- Services -->
     <script src="./js/services/products.js"></script>
     <script src="./js/services/categories.js"></script>
@@ -285,7 +313,32 @@
     <!-- Swiper JS -->
     <script src="./js/main.js"></script>
     <script src="./js/page.js"></script>
+
+
     <script>
+        let geolocation = document.querySelector('.geolocation')
+        let p = document.createElement('p')
+        let getTime = function(){
+            let time = new Date()
+            console.log(time)
+            return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+        }
+        setInterval(getLocation,1000)
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                p.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            p.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude+"<br>" + "Time : "+getTime();
+       
+            geolocation.append(p)
+
+        }
 
     </script>
 

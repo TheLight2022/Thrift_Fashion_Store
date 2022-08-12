@@ -126,11 +126,6 @@ h2 {
     padding: 0 40px;
 }
 
-#about-us
-#about-us
-#about-us
-#about-us
-
 
 @media (max-width: 740px) {
     
@@ -146,4 +141,24 @@ h2 {
     #about-us .about-img {
         padding-left: 0;
     }
+
+    #about-us .about-pd-l,
+    #about-us .about-pd-r {
+        padding-top: unset;
+        padding-right: unset;
+        padding-left: unset;
+    }
+
+        
+    #about-us .quote {
+        padding: unset;
+    }
+
+    #about-us .f-d {
+        flex-direction: column-reverse;
+    }
+
+
+
+
 } 

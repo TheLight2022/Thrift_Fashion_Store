@@ -16,7 +16,7 @@
       "price": 10,
       "gender": "Male",
       "color": "White",
-      "category": "Shirt",
+      "category": "Hoodie",
       "status": "stock", 
       "quantity": "1",
       "amount": "1", 
@@ -4545,5 +4545,357 @@
           "rating_by_star":5
         }
       ]
+    },
+    {
+        "id": "hoodie1",
+        "name": "Vintage U.S. Polo Assn Hoodies",
+        "description": "Please do not expect the shirt in mint condition unless stated.Its because vintage and used items may have sign of wear.",
+        "size": "XL",
+        "degree": 96,
+        "brand": "Polo",
+        "image": ["hoodie1.jfif", "hoodie2.jfif"],
+        "date": [
+            {
+                "sell": "02/06/2022",
+                "update": ""
+            }
+        ],
+        "price": 120,
+        "gender": "Male",
+        "color": "Black",
+        "category": "Hoodie",
+        "status": "Stock",
+        "quantity": 12,
+        "amount": 4,
+        "tag": "hoodie",
+        "rate": [
+            {
+                "id_user": "person1",
+                "comment": "good quality",
+                "image": [],
+                "video": [],
+                "rating_by_star": 5
+            },
+            {
+                "id_user": "person2",
+                "comment": "very great",
+                "image": [],
+                "video": [],
+                "rating_by_star": 5
+            }
+        ]
+    },
+    {
+        "id": "hoodie2",
+        "name": "Vintage Loyola Lacrosse Hoodies",
+        "description": "Size : please refer to actual measurement given and compared with your best fitting clothes )",
+        "size": "XL",
+        "degree": 98,
+        "brand": "Lacrosse",
+        "image": ["hoodie3.jfif", "hoodie4.jfif"],
+        "date": "21/07/2022",
+        "price": 150,
+        "gender": "Male",
+        "color": "Lightblue",
+        "category": "Hoodie",
+        "status": "Stock",
+        "quantity": 27,
+        "amount": 8,
+        "tag": "hoodie",
+        "rate": [
+            {
+                "sell": "1/1/2021",
+                "update": ""
+            }
+        ]
+    },
+    {
+        "id": "hoodie3",
+        "name": "Vintage NBA Orlando Magic Team Hoodies",
+        "description": "We guarantee satisfaction and authenticity.\nAs usual, I'm more than happy to entertain offers so fire away. Also, I can discount for multiple purchases.\nI'm more than happy to provide any additional information or answer any questions",
+        "size": "L",
+        "degree": 94,
+        "brand": "Lacrosse",
+        "image": ["hoodie5.jfif", "hoodie6.jfif"],
+        "date": [
+            {
+                "sell": "1/2/2022",
+                "update": ""
+            }
+        ],
+        "price": 99,
+        "gender": "Male",
+        "color": "gray",
+        "category": "Hoodie",
+        "status": "Stock",
+        "quantity": 22,
+        "amount": 10,
+        "tag": ["hoodie"],
+        "rate": []
+    },
+    {
+        "id": "hoodie4",
+        "name": "Time Lag United States Big Logo Zip Up Red Hoodies",
+        "description": "Please see all the photos that we provided and refer to our manual measurements.\nIf there any doubts feel free to message us first before make purchase.",
+        "size": "XXL",
+        "degree": 96,
+        "brand": "Jordan",
+        "image": ["hoodie7.jfif", "hoodie8.jfif"],
+        "date": [
+            {
+                "sell": "12/08/2022",
+                "update": ""
+            }
+        ],
+        "price": 200,
+        "gender": "Male",
+        "color": "Black&Yellow",
+        "category": "Hoodie",
+        "status": "Stock",
+        "quantity": 9,
+        "amount": 16,
+        "tag": ["hoodie"],
+        "rate": [
+        ]
+    },
+    {
+        "id": "hoodie5",
+        "name": "Vintage 90s Nike Fleece Hoodies",
+        "description": "Please Read All The Description Carefully Before Buying. If You Have Any Question Feel Free To Ask Me First Before Buy Or You Want To Buy More Item With My Shop Just Contact",
+        "size": "XL, XXL",
+        "degree": 99,
+        "brand": "Nike",
+        "image": ["hoodie9.jfif", "hoodie10.jfif", "hoodie11.jfif"],
+        "date": [
+            {
+                "sell": "12/08/2022",
+                "update": ""
+            }
+        ],
+        "price": 64,
+        "gender": "Male",
+        "color": "Black",
+        "category": "Hoodie",
+        "status": "Stock",
+        "quantity": 12,
+        "amount": 9,
+        "tag": ["hoodie"],
+        "rate": []
+    },
+    {
+        "id": "handbag1",
+        "name": "Prada Vintage Leather Tote bag",
+        "description": "The bag is made of soft leather, there are signs of wear, since the thing is old️\nPlease see all photos️",
+        "size": "XL",
+        "degree": 98,
+        "brand": "prd",
+        "image": ["handbag1.webp", "handbag2.webp", "handbag3.webp"],
+        "date": [
+            {
+                "sell": "21/07/22",
+                "update": ""
+            }
+        ],
+        "price": 98,
+        "gender": "Female",
+        "color": "Black",
+        "category": "Handle Bag",
+        "status": "Stock",
+        "quantity": 23,
+        "amount": 8,
+        "tag": ["handlebag"],
+        "rate":[]
+    },
+    {
+        "id": "handbag2",
+        "name": "Vintage Navy Blue Hand Bag",
+        "description": "Hello, I have a Vintage Navy Blue Hand Bag George Gina & Lucy GG&L for sale. Condition 8/10. The color actually differs slightly",
+        "size": "Women's ONE SIZE",
+        "degree": 95,
+        "brand": "Navy",
+        "image": ["handbag4.webp", "handbag5.webp", "handbag6.webp", "handbag7.webp"],
+        "date": [
+            {
+                "sell": "21/07/2022",
+                "update": ""
+            }
+        ],
+        "price": 45,
+        "gender": "Female",
+        "color": "Blue",
+        "category": "Handle Bag",
+        "status": "Stock",
+        "quantity": 28,
+        "amount": 20,
+        "tag": ["handbag"],
+        "rate":[]
+    },
+    {
+        "id": "handbag3",
+        "name": "Avant-Garde Miu Miu Vintage Leather Bag",
+        "description": "Condition : normal please see all photo,need dry cleaning.",
+        "size": "Women's ONE SIZE",
+        "degree": 90,
+        "brand": "Lacrosse",
+        "image": ["handbag8.webp", "handbag9.webp", "handbag11.webp", "handbag10.webp"],
+        "date": [
+            {
+                "sell": "21/08/2022",
+                "update": ""
+            }
+        ],
+        "price": 100,
+        "gender": "Female",
+        "color": "Brown",
+        "category": "Handle Bag",
+        "status": "Stock",
+        "quantity": 12,
+        "amount": 2,
+        "tag": ["handbag"],
+        "rate":[]
+    },
+    {
+        "id": "handbag4",
+        "name": "Vivienne Westwood Heart Bag vintage punk",
+        "description": "Your new bag just wanna say Hello!",
+        "size": " Women's ONE SIZE",
+        "degree": 98,
+        "brand": "Nike",
+        "image": ["handbag13.webp", "handbag14.webp", "handbag12.webp"],
+        "date": [
+            {
+                "sell": "1/1/2022",
+                "update": ""
+            }
+        ],
+        "price": 102,
+        "gender": "Female",
+        "color": "Navy/grey/green",
+        "category": "Handle Bag",
+        "status": "Stock",
+        "quantity": 29,
+        "amount": 20,
+        "tag": ["handbag"],
+        "rate":[]
+    },
+    {
+        "id": "handbag5",
+        "name": "AUTHENTIC VINTAGE BONNIE CASHIN ERA 1970s TOP HANDLE BAG",
+        "description": "VERY RARE AUTHENTIC BONNIE ERA 70s COACH TOP HANDLE BAG , BRITISH TAN LEATHER , RECTANGLE SHAPE , CLEAN SATCHEL STANDART , NJ ESTATE",
+        "size": "ONE SIZE",
+        "degree": 99,
+        "brand": "D Rose",
+        "image": ["handbag15.jfif", "handbag16.jfif", "handbag17.jfif"],
+        "date": [
+            {
+                "sell": "23/3/2022",
+                "update": ""
+            }
+        ],
+        "price": 29,
+        "gender": "Female",
+        "color": "Multicolor",
+        "category": "Handle Bag",
+        "status": "Stock",
+        "quantity": 23,
+        "amount": 12,
+        "tag": ["handbag"],
+        "rate":[]
+    },
+    {
+        "id": "backpack1",
+        "name": "Prada Vela Nero Authentic",
+        "description": "Vintage Prada Backpack\nMade in Italy",
+        "size": "ONE SIZE",
+        "degree": 98,
+        "brand": "Prada",
+        "image": ["backpack1.jfif", "backpack2.jfif", "backpack3.jfif"],
+        "date": [
+            {
+                "sell": "21/2/2022",
+                "update": ""
+            }
+        ],
+        "price": 45,
+        "gender": "Male",
+        "color": "multi color",
+        "category": "Backpack",
+        "status": "Stock",
+        "quantity": 1,
+        "amount": 34,
+        "tag": ["backpack"],
+        "rate":[]
+    },
+    {
+        "id": "backpack2",
+        "name": "Vintage YAK PAK Backpack",
+        "description": "Good condition- it’s a used vintage item so don’t expect new condition.",
+        "size": "12.5” x 12.5”",
+        "degree": 98,
+        "brand": "Puma",
+        "image": ["backpack4.jfif", "backpack5.jfif", "backpack6.jfif"],
+        "date": [
+            {
+                "sell": "23/7/2022",
+                "update": ""
+            }
+        ],
+        "price": 87,
+        "gender": "Male",
+        "color": "Black",
+        "category": "Backpack",
+        "status": "Stock",
+        "quantity": 23,
+        "amount": 21,
+        "tag": ["backpack"],
+        "rate":[]
+    },
+    {
+        "id": "backpack3",
+        "name": "Tiger punk hip hop backpack",
+        "description": "Wide vision tiger punk hip hop backpack",
+        "size": " ONE SIZE",
+        "degree": 99,
+        "brand": "Calvin Klein",
+        "image": ["backpack7.jpg", "backpack8.jpg", "backpack9.jpg"],
+        "date": [
+            {
+                "sell": "04/9/2022",
+                "update": ""
+            }
+        ],
+        "price": 99,
+        "gender": "Female",
+        "color": "Black",
+        "category": "Backpack",
+        "status": "Stock",
+        "quantity": 60,
+        "amount": 43,
+        "tag": ["backpack"],
+        "rate":[]
+    },
+    {
+        "id": "backpack4",
+        "name": "Radioactive Backpack 35 Litres",
+        "description": "Please don't expect it to be like new or in pristine condition",
+        "size": "ONE SIZE",
+        "degree": 99,
+        "brand": "Martin",
+        "image": ["backpack10.webp", "backpack11.jfif", "backpack12.jfif"],
+        "date": [
+            {
+                "sell": "27/08/2022",
+                "update": ""
+            }
+        ],
+        "price": 112,
+        "gender": "Male",
+        "color": "Red",
+        "category": "Backpack",
+        "status": "Stock",
+        "quantity": 23,
+        "amount": 5,
+        "tag": ["backpack"],
+        "rate":[]
     }
 ]

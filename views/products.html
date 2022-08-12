@@ -6,9 +6,11 @@
     </div>
 </section>
 
-<section class="big-title">
-    <h2>Products</h2>
-</section>
+<div id="banner" style="background-image: url(../img/index/insta3.png)">
+    <div id="banner-text">
+        <h2>Products</h2>
+    </div>
+</div>
 
 <section id="product">
     <div class="product-container grid wide">
@@ -21,37 +23,19 @@
                     </ul>
                 </div>
                 <div class="cate-item">
-                    <h3>Brand</h3>
-                    <ul>
-                        <li><a href="">Bergen</a></li>
-                        <li><a href="">Bel Air</a></li>
-                        <li><a href="">Bartlett</a></li>
-                    </ul>
-                </div>
-                <div class="cate-item">
                     <h3>Price</h3>
                     <div class="flex">
                         <div class="price-range">
                             <strong>Min</strong>
-                            <span>$30</span>
+                            <input type="number" ng-model="min" ng-change="changePrice()" min="0" value="0">
                         </div>
                         <div class="price-range">
                             <strong>Max</strong>
-                            <span>$3000</span>
+                            <input type="number" ng-model="max" ng-change="changePrice()" value="9999">
                         </div>
                     </div>
                 </div>
-                <div class="cate-item product-color">
-                    <h3>Color</h3>
-                    <div class="row">
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
-                </div>
+                
             </div>
             <div class="col l-9">
                 <div class="row product-list">

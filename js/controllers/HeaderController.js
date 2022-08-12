@@ -11,7 +11,6 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
     }
     dataProducts.success(function(data) {
         $scope.products = data;
-       
         $scope.products = $scope.products.map(el=>{
             return {
                 ...el,
@@ -61,6 +60,8 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
         
     })
 
+    
+
     $scope.filterProducts = function(){
         
         if(!$scope.search){
@@ -71,7 +72,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
 
             $scope.dataProducts = $scope.products.filter(el=>{
                 isTrue = el.name.match(re)||
-                el.category.match(re) 
+                el.category.match(re)
                 return isTrue
             })
         }
@@ -93,6 +94,5 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
 
     }
 
-   
 
 }]);

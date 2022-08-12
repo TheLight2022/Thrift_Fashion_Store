@@ -190,5 +190,21 @@
   {
     "id": "prd",
     "name": "Prada"
+  },
+  {
+    "id": "polo",
+    "name": "Polo"
+  },
+  {
+    "id": "lcr",
+    "name": "Lacrosse"
+  },
+  {
+    "id": "navy",
+    "name": "Navy"
+  },
+  {
+    "id": "CK",
+    "name": "Calvin Klein"
   }
 ]

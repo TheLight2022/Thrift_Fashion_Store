@@ -148,11 +148,22 @@
     display: inline-block;
 }
 .blog-index-item a h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
     font-size: 24px;
     margin: 10px 0;
+    overflow: hidden;
 }
 .blog-index-item a p {
     color: #636363;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    margin: 10px 0;
+    overflow: hidden;
 }
 .title-index {
     text-align: center;

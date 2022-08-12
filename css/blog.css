@@ -40,39 +40,33 @@ body{
 
 .container__blog{
     padding-bottom: 1.4em;    
-}   
+}  
 
-.breadcrumb-text__blog{
-    margin-left: 4em;
-    padding: 2em 0;
+.breakcump {
+    width: 100%;
+    background-color: white;
 }
-
-.breadcrumb-text__blog a {
-    display: inline-block;
-    font-size: 16px;
+.breakcump-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+.breakcump-container p {
     color: #b2b2b2;
-    margin-right: 28px;
-    position: relative;
+    font-weight: 600;
 }
-
-.breadcrumb-text__blog span{
-    display: inline-block;
+.breakcump-container span {
+    padding: 0 10px;
+    color: #b2b2b2;
+}
+.breakcump-container .breakcump-active {
     color: #1B2F44;
-    font-weight: 500;
-}
-
-.breadcrumb-text__blog a:after {
-    position: absolute;
-    right: -18px;
-    top: 0px;
-    content: "›";
-    font-family: "FontAwesome";
-    font-size: 16px;
-    color: #b2b2b2;
 }
 
 .banner__blog{
-    background-image: url("../img/blog/bannerall.png");
+    background-image: url("../img/index/banner1.png");
     background-size: cover;
     background-attachment: fixed;
     display: block;

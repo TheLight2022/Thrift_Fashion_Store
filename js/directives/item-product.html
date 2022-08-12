@@ -1,16 +1,17 @@
-<div class="product-hover">
-    <a class="product-heart" href=""><i class="fa-regular fa-heart"></i></a>
-    <img ng-src="img/{{item.image[0]}}" alt="products">
-    <div class="product-cart">
-        <span style="cursor:pointer;" ng-click="item.addCart()"><i class="fa-regular fa-bag-shopping"></i></span>
-        <p><a href="#">+ Quick View</a></p>
+<div class="second-best-item">
+    <div class="second-best-item-hover">
+        <img ng-src="img/{{item.image[0]}}" alt="products">
+        <a class="product-cart-index" href="">
+            <span ng-click="item.addCart()"><i class="fa-regular fa-bag-shopping"></i></span>
+            <p>+ Quick View</p>
+        </a>
     </div>
+    <a class="second-best-item-text" href="">
+        <h4>{{item.name}}</h4>
+        <strong>{{item.price | currency}}</strong>
+        <div class="second-best-item-bottom">
+            <div>{{item.brand}}</div>
+            <div>New {{item.degree}}%</div>
+        </div>
+    </a>
 </div>
-<a class="product-text" href="">
-    <h4>{{item.name}}</h4>
-    <strong>{{item.price | currency}}</strong>
-    <div class="product-bottom">
-        <p><span><i class="fa-solid fa-location-dot"></i></span>{{item.seller[0].address}}</p>
-        <p><span><i class="fa-solid fa-circle-user"></i></span>{{item.seller[0].name}}</p>
-    </div>
-</a>
