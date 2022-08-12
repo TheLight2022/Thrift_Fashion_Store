@@ -299,8 +299,12 @@ summary svg{
     background-color: black;
     margin-left: 1em;
 }
+.contact-link button:hover {
+    background-color: white;
+    transition: ease-in-out 250ms;
+}
 .contact-link a:hover, .faq-right a:hover {
-    color: #17a2b8;
+    color: black;
     transition: ease-in-out 250ms;
 }
 .contact-link a, .faq-right a {
