@@ -51,6 +51,11 @@ app.config(function($routeProvider) {
     .when('/thanks',{
       templateUrl: 'views/thanks.html'
     })
+    .when('/wishlist',{
+      templateUrl: 'views/wishlist.html',
+      controller : 'WishlistController'
+    })
+  
   
     
 
