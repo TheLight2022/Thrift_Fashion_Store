@@ -30,5 +30,24 @@
   {
     "id": "hoodie",
     "name": "Hoodie"
+  },
+  {
+    "id": "dress",
+    "name": "Dress"
+  },
+  {
+    "id": "boots",
+    "name": "Boots"
+  },
+  {
+    "id": "wallet",
+    "name": "Wallet"
+  },
+  {
+    "id": "miscellaneous",
+    "name": "Miscellaneous"
+  },
+  {
+    
   }
 ]
