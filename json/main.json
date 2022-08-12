@@ -4849,5 +4849,54 @@
         "amount": 21,
         "tag": ["backpack"],
         "rate":[]
+    },
+    {
+        "id": "backpack3",
+        "name": "Tiger punk hip hop backpack",
+        "description": "Wide vision tiger punk hip hop backpack",
+        "size": " ONE SIZE",
+        "degree": 99,
+        "brand": "Calvin Klein",
+        "image": ["backpack7.jpg", "backpack8.jpg", "backpack9.jpg"],
+        "date": [
+            {
+                "sell": "04/9/2022",
+                "update": ""
+            }
+        ],
+        "price": 99,
+        "gender": "Female",
+        "color": "Black",
+        "category": "Backpack",
+        "status": "Stock",
+        "quantity": 60,
+        "amount": 43,
+        "tag": ["backpack"],
+        "rate":[]
+    },
+    {
+        "id": "backpack4",
+        "name": "Radioactive Backpack 35 Litres",
+        "description": "Please don't expect it to be like new or in pristine condition",
+        "size": "ONE SIZE",
+        "degree": 99,
+        "brand": "Martin",
+        "image": ["backpack10.webp", "backpack11.jfif", "backpack12.jfif"],
+        "date": [
+            {
+                "sell": "27/08/2022",
+                "update": ""
+            }
+        ],
+        "price": 112,
+        "gender": "Male",
+        "color": "Red",
+        "category": "Backpack",
+        "status": "Stock",
+        "quantity": 23,
+        "amount": 5,
+        "tag": ["backpack"],
+        "rate":[]
     }
+
 ]
