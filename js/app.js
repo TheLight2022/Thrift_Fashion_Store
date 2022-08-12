@@ -26,6 +26,10 @@ app.config(function($routeProvider) {
         controller: 'BlogController',
         templateUrl: 'views/blog.html'
     })
+    .when('/blog/:id', {
+      controller: 'BlogController',
+      templateUrl: 'views/blog-details.html'
+  })
     .when('/login', {
       // controller: 'BlogController',
       templateUrl: 'views/login.html'
@@ -47,7 +51,7 @@ app.config(function($routeProvider) {
     .when('/thanks',{
       templateUrl: 'views/thanks.html'
     })
-
+  
     
 
     

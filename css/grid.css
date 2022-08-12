@@ -597,3 +597,10 @@ Prefix class :
         margin-left: 91.66667%;
     }
 }
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}

@@ -526,6 +526,7 @@ footer {
         padding-left: 30px;
     }
     #header-sticky {
+        margin-top:50px;
         display: none;
         padding: 0 20px;
     }
