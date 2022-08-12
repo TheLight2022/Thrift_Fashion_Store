@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    height: unset !important;
 }
 #banner:after {
     content:'';
@@ -39,6 +40,7 @@ body {
 #banner-text h2 {
     font-size: 36px;
     color: #FDF9F5;
+    margin: 0;
 }
 
 .faq h3{
@@ -310,4 +312,27 @@ summary svg{
 .contact-link a, .faq-right a {
     color: white;
     text-decoration: none;
+}
+@media screen and (max-width: 1200px){
+    details > summary > svg {
+        display: none;
+    }
+}
+@media screen and (max-width: 450px){
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h3 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1025px){
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h3 {
+        text-align: center;
+    }
 }
