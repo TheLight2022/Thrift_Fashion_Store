@@ -295,7 +295,6 @@
     <!-- Controllers -->
     <script src="./js/controllers/HomeController.js"></script>
     <script src="./js/controllers/AboutController.js"></script>
-    <script src="./js/controllers/ContactsController.js"></script>
     <script src="./js/controllers/ShopController.js"></script>
     <script src="./js/controllers/BlogController.js"></script>
     <script src="./js/controllers/CartController.js"></script>
@@ -320,7 +319,6 @@
         let p = document.createElement('p')
         let getTime = function(){
             let time = new Date()
-            console.log(time)
             return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
         }
         setInterval(getLocation,1000)
@@ -337,9 +335,7 @@
             "<br>Longitude: " + position.coords.longitude+"<br>" + "Time : "+getTime();
        
             geolocation.append(p)
-
         }
-
     </script>
 
 </body>

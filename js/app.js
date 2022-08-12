@@ -11,7 +11,6 @@ app.config(function($routeProvider) {
         templateUrl: 'views/about.html'
     })
     .when('/contacts', {
-        controller: 'ContactsController',
         templateUrl: 'views/contacts.html'
     })
     .when('/shop', {
@@ -31,16 +30,17 @@ app.config(function($routeProvider) {
       templateUrl: 'views/blog-details.html'
   })
     .when('/login', {
-      // controller: 'BlogController',
       templateUrl: 'views/login.html'
     })
     .when('/register', {
-      // controller: 'BlogController',
       templateUrl: 'views/register.html'
     })
     .when('/products',{
         templateUrl: 'views/products.html',
-
+    })
+    .when('/products/:id',{
+        templateUrl: 'views/products.html',
+        controller: 'DetailsController'
     })
     .when('/FAQs',{
       templateUrl: 'views/FAQs.html',

@@ -10,12 +10,14 @@
     <div class="col l-12 m-12 c-12 content">
         <h4>{{itemBlog.author}}</h4>
         <h1>{{itemBlog.title}}</h1>
-        <h6>The traditional space in London’s East End was the perfect blank canvas for the British talent</h6>
+        <h6>{{itemBlog.description}}</h6>
         <h4>{{itemBlog.time}}</h4>
     </div>
     <div id="body">
-        <p>The overall effect is what Casely-Hayford’s late father, the esteemed British fashion designer Joe Casely-Hayford (with whom he established their namesake menswear brand in 2009), would have called “harmonious discord,” he says. “It’s how I think of Sophie’s study, because it’s not easy; there’s a lot going on in there, and I feel like it works perfectly,” he continues proudly. “But she’s the only person I know that could do that, because it could quite easily just tip over the other way. Every time I walk into that room, it makes me feel alive because there’s something for me to engage with. It invites conversation.”</p>
-        <a href="#"><img src="../img/blog-details-1.jpeg" width="100%"></a>
+        <div ng-repeat="content in itemBlog.content">
+            <p>{{content.text}}</p>
+            <a href=""><img ng-src="img/{{content.img}}" width="100%"></a>
+        </div>
     </div>
     </div>
 </div>
