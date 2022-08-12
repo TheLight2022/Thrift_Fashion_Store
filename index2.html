@@ -16,6 +16,9 @@
     <script src="css/fontawesome-pro-6.1.0-web/js/all.js"></script>
 <!--  Swiper  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+<!--  Aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
 <!--Header-->
@@ -325,7 +328,7 @@
     <div class="title-brand-index">
         <h2>Popular Designers</h2>
     </div>
-    <section id="brand-index">
+    <section data-aos="zoom-out-left" data-aos-easing="ease-in-back" id="brand-index">
         <div class="swiper mySwiper4">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -374,13 +377,12 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
     </section>
 <!--Brand end-->
 
 <!--second best-->
-    <section id="second-best-pad">
+    <section data-aos="fade-up" id="second-best-pad">
         <div class="title-cate-index">
             <h2>Old but new products</h2>
         </div>
@@ -523,7 +525,7 @@
 <!--second best end-->
 
 <!--intas-->
-    <section id="insta">
+    <section data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="ease-in-back" id="insta">
         <div class="grid">
             <div class="row">
                 <div class="insta-item col l-3 m-6 c-12">
@@ -576,7 +578,7 @@
             <div class="blog-index-box">
                 <div class="grid wide">
                     <div class="blog-index-box-wrap">
-                        <div class="blog-index-item col l-4 m-6 c-12">
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="ease-in-sine" class="blog-index-item col l-4 m-6 c-12">
                             <a href="" >
                                 <img src="img/index/blog-demo.png" alt="blog-index">
                                 <span>LIFESTYLE</span>
@@ -585,7 +587,7 @@
                                     East End—where the sweet, spicy scent of the street’s...</p>
                             </a>
                         </div>
-                        <div class="blog-index-item col l-4 m-6 c-12">
+                        <div data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-easing="ease-in-sine" class="blog-index-item col l-4 m-6 c-12">
                             <a href="" >
                                 <img src="img/index/blog-demo.png" alt="blog-index">
                                 <span>LIFESTYLE</span>
@@ -594,7 +596,7 @@
                                     East End—where the sweet, spicy scent of the street’s...</p>
                             </a>
                         </div>
-                        <div class="blog-index-item col l-4 m-6 c-12">
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-easing="ease-in-sine" class="blog-index-item col l-4 m-6 c-12">
                             <a href="" >
                                 <img src="img/index/blog-demo.png" alt="blog-index">
                                 <span>LIFESTYLE</span>
@@ -699,4 +701,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <!--Js-->
 <script src="js/main.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
