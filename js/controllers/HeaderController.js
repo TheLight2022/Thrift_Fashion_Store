@@ -48,7 +48,17 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
     })
 
     dataCategories.success(function(data) {
-        $scope.categorys = data
+        $scope.categorys = data.map(item=>{
+            return{
+                ...item,
+                filter : function(){
+                    $scope.categories = item.name
+                    $scope.filterProducts()
+                }
+            }
+            
+        })
+        
     })
 
     $scope.filterProducts = function(){
