@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Products Details | Thrifts Fashion Store</title>
-</head>
-<body>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,19 +7,22 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Products | Thrits Shop</title>
+    <title>Products details | Thrits Shop</title>
     <!--  css  -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/set.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/product-detail.css">
     <!--  Font Awesome  -->
     <link rel="stylesheet" href="css/fontawesome-pro-6.1.0-web/css/all.css">
     <script src="css/fontawesome-pro-6.1.0-web/js/all.js"></script>
+<!--  Swiper css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 <!--Header-->
-<header>
+<header id="header">
     <section id="header-top" class="flex-center">
         <div class="grid" id="header-top-container">
             <div class="flex-center-between">
@@ -135,14 +132,10 @@
     </div>
 </section>
 
-<section class="big-title">
-    <h2>Products</h2>
-</section>
-
-<section id="product">
+<section id="product" class="detail">
     <div class="product-container grid wide">
         <div class="row">
-            <div class="col l-3 category">
+            <div class="col l-3 c-12 category">
                 <div class="cate-item">
                     <h3>Categories</h3>
                     <ul>
@@ -153,58 +146,6 @@
                         <li><a href="">Jacket</a></li>
                         <li> <a href="">Glass</a></li>
                         <li> <a href="">Hats</a></li>
-                    </ul>
-                </div>
-                <div class="cate-item">
-                    <h3>Brand</h3>
-                    <ul>
-                        <li><a href="">BUCK</a></li>
-                        <li><a href="">MOQ</a></li>
-                        <li><a href="">Street Wear</a></li>
-                        <li><a href="">Frog Suit</a></li>
-                        <li><a href="">Rugby Stripe</a></li>
-                        <li><a href="">Sublimated</a></li>
-                        <li><a href="">Fila</a></li>
-                        <li><a href="">Pullover</a></li>
-                        <li><a href="">Essentials</a></li>
-                        <li><a href="">Backcountry</a></li>
-                        <li><a href="">Van Heusen</a></li>
-                        <li><a href="">Gildan</a></li>
-                        <li><a href="">Dickies</a></li>
-                        <li><a href="">Yummie</a></li>
-                        <li><a href="">Under Armour</a></li>
-                        <li><a href="">Berkshire</a></li>
-                        <li><a href="">Breezy Tunic</a></li>
-                        <li><a href="">PGA</a></li>
-                        <li><a href="">HUDSON</a></li>
-                        <li><a href="">Amazon</a></li>
-                        <li><a href="">Lee Men's</a></li>
-                        <li><a href="">IZOD</a></li>
-                        <li><a href="">SPECIALMAGIC</a></li>
-                        <li><a href="">Champion</a></li>
-                        <li><a href="">Wangdo</a></li>
-                        <li><a href="">Goodthreads</a></li>
-                        <li><a href="">Vineyard</a></li>
-                        <li><a href="">Lee Women's</a></li>
-                        <li><a href="">Hanes</a></li>
-                        <li><a href="">Nike</a></li>
-                        <li><a href="">Coronado</a></li>
-                        <li><a href="">BOSS</a></li>
-                        <li><a href="">Tommy</a></li>
-                        <li><a href="">EvoShield</a></li>
-                        <li><a href="">Carhartt</a></li>
-                        <li><a href="">Oakley</a></li>
-                        <li><a href="">Adidas</a></li>
-                        <li><a href="">Roxy</a></li>
-                        <li><a href="">Sunnies</a></li>
-                        <li><a href="">Jordan</a></li>
-                        <li><a href="">Newbalance</a></li>
-                        <li><a href="">Rebook</a></li>
-                        <li><a href="">Airmax</a></li>
-                        <li><a href="">D Rose</a></li>
-                        <li><a href="">Martin</a></li>
-                        <li><a href="">Dame</a></li>
-                        <li><a href="">Fila</a></li>
                     </ul>
                 </div>
                 <div class="cate-item">
@@ -220,26 +161,241 @@
                         </div>
                     </div>
                 </div>
-                <div class="cate-item product-color">
-                    <h3>Color</h3>
-                    <div class="row">
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
-                        <a href=""></a>
+            </div>
+            <div class="col l-9 c-12">
+                <div class="row">
+                    <div class="slide-img-detail col l-6 m-12 c-12">
+                        <div class="img-detail-hover col l-12 m-12">
+                            <img src="img/sofa5-1.jpg" alt="product-detail">
+                        </div>
+                        <div class="slide-detail col l-12 m-12">
+                            <div class="swiper mySwiper5">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="img/sofa5-1.jpg" alt="product-detail"></div>
+                                    <div class="swiper-slide"><img src="img/sofa5-2.jpg" alt="product-detail"></div>
+                                    <div class="swiper-slide"><img src="img/sofa5-1.jpg" alt="product-detail"></div>
+                                    <div class="swiper-slide"><img src="img/sofa5-2.jpg" alt="product-detail"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-detail-text col l-6 m-12 c-12">
+                        <div class="product-detail-text-container">
+                            <div class="flex-center-between">
+                                <div class="product-detail-tilte">
+                                    <span>SOFAS & ARMCHAIRS</span>
+                                    <h3>Bel Air Elmira</h3>
+                                </div>
+                                <div class="product-detail-heart"><i class="fa-regular fa-heart"></i></div>
+                            </div>
+                            <p class="dest-pro-detail">
+                                If your thing is sleek silhouettes that don't let you down on comfort,
+                                you'll want to meet Elmira. Settle into the cosy white boucle, thick seat
+                                cushions and angled backrest. That refined leg detail completes the look.
+                            </p>
+                            <strong class="product-detail-price">$150.00</strong>
+                            <div class="detail-qty">
+                                <p>Quantity<span>20</span></p>
+                                <p>Amount<span>2883</span></p>
+                            </div>
+                            <div class="box-value-detail">
+                                <div class="box-input-detail">
+                                    <span id="detail-minus"><i class="fa-regular fa-minus"></i></span>
+                                    <input id="detail-input" type="text" placeholder="0">
+                                    <span id="detail-plus"><i class="fa-regular fa-plus"></i></span>
+                                </div>
+                                <button>Add to cart</button>
+                            </div>
+                            <p class="detail-bottom">CATEGORIES: <span>Bel Air, Sofas & Armchairs</span></p>
+                            <p class="detail-bottom">DELIVERY: <span>All week</span></p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col l-9">
-                <div class="row">
-                    <div class="col l-6"></div>
-                    <div class="col l-6"></div>
+                <div class="row detail-tag-change">
+                    <a class="detail-tag-change-item active col l-6 m-6 c-6" href="">DESCRIPTION</a>
+                    <a class="detail-tag-change-item col l-6 m-6 c-6" href="">SPECIFICATION</a>
                 </div>
+                <div class="row des-detail-box">
+                    <div class="des-detail-box-text col l-6">
+                        <h4>Introduction</h4>
+                        <p>The Elmira Right Hand Facing Corner Sofa is a stylish contemporary
+                            sofa designed for lounging. Featuring super-deep seats that allow you
+                            to lie almost all the way back (throw cushions optional), this modern
+                            sofa also comes with a low profile that will enhance the sense of space
+                            in your living room.</p>
+                        <h4>Features</h4>
+                        <p>This is a sectional sofa consisting of individual units arranged together.
+                            Sofa units can be re-configured to suit individual needs and preferences.
+                            This chaise sofa can be used in the living, study or bedroom to provide extra
+                            seating spaces. However, 2 pieces of this sofa can be creatively combined to create
+                            an L Shaped sofa or a spacious 4 seater sofa that is great for large living rooms.
+                            Available in Granite and Stone and separately as a chaise lounge or together as a
+                            4 seater sofa.</p>
+                    </div>
+                    <div class="des-detail-box-img col l-6">
+                        <img src="img/intro-detail.jpg" alt="details">
+                    </div>
+                </div>
+<!--                <div class="row spe-detail-box">-->
+<!--                    <div class="spe-detail-box-title col l-6">-->
+<!--                        <h5>DIMENSIONS</h5>-->
+<!--                        <h5>SEAT DIMENSIONS</h5>-->
+<!--                        <h5>LEG HEIGHT</h5>-->
+<!--                        <h5>WEIGHT</h5>-->
+<!--                        <h5>AVAILABILITY</h5>-->
+<!--                        <h5>MATERIAL(S)</h5>-->
+<!--                    </div>-->
+<!--                    <div class="spe-detail-box-de col l-6">-->
+<!--                        <p>85cm x 274cm x 204cm</p>-->
+<!--                        <p>47cm x 218cm x 59/170cm</p>-->
+<!--                        <p>12cm</p>-->
+<!--                        <p>102kg</p>-->
+<!--                        <p>32</p>-->
+<!--                        <p>Polyester</p>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
 </section>
+
+<section id="re-product">
+    <div class="re-product-title"><h2>Recommended product</h2></div>
+    <div class="grid wide">
+        <div class="row product-list">
+            <div class="product-list-item col l-3 m-6">
+                <div class="product-hover">
+                    <div class="product-new-tag">New 99%</div>
+                    <a class="product-heart" href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="img/chardd.jpg" alt="products">
+                    <a class="product-cart" href="">
+                        <span><i class="fa-regular fa-bag-shopping"></i></span>
+                        <p>+ Quick View</p>
+                    </a>
+                </div>
+                <a class="product-text" href="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa.</h4>
+                    <strong>$150.00</strong>
+                    <div class="product-bottom">
+                        <div>Brand</div>
+                        <div>New 99%</div>
+                    </div>
+                </a>
+            </div>
+            <div class="product-list-item col l-3 m-6">
+                <div class="product-hover">
+                    <div class="product-new-tag">New 99%</div>
+                    <a class="product-heart" href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="img/chardd.jpg" alt="products">
+                    <a class="product-cart" href="">
+                        <span><i class="fa-regular fa-bag-shopping"></i></span>
+                        <p>+ Quick View</p>
+                    </a>
+                </div>
+                <a class="product-text" href="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa.</h4>
+                    <strong>$150.00</strong>
+                    <div class="product-bottom">
+                        <div>Brand</div>
+                        <div>New 99%</div>
+                    </div>
+                </a>
+            </div>
+            <div class="product-list-item col l-3 m-6">
+                <div class="product-hover">
+                    <div class="product-new-tag">New 99%</div>
+                    <a class="product-heart" href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="img/chardd.jpg" alt="products">
+                    <a class="product-cart" href="">
+                        <span><i class="fa-regular fa-bag-shopping"></i></span>
+                        <p>+ Quick View</p>
+                    </a>
+                </div>
+                <a class="product-text" href="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa.</h4>
+                    <strong>$150.00</strong>
+                    <div class="product-bottom">
+                        <div>Brand</div>
+                        <div>New 99%</div>
+                    </div>
+                </a>
+            </div>
+            <div class="product-list-item col l-3 m-6">
+                <div class="product-hover">
+                    <div class="product-new-tag">New 99%</div>
+                    <a class="product-heart" href=""><i class="fa-regular fa-heart"></i></a>
+                    <img src="img/chardd.jpg" alt="products">
+                    <a class="product-cart" href="">
+                        <span><i class="fa-regular fa-bag-shopping"></i></span>
+                        <p>+ Quick View</p>
+                    </a>
+                </div>
+                <a class="product-text" href="">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, ipsa.</h4>
+                    <strong>$150.00</strong>
+                    <div class="product-bottom">
+                        <div>Brand</div>
+                        <div>New 99%</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer-->
+<footer>
+    <section class="grid wide">
+        <div class="row">
+            <div class="col l-4 m-6 c-12 footer-item">
+                <div class="footer-logo">
+                    <a href=""><img src="img/logo.png" alt="logo" ></a>
+                </div>
+                <p>12 23rd Street SE, Hickory, NC</p>
+                <p>Phone: +1 (828) 324-7992</p>
+                <p>Email: contact@thriftfashionstore.com</p>
+            </div>
+            <div class="col l-2 m-3 c-6 footer-item">
+                <h4>Information</h4>
+                <p>About us</p>
+                <p>Brands</p>
+                <p>Contact</p>
+                <p>Help & FAQs</p>
+            </div>
+            <div class="col l-2 m-3 c-6 footer-item">
+                <h4>My Account</h4>
+                <p>Log in</p>
+                <p>Register</p>
+                <p>Shopping Cart</p>
+                <p>Shop</p>
+            </div>
+            <div class="col l-4 m-12 c-12 footer-item">
+                <div class="footer-item-form">
+                    <h4>Join Our Newsletter for $50 off</h4>
+                    <p>Get E-mail updates about our latest shop and special offers</p>
+                    <form action="" class="form-footer">
+                        <input type="text" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<section class="subFooter">
+    <div class="grid wide ">
+        <div class="flex-center-between">
+            <p>Copyright © 2022. All rights reserved by Thrift Fashion</p>
+            <img src="img/payment-method.png" alt="footer">
+        </div>
+    </div>
+</section>
+<section id="button-back-top">
+    <a href="#header"><i class="fa-solid fa-arrow-up-to-line"></i></a>
+</section>
+<!--Footer end-->
 </body>
+<!-- Swiperjs -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </html>

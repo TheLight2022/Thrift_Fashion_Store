@@ -209,7 +209,36 @@
 
 
 
-
+    <section id="protec" class="ng-scope">
+        <div class="grid wide">
+            <div class="protect-title">
+                <h2>All Thrills, Zero Guilt</h2>
+            </div>
+            <div class="row">
+                <div class="protec-item col l-4 m-4">
+                    <div class="flex-center-jus">
+                        <img src="img/index/returns.png" alt="protec">
+                    </div>
+                    <h3>Easy Returns</h3>
+                    <p>Thrift without the risk. Enjoy hassle-free returns with your order.</p>
+                </div>
+                <div class="protec-item col l-4 m-4">
+                    <div class="flex-center-jus">
+                        <img src="img/index/dress.png" alt="protec">
+                    </div>
+                    <h3>Quality Finds</h3>
+                    <p>Each item undergoes a 12-point inspection to meet our high quality standards.</p>
+                </div>
+                <div class="protec-item col l-4 m-4">
+                    <div class="flex-center-jus">
+                        <img src="img/index/sustainability.png" alt="protec">
+                    </div>
+                    <h3>Shop Sustainably</h3>
+                    <p>Choosing a used item over new reduces your carbon footprint by 82%!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 <!--Footer-->
 <footer>
     <section class="grid wide">
@@ -253,7 +282,7 @@
         <div class="grid wide ">
             <div class="flex-center-between">
                 <p>Copyright © 2022. All rights reserved by Thrift Fashion</p>
-                <img src="img/payment-method.png" alt="footer">
+                <div class="geolocation"></div>
             </div>
         </div>
 </section>
@@ -284,7 +313,32 @@
     <!-- Swiper JS -->
     <script src="./js/main.js"></script>
     <script src="./js/page.js"></script>
+
+
     <script>
+        let geolocation = document.querySelector('.geolocation')
+        let p = document.createElement('p')
+        let getTime = function(){
+            let time = new Date()
+            console.log(time)
+            return `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
+        }
+        setInterval(getLocation,1000)
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                p.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            p.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude+"<br>" + "Time : "+getTime();
+       
+            geolocation.append(p)
+
+        }
 
     </script>
 
