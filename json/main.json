@@ -4029,43 +4029,6 @@
         ]
     },
     {
-        "id": "jacket03",
-        "name": "Marmot Men’s PreCip Jacket",
-        "description": "The PreCip Jacket is reliable, value-oriented, full-function rainwear for backcountry and urban travelers alike. The PreCip Men's Rain Jacket features Marmot's comfortable and breathable NanoPro waterproofing technology. NanoPro coating is comprised of densely packed pores small enough to keep water droplets from getting in, but big enough to let water vapor out—providing cool, dry comfort even as your activity level increases.",
-        "size": "Large",
-        "degree": "98",
-        "brand": "No Brand",
-        "image": ["jacket7", "jacket8.jpg", "jacket9.jpg"],
-        "date": [
-            {
-                "sell": "09/08/2022",
-                "update": "09/09/2022"
-            }
-        ],
-        "price": 120,
-        "gender": "Male",
-        "color": "Blue",
-        "category": "Jacket",
-        "status": "stock",
-        "quantity": "12",
-        "amount": "6",
-        "tag": ["Jacket"],
-        "rate": [
-            {
-                "id_user": "jacket3_user_1",
-                "comment": "Great value for the price. Light weight, packable, hood stashes in collar, breathable, pit zips nice for extra breathability. Feels sticky on bare arms, when wearing short sleeve shirt.",
-                "image": "",
-                "rating_by_star": "5"
-            },
-            {
-                "id_user": "jacket3_user_2",
-                "comment": "A little background: I work as a bicycle messenger in Minneapolis year-round so I was looking for the lightest, most breathable rain jacket out there. This definitely fits the bill, and while you're still gonna sweat while being active in this jacket, it does better than most at breathing out vapor, so I stayed comfortable.",
-                "image": "",
-                "rating_by_star": "3"
-            }
-        ]
-    },
-    {
         "id": "jacket04",
         "name": "Amazon Essentials Women's Lightweight",
         "description": "Amazon Essentials is focused on creating affordable, high-quality, and long-lasting everyday clothing you can rely on. Our line of women's apparel includes cashmere sweaters, fleece and down jackets, and more, including plus-size options. Our consistent sizing takes the guesswork out of shopping, and each piece is put to the test to maintain the highest standards in quality and comfort.",
