@@ -76,7 +76,7 @@
             <div class="grid wide" id="header-top-container">
                 <div class="flex-center-between">
                     <div class="flex header-top-left">
-                        <p><span><i class="fa-solid fa-envelope"></i></span> contact@thriftfashionstore.com</p>
+                        <p><span><i class="fa-solid fa-eye"></i></span>Visitor {{visit.visit}}</p>
                         <p><span><i class="fa-solid fa-phone"></i></span> +1 (828) 324 7992</p>
                     </div>
                     <div class="header-top-right flex-center">
@@ -136,7 +136,7 @@
             <div class="grid wide" id="header-midle">
                 <div class="row" id="header-midle-container">
                     <div class="col l-2 m-12 c-12 header-midle-1" style="position: relative;">
-                        <span style="position: absolute;right: 20px;top: 20%;font-size: 12px;"><i class="fa-light fa-eye" style="margin-right: 2px; font-size:8px"></i>{{visit.visit}}</span>
+                        {{product.price}}
                         <a href="#/home"><img src="img/logo.png" alt="logo"></a>
                     </div>
                     <div class="col l-7 m-12 c-12" id="header-form-search">
@@ -156,7 +156,6 @@
                     </div>
                     <div class="col l-3 m-3 c-0" id="header-shop">
                         <ul class="col l-12 m-12">
-                            <li> <a href=""><i class="fa-solid fa-bell"></i></a></li>
                             <li> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
                             <li>
                                 <a href="#/cart" class="header-cart">
@@ -174,7 +173,7 @@
     <div class="header-sticky-container grid">
         <div class="row header-sticky-flex">
             <div class="col l-2 m-2 header-sticky-container-img" style="position: relative;">
-                <span style="position: absolute;right: 20px;top: 20%;font-size: 12px;"><i class="fa-light fa-eye" style="margin-right: 2px; font-size:8px"></i>{{visit.visit}}</span>
+                {{product.price}}
                 <a href=""><img src="img/logo.png" alt="logo"></a>
             </div>
             <div class="col l-8 m-8 header-sticky-container-nav">
@@ -193,7 +192,7 @@
             <div class="col l-2 m-2 header-sticky-container-icon">
                 <ul>
                     <li id="icon-header-search" class="col l-3 m-3"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-bell"></i></a></li>
+                   
                     <li class="col l-3 m-3"> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
                     <li class="col l-3 m-3">
                         <a href="#/cart" class="header-cart">
