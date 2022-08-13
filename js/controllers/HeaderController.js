@@ -10,6 +10,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
 
     $scope.currentPage = 0
     $scope.noProduct = false
+    
     if(JSON.parse(localStorage.getItem('myCart'))){
         $scope.countCart = JSON.parse(localStorage.getItem('myCart')).length
     }else{

@@ -55,13 +55,6 @@ app.config(function($routeProvider) {
       templateUrl: 'views/brands.html',
       controller : 'BrandsController'
     })
-  
-  
-    
-
-    
-    
-
     .otherwise({
       redirectTo: '/home'
     });
