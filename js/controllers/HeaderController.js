@@ -1,4 +1,8 @@
 app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
+    //
+    // localStorage.setItem('visit',)
+
+
     $scope.currentPage = 0
     $scope.noProduct = false
     if(JSON.parse(localStorage.getItem('myCart'))){
@@ -38,12 +42,22 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
                         ]
                         localStorage.setItem('myCart',JSON.stringify(myCart));
                         $scope.countCart = myCart.length
+                        document.querySelectorAll('.countCart').forEach(el=>{
+                            el.textContent =  $scope.countCart
+                        })
 
                     }
                 }
             }
         })
         $scope.dataProducts = $scope.products
+        $scope.suggest =$scope.dataProducts.filter((el,index)=>{
+            return index >=0 && index < 4
+        })
+        $scope.brand1 =  $scope.products.filter(el=>el.category=="Shirt")
+        $scope.brand2 =  $scope.products.filter(el=>el.category=="Hats")
+        $scope.brand3 =  $scope.products.filter(el=>el.category=="Pant")
+        $scope.brand4 =  $scope.products.filter(el=>el.category=="Glass")
     })
 
     dataCategories.success(function(data) {
@@ -67,12 +81,12 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
         if(!$scope.search){
             $scope.dataProducts = $scope.products
         }else{
-            key = $scope.search
+            key = $scope.search.toLowerCase()
             re = new RegExp(key,"gi")
 
             $scope.dataProducts = $scope.products.filter(el=>{
                 isTrue = el.name.match(re)||
-                el.category.match(re)
+                el.category.match(re) 
                 return isTrue
             })
         }
