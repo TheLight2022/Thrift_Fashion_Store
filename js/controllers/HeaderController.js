@@ -1,8 +1,4 @@
 app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
-    //
-    // localStorage.setItem('visit',)
-
-
     $scope.currentPage = 0
     $scope.noProduct = false
     if(JSON.parse(localStorage.getItem('myCart'))){
@@ -56,7 +52,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
         })
         $scope.brand1 =  $scope.products.filter(el=>el.category=="Shirt")
         $scope.brand2 =  $scope.products.filter(el=>el.category=="Hats")
-        $scope.brand3 =  $scope.products.filter(el=>el.category=="Pant")
+        $scope.brand3 =  $scope.products.filter(el=>el.category=="Shoes")
         $scope.brand4 =  $scope.products.filter(el=>el.category=="Glass")
     })
 

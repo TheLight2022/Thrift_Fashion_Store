@@ -48,13 +48,13 @@
             <div id="button-close-bar"><i class="fa-solid fa-xmark"></i></div>
             <div class="bar-list-container">
                 <ul>
-                    <li><a href="#/home">Home</a></li>
-                    <li><a href="#/products">Products</a></li>
-                    <li><a href="#/brand">Brand</a></li>
-                    <li><a href="#/about">About us</a></li>
-                    <li><a href="#/FAQs">FAQs</a></li>
-                    <li><a href="#/blog">Blogs</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li class="c home" ng-click="active()"><a href="#/home">Home</a></li>
+                        <li class="c products" ng-click="active()"><a href="#/products">Products</a></li>
+                        <li class="c brand" ng-click="active()"><a href="#/brand">Brand</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/about">About us</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/FAQs">FAQS</a></li>
+                        <li class="c FAQs" ng-click="active()"><a href="#/blog">Blogs</a></li>
+                        <li class="c contacts" ng-click="active()"><a href="#/contacts">Contact us</a></li>
                 </ul>
                 <ul>
                     <li>My account</li>
@@ -123,13 +123,13 @@
             <div class="header-bottom-container">
                 <nav class="navigation">
                     <ul class="flex">
-                        <li><a href="#/home">Home</a></li>
-                        <li><a href="#/products">Products</a></li>
-                        <li><a href="#/brand">Brand</a></li>
-                        <li><a href="#/about">About us</a></li>
-                        <li><a href="#/FAQs">FAQS</a></li>
-                        <li><a href="#/blog">Blogs</a></li>
-                        <li><a href="#/contacts">Contact us</a></li>
+                        <li class="c home" ng-click="active()"><a href="#/home">Home</a></li>
+                        <li class="c products" ng-click="active()"><a href="#/products">Products</a></li>
+                        <li class="c brand" ng-click="active()"><a href="#/brand">Brand</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/about">About us</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/FAQs">FAQS</a></li>
+                        <li class="c FAQs" ng-click="active()"><a href="#/blog">Blogs</a></li>
+                        <li class="c contacts" ng-click="active()"><a href="#/contacts">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -169,7 +169,7 @@
             </div>
         </section>
     </header>
-    <section id="header-sticky">
+ <section id="header-sticky">
     <div class="header-sticky-container grid">
         <div class="row header-sticky-flex">
             <div class="col l-2 m-2 header-sticky-container-img">
@@ -178,13 +178,13 @@
             <div class="col l-8 m-8 header-sticky-container-nav">
                 <nav>
                     <ul>
-                        <li><a href="#/home">Home</a></li>
-                        <li><a href="#/products">Products</a></li>
-                        <li><a href="#/brand">Brand</a></li>
-                        <li><a href="#/about">About us</a></li>
-                        <li><a href="#/FAQs">FAQS</a></li>
-                        <li><a href="#/blog">Blogs</a></li>
-                        <li><a href="#/contacts">Contact us</a></li>
+                        <li class="c home" ng-click="active()"><a href="#/home">Home</a></li>
+                        <li class="c products" ng-click="active()"><a href="#/products">Products</a></li>
+                        <li class="c brand" ng-click="active()"><a href="#/brand">Brand</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/about">About us</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/FAQs">FAQS</a></li>
+                        <li class="c FAQs" ng-click="active()"><a href="#/blog">Blogs</a></li>
+                        <li class="c contacts" ng-click="active()"><a href="#/contacts">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -203,7 +203,7 @@
             </div>
         </div>
     </div>
-    </section>
+    </section> 
     
 
 
@@ -343,6 +343,9 @@
        
             geolocation.append(p)
         }
+    </script>
+    <script>
+
     </script>
 
 </body>
