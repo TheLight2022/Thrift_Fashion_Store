@@ -79,7 +79,11 @@ h2 {
     color: #636363;
     font-weight: 300;
     line-height: 24px;
-    margin: 20px 0 0;
+    /* margin: 20px 0 0; */
+}
+
+#brands a{
+    text-decoration: none;
 }
 
 #brands .mg-t-b-30{
