@@ -7,7 +7,6 @@ app.config(function($routeProvider) {
       templateUrl: 'views/home.html'
     })
     .when('/about', {
-        controller: 'AboutController',
         templateUrl: 'views/about.html'
     })
     .when('/contacts', {
@@ -39,7 +38,7 @@ app.config(function($routeProvider) {
         templateUrl: 'views/products.html',
     })
     .when('/products/:id',{
-        templateUrl: 'views/products.html',
+        templateUrl: 'views/products-detail.html',
         controller: 'DetailsController'
     })
     .when('/FAQs',{
@@ -52,9 +51,9 @@ app.config(function($routeProvider) {
     .when('/thanks',{
       templateUrl: 'views/thanks.html'
     })
-    .when('/wishlist',{
-      templateUrl: 'views/wishlist.html',
-      controller : 'WishlistController'
+    .when('/brand',{
+      templateUrl: 'views/brands.html',
+      controller : 'BrandsController'
     })
   
   

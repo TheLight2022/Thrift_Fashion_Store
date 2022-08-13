@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thrifts Fashion Store</title>
+    <LINK REL="SHORTCUT ICON" HREF="img/logo.png"/>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- Swiperjs -->
@@ -28,6 +29,9 @@
     <link rel="stylesheet" href="./css/blog.css">
     <link rel="stylesheet" href="./css/blog-details.css">
     <link rel="stylesheet" href="./css/about-us.css">
+    <link rel="stylesheet" href="./css/product-detail.css">
+    <link rel="stylesheet" href="./css/store.css">
+
     <!--  Swiper CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <!-- Font Awesome -->
@@ -44,13 +48,13 @@
             <div id="button-close-bar"><i class="fa-solid fa-xmark"></i></div>
             <div class="bar-list-container">
                 <ul>
-                    <li><a href="#/home">Home</a></li>
-                    <li><a href="#/products">Products</a></li>
-                    <li><a href="">Store</a></li>
-                    <li><a href="#/about">About us</a></li>
-                    <li><a href="#/FAQs">FAQs</a></li>
-                    <li><a href="#/blog">Blogs</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <li class="c home" ng-click="active()"><a href="#/home">Home</a></li>
+                        <li class="c products" ng-click="active()"><a href="#/products">Products</a></li>
+                        <li class="c brand" ng-click="active()"><a href="#/brand">Brand</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/about">About us</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/FAQs">FAQS</a></li>
+                        <li class="c FAQs" ng-click="active()"><a href="#/blog">Blogs</a></li>
+                        <li class="c contacts" ng-click="active()"><a href="#/contacts">Contact us</a></li>
                 </ul>
                 <ul>
                     <li>My account</li>
@@ -119,13 +123,13 @@
             <div class="header-bottom-container">
                 <nav class="navigation">
                     <ul class="flex">
-                        <li><a href="#/home">Home</a></li>
-                        <li><a href="#/products">Products</a></li>
-                        <li><a href="">Store</a></li>
-                        <li><a href="#/about">About us</a></li>
-                        <li><a href="#/FAQs">FAQS</a></li>
-                        <li><a href="#/blog">Blogs</a></li>
-                        <li><a href="#/contacts">Contact us</a></li>
+                        <li class="c home" ng-click="active()"><a href="#/home">Home</a></li>
+                        <li class="c products" ng-click="active()"><a href="#/products">Products</a></li>
+                        <li class="c brand" ng-click="active()"><a href="#/brand">Brand</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/about">About us</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/FAQs">FAQS</a></li>
+                        <li class="c FAQs" ng-click="active()"><a href="#/blog">Blogs</a></li>
+                        <li class="c contacts" ng-click="active()"><a href="#/contacts">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -156,7 +160,7 @@
                             <li>
                                 <a href="#/cart" class="header-cart">
                                     <i class="fa-regular fa-bag-shopping"></i>
-                                    <span>{{countCart}}</span>
+                                    <span class="countCart">{{countCart}}</span>
                                 </a>
                             </li>
                         </ul>
@@ -165,7 +169,7 @@
             </div>
         </section>
     </header>
-    <section id="header-sticky">
+ <section id="header-sticky">
     <div class="header-sticky-container grid">
         <div class="row header-sticky-flex">
             <div class="col l-2 m-2 header-sticky-container-img">
@@ -174,13 +178,13 @@
             <div class="col l-8 m-8 header-sticky-container-nav">
                 <nav>
                     <ul>
-                        <li><a href="#/home">Home</a></li>
-                        <li><a href="#/products">Products</a></li>
-                        <li><a href="">Store</a></li>
-                        <li><a href="#/about">About us</a></li>
-                        <li><a href="#/FAQs">FAQS</a></li>
-                        <li><a href="#/blog">Blogs</a></li>
-                        <li><a href="#/contacts">Contact us</a></li>
+                        <li class="c home" ng-click="active()"><a href="#/home">Home</a></li>
+                        <li class="c products" ng-click="active()"><a href="#/products">Products</a></li>
+                        <li class="c brand" ng-click="active()"><a href="#/brand">Brand</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/about">About us</a></li>
+                        <li class="c about" ng-click="active()"><a href="#/FAQs">FAQS</a></li>
+                        <li class="c FAQs" ng-click="active()"><a href="#/blog">Blogs</a></li>
+                        <li class="c contacts" ng-click="active()"><a href="#/contacts">Contact us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -192,14 +196,14 @@
                     <li class="col l-3 m-3">
                         <a href="#/cart" class="header-cart">
                             <i class="fa-regular fa-bag-shopping"></i>
-                            <span>{{countCart}}</span>
+                            <span class="countCart">{{countCart}}</span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    </section>
+    </section> 
     
 
 
@@ -297,11 +301,11 @@
     <script src="./js/app.js"></script>
     <!-- Controllers -->
     <script src="./js/controllers/HomeController.js"></script>
-    <script src="./js/controllers/AboutController.js"></script>
-    <script src="./js/controllers/ShopController.js"></script>
     <script src="./js/controllers/BlogController.js"></script>
     <script src="./js/controllers/CartController.js"></script>
     <script src="./js/controllers/HeaderController.js"></script>
+    <script src="./js/controllers/DetailsController.js"></script>
+    <script src="./js/controllers/BrandsController.js"></script>
     <!-- Services -->
     <script src="./js/services/products.js"></script>
     <script src="./js/services/categories.js"></script>
@@ -339,6 +343,9 @@
        
             geolocation.append(p)
         }
+    </script>
+    <script>
+
     </script>
 
 </body>

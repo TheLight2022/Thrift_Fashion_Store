@@ -21,21 +21,7 @@
                     <ul>
                         <li ng-repeat="category in categorys" ng-click="category.filter()"><a>{{category.name}}</a></li>
                     </ul>
-                </div>
-                <div class="cate-item">
-                    <h3>Price</h3>
-                    <div class="flex">
-                        <div class="price-range">
-                            <strong>Min</strong>
-                            <input type="number" ng-model="min" ng-change="changePrice()" min="0" value="0">
-                        </div>
-                        <div class="price-range">
-                            <strong>Max</strong>
-                            <input type="number" ng-model="max" ng-change="changePrice()" value="9999">
-                        </div>
-                    </div>
-                </div>
-                
+                </div>            
             </div>
             <div class="col l-9">
                 <div class="row product-list">

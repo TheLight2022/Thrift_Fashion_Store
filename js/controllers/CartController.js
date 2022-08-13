@@ -1,14 +1,14 @@
 app.controller('CartController',['$scope','dataProducts', function($scope,dataProducts) {
     dataProducts.success(function(data){
         $scope.dataMyCart = data;
-        $scope.myCart = JSON.parse(localStorage.getItem('myCart'));
-        if($scope.myCart.length ==0){
-            $scope.dataMyCart ={}
+        myCart = JSON.parse(localStorage.getItem('myCart'));
+        if(myCart.length ==0){
+            $scope.dataMyCart =[]
             return
         }
 
         $scope.dataMyCart = $scope.dataMyCart.filter(el=>{
-            return $scope.myCart.find(item=>{
+            return myCart.find(item=>{
                 return item.id == el.id
             })
         })
@@ -16,7 +16,7 @@ app.controller('CartController',['$scope','dataProducts', function($scope,dataPr
         $scope.dataMyCart = $scope.dataMyCart.map((el,index)=>{
             return {
                 ...el,
-                qty : $scope.myCart[index].qty,
+                qty : myCart[index].qty,
                 changeQty :  $scope.changeQty,
                 removeItem : function(){
                     let localCart = []
@@ -30,7 +30,10 @@ app.controller('CartController',['$scope','dataProducts', function($scope,dataPr
                     localStorage.setItem('myCart',JSON.stringify(localCart));
                     $scope.countItem = $scope.getCountItems()
                     $scope.total = $scope.getTotal()
-                    $scope.countCart = $scope.dataMyCart.length 
+                    console.log(document.querySelectorAll('.countCart'));
+                    document.querySelectorAll('.countCart').forEach(el=>{
+                        el.textContent =  el.textContent - 1
+                    })
                 }
             }
         })

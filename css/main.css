@@ -365,6 +365,7 @@
     color: white;
 }
 .product-cart-index p {
+    cursor: pointer;
     padding: 16px 12px 12px 11px;
     background-color: white;
     display: inline-block;

@@ -1,12 +1,12 @@
 <div class="second-best-item">
     <div class="second-best-item-hover">
         <img ng-src="img/{{item.image[0]}}" alt="products">
-        <a class="product-cart-index" href="">
+        <div class="product-cart-index">
             <span ng-click="item.addCart()"><i class="fa-regular fa-bag-shopping"></i></span>
-            <p>+ Quick View</p>
-        </a>
+            <p><a ng-href="#/products/{{item.id}}">+ Quick View</a></p> 
+        </div>
     </div>
-    <a class="second-best-item-text" href="">
+    <a class="second-best-item-text" >
         <h4>{{item.name}}</h4>
         <strong>{{item.price | currency}}</strong>
         <div class="second-best-item-bottom">
