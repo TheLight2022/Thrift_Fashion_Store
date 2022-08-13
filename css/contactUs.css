@@ -89,13 +89,16 @@ body {
     /* background-color: #ccc; */
     border-radius: 10px;
     box-sizing: border-box;
+    color: #b2b2b2;
 }
 
 #contact-us .cw-item.p24{
-    padding: 24px 15px;
+    padding: 24px 20px;
 }
 
-
+#contact-us #title {
+    text-align: left;
+}
 
 #contact-us .cw-item  i {
     padding-right: 30px;
@@ -108,7 +111,7 @@ body {
 #contact-us .cw-item > p {
     font-size: 16px;
     color: #252525;
-    /* margin-bottom: 0; */
+    padding-left: 10px;
 }
 
 #contact-us  ul {
