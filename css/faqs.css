@@ -341,7 +341,8 @@ summary svg{
     color: unset;
 }
 .faq-right a:hover {
-    color: lightpink;
+    color: #17a2b8;
+    transition: ease-in-out 250ms;
 }
 @media screen and (max-width: 1200px){
     details > summary > svg {
