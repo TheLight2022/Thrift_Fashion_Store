@@ -1,11 +1,12 @@
 app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
+
     if(localStorage.getItem('visit')){
         $scope.visit = JSON.parse(localStorage.getItem('visit'))
     }else{
-        localStorage.setItem('visit',JSON.stringify({visit:40}))
+        localStorage.setItem('visit',JSON.stringify({visit:0}))
     }
-
-
+    $scope.visit.visit++
+    localStorage.setItem('visit',JSON.stringify({visit:$scope.visit.visit}))
 
     $scope.currentPage = 0
     $scope.noProduct = false
