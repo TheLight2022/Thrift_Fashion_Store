@@ -4,9 +4,6 @@ app.controller('DetailsController',['$scope','$routeParams','dataProducts',funct
         $scope.details = data.find(el=>{
             return el.id == $routeParams["id"]
         });
-        $scope.suggest = data.filter((el,index)=>{
-            return index >=0 && index < 4
-        })
     })
 
 

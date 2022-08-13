@@ -90,53 +90,51 @@
 </div>
 
 
-<script src="js/validate.js"></script>
-
+<script src="./js/validate.js"></script>
 <script>
 
     document.addEventListener('DOMContentLoaded', function () {
         // Mong muốn của chúng ta
         Validator({
-        form: '#form-1',
-        formGroupSelector: '.form-group',
-        errorSelector: '.form-message',
-        rules: [
-            Validator.isRequired('#first-name', 'Please enter first name'),
-            Validator.isRequired('#last-name', 'Please enter last name'),
-            Validator.isPhone('#phone'),
-            Validator.isEmail('#email'),
-            Validator.isRequired('#city', 'Please enter city'),
-            Validator.isRequired('#district', 'Please enter district'),
-            Validator.isRequired('#detail-address', 'Please enter details address'),
-            Validator.minLength('#card-number', 10),
-            Validator.isRequired('#name-in-card', 'Please enter name in card'),
-            Validator.isDate('#mm-yy'),
-            Validator.isCcv('#ccv'),
-            Validator.isRequired('#password_confirmation'),
-            Validator.isConfirmed('#password_confirmation', function () {
-            return document.querySelector('#form-1 #password').value;
-            }, '')
-        ],
-        onSubmit: function (data) {
-            // Call API
-            console.log(data);
-        }
+            form: '#form-1',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#first-name', 'Please enter first name'),
+                Validator.isRequired('#last-name', 'Please enter last name'),
+                Validator.isPhone('#phone'),
+                Validator.isEmail('#email'),
+                Validator.isRequired('#city', 'Please enter city'),
+                Validator.isRequired('#district', 'Please enter district'),
+                Validator.isRequired('#detail-address', 'Please enter details address'),
+                Validator.minLength('#card-number', 10),
+                Validator.isRequired('#name-in-card', 'Please enter name in card'),
+                Validator.isDate('#mm-yy'),
+                Validator.isCcv('#ccv'),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isConfirmed('#password_confirmation', function () {
+                    return document.querySelector('#form-1 #password').value;
+                }, '')
+            ],
+            onSubmit: function (data) {
+                // Call API
+                console.log(data);
+            }
         });
 
 
         Validator({
-        form: '#form-2',
-        formGroupSelector: '.form-group',
-        errorSelector: '.form-message',
-        rules: [
-            Validator.isEmail('#email'),
-            Validator.minLength('#password', 6),
-        ],
-        onSubmit: function (data) {
-            // Call API
-            console.log(data);
-        }
+            form: '#form-2',
+            formGroupSelector: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isEmail('#email'),
+                Validator.minLength('#password', 6),
+            ],
+            onSubmit: function (data) {
+                // Call API
+                console.log(data);
+            }
         });
     });
-
 </script>

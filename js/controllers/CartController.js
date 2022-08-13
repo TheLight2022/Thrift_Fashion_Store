@@ -30,7 +30,10 @@ app.controller('CartController',['$scope','dataProducts', function($scope,dataPr
                     localStorage.setItem('myCart',JSON.stringify(localCart));
                     $scope.countItem = $scope.getCountItems()
                     $scope.total = $scope.getTotal()
-                    $scope.countCart = $scope.dataMyCart.length 
+                    console.log(document.querySelectorAll('.countCart'));
+                    document.querySelectorAll('.countCart').forEach(el=>{
+                        el.textContent =  el.textContent - 1
+                    })
                 }
             }
         })

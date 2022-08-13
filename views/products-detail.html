@@ -113,7 +113,7 @@
                 <div class="product-hover">
                     <img ng-src="img/{{product.image[0]}}" alt="products">
                     <div class="product-cart" href="">
-                        <span><i class="fa-regular fa-bag-shopping"></i></span>
+                        <span ng-click="product.addCart()"><i class="fa-regular fa-bag-shopping"></i></span>
                         <p><a ng-href="$/products/{{product.id}}"></a>+ Quick View</p>
                     </div>
                 </div>
