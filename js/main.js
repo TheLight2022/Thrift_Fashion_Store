@@ -125,5 +125,22 @@ var swiper5 = new Swiper(".mySwiper5", {
 const searchHeader = $('#icon-header-search');
 const inputSearchHeader = $('#input-search-header')
 searchHeader.onclick = function () {
+    window.scrollY = 0
     inputSearchHeader.focus();
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

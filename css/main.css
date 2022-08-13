@@ -167,6 +167,7 @@
 }
 .title-index {
     text-align: center;
+    margin-top: 50px;
 }
 .title-index h2 {
     display: inline-block;
@@ -444,7 +445,7 @@
 }
 
 #brand-index {
-    padding: 0 50px 30px 50px;
+    margin: 0 50px 30px 50px;
     height: 180px;
     position: relative;
 }
