@@ -121,3 +121,9 @@ var swiper5 = new Swiper(".mySwiper5", {
     autoplay: true,
 });
 
+// icon search
+const searchHeader = $('#icon-header-search');
+const inputSearchHeader = $('#input-search-header')
+searchHeader.onclick = function () {
+    inputSearchHeader.focus();
+}

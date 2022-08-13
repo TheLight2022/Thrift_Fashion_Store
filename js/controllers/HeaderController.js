@@ -1,4 +1,14 @@
 app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($scope,dataProducts,dataCategories) {
+    if(localStorage.getItem('visit')){
+        $scope.visit = JSON.parse(localStorage.getItem('visit'))
+        $scope.visit.visit =+1
+
+    }else{
+        localStorage.setItem('visit',JSON.stringify({visit:1}))
+    }
+
+
+
     $scope.currentPage = 0
     $scope.noProduct = false
     if(JSON.parse(localStorage.getItem('myCart'))){
