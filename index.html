@@ -140,7 +140,7 @@
                                 <option value="">All Categories</option>
                                 <option value="{{category.name}}" ng-repeat="category in categorys">{{category.name}}</option>
                             </select>
-                            <input type="text" placeholder="Search for products, brand, categories..." class="col l-7 m-7 c-5" ng-model="search">
+                            <input id="input-search-header" type="text" placeholder="Search for products, brand, categories..." class="col l-7 m-7 c-5" ng-model="search">
                             <div class="group-button-search col l-2 m-2 c-3" >
                                 <div class="flex">
                                     <div class="button-reset col l-6 m-6 c-6" ng-click="resetValue()"><i class="fa-solid fa-xmark"></i></div>
@@ -186,7 +186,7 @@
             </div>
             <div class="col l-2 m-2 header-sticky-container-icon">
                 <ul>
-                    <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li id="icon-header-search" class="col l-3 m-3"> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li class="col l-3 m-3"> <a href=""><i class="fa-solid fa-bell"></i></a></li>
                     <li class="col l-3 m-3"> <a href="#/login"><i class="fa-solid fa-user"></i></a></li>
                     <li class="col l-3 m-3">
@@ -290,7 +290,7 @@
         </div>
 </section>
     <section id="button-back-top">
-        <a href="#header"><i class="fa-solid fa-arrow-up-to-line"></i></a>
+        <a href=""><i class="fa-solid fa-arrow-up-to-line"></i></a>
     </section>
 <!--Footer end-->
     <!-- myStore -->

@@ -469,8 +469,11 @@
 }
 /*Brand end*/
 
+/*notifi*/
+#notifi {
 
-
+}
+/*notifi end*/
 
 
 
@@ -499,6 +502,10 @@
     }
     .product-detail-text {
         padding-top: 30px;
+    }
+
+    .blog-index-item {
+        margin-top: 30px;
     }
 
 }
