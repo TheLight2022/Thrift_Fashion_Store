@@ -110,7 +110,7 @@ app.controller('myHeader', ['$scope','dataProducts','dataCategories',function($s
             $scope.noProduct = false
         }
 
-        window.location.href=`/#/products`
+        window.location.href=`/thelight/#/products`
 
     }
 

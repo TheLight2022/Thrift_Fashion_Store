@@ -361,6 +361,7 @@
     z-index: 1;
 }
 .product-cart-index span {
+    cursor: pointer;
     padding: 16px 12px 12px 11px;
     background-color: #1B2F44;
     color: white;
